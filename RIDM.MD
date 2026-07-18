@@ -4,7 +4,9 @@
 
 ## 1. Status
 
-RIDM 10.0 supersedes RIDM 9.0 as the active model.
+RIDM 10.0 is preserved as the historical restraint specification. It superseded
+RIDM 9.0 and is now superseded by the active
+[RIDM 11.0 specification](RIDM_11.MD).
 
 It preserves the core architecture of prior versions:
 
