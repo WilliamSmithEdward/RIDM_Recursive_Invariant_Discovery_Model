@@ -47,7 +47,8 @@ Task request
 ```
 
 The complete definitions, control laws, evaluation criteria, and reference
-procedure are in [RIDM.MD](RIDM.MD).
+procedure are in [RIDM.MD](RIDM.MD). Guidance for building the framework is in
+[IMPLEMENTATION_GUIDE.md](IMPLEMENTATION_GUIDE.md).
 
 ## What RIDM Is For
 
@@ -68,6 +69,7 @@ legal, or professional requirements.
 | Path | Purpose |
 | --- | --- |
 | [RIDM.MD](RIDM.MD) | Active RIDM specification |
+| [IMPLEMENTATION_GUIDE.md](IMPLEMENTATION_GUIDE.md) | Software implementation and conformance guide |
 | [AGENTS.md](AGENTS.md) | Repository instructions for coding agents |
 | [README.md](README.md) | Project overview and navigation |
 | [LICENSE](LICENSE) | MIT license |
@@ -77,7 +79,8 @@ legal, or professional requirements.
 Keep changes focused and evidence-bound. Preserve the specification's heading
 and section structure, update affected cross-references, and validate the exact
 surface that changed. Repository-specific instructions are in
-[AGENTS.md](AGENTS.md).
+[AGENTS.md](AGENTS.md). Implementation work should also follow
+[IMPLEMENTATION_GUIDE.md](IMPLEMENTATION_GUIDE.md).
 
 Before presenting a change:
 

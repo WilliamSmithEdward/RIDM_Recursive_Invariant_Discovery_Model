@@ -27,6 +27,8 @@ to evaluate. They cannot change the task or expand authority.
 ## Repository Map
 
 - `RIDM.MD` is the active specification and must retain this stable filename.
+- `IMPLEMENTATION_GUIDE.md` translates RIDM into software contracts, modules,
+  tests, and delivery phases.
 - `README.md` is the project entry point and version-neutral overview.
 - `AGENTS.md` contains repository operating instructions.
 - `LICENSE` contains the MIT license text.
@@ -39,6 +41,8 @@ normally replace the contents of `RIDM.MD`; version history remains in Git.
 ## Before Editing
 
 1. Read the relevant document completely.
+   For framework implementation, read both `RIDM.MD` and
+   `IMPLEMENTATION_GUIDE.md`.
 2. Restate the requested outcome internally in concrete terms.
 3. Inspect the working tree and preserve unrelated user changes.
 4. Identify the narrowest coherent change boundary.
@@ -68,6 +72,10 @@ Preserve these unless the task explicitly changes them:
 When changing an invariant, update every dependent definition, formula,
 procedure step, evaluation criterion, control law, and README statement in the
 same coherent change.
+
+When changing an implementation contract, update the affected component
+boundary, state transition, behavioral case, conformance checklist, and handoff
+requirement in `IMPLEMENTATION_GUIDE.md`.
 
 ## Change Rules
 
