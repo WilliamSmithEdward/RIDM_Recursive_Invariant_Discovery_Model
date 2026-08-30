@@ -8,14 +8,14 @@ official key documented as defective or under-determined in that run's log.
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 20 |
-| Correct | 10 |
-| Percent correct | 50% |
+| Runs completed | 23 |
+| Correct | 13 |
+| Percent correct | 57% |
 | Incorrect, strict | 10 |
 | Incorrect against defective or under-determined keys | 2 of 10 |
-| High band record | 7 of 7 |
+| High band record | 9 of 9 |
 | Medium band record, recall-backed | 0 of 5 |
-| Medium band record, derivation-backed | 2 of 3 |
+| Medium band record, derivation-backed | 3 of 4 |
 | Low and very-low band record | 1 of 5 |
 
 ## By RIDM Model
@@ -26,6 +26,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
+| RIDM 13 | 3 | 3 | 0 | 100% |
 | RIDM 12 | 10 | 6 | 4 | 60% |
 | RIDM 11 | 10 | 4 | 6 | 40% |
 
@@ -34,6 +35,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Sprint | Runs | Specification under test | Outcome |
 | --- | --- | --- | --- |
+| 0003 | Q000021 to Q000030 | RIDM 13 | in progress |
 | 0002 | Q000011 to Q000020 | RIDM 12 | 7 lessons (L18 to L24), consolidated into RIDM 13 (released) |
 | 0001 | Q000001 to Q000010 | RIDM 11 | 17 lessons, consolidated into RIDM 12 (released) |
 
@@ -42,6 +44,9 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000023](runs/Q000023.md) | 0003 | Engineering, semiconductor devices | exact match | yes | correct | high |
+| [Q000022](runs/Q000022.md) | 0003 | Math, arithmetic groups | exact match | no | correct | high |
+| [Q000021](runs/Q000021.md) | 0003 | Classics, paleography | exact match | yes | correct | medium |
 | [Q000020](runs/Q000020.md) | 0002 | CS, Bayesian agent theory | exact match | no | incorrect | medium |
 | [Q000019](runs/Q000019.md) | 0002 | Physics, topological matter | exact match | no | correct | high |
 | [Q000018](runs/Q000018.md) | 0002 | Math, asymptotics | exact match | no | correct | high |
