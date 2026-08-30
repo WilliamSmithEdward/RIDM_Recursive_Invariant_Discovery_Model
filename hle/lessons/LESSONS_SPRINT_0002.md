@@ -42,3 +42,30 @@ middle of a chain. In Q000014 the attempt derived the decisive constant correctl
 snapped it to a remembered textbook value forty percent lower; keeping its own derivation
 would have landed within one unit of the official answer. Remembered values are anchor
 checks for derived ones, never replacements.
+
+## L22. Condition calibration on claim type (Q000016)
+
+RIDM 12 surface: Section 21, audited calibration. Aggregate band records conflate different
+kinds of support. Across sixteen runs the medium band reads 1 of 6 overall, but split by the
+dominant claim type behind the commitment it is 0 of 5 for recall-backed answers and 1 of 1
+for derivation-backed ones. Audit and recalibrate bands conditioned on claim type; the
+structural-prior cap applies to recall-backed commitments, not to derivation-backed ones.
+
+## L23. Equivalence-class answers need a canonical representative (Q000018)
+
+RIDM 12 surface: Sections 11 and 30. Some tasks define their answer only up to the task's
+own stated tolerance, so infinitely many formulas satisfy the literal contract and the key
+holds one representative. Detect this, and commit the canonical truncated representative
+(for asymptotics, the series-expanded polynomial to the demanded order) alongside any
+compact closed form, so the answer survives both criterion-based and representative-based
+grading.
+
+## L24. Test the null answer; menus frame the space (Q000020, incorrect answer)
+
+RIDM 12 surface: Sections 23 and 24. In requirement-style tasks ("which assumptions must be
+made"), the candidate set must include the empty answer: first test whether the stem's
+given conditions already suffice. Sufficiency proofs for menu options establish nothing
+about necessity while the null candidate is untested; the option list frames and silently
+shrinks the hypothesis space. Corollary refining L16: only discriminative task-text
+features are evidence; format examples and boilerplate are decorative and must not sway
+content.
