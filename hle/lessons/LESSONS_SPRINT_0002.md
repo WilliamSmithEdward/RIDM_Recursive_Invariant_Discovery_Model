@@ -22,3 +22,23 @@ drawn from different categories by design, especially when an ensemble signals b
 Generate and rank candidates for each slot independently instead of drawing every slot from
 the pool that fit the first. In Q000012 the slot the clue selected directly was right; the slot
 inherited from the first slot's category was wrong.
+
+## L20. Scope-match recalled constants; derive when feasible (Q000013, incorrect answer)
+
+RIDM 12 surface: Sections 16, 19, 29, and 40. A remembered numeric result silently carries
+its source's parameter binding; hard tasks alter parameters precisely to defeat copying.
+Before reuse, verify the binding matches the task. When the derivation to the constant is
+feasible at comparable cost, compute it and demote the recalled value to an anchor check;
+a derivation route dominates numeric recall the way a derived claim dominates a reported
+one. In Q000013 the mechanism and closed form were already derived, the computation was
+cheap, and a constant recalled from a different parameterization was committed instead.
+Corollary for calibration: unverified numeric recall is low band by rule.
+
+## L21. Carry derived precision; do not snap to remembered round values (Q000014, incorrect)
+
+RIDM 12 surface: Sections 16 and 40. Rounding a self-derived intermediate constant to match
+a rounder remembered figure silently replaces a derived claim with a reported one in the
+middle of a chain. In Q000014 the attempt derived the decisive constant correctly, then
+snapped it to a remembered textbook value forty percent lower; keeping its own derivation
+would have landed within one unit of the official answer. Remembered values are anchor
+checks for derived ones, never replacements.

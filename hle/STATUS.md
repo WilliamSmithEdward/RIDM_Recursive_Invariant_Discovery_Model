@@ -18,18 +18,32 @@ official key documented as defective or under-determined in that run's log.
 | [Q000010](runs/Q000010.md) | 0001 | Engineering, simulation | exact match | no | incorrect* | low |
 | [Q000011](runs/Q000011.md) | 0002 | Humanities, literature | exact match | no | correct | low |
 | [Q000012](runs/Q000012.md) | 0002 | Trivia | exact match | no | incorrect | very low |
+| [Q000013](runs/Q000013.md) | 0002 | CS, runtime analysis | exact match | no | incorrect | medium |
+| [Q000014](runs/Q000014.md) | 0002 | Physics, photometry | exact match | no | incorrect | low |
+| [Q000015](runs/Q000015.md) | 0002 | Engineering, mechanics | exact match | no | correct | high |
 
 ## Totals
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 12 |
-| Correct | 5 |
-| Incorrect, strict | 7 |
-| Incorrect against defective or under-determined keys | 2 of the 7 |
-| High band record | 4 of 4 |
-| Medium band record | 0 of 4 |
-| Low and very-low band record | 1 of 4 |
+| Runs completed | 15 |
+| Correct | 6 |
+| Incorrect, strict | 9 |
+| Incorrect against defective or under-determined keys | 2 of 9 |
+| High band record | 5 of 5 |
+| Medium band record | 0 of 5 |
+| Low and very-low band record | 1 of 5 |
+
+## By RIDM Model
+
+Success and failure by the specification version governing the attempt. Strict scoring:
+runs against defective or under-determined keys count as failures. Samples are small and
+category mix varies by sprint; treat rates as indicative, not conclusive.
+
+| RIDM model | Runs | Success | Fail | Success rate |
+| --- | --- | --- | --- | --- |
+| RIDM 11.0 | 10 | 4 | 6 | 40% |
+| RIDM 12 (sprint in progress) | 5 | 2 | 3 | 40% |
 
 ## Sprints
 
