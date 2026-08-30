@@ -8,14 +8,15 @@ official key documented as defective or under-determined in that run's log.
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 23 |
-| Correct | 13 |
-| Percent correct | 57% |
-| Incorrect, strict | 10 |
-| Incorrect against defective or under-determined keys | 2 of 10 |
-| High band record | 9 of 9 |
+| Runs completed | 26 |
+| Correct | 14 |
+| Percent correct | 54% |
+| Incorrect, strict | 12 |
+| Incorrect against defective or under-determined keys | 2 of 12 |
+| High band record | 9 of 10 |
 | Medium band record, recall-backed | 0 of 5 |
-| Medium band record, derivation-backed | 3 of 4 |
+| Medium band record, derivation-backed | 4 of 5 |
+| Medium band record, inference-backed | 0 of 1 |
 | Low and very-low band record | 1 of 5 |
 
 ## By RIDM Model
@@ -26,7 +27,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
-| RIDM 13 | 3 | 3 | 0 | 100% |
+| RIDM 13 | 6 | 4 | 2 | 67% |
 | RIDM 12 | 10 | 6 | 4 | 60% |
 | RIDM 11 | 10 | 4 | 6 | 40% |
 
@@ -44,6 +45,9 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000026](runs/Q000026.md) | 0003 | Math, algorithm engineering | exact match | no | correct | medium |
+| [Q000025](runs/Q000025.md) | 0003 | Bioinformatics, network science | exact match | yes | incorrect | high |
+| [Q000024](runs/Q000024.md) | 0003 | Biology, comparative genomics | multiple choice | yes | incorrect | medium |
 | [Q000023](runs/Q000023.md) | 0003 | Engineering, semiconductor devices | exact match | yes | correct | high |
 | [Q000022](runs/Q000022.md) | 0003 | Math, arithmetic groups | exact match | no | correct | high |
 | [Q000021](runs/Q000021.md) | 0003 | Classics, paleography | exact match | yes | correct | medium |
@@ -62,7 +66,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 | [Q000008](runs/Q000008.md) | 0001 | Film studies | multiple choice | no | incorrect | medium |
 | [Q000007](runs/Q000007.md) | 0001 | Math, dynamical systems | multiple choice | no | correct | high |
 | [Q000006](runs/Q000006.md) | 0001 | Art history | exact match | no | incorrect | low |
-| [Q000005](runs/Q000005.md) | 0001 | CS, numeric formats | exact match | no | incorrect* | medium |
+| [Q000005](runs/Q000005.md) | 0001 | CS, numeric formats | exact match | no | incorrect | medium |
 | [Q000004](runs/Q000004.md) | 0001 | Biology/Medicine | exact match | no | incorrect | medium |
 | [Q000003](runs/Q000003.md) | 0001 | Math, algorithms | multiple choice | no | incorrect | medium |
 | [Q000002](runs/Q000002.md) | 0001 | Math | exact match | no | correct | high |
