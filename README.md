@@ -5,8 +5,6 @@ governs how a system interprets a task, finds the nearest sufficient invariant,
 classifies material residuals, acts within authority, learns from observations,
 and stops with a verifiable result.
 
-The active specification is [RIDM 11.0](RIDM.MD).
-
 ## Primary Question
 
 > What is the minimum grounded and authorized structure required for this user
