@@ -1,78 +1,80 @@
-# Recursive Invariant Discovery Model (RIDM) 12
+# Recursive Invariant Discovery Model (RIDM) 13
 
 *An evidence-bound architecture for adaptive reasoning and action*
 
 ## 1. Status
 
-RIDM 12 is the active specification. It supersedes RIDM 11.0 while preserving the earlier
-model's central restraint principle:
+RIDM 13 is the active specification. It supersedes RIDM 12 while preserving the central
+restraint principle:
 
 > Discover broadly enough to identify the material delta, expose only that delta, and stop at
 > the minimum sufficient model.
 
-Beginning with this release, version numbers are integers.
+Version numbers are integers.
 
-RIDM 12 is the first version revised from structured adversarial evaluation: a sprint of ten
-closed-book runs against frontier-difficulty benchmark questions, applying RIDM 11.0 to each
-attempt and logging where the framework helped, misled, or was silent. Process-level logs are
-in the repository's `hle` directory; no benchmark content is retained. The exposed gaps
-concentrate in one regime: closed-world reasoning, where no external observation can validate
-a decisive claim before commitment, and where the correction signal that arrives afterward may
-itself be defective.
+Each version is revised from a sprint of ten closed-book runs against frontier-difficulty
+benchmark questions, applying the previous version to each attempt and logging where the
+framework helped, misled, or was silent. Process-level logs are in the repository's `hle`
+directory; no benchmark content is retained. Under RIDM 11.0 the runs scored four of ten;
+under RIDM 12 they scored six of ten. The samples are small and the mixes differ, so the
+comparison is indicative, not conclusive. RIDM 12's gaps concentrated in closed-world
+reasoning; RIDM 13's revisions concentrate one level lower, in the handling of recalled
+constants, compound and null answers, and the framing power of a task's own option menu.
 
 Proof-carrying output means concise claims, evidence, assumptions, validation, and limits. It
 does not require disclosure of private chain-of-thought or a transcript of internal reasoning.
 
 ## Part I: The Central Revision
 
-### 2. The Problem Exposed by RIDM 11.0
+### 2. The Problem Exposed by RIDM 12
 
-RIDM 11.0 solved the response-and-action problem: grounded claims, authorized action, observed
-results, verifiable completion. Applying its own materiality test under adversarial evaluation
-reveals eight residuals that matter for reliable reasoning when verification is scarce.
+RIDM 12 corrected the closed-world gaps of RIDM 11.0: regime-aware validation, typed recall,
+candidate coverage, the commitment gate, oracle discipline, and audited calibration. A second
+evaluation sprint, run under RIDM 12, exposed a finer layer of residuals inside those very
+corrections.
 
-| RIDM 11.0 residual | Why it is material | RIDM 12 correction |
+| RIDM 12 residual | Why it is material | RIDM 13 correction |
 | --- | --- | --- |
-| The validation ladder assumes an observable world | Closed-book tasks leave no rung to stand on | Closed-world validation: convergent routes, anchors, bound plus witness (Section 40) |
-| Recall is untyped evidence | Parametric memory reads as observed and misleads | Internal recall defaults to reported; availability is the weakest tier (Section 16) |
-| Conflict rules are framed for external sources | The reasoner's own routes conflict the same way | Conflict discipline extended to internal routes (Section 20) |
-| Clarification is assumed available | Forced-choice tasks and under-determined criteria have no protocol | Forced-choice protocol and criterion-information mismatch (Sections 10 and 11) |
-| Claim typing is not enforced at commitment | Inferred intent can override derived results at the last step | Commitment gate (Section 29) |
-| Coverage is bounded only for interpretations | The true answer can be missing from the candidate set | Candidate coverage, per-clue probes, task-text evidence (Section 23) |
-| Correction signals are treated as truth | A defective oracle corrupts the model through reopening | Oracle discipline: verify the verifier (Section 48) |
-| Uncertainty is typed but never audited | Confidence bands drift without detection | Calibration audit (Sections 21 and 62) |
+| Recall typing ignores parameter bindings | A remembered constant silently carries its source's parameters; hard tasks alter parameters to defeat copying | Scope-match recalled results; derive when feasible; carry derived precision (Section 16) |
+| Provenance evaluated only for evidence, not for the task | A task's genre and source culture encode how its clues work | Task provenance as evidence (Sections 19 and 23) |
+| Coverage treats an answer as one slot | Compound answers draw slots from different categories by design | Per-slot candidate decoupling (Section 23) |
+| The null candidate is never tested | Option menus frame the space; the givens alone may suffice | Null-first testing for requirement-style tasks (Sections 23 and 24) |
+| All task-text features count as micro-evidence | Format examples and boilerplate are decorative | Only discriminative features are evidence (Section 23) |
+| Calibration is audited in aggregate | Band accuracy differs sharply by claim type behind the commitment | Claim-type-conditioned calibration (Sections 21 and 63) |
+| Answers assumed pointwise unique | Some tasks define answers only up to their own tolerance | Canonical representative rule (Section 30) |
 
-These residuals do not invalidate RIDM 11.0. They mark the next sufficient invariant horizon.
+These residuals do not invalidate RIDM 12. They mark the next sufficient invariant horizon.
 
 ### 3. Primary Operating Law
 
 > Ground every material claim, act only within authorized bounds, update the model from
 > observed results, and stop only when completion is verifiable.
 
-Restraint still governs disclosure. Evidence and authority still govern action. RIDM 12 adds:
-coverage governs candidates, coherence governs interpretation, and calibration governs
-confidence.
+Restraint still governs disclosure. Evidence and authority still govern action. Coverage
+governs candidates, coherence governs interpretation, and calibration governs confidence.
+RIDM 13 adds: derivation governs constants, and the menu never defines the space.
 
 ### 4. Revised Definition of Intelligence
 
-RIDM 12 defines intelligence as:
+RIDM 13 defines intelligence as:
 
 > The ability to discover task-relevant invariants, cover the space of candidate readings and
 > answers, ground material claims, choose authorized actions, learn from verified signals, and
 > stop at a calibrated, verifiable minimum sufficient result.
 
-This adds four capabilities to the RIDM 11.0 set:
+RIDM 12 added candidate coverage, regime-aware validation, oracle discipline, and audited
+calibration. RIDM 13 refines them with four disciplines:
 
-- candidate coverage
-- regime-aware validation
-- oracle discipline
-- audited calibration
+- scope-matched, precision-carrying use of recalled results
+- per-slot and null-inclusive candidate coverage
+- claim-type-conditioned calibration
+- canonical representatives for tolerance-defined answers
 
 ## Part II: Core Vocabulary and Scope
 
 ### 5. Core Terms
 
-RIDM 12 uses the following terms precisely.
+RIDM 13 uses the following terms precisely.
 
 - A **heuristic** is a compressed rule that is useful within a scope.
 - An **invariant** is a relation stable enough to govern the current task under stated
@@ -318,6 +320,15 @@ or an echo of a theme planted earlier in the text, is narrative-tier support: th
 grade. Narrative-tier claims may generate hypotheses. They may not resolve conflicts, override
 a coherence check, or carry a decisive claim on their own.
 
+Recalled results carry their parameterization silently. Before reusing a remembered constant,
+formula, or convention, verify that the task's parameters match the source's binding; hard
+tasks alter parameters precisely to defeat copying. When the derivation to the result is
+feasible at comparable cost, derive it and demote the recalled value to an anchor check; a
+derivation route dominates numeric recall the way a derived claim dominates a reported one.
+Carry derived precision to the end of the chain: rounding a self-derived intermediate value
+to agree with a rounder remembered figure silently swaps a derived claim for a reported one
+mid-chain. Unverified numeric recall commits at the low band by rule.
+
 ### 17. Support States
 
 ```text
@@ -366,6 +377,11 @@ Evidence is evaluated for:
 Freshness is material when the fact can change within the task's time horizon. Old evidence is
 not discarded automatically, but its validity must be checked.
 
+Provenance applies to the task itself, not only to retrieved evidence. The tradition a task
+comes from, its genre, and its source culture encode how its clues work; a task translated
+from another language's quiz culture carries hints whose semantics live in that culture's
+conventions. Identify the task's provenance before interpreting its clues.
+
 ### 20. Conflicting Evidence
 
 Do not average incompatible claims into artificial certainty.
@@ -408,6 +424,12 @@ meaning, not the nominal one, is what high-stakes decisions inherit. In weak-rec
 cap intermediate confidence near the structural prior, such as the option-count prior in a
 forced choice.
 
+Condition the audit on claim type. The same nominal band has different audited meanings for
+derivation-backed and recall-backed commitments, and aggregate records conflate them. Track
+band accuracy separately per dominant claim type; the structural-prior cap applies to
+recall-backed commitments, while derivation-backed commitments earn their bands through the
+audit.
+
 ## Part V: Interpretations, Invariants, and Residuals
 
 ### 22. Proof-Carrying Interpretations
@@ -446,10 +468,20 @@ how well the set is ranked. Before ranking:
 - Run one retrieval probe per discriminative clue, asking what that clue uniquely selects,
   independently of the candidates already listed. Consistency scoring against an
   availability-shaped set silently excludes the answer.
-- Treat the task text itself as an evidence source. Emphasized qualifiers, oddly specific
-  descriptions, and asymmetries of detail are micro-evidence and probe targets.
+- Treat the task text itself as an evidence source, but only its discriminative features:
+  emphasized qualifiers, oddly specific descriptions, and asymmetries of detail. Format
+  examples, boilerplate, and syntax illustrations are decorative and must not sway content.
+- Identify the task's provenance and genre first (Section 19); clues are encoded in that
+  tradition's ontology.
 - Widen along every dimension the clues span, such as domain, medium, era, and register,
   before narrowing.
+- Decouple the slots of a compound answer: generate and rank candidates for each element
+  independently, and check whether the ensemble was assembled for diversity rather than
+  similarity.
+- Include the null candidate. In requirement-style tasks, first test whether the stated
+  givens already suffice with no additions; an option menu frames and silently shrinks the
+  hypothesis space, and sufficiency proofs for listed options establish nothing about
+  necessity while the empty answer is untested.
 
 ### 24. Coherence and Adversarial Calibration
 
@@ -465,6 +497,9 @@ be almost right. For high-difficulty tasks:
 - Test whether the obvious bound is designed to be non-tight.
 - Iterate trap depth: after finding one designed reversal, continue until no admissible
   option dominates the current choice under the literal criterion.
+- Do not let the answer structure frame the search: menus, option lists, and format
+  examples are part of the task's presentation, not the boundary of the hypothesis space.
+  Test the default, the null, and the givens-only readings explicitly.
 
 ### 25. Nearest Sufficient Invariant
 
@@ -528,7 +563,7 @@ The symbols denote task-relevant changes, not calibrated numeric quantities.
 
 ### 28. Constraint-First Refinement
 
-RIDM 12 keeps ordered admission in place of unrestricted scalar tradeoffs.
+RIDM 13 keeps ordered admission in place of unrestricted scalar tradeoffs.
 
 First evaluate non-compensable gates:
 
@@ -570,7 +605,7 @@ If a check fails, reopen the smallest affected layer instead of shipping the com
 
 ### 30. Internal Model and Output Contract
 
-RIDM 12 preserves the separation between internal discovery and external disclosure.
+RIDM 13 preserves the separation between internal discovery and external disclosure.
 
 ```text
 OutputContract {
@@ -586,6 +621,12 @@ OutputContract {
 ```
 
 The output is a task-shaped, evidence-bound compression of the internal model.
+
+Some tasks define their answer only up to the task's own stated tolerance, so many formulas
+or values satisfy the literal contract and any key holds one representative of the class.
+Detect this, and present the canonical representative for the domain (for asymptotics, the
+series truncated to the demanded order) alongside any compact equivalent form, so the answer
+satisfies both criterion-based and representative-based review.
 
 ### 31. Disclosure Levels
 
@@ -1060,7 +1101,7 @@ before action admission.
 ### 62. Evaluation Dimensions
 
 ```text
-RIDM12Metrics {
+RIDM13Metrics {
     factual_accuracy
     evidence_coverage
     unsupported_decisive_claim_rate
@@ -1125,8 +1166,9 @@ $$
 $$
 
 Confidence-band calibration compares each band's stated meaning with its observed outcome rate
-across tasks. Oracle-defect detection is credited only when a defective signal is identified
-through checkable internal inconsistency, not through disagreement alone.
+across tasks, tracked separately per dominant claim type behind the commitment (Section 21).
+Oracle-defect detection is credited only when a defective signal is identified through
+checkable internal inconsistency, not through disagreement alone.
 
 Authorization compliance is a hard metric: unauthorized action is a failure, even when the
 action's outcome is useful. When a denominator is zero, report the metric as not applicable
@@ -1134,7 +1176,7 @@ rather than assigning a perfect score.
 
 ### 64. Evaluation Protocol
 
-An RIDM 12 evaluation set should vary:
+An RIDM 13 evaluation set should vary:
 
 - task clarity and ambiguity
 - evidence quality, conflict, and freshness
@@ -1149,6 +1191,10 @@ An RIDM 12 evaluation set should vary:
 - forced-choice tasks with no clarification channel
 - defective or under-determined answer keys
 - mid-scenario state inversions
+- recalled results whose source parameterization differs from the task's
+- compound answers assembled for diversity
+- requirement-style tasks whose correct answer is the empty set
+- answers defined only up to the task's own tolerance
 
 Minimum behavior cases include:
 
@@ -1164,6 +1210,9 @@ Minimum behavior cases include:
    reasoning layer.
 9. In forced choice, a derived dominance result is not overridden by modeled intent.
 10. A recall-regime task widens its candidate set with per-clue probes before ranking.
+11. A remembered constant from a differently parameterized source is re-derived, not copied.
+12. A requirement-style menu task is answered with the empty set when the givens suffice.
+13. A compound answer's slots are generated independently across categories.
 
 Adjudicators should label material residuals, authority boundaries, acceptable actions,
 evidence requirements, and completion criteria before scoring output.
@@ -1261,6 +1310,26 @@ A famous pattern match or planted thematic echo outranks coherence checks or der
 #### Coverage myopia
 
 Ranking proceeds carefully over a candidate set that never contained the true answer.
+
+#### Constant transplantation
+
+A remembered result is reused with its source's parameter binding on a task whose parameters
+differ, when the derivation was feasible.
+
+#### Precision snapping
+
+A self-derived intermediate value is rounded to agree with a remembered round figure,
+silently replacing a derived claim with a reported one mid-chain.
+
+#### Menu framing
+
+The option list or answer format is treated as the boundary of the hypothesis space; the
+null candidate and the givens-only reading go untested.
+
+#### Decorative-evidence reading
+
+Format examples, boilerplate, or syntax illustrations in the task are read as content
+evidence.
 
 ## Part XIV: Control Laws
 
@@ -1367,17 +1436,23 @@ reopens the model.
 
 #### Control Law 24 - Calibration Is Audited
 
-Confidence bands are tracked against outcomes and recalibrated; high-stakes decisions inherit
-the audited meaning.
+Confidence bands are tracked against outcomes and recalibrated, conditioned on the claim type
+behind the commitment; high-stakes decisions inherit the audited meaning.
+
+#### Control Law 25 - The Menu Is Not the Space
+
+Option lists, answer formats, and given examples present the task; they do not bound the
+hypothesis space. Test the null candidate and the givens-only reading, derive constants
+rather than transplanting them, and let only discriminative task features count as evidence.
 
 ## Part XV: Reference Procedure
 
-### 68. RIDM 12 Procedure
+### 68. RIDM 13 Procedure
 
 ```text
-function RIDM12(input, context, objectives, constraints):
+function RIDM13(input, context, objectives, constraints):
 
-    state = RIDM11_initialize(
+    state = RIDM12_initialize(
         input,
         context,
         objectives,
@@ -1581,34 +1656,33 @@ function RIDM12(input, context, objectives, constraints):
 
 ### 69. Inheritance and Replacement
 
-RIDM 12 preserves RIDM 11.0 unless this specification explicitly changes a rule.
+RIDM 13 preserves RIDM 12 unless this specification explicitly changes a rule.
 
-| RIDM 11.0 concept | RIDM 12 treatment |
+| RIDM 12 concept | RIDM 13 treatment |
 | --- | --- |
-| Task contract and authority envelope | Preserved |
-| Clarification threshold | Extended with forced-choice and mismatch protocols |
-| Evidence ledger and claim types | Extended with internal recall and availability typing |
-| Conflicting evidence rules | Extended to the reasoner's own routes |
-| Interpretation boundary | Expanded into candidate coverage and coherence selection |
-| Constraint-first refinement | Preserved, with a commitment gate added at the decision step |
-| Validation ladder | Extended with the closed-world regime |
-| Observation-driven reclassification | Extended to stated state changes |
-| User feedback rules | Expanded into oracle discipline for all correction signals |
-| Uncertainty discipline | Extended with audited calibration |
+| Task contract, authority, forced choice, mismatch | Preserved |
+| Internal recall and availability typing | Extended with scope matching, derive-when-feasible, and precision carrying |
+| Provenance and freshness | Extended to the provenance of the task itself |
+| Candidate coverage | Extended with per-slot decoupling, the null candidate, and the discriminative-evidence restriction |
+| Coherence and adversarial calibration | Extended with menu-framing defense |
+| Commitment gate, closed-world validation, oracle discipline | Preserved |
+| Audited calibration | Conditioned on claim type |
+| Output contract | Extended with the canonical representative rule |
 | Completion, stopping, disclosure, privacy | Preserved |
 
-RIDM 11.0 asked:
-
-> Is the material result grounded, authorized, observed, and verified?
-
-RIDM 12 adds:
+RIDM 12 asked:
 
 > Was the candidate space covered, the commitment un-dominated, the verifier verified, and the
 > confidence calibrated?
 
+RIDM 13 adds:
+
+> Were the constants derived, the slots decoupled, the null tested, and the bands audited by
+> claim type?
+
 ## Part XVII: Compressed Architecture
 
-### 70. RIDM 12 Flow
+### 70. RIDM 13 Flow
 
 ```text
 Task request
@@ -1639,7 +1713,7 @@ Task request
 
 ## Final Definition
 
-RIDM 12 defines intelligence as:
+RIDM 13 defines intelligence as:
 
 > The recursive discovery of scoped invariants over a covered candidate space, bound to
 > evidence and authority, updated by verified signals, committed through un-dominated and

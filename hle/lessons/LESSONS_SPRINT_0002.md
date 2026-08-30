@@ -7,6 +7,9 @@ lessons file exists per sprint of ten runs.
 Section numbers cited in this file and in this sprint's run logs refer to RIDM 12, the
 specification version under evaluation during the sprint.
 
+Consolidation status: L18 through L24 are consolidated into RIDM 13, released 2026-08-30.
+The next sprint's lessons start in `lessons/LESSONS_SPRINT_0003.md`.
+
 ## L18. Task provenance is evidence (Q000011)
 
 RIDM 12 surface: Section 23, candidate coverage. The tradition a task comes from encodes how

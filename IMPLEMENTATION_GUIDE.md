@@ -1,6 +1,6 @@
 # RIDM Implementation Guide
 
-This guide translates [RIDM 12](RIDM.MD) into software boundaries, data
+This guide translates [RIDM 13](RIDM.MD) into software boundaries, data
 contracts, control flow, tests, and delivery phases. It is written for agents
 and engineers implementing RIDM in any language or runtime.
 
@@ -26,9 +26,9 @@ Use one of these labels when describing implementation coverage.
 | --- | --- |
 | RIDM Reasoning Core | Task contract, evidence ledger, interpretations, candidate coverage, invariant selection, materiality graph, hard gates, commitment gate, and output contract |
 | RIDM Action Runtime | Reasoning Core plus authority enforcement, action admission, execution adapters, observations, oracle discipline, and recovery |
-| RIDM 12 Conformant | Action Runtime plus reopening, completion certificates, privacy controls, calibration audit, evaluation metrics, and conformance tests |
+| RIDM 13 Conformant | Action Runtime plus reopening, completion certificates, privacy controls, claim-type-conditioned calibration audit, evaluation metrics, and conformance tests |
 
-Do not describe a partial implementation as RIDM 12 conformant. State the
+Do not describe a partial implementation as RIDM 13 conformant. State the
 implemented target and any omitted capability.
 
 ## 3. Required Reading
@@ -669,7 +669,7 @@ Measure at least:
 - materiality precision and recall
 - suppression precision and coverage
 - candidate coverage
-- confidence band calibration
+- confidence band calibration, per claim type
 - oracle defect detection
 - authorization violations
 - action success and rollback success
@@ -726,6 +726,8 @@ changes.
 | Correction signal is internally inconsistent | Record the defect; do not reopen the reasoning layer on it |
 | Mid-scenario state change inverts a dependent need | Recompute dependent claims, including signs, before deciding |
 | Recall-regime task with discriminative clues | Widen the candidate set with per-clue probes before ranking |
+| Remembered constant from a differently parameterized source | Re-derive under the task's parameters; use recall as an anchor only |
+| Requirement-style menu where the givens already suffice | Answer with the empty set; do not select from the menu |
 
 ### 31. Invariant Properties
 
@@ -834,7 +836,7 @@ Deliver:
 - performance budgets
 - full conformance suite
 
-Claim RIDM 12 conformance only after every required capability and acceptance
+Claim RIDM 13 conformance only after every required capability and acceptance
 case passes.
 
 ## Part VIII: Conformance and Handoff

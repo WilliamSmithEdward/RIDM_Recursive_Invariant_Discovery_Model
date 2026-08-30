@@ -26,7 +26,7 @@ and stops with a verifiable result.
 - Report completion only when success criteria are directly validated.
 - Expose the material delta and suppress detail that cannot change the result.
 
-## RIDM 12 Architecture
+## RIDM 13 Architecture
 
 ```text
 Task request
