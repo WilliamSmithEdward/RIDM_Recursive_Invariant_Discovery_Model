@@ -30,3 +30,4 @@ its answer format, and the outcome.
 | [STATUS.md](STATUS.md) | Tabular status of all runs, updated after each run |
 | `runs/Q000001.md`, `runs/Q000002.md`, ... | One log per attempted question, six-digit run numbers |
 | [lessons/LESSONS_SPRINT_0001.md](lessons/LESSONS_SPRINT_0001.md) | Sprint 0001 lessons (runs Q000001 to Q000010, consolidated into RIDM 12) |
+| [tools/](tools/) | Persistent run tooling (fetch and grading script); all state stays outside the repository |
