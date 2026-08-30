@@ -1,6 +1,6 @@
 # RIDM Implementation Guide
 
-This guide translates [RIDM 13](RIDM.MD) into software boundaries, data
+This guide translates [RIDM 14](RIDM.MD) into software boundaries, data
 contracts, control flow, tests, and delivery phases. It is written for agents
 and engineers implementing RIDM in any language or runtime.
 
@@ -26,9 +26,9 @@ Use one of these labels when describing implementation coverage.
 | --- | --- |
 | RIDM Reasoning Core | Task contract, evidence ledger, interpretations, candidate coverage, invariant selection, materiality graph, hard gates, commitment gate, and output contract |
 | RIDM Action Runtime | Reasoning Core plus authority enforcement, action admission, execution adapters, observations, oracle discipline, and recovery |
-| RIDM 13 Conformant | Action Runtime plus reopening, completion certificates, privacy controls, claim-type-conditioned calibration audit, evaluation metrics, and conformance tests |
+| RIDM 14 Conformant | Action Runtime plus reopening, completion certificates, privacy controls, claim-type-conditioned calibration audit with weakest-link banding and item-rigor caps, item provenance and rigor classification, flagged-observable observation, evaluation metrics, and conformance tests |
 
-Do not describe a partial implementation as RIDM 13 conformant. State the
+Do not describe a partial implementation as RIDM 14 conformant. State the
 implemented target and any omitted capability.
 
 ## 3. Required Reading
@@ -836,7 +836,7 @@ Deliver:
 - performance budgets
 - full conformance suite
 
-Claim RIDM 13 conformance only after every required capability and acceptance
+Claim RIDM 14 conformance only after every required capability and acceptance
 case passes.
 
 ## Part VIII: Conformance and Handoff
