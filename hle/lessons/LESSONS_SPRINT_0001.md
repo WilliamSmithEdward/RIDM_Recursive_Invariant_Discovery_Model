@@ -1,11 +1,14 @@
-# Framework Lessons
+# Framework Lessons - Sprint 01 (Q001 to Q010)
 
-Distilled, content-free lessons from the HLE runs in [runs/](runs/). Each lesson names the
-run that produced it, the RIDM surface it touches, and the change it suggests. Lessons are
-appended as runs complete and are consolidated when a new specification version is drafted.
+Distilled, content-free lessons from the sprint's runs in [runs/](runs/). Each lesson names
+the run that produced it, the RIDM surface it touches, and the change it suggests. One
+lessons file exists per sprint of ten runs; this file is closed.
 
-Consolidation status: L1 through L17 (runs Q001 to Q010) are consolidated into RIDM 12,
-released 2026-08-30. Lessons from later runs accumulate below the marker for the next cycle.
+Consolidation status: L1 through L17 are consolidated into RIDM 12, released 2026-08-30.
+The next sprint's lessons start in `lessons/LESSONS_SPRINT_0002.md`.
+
+Section numbers cited in this file and in this sprint's run logs refer to RIDM 11.0, the
+specification version under evaluation during the sprint.
 
 ## L1. Closed-world validation rung (Q001)
 

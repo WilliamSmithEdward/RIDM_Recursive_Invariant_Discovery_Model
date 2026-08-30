@@ -19,11 +19,13 @@ its answer format, and the outcome.
 - The answer is committed in writing before the official answer is revealed.
 - Grading is strict. A near miss counts as incorrect and is noted as such.
 - After grading, the run log records where RIDM helped, where it misled, and where it was
-  silent. Distilled lessons accumulate in [LESSONS.md](LESSONS.md).
+  silent. Distilled lessons accumulate in one lessons file per sprint of ten runs.
+- Each sprint of ten runs closes with a specification revision and an integer version
+  release: sprint 01 produced RIDM 12.
 
 ## Layout
 
 | Path | Purpose |
 | --- | --- |
 | `runs/Q001.md`, `runs/Q002.md`, ... | One log per attempted question |
-| [LESSONS.md](LESSONS.md) | Accumulated framework lessons driving the next version |
+| [lessons/LESSONS_SPRINT_0001.md](lessons/LESSONS_SPRINT_0001.md) | Sprint 0001 lessons (runs Q001 to Q010, consolidated into RIDM 12) |
