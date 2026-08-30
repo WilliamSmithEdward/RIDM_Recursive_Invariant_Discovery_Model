@@ -21,10 +21,12 @@ and stops with a verifiable result.
   sake.
 - Prefer low-risk, reversible actions with observable outcomes.
 - Recompute materiality when evidence, state, authority, or stakes change.
+- Cover the candidate space before ranking; commit only un-dominated conclusions.
+- Treat correction signals as evidence to verify, and audit confidence calibration.
 - Report completion only when success criteria are directly validated.
 - Expose the material delta and suppress detail that cannot change the result.
 
-## RIDM 11.0 Architecture
+## RIDM 12 Architecture
 
 ```text
 Task request
@@ -32,12 +34,15 @@ Task request
   -> Authority envelope
   -> Evidence ledger
   -> Proof-carrying interpretations
+  -> Candidate coverage
   -> Nearest sufficient invariant
   -> Materiality graph
   -> Non-compensable gates
   -> Minimum sufficient decision
+  -> Commitment gate
   -> Action admission
   -> Action and observation
+  -> Oracle discipline
   -> Materiality reclassification
   -> Output contract
   -> Completion certificate
@@ -68,6 +73,7 @@ legal, or professional requirements.
 | --- | --- |
 | [RIDM.MD](RIDM.MD) | Active RIDM specification |
 | [IMPLEMENTATION_GUIDE.md](IMPLEMENTATION_GUIDE.md) | Software implementation and conformance guide |
+| [hle/](hle/) | Evaluation run logs and per-sprint lessons, content-free |
 | [AGENTS.md](AGENTS.md) | Repository instructions for coding agents |
 | [README.md](README.md) | Project overview and navigation |
 | [LICENSE](LICENSE) | MIT license |

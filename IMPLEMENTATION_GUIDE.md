@@ -1,6 +1,6 @@
 # RIDM Implementation Guide
 
-This guide translates [RIDM 11.0](RIDM.MD) into software boundaries, data
+This guide translates [RIDM 12](RIDM.MD) into software boundaries, data
 contracts, control flow, tests, and delivery phases. It is written for agents
 and engineers implementing RIDM in any language or runtime.
 
@@ -24,11 +24,11 @@ Use one of these labels when describing implementation coverage.
 
 | Target | Required capabilities |
 | --- | --- |
-| RIDM Reasoning Core | Task contract, evidence ledger, interpretations, invariant selection, materiality graph, hard gates, and output contract |
-| RIDM Action Runtime | Reasoning Core plus authority enforcement, action admission, execution adapters, observations, and recovery |
-| RIDM 11 Conformant | Action Runtime plus reopening, completion certificates, privacy controls, evaluation metrics, and conformance tests |
+| RIDM Reasoning Core | Task contract, evidence ledger, interpretations, candidate coverage, invariant selection, materiality graph, hard gates, commitment gate, and output contract |
+| RIDM Action Runtime | Reasoning Core plus authority enforcement, action admission, execution adapters, observations, oracle discipline, and recovery |
+| RIDM 12 Conformant | Action Runtime plus reopening, completion certificates, privacy controls, calibration audit, evaluation metrics, and conformance tests |
 
-Do not describe a partial implementation as RIDM 11 conformant. State the
+Do not describe a partial implementation as RIDM 12 conformant. State the
 implemented target and any omitted capability.
 
 ## 3. Required Reading
@@ -104,6 +104,17 @@ Input: nearest sufficient invariant, material residuals, gate results, and
 requested output.
 
 Output: the minimum sufficient decision and disclosure level.
+
+#### Commitment gate
+
+Input: selected decision, candidate models, evidence ledger, and task contract.
+
+Output: the decision confirmed, or a reopening of the smallest affected layer.
+
+It must enforce claim-type precedence at the decision step: a conclusion
+dominated under the stated success criterion by an alternative with
+stronger-typed support cannot be committed, and modeled unstated intent cannot
+override a derived result.
 
 #### Action admission service
 
@@ -212,6 +223,8 @@ Reject invalid transitions. In particular:
 
 - no action before admission
 - no admission before hard gates pass
+- no commitment past a failed commitment gate
+- no reopening driven by a correction signal that failed its consistency check
 - no complete state before direct validation
 - no silent transition from failed validation to complete
 
@@ -655,6 +668,9 @@ Measure at least:
 - unsupported decisive claim rate
 - materiality precision and recall
 - suppression precision and coverage
+- candidate coverage
+- confidence band calibration
+- oracle defect detection
 - authorization violations
 - action success and rollback success
 - stopping calibration
@@ -706,6 +722,10 @@ changes.
 | Suppressed residual becomes action-relevant | Reclassify it as material and reopen the dependent decision |
 | Required validation is skipped | Use a non-complete or limited completion state |
 | Sensitive evidence reaches logging | Redact or reject the event |
+| Derived result conflicts with modeled requester intent in a forced choice | Commit the derived result; intent models break ties only |
+| Correction signal is internally inconsistent | Record the defect; do not reopen the reasoning layer on it |
+| Mid-scenario state change inverts a dependent need | Recompute dependent claims, including signs, before deciding |
+| Recall-regime task with discriminative clues | Widen the candidate set with per-clue probes before ranking |
 
 ### 31. Invariant Properties
 
@@ -720,6 +740,8 @@ authority_after(task) subset_of authority_before(task)
     unless explicit_authority_grant_observed(task)
 retry(action) -> transient_failure(action) and attempts_within_budget(action)
 observed(claim) -> direct_authoritative_observation_exists(claim)
+committed(decision) -> not dominated_by_stronger_typed_alternative(decision)
+reopened_on(signal) -> internally_consistent(signal)
 ```
 
 ### 32. Deterministic Fixtures
@@ -812,7 +834,7 @@ Deliver:
 - performance budgets
 - full conformance suite
 
-Claim RIDM 11 conformance only after every required capability and acceptance
+Claim RIDM 12 conformance only after every required capability and acceptance
 case passes.
 
 ## Part VIII: Conformance and Handoff
