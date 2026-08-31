@@ -9,15 +9,15 @@ individual run logs.
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 33 |
-| Correct | 16 |
-| Percent correct | 48% |
-| Incorrect, strict | 17 |
-| Incorrect against defective or under-determined keys | 2 of 17 |
+| Runs completed | 36 |
+| Correct | 18 |
+| Percent correct | 50% |
+| Incorrect, strict | 18 |
+| Incorrect against defective or under-determined keys | 2 of 18 |
 | High band record | 11 of 14 |
-| Medium band record, recall-backed | 0 of 6 |
+| Medium band record, recall-backed | 2 of 8 |
 | Medium band record, derivation-backed | 4 of 6 |
-| Medium band record, inference-backed | 0 of 2 |
+| Medium band record, inference-backed | 0 of 3 |
 | Low and very-low band record | 1 of 5 |
 
 ## By RIDM Model
@@ -28,7 +28,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
-| RIDM 14 | 3 | 1 | 2 | 33% |
+| RIDM 14 | 6 | 3 | 3 | 50% |
 | RIDM 13 | 10 | 5 | 5 | 50% |
 | RIDM 12 | 10 | 6 | 4 | 60% |
 | RIDM 11 | 10 | 4 | 6 | 40% |
@@ -48,6 +48,9 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000036](runs/Q000036.md) | 0004 | AI, deep learning theory | multiple choice | no | correct | medium |
+| [Q000035](runs/Q000035.md) | 0004 | Law, securities regulation | multiple choice | no | correct | medium |
+| [Q000034](runs/Q000034.md) | 0004 | Medicine, clinical vignette | multiple choice | no | incorrect | medium |
 | [Q000033](runs/Q000033.md) | 0004 | Puzzle, cipher | exact match | no | correct | high |
 | [Q000032](runs/Q000032.md) | 0004 | Neuroscience, comorbidity imaging | multiple choice | no | incorrect | medium |
 | [Q000031](runs/Q000031.md) | 0004 | Math, mathematical physics PDE | exact match | no | incorrect | medium |
