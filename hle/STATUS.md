@@ -9,15 +9,15 @@ individual run logs.
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 53 |
+| Runs completed | 56 |
 | Correct | 26 |
-| Percent correct | 49% |
-| Incorrect, strict | 27 |
-| Incorrect against defective or under-determined keys | 2 of 27 |
-| High band record | 16 of 22 |
+| Percent correct | 46% |
+| Incorrect, strict | 30 |
+| Incorrect against defective or under-determined keys | 2 of 30 |
+| High band record | 16 of 24 |
 | Medium band record, recall-backed | 2 of 8 |
 | Medium band record, derivation-backed | 6 of 8 |
-| Medium band record, inference-backed | 1 of 9 |
+| Medium band record, inference-backed | 1 of 10 |
 | Low and very-low band record | 1 of 6 |
 
 ## By RIDM Model
@@ -28,7 +28,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
-| RIDM 16 | 3 | 1 | 2 | 33% |
+| RIDM 16 | 6 | 1 | 5 | 17% |
 | RIDM 15 | 10 | 4 | 6 | 40% |
 | RIDM 14 | 10 | 6 | 4 | 60% |
 | RIDM 13 | 10 | 5 | 5 | 50% |
@@ -52,6 +52,9 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000056](runs/Q000056.md) | 0006 | Physics, jammed packings | exact match | no | incorrect | medium |
+| [Q000055](runs/Q000055.md) | 0006 | Math, Markov chains | exact match | no | incorrect | high |
+| [Q000054](runs/Q000054.md) | 0006 | Math, combinatorial game theory | exact match | no | incorrect | high |
 | [Q000053](runs/Q000053.md) | 0006 | Art history, attribution | exact match | yes | incorrect | very low |
 | [Q000052](runs/Q000052.md) | 0006 | CS, combinatory logic | exact match | no | correct | high |
 | [Q000051](runs/Q000051.md) | 0006 | CS, computational complexity | exact match | no | incorrect | high |
