@@ -9,14 +9,14 @@ individual run logs.
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 56 |
-| Correct | 26 |
-| Percent correct | 46% |
-| Incorrect, strict | 30 |
-| Incorrect against defective or under-determined keys | 2 of 30 |
-| High band record | 16 of 24 |
+| Runs completed | 60 |
+| Correct | 28 |
+| Percent correct | 47% |
+| Incorrect, strict | 32 |
+| Incorrect against defective or under-determined keys | 2 of 32 |
+| High band record | 18 of 27 |
 | Medium band record, recall-backed | 2 of 8 |
-| Medium band record, derivation-backed | 6 of 8 |
+| Medium band record, derivation-backed | 6 of 9 |
 | Medium band record, inference-backed | 1 of 10 |
 | Low and very-low band record | 1 of 6 |
 
@@ -28,7 +28,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
-| RIDM 16 | 6 | 1 | 5 | 17% |
+| RIDM 16 | 10 | 3 | 7 | 30% |
 | RIDM 15 | 10 | 4 | 6 | 40% |
 | RIDM 14 | 10 | 6 | 4 | 60% |
 | RIDM 13 | 10 | 5 | 5 | 50% |
@@ -40,7 +40,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Sprint | Runs | Specification under test | Outcome |
 | --- | --- | --- | --- |
-| 0006 | Q000051 onward | RIDM 16 | in progress |
+| 0006 | Q000051 to Q000060 | RIDM 16 | 8 lessons (L49 to L56), consolidated into RIDM 17 (released) |
 | 0005 | Q000041 to Q000050 | RIDM 15 | 8 lessons (L41 to L48), consolidated into RIDM 16 (released) |
 | 0004 | Q000031 to Q000040 | RIDM 14 | 8 lessons (L33 to L40), consolidated into RIDM 15 (released) |
 | 0003 | Q000021 to Q000030 | RIDM 13 | 8 lessons (L25 to L32), consolidated into RIDM 14 (released) |
@@ -52,6 +52,10 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000060](runs/Q000060.md) | 0006 | Chemistry, phase-transfer catalysis | exact match | yes | correct | high |
+| [Q000059](runs/Q000059.md) | 0006 | Game theory, mancala | multiple choice | no | incorrect | high |
+| [Q000058](runs/Q000058.md) | 0006 | Games, Connect 4 tactics | exact match | no | incorrect | medium |
+| [Q000057](runs/Q000057.md) | 0006 | Molecular biology, translation | exact match | no | correct | high |
 | [Q000056](runs/Q000056.md) | 0006 | Physics, jammed packings | exact match | no | incorrect | medium |
 | [Q000055](runs/Q000055.md) | 0006 | Math, Markov chains | exact match | no | incorrect | high |
 | [Q000054](runs/Q000054.md) | 0006 | Math, combinatorial game theory | exact match | no | incorrect | high |

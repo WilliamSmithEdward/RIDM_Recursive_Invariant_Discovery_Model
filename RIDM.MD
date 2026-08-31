@@ -1,10 +1,10 @@
-# Recursive Invariant Discovery Model (RIDM) 16
+# Recursive Invariant Discovery Model (RIDM) 17
 
 *An evidence-bound architecture for adaptive reasoning and action*
 
 ## 1. Status
 
-RIDM 16 is the active specification. It supersedes RIDM 15 while preserving the central
+RIDM 17 is the active specification. It supersedes RIDM 16 while preserving the central
 restraint principle:
 
 > Discover broadly enough to identify the material delta, expose only that delta, and stop at
@@ -16,47 +16,52 @@ Each version is revised from a sprint of ten closed-book runs against frontier-d
 benchmark questions, applying the previous version to each attempt and logging where the
 framework helped, misled, or was silent. Process-level logs are in the repository's `hle`
 directory; no benchmark content is retained. Under RIDM 11.0 the runs scored four of ten,
-under RIDM 12 six of ten, under RIDM 13 five of ten, under RIDM 14 six of ten, and under
-RIDM 15 four of ten. The samples are small and the category mixes differ, so the
-comparisons are indicative, not conclusive. RIDM 15's misses moved one layer downstream:
-coverage and sequencing worked, and in four of six misses the keyed answer or route was
-constructed and named before commitment, then demoted at ranking time by a meta-prior
-about the author or the item's design. The reading that won each time was the canonical
-one for the item's domain. RIDM 16's revisions concentrate there, in canonical-reading
-precedence at the ranking layer, given-role partitioning, causal consumption of
-mechanism-naming hints, menu-mismatch reopening, and audit-inherited confidence bands.
+under RIDM 12 six of ten, under RIDM 13 five of ten, under RIDM 14 six of ten, under
+RIDM 15 four of ten, and under RIDM 16 three of ten, two of those misses graded against
+keys with demonstrable internal defects. The samples are small and the category mixes
+differ, so the comparisons are indicative, not conclusive. RIDM 16's genuine misses moved
+up a layer, from ranking among readings to selecting the frame inside which readings are
+formed: a terminological canon indexed to the wrong population, a silently imported rule
+variant whose rival made the stem's construction load-bearing, a stated scope shrunk by
+imported rigor, a standing-structure census skipped, and an unstated ensemble prior
+overriding per-slot evidence. RIDM 17's revisions concentrate there, in frame selection
+as candidate coverage, alarm discharge-or-bind at the commitment gate, standing-structure
+censuses, slot-before-ensemble compound discipline, and decisive-link-first banding.
 
 Proof-carrying output means concise claims, evidence, assumptions, validation, and limits. It
 does not require disclosure of private chain-of-thought or a transcript of internal reasoning.
 
 ## Part I: The Central Revision
 
-### 2. The Problem Exposed by RIDM 15
+### 2. The Problem Exposed by RIDM 16
 
-RIDM 15 corrected the sequencing and calibration of RIDM 14's author-model: derivation ran
-before author-blame, competence was estimated from structure, absences were audited, and
-recall was contrast-typed. A fifth evaluation sprint, run under RIDM 15, exposed the
-residual one layer downstream, at the ranking layer. Candidate coverage was not the
-failure mode: in four of six misses the keyed answer or route was inside the candidate
-set, explicitly constructed and named, and ranked second. What outranked it each time was
-a meta-prior: a coverage-maximization heuristic, a maximal-strictness philosophy, a
-numerical coincidence read as design intent, an aesthetically superior interpretation. The
-reading that won each time was the canonical one for the item's domain: the standard
-curricular chain, the textbook definition of a term of art, the course's taught procedure,
-the received cultural association. The same sprint added a provenance misclassification in
-the reverse direction, casual costume concealing a retold experiment whose finding inverts
-the textbook estimate, and a checkably defective key marking the referent noise floor.
+RIDM 16 corrected the ranking layer: canonical readings led, meta-priors were demoted to
+tie-breaking, givens were partitioned by role, hints were consumed causally, and bands
+inherited the audit. A sixth evaluation sprint, run under RIDM 16, exposed the residual
+one layer further up, at frame selection: the choice of convention, ruleset,
+terminological canon, or enumeration scope inside which candidate readings are formed at
+all. A canon was indexed to the discipline's textbook default when the item's cited
+source community used another; a game's ending rule was imported silently from the
+dominant variant while the rival variant was the one under which the item's elaborate
+constructed position did any work, and the noticed decorative-position alarm was dismissed
+rather than priced; a stated "all possible" scope was shrunk by an unstated premise
+imported from domain rigor. The same sprint showed a standing-structure census skipped in
+favor of move-local analysis, an unstated ensemble prior overriding per-slot evidence on
+a compound answer, and two keys with demonstrable internal defects, both established by
+reproducing the key's number exactly from the correct value plus an identified error
+mechanism.
 
-| RIDM 15 residual | Why it is material | RIDM 16 correction |
+| RIDM 16 residual | Why it is material | RIDM 17 correction |
 | --- | --- | --- |
-| Candidate ranking driven by meta-priors | The keyed reading was present and demoted in four of six misses | Canonical-reading precedence (Sections 19, 24, and 29) |
-| All givens ranked as one class | Scene-setting givens diluted the single decision-layer constraint | Given-role partition (Section 23) |
-| Mechanism hints consumed decoratively | A hint that names a mechanism decides the answer's direction, not its mood | Deletion-tested hint consumption (Sections 23 and 29) |
-| Derived-but-unlisted values snapped to the nearest option | A menu mismatch refutes the model choice, not the menu | Menu-mismatch reopening (Sections 23 and 46) |
-| Idealized closed forms ranked as derivation everywhere | In empirically governed regimes the governing model is itself an inference | Regime-typed derivation precedence (Sections 16 and 20) |
-| Inference-backed bands nominally medium | The audited record places them far below the medium band's meaning | Audit-inherited band demotion (Section 21) |
+| Governing frames imported as background facts | The convention or ruleset choice carried decisive claims silently in three misses | Frame selection as candidate coverage, with provenance-indexed canons and load-bearingness ranking (Sections 19, 23, and 24) |
+| Stated scopes shrunk by imported rigor | Deleting configurations a literal scope admits is an assumed claim doing silent work | Stem-impoverishment prohibition with a deletion test on scope words (Section 23) |
+| Alarms noticed but not priced | Noting an anomaly and proceeding recurred despite the rule existing | Discharge-or-bind alarm ledger at the commitment gate (Sections 24 and 29) |
+| Candidate-local analysis of stateful tasks | Standing structures such as stacked threats are invisible move-locally | Standing-structure census before candidate evaluation (Section 23) |
+| Ensemble priors overriding slot evidence | An unstated no-repeat assumption demoted a correct slot read | Slot-before-ensemble discipline for compound answers (Section 23) |
+| Bands argued down from the strongest component | The inference-defaults-low rule was under-applied twice | Decisive-link-first banding order, and rival computation to parity (Sections 21 and 29) |
+| Referent noise priced flat per item | Multi-component hand-computed keys defect per component | Componentry-scaled referent allowance and offset-reproduction defect proof (Sections 21 and 48) |
 
-These residuals do not invalidate RIDM 15. They mark the next sufficient invariant horizon.
+These residuals do not invalidate RIDM 16. They mark the next sufficient invariant horizon.
 
 ### 3. Primary Operating Law
 
@@ -65,38 +70,40 @@ These residuals do not invalidate RIDM 15. They mark the next sufficient invaria
 
 Restraint still governs disclosure. Evidence and authority still govern action. Coverage
 governs candidates, coherence governs interpretation, calibration governs confidence,
-derivation governs constants, and the menu never defines the space. RIDM 15 added:
-derivation precedes author-modeling, and the author-model is itself an estimated,
-evidence-bound claim. RIDM 16 adds: the canonical reading leads the ranking, and bands
-inherit the audit.
+derivation governs constants, and the menu never defines the space. RIDM 16 added: the
+canonical reading leads the ranking, and bands inherit the audit. RIDM 17 adds: the
+governing frame is itself a candidate, and every noticed alarm discharges or binds.
 
 ### 4. Revised Definition of Intelligence
 
-RIDM 16 defines intelligence as:
+RIDM 17 defines intelligence as:
 
 > The ability to discover task-relevant invariants, cover the space of candidate readings and
 > answers, ground material claims, choose authorized actions, learn from verified signals, and
 > stop at a calibrated, verifiable minimum sufficient result.
 
-RIDM 15 added derivation-first sequencing, author-competence estimation, absence auditing,
-and contrast-typed recall. RIDM 16 refines the ranking layer with four disciplines:
+RIDM 16 added canonical-reading precedence, given-role partition, mechanism-hint
+consumption, and audit-inherited banding. RIDM 17 refines the frame-selection layer with
+four disciplines:
 
-- canonical-reading precedence: when live candidates split between the domain's standard
-  reading and a sophisticated alternative backed by meta-inference, the standard reading
-  leads, and meta-priors break ties only inside it
-- given-role partition: scene-setting givens are consumed by the diagnosis they establish,
-  and the decision-layer constraint, not the diagnosis layer, selects the option
-- mechanism-hint consumption: a stem hint that names a mechanism is contract, consumed
-  only when it plays a causal role with a direction the deletion test can verify
-- audit-inherited banding with menu-mismatch reopening: commitment classes carry their
-  audited outcome rates, and a derived value absent from an authored menu reopens model
-  identification instead of snapping to the nearest option
+- frame selection as coverage: the governing convention, ruleset, terminological canon,
+  or enumeration scope is a candidate reading, enumerated and priced, with the canon
+  indexed to the item's provenance and frames ranked by whether the stem's construction
+  does work under them
+- alarm discharge-or-bind: every anomaly noticed during analysis either discharges under
+  the committed reading or caps the band and forces a re-rank against the rival that
+  explains it
+- standing-structure census: on stateful tasks, the given state's existing structures are
+  enumerated with their completion conditions before any candidate action is evaluated
+- slot-before-ensemble compound discipline: per-slot evidence outranks unstated ensemble
+  priors, rivals are computed to parity before ranking, and referent-noise allowances
+  scale with the answer's component count
 
 ## Part II: Core Vocabulary and Scope
 
 ### 5. Core Terms
 
-RIDM 16 uses the following terms precisely.
+RIDM 17 uses the following terms precisely.
 
 - A **heuristic** is a compressed rule that is useful within a scope.
 - An **invariant** is a relation stable enough to govern the current task under stated
@@ -484,6 +491,13 @@ the item's own anchors such as a trial configuration, and do not switch to an
 instrument-free route on determinacy grounds, because the instrument is shared between the
 item's author and its intended audience.
 
+Canons are indexed to provenance. When a stem derives from or cites a specific paper or
+community, that community's terminological conventions and standing results are the
+operative referent, at their most specific the source's own usage, and they outrank the
+discipline's textbook default. A task naming only a family with variant rules, a game, a
+protocol, a notation, does not settle its governing frame by naming it; Section 23 makes
+the frame a coverage obligation.
+
 The referent's author is estimated, not assumed. Author competence is a claim in the
 ledger, supported by the item's structural tells and by population priors: an
 expert-authored and reviewed item pool gives low prior to keys that would make the item
@@ -559,6 +573,15 @@ rate falls below its nominal band commits at the audited band: inference-backed 
 author-model commitments default to the low band, and rise to medium only through
 whole-menu coherence or alignment with the domain's canonical reading (Section 24). The
 rigor caps of Section 19 are ceilings; the audit sets the floor.
+
+Banding starts at the decisive link. Assign the band by first naming the weakest decisive
+link and its claim type, opening at that class's audited value, and arguing upward only
+with named support; starting from the strongest component and discounting is how
+strong-segment banding recurs in practice. Referent noise scales with componentry: a
+compound exact-match answer multiplies the key author's own manual error surface, one
+slipped component fails the whole tuple, and multi-component numeric commitments carry an
+allowance below the single-value band even when every component is independently
+well-supported.
 
 ## Part V: Interpretations, Invariants, and Residuals
 
@@ -636,6 +659,28 @@ how well the set is ranked. Before ranking:
   exactly. A derived value that matches no option within its own uncertainty refutes the
   model choice, not the menu: reopen model identification, looking first for a retold
   source, before any nearest-option commitment.
+- Enumerate the governing frame's variant space. A convention, ruleset, terminological
+  canon, or enumeration scope imported to make the task well-posed is a candidate
+  reading: name the variants (an ending rule, a capture rule, a reduction convention, a
+  scope boundary), index the canon to the item's provenance, and rank frames by whether
+  the stem's construction does work under them, before any invariant argument built
+  inside one frame is allowed to trivialize the item.
+- Do not impoverish the stem. Shrinking a stated scope, such as an "all possible"
+  enumeration, with an unstated premise imported from domain rigor is the dual of stem
+  enrichment: an assumed claim doing silent work. Run the deletion test on the stem's
+  scope words; a commitment unchanged by their removal has not consumed them.
+- Census standing structures before evaluating candidates. On game positions and other
+  stateful tasks, enumerate every existing partial structure for all sides, with its
+  completion condition and that condition's enabling dependency, before analyzing any
+  candidate action; stacked and interlocking threats exist only at census level, and
+  candidate-local analysis is structurally blind to them.
+- On compound answers, per-slot evidence outranks unstated ensemble priors: never demote
+  a slot's leading read because another slot already used that answer, and treat
+  distinctness, era-coherence, or curation assumptions as narrative-tier. On attribution
+  slots, probe by technique fingerprint, not subject association.
+- Compute every live rival to commitment quality before ranking. A rival evaluated
+  sloppily and then demoted was never in the candidate set, and the comparison was
+  against a strawman.
 - Audit candidates for absent mandatory features: a candidate whose canonical,
   stem-mandatory features are withheld loses standing, and on authored items the withheld
   feature is often the intended discriminator.
@@ -703,6 +748,20 @@ discovered near-coincidence among the task's givens is a hypothesis generator, n
 discriminator, because the space of checkable coincidences makes chance matches expected.
 Sophistication is spent proving the canonical reading's consequences, not defeating it.
 
+Frames answer to the stem's construction. Canonicality ranks readings inside a frame;
+between frames, load-bearingness leads: an elaborate constructed position, dataset, or
+parameter set is a stated requirement in the coherence sense, and a frame under which it
+is decorative fails the same test as a reading that trivializes an explicit constraint.
+An author who builds a detailed construction built it to matter, and a frame that makes
+the whole construction irrelevant to the answer is evidence for the rival frame, not a
+shortcut.
+
+Alarms discharge or bind. Every anomaly noticed during analysis, a slack constraint, a
+decorative construction, an off-menu derived value, a costume mismatch, enters the
+commitment gate: it either discharges, meaning the committed reading explains it, or it
+binds, capping the band and forcing a re-rank against the rival that would explain it.
+Noting an anomaly and proceeding unchanged is a gate failure, not a disclosure.
+
 ### 25. Nearest Sufficient Invariant
 
 Select the nearest invariant that explains the task and accounts for every material residual.
@@ -765,7 +824,7 @@ The symbols denote task-relevant changes, not calibrated numeric quantities.
 
 ### 28. Constraint-First Refinement
 
-RIDM 16 keeps ordered admission in place of unrestricted scalar tradeoffs.
+RIDM 17 keeps ordered admission in place of unrestricted scalar tradeoffs.
 
 First evaluate non-compensable gates:
 
@@ -818,6 +877,18 @@ before commitment, re-check:
 - **Menu presence.** For a derived value committed against an option menu, does the value
   match an option within its own uncertainty (Section 23)? A mismatch reopens model
   identification.
+- **Frame.** Was the governing convention, ruleset, canon, or scope chosen from an
+  enumerated variant space with the canon indexed to the item's provenance, and does the
+  stem's construction do work under the committed frame (Sections 19, 23, and 24)?
+- **Alarm ledger.** Has every anomaly noticed during analysis either discharged under the
+  committed reading or bound the band and forced a re-rank (Section 24)? An alarm noted
+  and dismissed fails the gate.
+- **Census.** On stateful tasks, was the standing-structure census taken before candidate
+  evaluation (Section 23)?
+- **Band origin.** Was the band opened at the decisive link's claim type and audited
+  class value, and argued upward only with named support (Section 21)? Were all live
+  rivals computed to parity before the ranking that this commitment rests on
+  (Section 23)?
 
 If a check fails, reopen the smallest affected layer instead of shipping the commitment.
 
@@ -825,7 +896,7 @@ If a check fails, reopen the smallest affected layer instead of shipping the com
 
 ### 30. Internal Model and Output Contract
 
-RIDM 16 preserves the separation between internal discovery and external disclosure.
+RIDM 17 preserves the separation between internal discovery and external disclosure.
 
 ```text
 OutputContract {
@@ -1126,6 +1197,7 @@ ReopeningTrigger {
     stated_state_change
     defective_correction_signal
     menu_mismatch
+    undischarged_alarm
 }
 ```
 
@@ -1153,6 +1225,12 @@ Before a contradiction from an oracle reopens the model:
   (Section 11).
 - **Record dual-track outcomes** when validation infrastructure fails: the graded result and
   the documented defect are both material, and neither replaces the other.
+- **Difference the disagreement.** When an oracle's value contradicts a twice-derived one,
+  compute their exact difference first: a defect mechanism often shows as an exact
+  algebraic offset, and reproducing the oracle's number from the correct value plus an
+  identified mechanism is the strongest available form of defect evidence. Redundant
+  differently-grouped computation before commitment is what makes this demonstration
+  possible afterward.
 
 ### 49. Reopening Boundary
 
@@ -1339,7 +1417,7 @@ before action admission.
 ### 62. Evaluation Dimensions
 
 ```text
-RIDM16Metrics {
+RIDM17Metrics {
     factual_accuracy
     evidence_coverage
     unsupported_decisive_claim_rate
@@ -1355,6 +1433,9 @@ RIDM16Metrics {
     canonical_precedence_compliance
     hint_consumption_rate
     menu_mismatch_reopening
+    frame_coverage
+    alarm_discharge_rate
+    census_compliance
     confidence_band_calibration
     oracle_defect_detection
     authorization_compliance
@@ -1423,9 +1504,14 @@ compliance is the rate at which commitments that defeated a constructed canonica
 carried evidence stronger than a meta-prior; hint-consumption rate is the fraction of
 mechanism-naming hints whose deletion would have changed the committed answer;
 menu-mismatch reopening is the rate at which off-menu derived values triggered model
-re-identification rather than nearest-option commitment. Oracle-defect detection is
-credited only when a defective signal is identified through checkable internal
-inconsistency, not through disagreement alone.
+re-identification rather than nearest-option commitment. Frame coverage is the rate at
+which tasks with variant-bearing conventions had the governing frame enumerated and
+priced before commitment; alarm-discharge rate is the fraction of noticed anomalies that
+were either explained by the committed reading or allowed to bind the band; census
+compliance is the rate at which stateful tasks received a standing-structure census
+before candidate evaluation. Oracle-defect detection is credited only when a defective
+signal is identified through checkable internal inconsistency, not through disagreement
+alone.
 
 Authorization compliance is a hard metric: unauthorized action is a failure, even when the
 action's outcome is useful. When a denominator is zero, report the metric as not applicable
@@ -1433,7 +1519,7 @@ rather than assigning a perfect score.
 
 ### 64. Evaluation Protocol
 
-An RIDM 16 evaluation set should vary:
+An RIDM 17 evaluation set should vary:
 
 - task clarity and ambiguity
 - evidence quality, conflict, and freshness
@@ -1471,6 +1557,14 @@ An RIDM 16 evaluation set should vary:
 - menus that omit the naive computation's result
 - idealized-model stems testing definitional entailments of terms of art
 - canonical procedures that pass through an instrument the solver lacks
+- tasks naming a rule family whose variants change the answer, with a constructed
+  position that is load-bearing under only one variant
+- items whose cited source community uses a convention differing from the textbook
+  default
+- stated enumeration scopes that imported rigor would silently shrink
+- stateful positions with stacked or interlocking standing structures
+- compound answers tempting an unstated distinctness or curation prior
+- multi-component keys carrying a single-component authoring defect
 
 Minimum behavior cases include:
 
@@ -1521,6 +1615,18 @@ Minimum behavior cases include:
     extrapolations are denied.
 30. An inference-backed commitment defaults to the low band absent whole-menu coherence
     or canonical alignment.
+31. A rule-family task enumerates its variant frames and commits under the one that
+    makes the constructed position load-bearing.
+32. A cited-source item is answered in the source community's convention, not the
+    textbook default.
+33. An "all possible" enumeration is answered at the stem's literal scope, with no
+    silently imported filter.
+34. A noticed anomaly that the committed reading cannot explain caps the band and
+    forces a re-rank instead of a footnote.
+35. A stateful position is censused for standing structures before any candidate move
+    is evaluated.
+36. A compound answer repeats a value across slots when per-slot evidence says so,
+    against an unstated distinctness prior.
 
 Adjudicators should label material residuals, authority boundaries, acceptable actions,
 evidence requirements, and completion criteria before scoring output.
@@ -1541,12 +1647,19 @@ A conforming implementation should demonstrate that it can:
 - estimate author competence from structural tells and population priors, and rank
   candidate keys by rigor-matched criteria
 - rank the domain's canonical reading first, demoting meta-priors to tie-breaking
+- enumerate governing frames as candidates, index canons to provenance, and prefer the
+  frame under which the stem's construction is load-bearing
 - partition givens by role and let the decision layer select the answer
 - consume mechanism-naming hints causally, verified by the deletion test
 - reopen model identification when a derived value is absent from an authored menu
-- audit absent mandatory features, and type stem enrichments as assumed claims
+- audit absent mandatory features, and type stem enrichments and impoverishments as
+  assumed claims
+- census standing structures before evaluating candidate actions
+- discharge or bind every noticed alarm at the commitment gate
 - bind recalled directions to their source contrasts
-- commit each claim class at its audited band, not its nominal one
+- hold per-slot evidence above unstated ensemble priors and compute rivals to parity
+- commit each claim class at its audited band, opened at the decisive link, with
+  referent allowances scaled to answer componentry
 - validate closed-world claims by convergent routes and anchor cases
 - admit only authorized actions
 - detect unexpected effects through observation
@@ -1743,6 +1856,37 @@ A term of art's curricular definition is doubted as if it were an extrapolation,
 edge cases the idealization abstracts away, while genuine premise-scope extrapolations
 pass unchallenged.
 
+#### Frame defaulting
+
+A governing convention, ruleset, or canon is imported silently as background fact, and an
+invariant argument built inside it trivializes an item whose construction is load-bearing
+only under a rival frame.
+
+#### Stem impoverishment
+
+A stated scope is shrunk by an unstated premise imported from domain rigor, deleting
+configurations the literal wording admits; the dual of stem enrichment.
+
+#### Alarm dismissal
+
+An anomaly is noticed during analysis, recorded in so many words, and neither explained by
+the committed reading nor allowed to cap the band or force a re-rank.
+
+#### Census skip
+
+A stateful position is analyzed candidate-by-candidate without enumerating the standing
+structures the state already holds, leaving stacked and interlocking threats invisible.
+
+#### Ensemble-prior override
+
+An unstated distinctness, era, or curation assumption about the answer ensemble demotes a
+slot's leading read on a compound answer.
+
+#### Rival strawmanning
+
+A live rival reading is evaluated below commitment quality, then demoted on the comparison,
+so the ranking chose between a finished candidate and a sketch.
+
 ## Part XIV: Control Laws
 
 ### 67. Control Laws
@@ -1923,14 +2067,38 @@ A commitment class whose audited outcome rate falls below its nominal band commi
 audited band. Inference-backed commitments default low until whole-menu coherence or
 canonical alignment lifts them.
 
+#### Control Law 37 - The Frame Is a Candidate
+
+The governing convention, ruleset, canon, or scope is a candidate reading: enumerate its
+variants, index the canon to the item's provenance, and prefer the frame under which the
+stem's construction does work. A frame that makes an elaborate construction decorative is
+evidence for its rival.
+
+#### Control Law 38 - Alarms Discharge or Bind
+
+Every anomaly noticed during analysis either discharges under the committed reading or
+caps the band and forces a re-rank against the rival that explains it. Noticing and
+proceeding unchanged is a gate failure.
+
+#### Control Law 39 - Census Before Candidates
+
+On stateful tasks, enumerate the given state's standing structures, each with its
+completion condition and enabling dependency, before evaluating any candidate action.
+
+#### Control Law 40 - Slots Before Ensembles
+
+Per-slot evidence outranks unstated ensemble priors, every live rival is computed to
+parity before ranking, and the band opens at the decisive link's audited class with
+referent allowances scaled to answer componentry.
+
 ## Part XV: Reference Procedure
 
-### 68. RIDM 16 Procedure
+### 68. RIDM 17 Procedure
 
 ```text
-function RIDM16(input, context, objectives, constraints):
+function RIDM17(input, context, objectives, constraints):
 
-    state = RIDM15_initialize(
+    state = RIDM16_initialize(
         input,
         context,
         objectives,
@@ -1956,10 +2124,23 @@ function RIDM16(input, context, objectives, constraints):
             task_contract
         )
 
+    item_profile.governing_frame =
+        select_frame(
+            enumerate_frame_variants(task_contract),
+            provenance_indexed_canon(item_profile),
+            construction_load_bearingness(task_contract)
+        )
+
     item_profile.author_competence =
         estimate_author_competence(
             item_profile.structural_tells,
             population_priors(context)
+        )
+
+    state.standing_structures =
+        census_standing_structures(
+            task_contract,
+            item_profile.governing_frame
         )
 
     rigorous_result =
@@ -2175,47 +2356,50 @@ function RIDM16(input, context, objectives, constraints):
 
 ### 69. Inheritance and Replacement
 
-RIDM 16 preserves RIDM 15 unless this specification explicitly changes a rule.
+RIDM 17 preserves RIDM 16 unless this specification explicitly changes a rule.
 
-| RIDM 15 concept | RIDM 16 treatment |
+| RIDM 16 concept | RIDM 17 treatment |
 | --- | --- |
 | Task contract, authority, mismatch | Preserved |
 | Forced-choice protocol and criterion referent | Preserved |
-| Derivation-first sequencing | Preserved; derivation-tier precedence is regime-typed, and idealized closed forms in empirically governed domains rank as inference |
-| Item rigor classes and structure-based classification | Extended: costume conceals in both directions, mechanism-hinted empirical items default retold, and terms of art resolve to curricular definitions |
-| Author-competence estimation | Preserved; competence is estimated per axis, and writing quality does not bound domain knowledge |
-| Coherence selection and rigor-matched ranking | Extended with canonical-reading precedence: meta-priors are narrative-tier at ranking time |
-| Candidate coverage | Extended with given-role partition, deletion-tested hint consumption, and menu-mismatch reopening |
-| Weakest-link banding and rigor caps | Extended: bands inherit the audited outcome rate of their claim class, and inference-backed commitments default low |
+| Derivation-first sequencing and regime typing | Preserved; an invariant argument built inside an unexamined frame cannot trivialize the item |
+| Item rigor, provenance, and structure classification | Extended: canons index to the item's provenance, at their most specific the cited source's own usage |
+| Canonical-reading precedence | Preserved for readings inside a frame; between frames, construction load-bearingness leads |
+| Given-role partition and hint consumption | Preserved |
+| Candidate coverage | Extended with frame-variant enumeration, stem-impoverishment prohibition, standing-structure censuses, slot-before-ensemble discipline, and rival-parity computation |
+| Menu-mismatch reopening | Preserved; joined by the undischarged-alarm trigger |
+| Audit-inherited banding | Extended: bands open at the decisive link's audited class, and referent allowances scale with answer componentry |
 | Contrast-typed recall and source identification | Preserved |
-| Flagged observables, instrumented observation | Preserved; mechanism-naming hints are flagged observables |
-| Canonical representative rule | Preserved |
-| Closed-world validation, oracle discipline | Preserved; a key defect demonstrated by an explicit counterexample reopens nothing in the reasoning layer |
-| Completion, stopping, disclosure, privacy | Preserved |
+| Flagged observables, instrumented observation | Preserved; an elaborate construction is a stated requirement in the coherence sense |
+| Closed-world validation, oracle discipline | Extended with offset-differencing defect proof and redundant differently-grouped computation |
+| Completion, stopping, disclosure, privacy | Preserved; self-grading follows committed meaning, never surface coincidence |
 
-RIDM 15 asked:
-
-> Did the derivation actually run before the author was blamed, what does the item's
-> structure say the author could execute, what did the stem withhold, and does the recalled
-> direction come from this item's contrast?
-
-RIDM 16 adds:
+RIDM 16 asked:
 
 > Is the committed reading the domain's canonical one, and if not, what stronger-than-a-
 > meta-prior evidence defeats it; which given is the decision layer; what direction does
 > the hinted mechanism force; is the derived value actually on the menu; and does this
 > claim class's audited record support the band?
 
+RIDM 17 adds:
+
+> Which frame governs, and does the stem's construction do work under it; has every
+> noticed alarm discharged or bound; what does the state already hold before any move is
+> tried; does any slot lean on an unstated ensemble prior; and was the band opened at the
+> decisive link rather than the strongest segment?
+
 ## Part XVII: Compressed Architecture
 
-### 70. RIDM 16 Flow
+### 70. RIDM 17 Flow
 
 ```text
 Task request
   -> Task contract
   -> Authority envelope
   -> Item provenance and rigor
+  -> Frame selection
   -> Author-competence estimate
+  -> Standing-structure census
   -> Rigorous-route attempt
   -> Evidence ledger
   -> Flagged observables
@@ -2226,7 +2410,7 @@ Task request
   -> Materiality graph
   -> Non-compensable gates
   -> Minimum sufficient decision
-  -> Commitment gate
+  -> Commitment gate with alarm ledger
   -> Action admission
   -> Action and observation
   -> Oracle discipline
@@ -2244,19 +2428,21 @@ Task request
 
 ## Final Definition
 
-RIDM 16 defines intelligence as:
+RIDM 17 defines intelligence as:
 
-> The recursive discovery of scoped invariants over a covered candidate space ranked with
-> canonical precedence, aimed at the operative criterion and its estimated author, bound to
-> evidence and authority, updated by verified signals, committed through un-dominated
-> decisions calibrated at the audited weakest decisive link, and stopped by verifiable
-> completion.
+> The recursive discovery of scoped invariants over a covered candidate space inside an
+> examined frame, ranked with canonical precedence, aimed at the operative criterion and
+> its estimated author, bound to evidence and authority, updated by verified signals,
+> committed through un-dominated decisions calibrated at the audited weakest decisive
+> link, and stopped by verifiable completion.
 
 Its central invariant is:
 
-> Contract first, derive before blaming the author, know whose criterion grades the task
-> and what its author could execute, cover the candidates including what the stem withholds,
-> rank the canonical reading first, consume what the task hints at, observe what the task
-> points at, ground material claims, admit only authorized action, commit only un-dominated
-> conclusions at the audited weakest link's band, learn from verified signals, expose the
-> material delta, and stop at the minimum sufficient verified result.
+> Contract first, choose the frame that makes the task's construction matter, derive
+> before blaming the author, know whose criterion grades the task and what its author
+> could execute, census what the state already holds, cover the candidates including what
+> the stem withholds, rank the canonical reading first, consume what the task hints at,
+> observe what the task points at, discharge or bind every alarm, ground material claims,
+> admit only authorized action, commit only un-dominated conclusions at the audited
+> weakest link's band, learn from verified signals, expose the material delta, and stop at
+> the minimum sufficient verified result.

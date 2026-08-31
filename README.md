@@ -22,7 +22,10 @@ and stops with a verifiable result.
 - Prefer low-risk, reversible actions with observable outcomes.
 - Recompute materiality when evidence, state, authority, or stakes change.
 - Cover the candidate space before ranking; commit only un-dominated conclusions.
+- Treat the governing frame as a candidate: index conventions to the task's provenance
+  and prefer the frame under which the task's construction does work.
 - Rank the domain's canonical reading first; meta-priors break ties and never overturn it.
+- Discharge or bind every noticed anomaly before committing.
 - Treat correction signals as evidence to verify, and commit each claim class at its
   audited confidence band.
 - In graded settings, run the derivation before modeling the criterion's author, estimate
@@ -30,14 +33,16 @@ and stops with a verifiable result.
 - Report completion only when success criteria are directly validated.
 - Expose the material delta and suppress detail that cannot change the result.
 
-## RIDM 16 Architecture
+## RIDM 17 Architecture
 
 ```text
 Task request
   -> Task contract
   -> Authority envelope
   -> Item provenance and rigor
+  -> Frame selection
   -> Author-competence estimate
+  -> Standing-structure census
   -> Rigorous-route attempt
   -> Evidence ledger
   -> Flagged observables
@@ -48,7 +53,7 @@ Task request
   -> Materiality graph
   -> Non-compensable gates
   -> Minimum sufficient decision
-  -> Commitment gate
+  -> Commitment gate with alarm ledger
   -> Action admission
   -> Action and observation
   -> Oracle discipline
