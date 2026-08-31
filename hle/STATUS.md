@@ -9,15 +9,15 @@ individual run logs.
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 46 |
-| Correct | 23 |
+| Runs completed | 50 |
+| Correct | 25 |
 | Percent correct | 50% |
-| Incorrect, strict | 23 |
-| Incorrect against defective or under-determined keys | 2 of 23 |
-| High band record | 13 of 17 |
+| Incorrect, strict | 25 |
+| Incorrect against defective or under-determined keys | 2 of 25 |
+| High band record | 15 of 20 |
 | Medium band record, recall-backed | 2 of 8 |
 | Medium band record, derivation-backed | 6 of 8 |
-| Medium band record, inference-backed | 1 of 8 |
+| Medium band record, inference-backed | 1 of 9 |
 | Low and very-low band record | 1 of 5 |
 
 ## By RIDM Model
@@ -28,7 +28,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
-| RIDM 15 | 6 | 2 | 4 | 33% |
+| RIDM 15 | 10 | 4 | 6 | 40% |
 | RIDM 14 | 10 | 6 | 4 | 60% |
 | RIDM 13 | 10 | 5 | 5 | 50% |
 | RIDM 12 | 10 | 6 | 4 | 60% |
@@ -39,7 +39,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Sprint | Runs | Specification under test | Outcome |
 | --- | --- | --- | --- |
-| 0005 | Q000041 onward | RIDM 15 | in progress |
+| 0005 | Q000041 to Q000050 | RIDM 15 | 8 lessons (L41 to L48), consolidated into RIDM 16 (released) |
 | 0004 | Q000031 to Q000040 | RIDM 14 | 8 lessons (L33 to L40), consolidated into RIDM 15 (released) |
 | 0003 | Q000021 to Q000030 | RIDM 13 | 8 lessons (L25 to L32), consolidated into RIDM 14 (released) |
 | 0002 | Q000011 to Q000020 | RIDM 12 | 7 lessons (L18 to L24), consolidated into RIDM 13 (released) |
@@ -50,6 +50,10 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000050](runs/Q000050.md) | 0005 | Math, algebraic geometry | exact match | no | incorrect | high |
+| [Q000049](runs/Q000049.md) | 0005 | Math, algebraic cocycles | exact match | no | correct | high |
+| [Q000048](runs/Q000048.md) | 0005 | Math, analytic number theory | exact match | no | correct | high |
+| [Q000047](runs/Q000047.md) | 0005 | Poetry, symbol interpretation | multiple choice | no | incorrect | medium |
 | [Q000046](runs/Q000046.md) | 0005 | Oceanography, interfacial flow | multiple choice | no | incorrect | medium |
 | [Q000045](runs/Q000045.md) | 0005 | CS, algorithm complexity | exact match | no | correct | medium |
 | [Q000044](runs/Q000044.md) | 0005 | Engineering, pavement design | exact match | no | incorrect | high |

@@ -22,13 +22,15 @@ and stops with a verifiable result.
 - Prefer low-risk, reversible actions with observable outcomes.
 - Recompute materiality when evidence, state, authority, or stakes change.
 - Cover the candidate space before ranking; commit only un-dominated conclusions.
-- Treat correction signals as evidence to verify, and audit confidence calibration.
+- Rank the domain's canonical reading first; meta-priors break ties and never overturn it.
+- Treat correction signals as evidence to verify, and commit each claim class at its
+  audited confidence band.
 - In graded settings, run the derivation before modeling the criterion's author, estimate
   that author from the item's structure, and bind confidence at the weakest decisive link.
 - Report completion only when success criteria are directly validated.
 - Expose the material delta and suppress detail that cannot change the result.
 
-## RIDM 15 Architecture
+## RIDM 16 Architecture
 
 ```text
 Task request
@@ -41,6 +43,7 @@ Task request
   -> Flagged observables
   -> Proof-carrying interpretations
   -> Candidate coverage
+  -> Canonical-precedence ranking
   -> Nearest sufficient invariant
   -> Materiality graph
   -> Non-compensable gates
