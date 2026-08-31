@@ -21,7 +21,7 @@ its answer format, and the outcome.
 - After grading, the run log records where RIDM helped, where it misled, and where it was
   silent. Distilled lessons accumulate in one lessons file per sprint of ten runs.
 - Each sprint of ten runs closes with a specification revision and an integer version
-  release: sprints 0001 through 0003 produced RIDM 12, RIDM 13, and RIDM 14.
+  release: sprints 0001 through 0004 produced RIDM 12 through RIDM 15.
 
 ## Layout
 

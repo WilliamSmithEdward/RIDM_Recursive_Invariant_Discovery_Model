@@ -23,18 +23,20 @@ and stops with a verifiable result.
 - Recompute materiality when evidence, state, authority, or stakes change.
 - Cover the candidate space before ranking; commit only un-dominated conclusions.
 - Treat correction signals as evidence to verify, and audit confidence calibration.
-- In graded settings, classify the task's rigor, model the criterion's author, and bind
-  confidence at the weakest decisive link.
+- In graded settings, run the derivation before modeling the criterion's author, estimate
+  that author from the item's structure, and bind confidence at the weakest decisive link.
 - Report completion only when success criteria are directly validated.
 - Expose the material delta and suppress detail that cannot change the result.
 
-## RIDM 14 Architecture
+## RIDM 15 Architecture
 
 ```text
 Task request
   -> Task contract
   -> Authority envelope
   -> Item provenance and rigor
+  -> Author-competence estimate
+  -> Rigorous-route attempt
   -> Evidence ledger
   -> Flagged observables
   -> Proof-carrying interpretations

@@ -9,15 +9,15 @@ individual run logs.
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 36 |
-| Correct | 18 |
-| Percent correct | 50% |
-| Incorrect, strict | 18 |
-| Incorrect against defective or under-determined keys | 2 of 18 |
-| High band record | 11 of 14 |
+| Runs completed | 40 |
+| Correct | 21 |
+| Percent correct | 53% |
+| Incorrect, strict | 19 |
+| Incorrect against defective or under-determined keys | 2 of 19 |
+| High band record | 12 of 15 |
 | Medium band record, recall-backed | 2 of 8 |
-| Medium band record, derivation-backed | 4 of 6 |
-| Medium band record, inference-backed | 0 of 3 |
+| Medium band record, derivation-backed | 5 of 7 |
+| Medium band record, inference-backed | 1 of 5 |
 | Low and very-low band record | 1 of 5 |
 
 ## By RIDM Model
@@ -28,7 +28,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
-| RIDM 14 | 6 | 3 | 3 | 50% |
+| RIDM 14 | 10 | 6 | 4 | 60% |
 | RIDM 13 | 10 | 5 | 5 | 50% |
 | RIDM 12 | 10 | 6 | 4 | 60% |
 | RIDM 11 | 10 | 4 | 6 | 40% |
@@ -38,7 +38,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Sprint | Runs | Specification under test | Outcome |
 | --- | --- | --- | --- |
-| 0004 | Q000031 to Q000040 | RIDM 14 | in progress |
+| 0004 | Q000031 to Q000040 | RIDM 14 | 8 lessons (L33 to L40), consolidated into RIDM 15 (released) |
 | 0003 | Q000021 to Q000030 | RIDM 13 | 8 lessons (L25 to L32), consolidated into RIDM 14 (released) |
 | 0002 | Q000011 to Q000020 | RIDM 12 | 7 lessons (L18 to L24), consolidated into RIDM 13 (released) |
 | 0001 | Q000001 to Q000010 | RIDM 11 | 17 lessons, consolidated into RIDM 12 (released) |
@@ -48,6 +48,10 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000040](runs/Q000040.md) | 0004 | Physics, variable-mass mechanics | exact match | no | correct | high |
+| [Q000039](runs/Q000039.md) | 0004 | Chemistry, organic mechanism | exact match | yes | correct | medium |
+| [Q000038](runs/Q000038.md) | 0004 | Ecology, settlement experiment | multiple choice | no | correct | medium |
+| [Q000037](runs/Q000037.md) | 0004 | Logic, propositional | exact match | no | incorrect | medium |
 | [Q000036](runs/Q000036.md) | 0004 | AI, deep learning theory | multiple choice | no | correct | medium |
 | [Q000035](runs/Q000035.md) | 0004 | Law, securities regulation | multiple choice | no | correct | medium |
 | [Q000034](runs/Q000034.md) | 0004 | Medicine, clinical vignette | multiple choice | no | incorrect | medium |
