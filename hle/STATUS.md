@@ -9,15 +9,15 @@ individual run logs.
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 40 |
-| Correct | 21 |
-| Percent correct | 53% |
-| Incorrect, strict | 19 |
-| Incorrect against defective or under-determined keys | 2 of 19 |
-| High band record | 12 of 15 |
+| Runs completed | 43 |
+| Correct | 22 |
+| Percent correct | 51% |
+| Incorrect, strict | 21 |
+| Incorrect against defective or under-determined keys | 2 of 21 |
+| High band record | 13 of 16 |
 | Medium band record, recall-backed | 2 of 8 |
 | Medium band record, derivation-backed | 5 of 7 |
-| Medium band record, inference-backed | 1 of 5 |
+| Medium band record, inference-backed | 1 of 7 |
 | Low and very-low band record | 1 of 5 |
 
 ## By RIDM Model
@@ -28,6 +28,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
+| RIDM 15 | 3 | 1 | 2 | 33% |
 | RIDM 14 | 10 | 6 | 4 | 60% |
 | RIDM 13 | 10 | 5 | 5 | 50% |
 | RIDM 12 | 10 | 6 | 4 | 60% |
@@ -38,6 +39,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Sprint | Runs | Specification under test | Outcome |
 | --- | --- | --- | --- |
+| 0005 | Q000041 onward | RIDM 15 | in progress |
 | 0004 | Q000031 to Q000040 | RIDM 14 | 8 lessons (L33 to L40), consolidated into RIDM 15 (released) |
 | 0003 | Q000021 to Q000030 | RIDM 13 | 8 lessons (L25 to L32), consolidated into RIDM 14 (released) |
 | 0002 | Q000011 to Q000020 | RIDM 12 | 7 lessons (L18 to L24), consolidated into RIDM 13 (released) |
@@ -48,6 +50,9 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000043](runs/Q000043.md) | 0005 | Genetics, population model logic | multiple choice | no | incorrect | medium |
+| [Q000042](runs/Q000042.md) | 0005 | Medicine, pain pharmacotherapy | multiple choice | no | incorrect | medium |
+| [Q000041](runs/Q000041.md) | 0005 | Math, geometric measure theory | exact match | no | correct | high |
 | [Q000040](runs/Q000040.md) | 0004 | Physics, variable-mass mechanics | exact match | no | correct | high |
 | [Q000039](runs/Q000039.md) | 0004 | Chemistry, organic mechanism | exact match | yes | correct | medium |
 | [Q000038](runs/Q000038.md) | 0004 | Ecology, settlement experiment | multiple choice | no | correct | medium |
