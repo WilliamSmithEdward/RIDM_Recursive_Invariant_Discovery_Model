@@ -9,15 +9,15 @@ individual run logs.
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 30 |
-| Correct | 15 |
-| Percent correct | 50% |
-| Incorrect, strict | 15 |
-| Incorrect against defective or under-determined keys | 2 of 15 |
-| High band record | 10 of 13 |
-| Medium band record, recall-backed | 0 of 5 |
+| Runs completed | 33 |
+| Correct | 16 |
+| Percent correct | 48% |
+| Incorrect, strict | 17 |
+| Incorrect against defective or under-determined keys | 2 of 17 |
+| High band record | 11 of 14 |
+| Medium band record, recall-backed | 0 of 6 |
 | Medium band record, derivation-backed | 4 of 6 |
-| Medium band record, inference-backed | 0 of 1 |
+| Medium band record, inference-backed | 0 of 2 |
 | Low and very-low band record | 1 of 5 |
 
 ## By RIDM Model
@@ -28,6 +28,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
+| RIDM 14 | 3 | 1 | 2 | 33% |
 | RIDM 13 | 10 | 5 | 5 | 50% |
 | RIDM 12 | 10 | 6 | 4 | 60% |
 | RIDM 11 | 10 | 4 | 6 | 40% |
@@ -37,6 +38,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Sprint | Runs | Specification under test | Outcome |
 | --- | --- | --- | --- |
+| 0004 | Q000031 to Q000040 | RIDM 14 | in progress |
 | 0003 | Q000021 to Q000030 | RIDM 13 | 8 lessons (L25 to L32), consolidated into RIDM 14 (released) |
 | 0002 | Q000011 to Q000020 | RIDM 12 | 7 lessons (L18 to L24), consolidated into RIDM 13 (released) |
 | 0001 | Q000001 to Q000010 | RIDM 11 | 17 lessons, consolidated into RIDM 12 (released) |
@@ -46,6 +48,9 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000033](runs/Q000033.md) | 0004 | Puzzle, cipher | exact match | no | correct | high |
+| [Q000032](runs/Q000032.md) | 0004 | Neuroscience, comorbidity imaging | multiple choice | no | incorrect | medium |
+| [Q000031](runs/Q000031.md) | 0004 | Math, mathematical physics PDE | exact match | no | incorrect | medium |
 | [Q000030](runs/Q000030.md) | 0003 | Neuroscience, MEA recording | exact match | yes | incorrect | medium |
 | [Q000029](runs/Q000029.md) | 0003 | Physics, gauge symmetry | multiple choice | no | incorrect | high |
 | [Q000028](runs/Q000028.md) | 0003 | Veterinary medicine, ECG | exact match | yes | correct | high |
