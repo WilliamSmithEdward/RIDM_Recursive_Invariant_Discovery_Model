@@ -9,16 +9,16 @@ individual run logs.
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 60 |
-| Correct | 28 |
-| Percent correct | 47% |
+| Runs completed | 63 |
+| Correct | 31 |
+| Percent correct | 49% |
 | Incorrect, strict | 32 |
 | Incorrect against defective or under-determined keys | 2 of 32 |
-| High band record | 18 of 27 |
+| High band record | 19 of 28 |
 | Medium band record, recall-backed | 2 of 8 |
-| Medium band record, derivation-backed | 6 of 9 |
+| Medium band record, derivation-backed | 7 of 10 |
 | Medium band record, inference-backed | 1 of 10 |
-| Low and very-low band record | 1 of 6 |
+| Low and very-low band record | 2 of 7 |
 
 ## By RIDM Model
 
@@ -28,6 +28,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
+| RIDM 17 | 3 | 3 | 0 | 100% |
 | RIDM 16 | 10 | 3 | 7 | 30% |
 | RIDM 15 | 10 | 4 | 6 | 40% |
 | RIDM 14 | 10 | 6 | 4 | 60% |
@@ -40,6 +41,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Sprint | Runs | Specification under test | Outcome |
 | --- | --- | --- | --- |
+| 0007 | Q000061 onward | RIDM 17 | in progress |
 | 0006 | Q000051 to Q000060 | RIDM 16 | 8 lessons (L49 to L56), consolidated into RIDM 17 (released) |
 | 0005 | Q000041 to Q000050 | RIDM 15 | 8 lessons (L41 to L48), consolidated into RIDM 16 (released) |
 | 0004 | Q000031 to Q000040 | RIDM 14 | 8 lessons (L33 to L40), consolidated into RIDM 15 (released) |
@@ -52,6 +54,9 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000063](runs/Q000063.md) | 0007 | Archaeology, site identification | exact match | yes | correct | low |
+| [Q000062](runs/Q000062.md) | 0007 | Engineering, textile permeability | exact match | no | correct | medium |
+| [Q000061](runs/Q000061.md) | 0007 | Math, geometric reconstruction | exact match | yes | correct | high |
 | [Q000060](runs/Q000060.md) | 0006 | Chemistry, phase-transfer catalysis | exact match | yes | correct | high |
 | [Q000059](runs/Q000059.md) | 0006 | Game theory, mancala | multiple choice | no | incorrect | high |
 | [Q000058](runs/Q000058.md) | 0006 | Games, Connect 4 tactics | exact match | no | incorrect | medium |
