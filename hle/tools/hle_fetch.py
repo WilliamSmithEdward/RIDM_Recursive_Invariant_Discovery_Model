@@ -7,21 +7,26 @@ tree, so no gated content or dataset id can enter version control.
 
 Fetch commands print the question id, safe metadata, and question text, and decode any
 question image to a file. They never print the answer, rationale, or canary. Grading happens
-only through --reveal, run after the answer has been committed in writing.
+only through --reveal, and --reveal is interlocked: it refuses to run until the answer has
+been recorded with --commit, so a premature reveal is structurally impossible rather than
+merely prohibited (RIDM oracle-sequencing law).
 
 Usage:
   python hle_fetch.py --random [--text-only] [--category NAME]
   python hle_fetch.py --id QUESTION_ID
+  python hle_fetch.py --commit QUESTION_ID "committed answer"
   python hle_fetch.py --reveal QUESTION_ID
   python hle_fetch.py --stats
 
 State:
   Data directory: RIDM_HLE_DIR environment variable if set, otherwise ~/.ridm_hle
   Seen log:       <data dir>/seen_ids.txt (one id per line, # comments allowed)
+  Commit log:     <data dir>/commits.txt (tab-separated: id, UTC time, committed answer)
   Images:         <data dir>/images/<id>[_rationale].<ext>
 
 Any fetched or revealed id is appended to the seen log, so --random never repeats a
-question whose text has already been exposed.
+question whose text has already been exposed. The commit log lives outside the repository
+with the rest of the state, so committed answers never enter version control.
 """
 
 import argparse
@@ -147,8 +152,38 @@ def cmd_id(qid):
     print_question(row_by_id(load_dataset_rows(), qid), root)
 
 
+def load_commits(root):
+    path = root / "commits.txt"
+    if not path.exists():
+        return set()
+    committed = set()
+    for line in path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if line and not line.startswith("#"):
+            committed.add(line.split("\t")[0])
+    return committed
+
+
+def cmd_commit(qid, answer):
+    from datetime import datetime, timezone
+
+    root = data_dir()
+    stamp = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    with (root / "commits.txt").open("a", encoding="utf-8") as f:
+        f.write(f"{qid}\t{stamp}\t{answer}\n")
+    print(f"committed answer recorded for {qid} at {stamp}")
+    print("reveal is now unlocked for this id")
+
+
 def cmd_reveal(qid):
     root = data_dir()
+    if qid not in load_commits(root):
+        sys.exit(
+            "reveal refused: no committed answer recorded for this id.\n"
+            "Record the commitment first:\n"
+            f'  python hle_fetch.py --commit {qid} "your committed answer"\n'
+            "A reveal before commitment spends the item and voids the run."
+        )
     row = row_by_id(load_dataset_rows(), qid)
     print("=" * 78)
     print(f"id: {row['id']}")
@@ -190,7 +225,15 @@ def main():
     group.add_argument("--random", action="store_true", help="print one unseen question")
     group.add_argument("--id", metavar="QUESTION_ID", help="print one specific question")
     group.add_argument(
-        "--reveal", metavar="QUESTION_ID", help="print the answer and rationale for grading"
+        "--commit",
+        nargs=2,
+        metavar=("QUESTION_ID", "ANSWER"),
+        help="record the committed answer; required before --reveal for that id",
+    )
+    group.add_argument(
+        "--reveal",
+        metavar="QUESTION_ID",
+        help="print the answer and rationale for grading (requires a prior --commit)",
     )
     group.add_argument("--stats", action="store_true", help="dataset and seen-log summary")
     parser.add_argument(
@@ -204,6 +247,8 @@ def main():
         cmd_random(args)
     elif args.id:
         cmd_id(args.id)
+    elif args.commit:
+        cmd_commit(args.commit[0], args.commit[1])
     elif args.reveal:
         cmd_reveal(args.reveal)
     else:
