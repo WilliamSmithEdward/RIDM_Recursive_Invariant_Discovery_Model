@@ -42,7 +42,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Sprint | Runs | Specification under test | Outcome |
 | --- | --- | --- | --- |
-| 0008 | Q000071 onward | RIDM 18 | in progress |
+| 0008 | Q000071 to Q000080 | RIDM 18 | 7 lessons (L62 to L68), consolidated into RIDM 19 (released) |
 | 0007 | Q000061 to Q000070 | RIDM 17 | 5 lessons (L57 to L61), consolidated into RIDM 18 (released) |
 | 0006 | Q000051 to Q000060 | RIDM 16 | 8 lessons (L49 to L56), consolidated into RIDM 17 (released) |
 | 0005 | Q000041 to Q000050 | RIDM 15 | 8 lessons (L41 to L48), consolidated into RIDM 16 (released) |

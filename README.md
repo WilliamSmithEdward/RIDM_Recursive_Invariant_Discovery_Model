@@ -21,34 +21,42 @@ and stops with a verifiable result.
   sake.
 - Prefer low-risk, reversible actions with observable outcomes.
 - Recompute materiality when evidence, state, authority, or stakes change.
-- Cover the candidate space before ranking; complete each rival with the mechanisms
-  granted to it, and commit only conclusions un-dominated at whole-solution scope.
-- Treat the governing frame as a candidate: index conventions to the task's provenance
-  and prefer the frame under which the task's construction does work.
+- Cover the candidate space before ranking, including the idioms the task's own examples
+  demonstrate; complete each rival with the mechanisms granted to it, demote none without
+  typed evidence, and commit only conclusions un-dominated at whole-solution scope.
+- Treat the governing frame as a candidate: index conventions to the task's provenance,
+  and on announced domain transfers to the destination field, preferring the frame under
+  which the task's construction does work.
 - Rank the domain's canonical reading first; meta-priors break ties and never overturn it.
+- Keep given data exact under estimation budgets; approximate only what cannot be
+  represented.
 - Discharge or bind every noticed anomaly before committing.
 - Treat correction signals as evidence to verify, consult them only after committing,
-  and commit each claim class at its audited confidence band.
+  with the sequencing enforced by the mechanism where possible, and commit each claim
+  class at its audited confidence band.
 - In graded settings, run the derivation before modeling the criterion's author, estimate
   that author from the item's structure, and bind confidence at the weakest decisive link.
 - Report completion only when success criteria are directly validated.
 - Expose the material delta and suppress detail that cannot change the result.
 
-## RIDM 18 Architecture
+## RIDM 19 Architecture
 
 ```text
 Task request
   -> Task contract
   -> Authority envelope
   -> Item provenance and rigor
+  -> Canon indexing across transfers
   -> Frame selection
-  -> Author-competence estimate
+  -> Author-competence estimate and style corpus
   -> Standing-structure and capability census
   -> Rigorous-route attempt
+  -> Named-trap shortcut computation
   -> Evidence ledger
   -> Flagged observables
   -> Proof-carrying interpretations
-  -> Candidate coverage
+  -> Candidate coverage with style variants
+  -> Typed rival demotion with gloss probes
   -> Canonical-precedence ranking
   -> Nearest sufficient invariant
   -> Materiality graph
@@ -56,6 +64,7 @@ Task request
   -> Minimum sufficient decision
   -> Commitment gate with alarm ledger
   -> Action admission
+  -> Interlocked oracle sequencing
   -> Action and observation
   -> Oracle discipline
   -> Materiality reclassification
