@@ -9,16 +9,16 @@ individual run logs.
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 76 |
-| Correct | 40 |
-| Percent correct | 53% |
-| Incorrect, strict | 36 |
-| Incorrect against defective or under-determined keys | 2 of 36 |
-| High band record | 24 of 35 |
+| Runs completed | 80 |
+| Correct | 43 |
+| Percent correct | 54% |
+| Incorrect, strict | 37 |
+| Incorrect against defective or under-determined keys | 2 of 37 |
+| High band record | 27 of 38 |
 | Medium band record, recall-backed | 3 of 9 |
 | Medium band record, derivation-backed | 8 of 11 |
 | Medium band record, inference-backed | 3 of 13 |
-| Low and very-low band record | 2 of 8 |
+| Low and very-low band record | 2 of 9 |
 
 ## By RIDM Model
 
@@ -28,7 +28,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
-| RIDM 18 | 6 | 3 | 3 | 50% |
+| RIDM 18 | 10 | 6 | 4 | 60% |
 | RIDM 17 | 10 | 9 | 1 | 90% |
 | RIDM 16 | 10 | 3 | 7 | 30% |
 | RIDM 15 | 10 | 4 | 6 | 40% |
@@ -56,6 +56,10 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000080](runs/Q000080.md) | 0008 | CS, decimal-architecture program design | exact match | no | incorrect | low |
+| [Q000079](runs/Q000079.md) | 0008 | Math, incidence geometry | exact match | no | correct | high |
+| [Q000078](runs/Q000078.md) | 0008 | Math, matrix-dressed integral | multiple choice | no | correct | high |
+| [Q000077](runs/Q000077.md) | 0008 | Math, high-precision evaluation | exact match | no | correct | high |
 | [Q000076](runs/Q000076.md) | 0008 | Bioinformatics, sequence identification | multiple choice | no | correct | high |
 | [Q000075](runs/Q000075.md) | 0008 | Math, constrained estimation puzzle | exact match | no | incorrect | low |
 | [Q000074](runs/Q000074.md) | 0008 | Engineering, ECU cycle budgeting | exact match | no | correct | medium |
