@@ -9,16 +9,16 @@ individual run logs.
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 73 |
-| Correct | 38 |
-| Percent correct | 52% |
-| Incorrect, strict | 35 |
-| Incorrect against defective or under-determined keys | 2 of 35 |
-| High band record | 23 of 34 |
+| Runs completed | 76 |
+| Correct | 40 |
+| Percent correct | 53% |
+| Incorrect, strict | 36 |
+| Incorrect against defective or under-determined keys | 2 of 36 |
+| High band record | 24 of 35 |
 | Medium band record, recall-backed | 3 of 9 |
 | Medium band record, derivation-backed | 8 of 11 |
-| Medium band record, inference-backed | 2 of 12 |
-| Low and very-low band record | 2 of 7 |
+| Medium band record, inference-backed | 3 of 13 |
+| Low and very-low band record | 2 of 8 |
 
 ## By RIDM Model
 
@@ -28,7 +28,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
-| RIDM 18 | 3 | 1 | 2 | 33% |
+| RIDM 18 | 6 | 3 | 3 | 50% |
 | RIDM 17 | 10 | 9 | 1 | 90% |
 | RIDM 16 | 10 | 3 | 7 | 30% |
 | RIDM 15 | 10 | 4 | 6 | 40% |
@@ -56,6 +56,9 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000076](runs/Q000076.md) | 0008 | Bioinformatics, sequence identification | multiple choice | no | correct | high |
+| [Q000075](runs/Q000075.md) | 0008 | Math, constrained estimation puzzle | exact match | no | incorrect | low |
+| [Q000074](runs/Q000074.md) | 0008 | Engineering, ECU cycle budgeting | exact match | no | correct | medium |
 | [Q000073](runs/Q000073.md) | 0008 | Math, policy gradient | exact match | yes | incorrect | high |
 | [Q000072](runs/Q000072.md) | 0008 | Education, automation bias | multiple choice | no | incorrect | high |
 | [Q000071](runs/Q000071.md) | 0008 | CS, memory-constrained programming | exact match | no | correct | medium |
