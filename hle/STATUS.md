@@ -9,15 +9,15 @@ individual run logs.
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 69 |
+| Runs completed | 70 |
 | Correct | 37 |
-| Percent correct | 54% |
-| Incorrect, strict | 32 |
-| Incorrect against defective or under-determined keys | 2 of 32 |
+| Percent correct | 53% |
+| Incorrect, strict | 33 |
+| Incorrect against defective or under-determined keys | 2 of 33 |
 | High band record | 23 of 32 |
 | Medium band record, recall-backed | 3 of 9 |
 | Medium band record, derivation-backed | 7 of 10 |
-| Medium band record, inference-backed | 2 of 11 |
+| Medium band record, inference-backed | 2 of 12 |
 | Low and very-low band record | 2 of 7 |
 
 ## By RIDM Model
@@ -28,7 +28,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
-| RIDM 17 | 9 | 9 | 0 | 100% |
+| RIDM 17 | 10 | 9 | 1 | 90% |
 | RIDM 16 | 10 | 3 | 7 | 30% |
 | RIDM 15 | 10 | 4 | 6 | 40% |
 | RIDM 14 | 10 | 6 | 4 | 60% |
@@ -41,7 +41,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Sprint | Runs | Specification under test | Outcome |
 | --- | --- | --- | --- |
-| 0007 | Q000061 onward | RIDM 17 | in progress |
+| 0007 | Q000061 to Q000070 | RIDM 17 | 5 lessons (L57 to L61), consolidated into RIDM 18 (released) |
 | 0006 | Q000051 to Q000060 | RIDM 16 | 8 lessons (L49 to L56), consolidated into RIDM 17 (released) |
 | 0005 | Q000041 to Q000050 | RIDM 15 | 8 lessons (L41 to L48), consolidated into RIDM 16 (released) |
 | 0004 | Q000031 to Q000040 | RIDM 14 | 8 lessons (L33 to L40), consolidated into RIDM 15 (released) |
@@ -54,6 +54,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000070](runs/Q000070.md) | 0007 | Math, packing optimization | multiple choice | no | incorrect | medium |
 | [Q000069](runs/Q000069.md) | 0007 | Math, bounded cohomology | exact match | no | correct | medium |
 | [Q000068](runs/Q000068.md) | 0007 | CS/AI, linear separability | multiple choice | no | correct | high |
 | [Q000067](runs/Q000067.md) | 0007 | Math, inverse limits | exact match | no | correct | high |

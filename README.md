@@ -21,19 +21,20 @@ and stops with a verifiable result.
   sake.
 - Prefer low-risk, reversible actions with observable outcomes.
 - Recompute materiality when evidence, state, authority, or stakes change.
-- Cover the candidate space before ranking; commit only un-dominated conclusions.
+- Cover the candidate space before ranking; complete each rival with the mechanisms
+  granted to it, and commit only conclusions un-dominated at whole-solution scope.
 - Treat the governing frame as a candidate: index conventions to the task's provenance
   and prefer the frame under which the task's construction does work.
 - Rank the domain's canonical reading first; meta-priors break ties and never overturn it.
 - Discharge or bind every noticed anomaly before committing.
-- Treat correction signals as evidence to verify, and commit each claim class at its
-  audited confidence band.
+- Treat correction signals as evidence to verify, consult them only after committing,
+  and commit each claim class at its audited confidence band.
 - In graded settings, run the derivation before modeling the criterion's author, estimate
   that author from the item's structure, and bind confidence at the weakest decisive link.
 - Report completion only when success criteria are directly validated.
 - Expose the material delta and suppress detail that cannot change the result.
 
-## RIDM 17 Architecture
+## RIDM 18 Architecture
 
 ```text
 Task request
@@ -42,7 +43,7 @@ Task request
   -> Item provenance and rigor
   -> Frame selection
   -> Author-competence estimate
-  -> Standing-structure census
+  -> Standing-structure and capability census
   -> Rigorous-route attempt
   -> Evidence ledger
   -> Flagged observables

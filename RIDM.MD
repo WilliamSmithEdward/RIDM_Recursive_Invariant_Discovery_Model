@@ -1,10 +1,10 @@
-# Recursive Invariant Discovery Model (RIDM) 17
+# Recursive Invariant Discovery Model (RIDM) 18
 
 *An evidence-bound architecture for adaptive reasoning and action*
 
 ## 1. Status
 
-RIDM 17 is the active specification. It supersedes RIDM 16 while preserving the central
+RIDM 18 is the active specification. It supersedes RIDM 17 while preserving the central
 restraint principle:
 
 > Discover broadly enough to identify the material delta, expose only that delta, and stop at
@@ -17,51 +17,50 @@ benchmark questions, applying the previous version to each attempt and logging w
 framework helped, misled, or was silent. Process-level logs are in the repository's `hle`
 directory; no benchmark content is retained. Under RIDM 11.0 the runs scored four of ten,
 under RIDM 12 six of ten, under RIDM 13 five of ten, under RIDM 14 six of ten, under
-RIDM 15 four of ten, and under RIDM 16 three of ten, two of those misses graded against
-keys with demonstrable internal defects. The samples are small and the category mixes
-differ, so the comparisons are indicative, not conclusive. RIDM 16's genuine misses moved
-up a layer, from ranking among readings to selecting the frame inside which readings are
-formed: a terminological canon indexed to the wrong population, a silently imported rule
-variant whose rival made the stem's construction load-bearing, a stated scope shrunk by
-imported rigor, a standing-structure census skipped, and an unstated ensemble prior
-overriding per-slot evidence. RIDM 17's revisions concentrate there, in frame selection
-as candidate coverage, alarm discharge-or-bind at the commitment gate, standing-structure
-censuses, slot-before-ensemble compound discipline, and decisive-link-first banding.
+RIDM 15 four of ten, under RIDM 16 three of ten (two of those misses graded against keys
+with demonstrable internal defects), and under RIDM 17 nine of ten, the strongest sprint
+to date. The samples are small and the category mixes differ, so the comparisons are
+indicative, not conclusive. RIDM 17's frame, alarm, census, and banding disciplines held
+across the sprint; its single genuine miss sat one layer further along, at solution
+assembly on an optimization item: a rival solution was found but costed without the
+mechanism that makes it win, a capability the stem granted stayed unused under the
+committed reading, and an answer option inside the attempt's own derived feasibility
+window went unprobed. RIDM 18's revisions concentrate there, in capability consumption,
+whole-solution dominance, in-window option probing, and oracle-reveal sequencing.
 
 Proof-carrying output means concise claims, evidence, assumptions, validation, and limits. It
 does not require disclosure of private chain-of-thought or a transcript of internal reasoning.
 
 ## Part I: The Central Revision
 
-### 2. The Problem Exposed by RIDM 16
+### 2. The Problem Exposed by RIDM 17
 
-RIDM 16 corrected the ranking layer: canonical readings led, meta-priors were demoted to
-tie-breaking, givens were partitioned by role, hints were consumed causally, and bands
-inherited the audit. A sixth evaluation sprint, run under RIDM 16, exposed the residual
-one layer further up, at frame selection: the choice of convention, ruleset,
-terminological canon, or enumeration scope inside which candidate readings are formed at
-all. A canon was indexed to the discipline's textbook default when the item's cited
-source community used another; a game's ending rule was imported silently from the
-dominant variant while the rival variant was the one under which the item's elaborate
-constructed position did any work, and the noticed decorative-position alarm was dismissed
-rather than priced; a stated "all possible" scope was shrunk by an unstated premise
-imported from domain rigor. The same sprint showed a standing-structure census skipped in
-favor of move-local analysis, an unstated ensemble prior overriding per-slot evidence on
-a compound answer, and two keys with demonstrable internal defects, both established by
-reproducing the key's number exactly from the correct value plus an identified error
-mechanism.
+RIDM 17 corrected the frame layer: governing conventions became candidates, alarms
+discharged or bound, standing structures were censused, slots outranked ensembles, and
+bands opened at the decisive link. A seventh evaluation sprint, run under RIDM 17, scored
+nine of ten and confirmed those disciplines across instrumented measurement, closed-form
+optimization, identification, vignette partition, model tournaments, and split
+derivation-plus-recall commitments. The one genuine miss exposed the residual at the
+solution-assembly layer of an optimization item. The rival solution was found during
+analysis but evaluated without the mechanism that makes it win, then pruned on the
+comparison: rival strawmanning executed in the wild. Three signals that should have
+forced the completed rival were present and mishandled: a capability the stem granted (a
+lower-value product form) was never used under the committed reading, a per-unit
+dominance argument was silently promoted to a whole-solution dominance claim, and an
+answer option lying inside the attempt's own derived feasibility window, above the
+committed value, was dismissed by an author-competence estimate instead of being
+constructed or refuted. The same sprint recorded a harness-level protocol failure on an
+unscored item: the grading oracle was consulted before the answer was committed, spending
+the item.
 
-| RIDM 16 residual | Why it is material | RIDM 17 correction |
+| RIDM 17 residual | Why it is material | RIDM 18 correction |
 | --- | --- | --- |
-| Governing frames imported as background facts | The convention or ruleset choice carried decisive claims silently in three misses | Frame selection as candidate coverage, with provenance-indexed canons and load-bearingness ranking (Sections 19, 23, and 24) |
-| Stated scopes shrunk by imported rigor | Deleting configurations a literal scope admits is an assumed claim doing silent work | Stem-impoverishment prohibition with a deletion test on scope words (Section 23) |
-| Alarms noticed but not priced | Noting an anomaly and proceeding recurred despite the rule existing | Discharge-or-bind alarm ledger at the commitment gate (Sections 24 and 29) |
-| Candidate-local analysis of stateful tasks | Standing structures such as stacked threats are invisible move-locally | Standing-structure census before candidate evaluation (Section 23) |
-| Ensemble priors overriding slot evidence | An unstated no-repeat assumption demoted a correct slot read | Slot-before-ensemble discipline for compound answers (Section 23) |
-| Bands argued down from the strongest component | The inference-defaults-low rule was under-applied twice | Decisive-link-first banding order, and rival computation to parity (Sections 21 and 29) |
-| Referent noise priced flat per item | Multi-component hand-computed keys defect per component | Componentry-scaled referent allowance and offset-reproduction defect proof (Sections 21 and 48) |
+| Granted capabilities left decorative | A stem-granted operation or product form unused under the committed reading marked the winning rival in the sprint's one miss | Capability consumption as construction, with the using rival computed to parity (Sections 23 and 24) |
+| Per-unit dominance promoted to solution dominance | Cell-wise value comparisons pruned a globally optimal solution that monetizes unreachable regions | Whole-solution dominance restatement before pruning (Sections 20 and 23) |
+| In-window options dismissed | An option between the committed value and the derived ceiling is evidence of a better construction | In-window options as flagged observables with a construct-or-refute obligation (Sections 23, 24, and 29) |
+| Oracle reveals unsequenced | A reveal before commitment irreversibly spends the item | Commitment as the admission precondition for oracle consultation (Section 48) |
 
-These residuals do not invalidate RIDM 16. They mark the next sufficient invariant horizon.
+These residuals do not invalidate RIDM 17. They mark the next sufficient invariant horizon.
 
 ### 3. Primary Operating Law
 
@@ -70,40 +69,41 @@ These residuals do not invalidate RIDM 16. They mark the next sufficient invaria
 
 Restraint still governs disclosure. Evidence and authority still govern action. Coverage
 governs candidates, coherence governs interpretation, calibration governs confidence,
-derivation governs constants, and the menu never defines the space. RIDM 16 added: the
-canonical reading leads the ranking, and bands inherit the audit. RIDM 17 adds: the
+derivation governs constants, and the menu never defines the space. RIDM 17 added: the
 governing frame is itself a candidate, and every noticed alarm discharges or binds.
+RIDM 18 adds: what the task grants must do work or bind, and dominance is judged on whole
+solutions.
 
 ### 4. Revised Definition of Intelligence
 
-RIDM 17 defines intelligence as:
+RIDM 18 defines intelligence as:
 
 > The ability to discover task-relevant invariants, cover the space of candidate readings and
 > answers, ground material claims, choose authorized actions, learn from verified signals, and
 > stop at a calibrated, verifiable minimum sufficient result.
 
-RIDM 16 added canonical-reading precedence, given-role partition, mechanism-hint
-consumption, and audit-inherited banding. RIDM 17 refines the frame-selection layer with
-four disciplines:
+RIDM 17 added frame selection as coverage, alarm discharge-or-bind, standing-structure
+censuses, and slot-before-ensemble compound discipline. RIDM 18 refines the
+solution-assembly layer with four disciplines:
 
-- frame selection as coverage: the governing convention, ruleset, terminological canon,
-  or enumeration scope is a candidate reading, enumerated and priced, with the canon
-  indexed to the item's provenance and frames ranked by whether the stem's construction
-  does work under them
-- alarm discharge-or-bind: every anomaly noticed during analysis either discharges under
-  the committed reading or caps the band and forces a re-rank against the rival that
-  explains it
-- standing-structure census: on stateful tasks, the given state's existing structures are
-  enumerated with their completion conditions before any candidate action is evaluated
-- slot-before-ensemble compound discipline: per-slot evidence outranks unstated ensemble
-  priors, rivals are computed to parity before ranking, and referent-noise allowances
-  scale with the answer's component count
+- capability consumption: an operation, product form, move type, or composite the task
+  grants is construction; a committed solution under which it is never used is an
+  undischarged alarm, and the rival solution that uses it is computed to parity before
+  ranking
+- whole-solution dominance: a per-unit or per-component dominance argument prunes a
+  candidate only after it is restated at the solution level and the pruned candidate is
+  shown unable to reach value the dominant one cannot
+- in-window option probing: an offered answer option lying strictly between the committed
+  value and the attempt's own derived ceiling is a flagged observable, entering the
+  commitment gate under a construct-or-refute obligation
+- oracle-reveal sequencing: consulting a grading oracle is an irreversible information
+  action whose admission precondition is a recorded commitment
 
 ## Part II: Core Vocabulary and Scope
 
 ### 5. Core Terms
 
-RIDM 17 uses the following terms precisely.
+RIDM 18 uses the following terms precisely.
 
 - A **heuristic** is a compressed rule that is useful within a scope.
 - An **invariant** is a relation stable enough to govern the current task under stated
@@ -523,6 +523,14 @@ derivations, a heuristic estimate against a rigorous argument, recall against co
 not average internal routes. Prefer the more direct and checkable route, and record what would
 resolve the disagreement.
 
+Dominance claims carry a scope the way recalled results carry a parameterization. A
+per-unit comparison, one option yields less value than another from the same material or
+budget, licenses pruning only at the level it was established: before it eliminates a
+candidate solution, restate it at the whole-solution level and verify that the dominated
+option cannot buy access to value the dominant option cannot reach. Component-wise
+dominance silently promoted to solution dominance is how a globally optimal candidate
+exits the set unexamined.
+
 ### 21. Uncertainty and Calibration
 
 Uncertainty must be typed and propagated.
@@ -680,7 +688,22 @@ how well the set is ranked. Before ranking:
   slots, probe by technique fingerprint, not subject association.
 - Compute every live rival to commitment quality before ranking. A rival evaluated
   sloppily and then demoted was never in the candidate set, and the comparison was
-  against a strawman.
+  against a strawman. Completing a rival includes attaching every mechanism available to
+  it, in particular any granted capability the leading candidate leaves unused; a rival
+  costed without its winning mechanism is a strawman even when its skeleton was found.
+- Consume the task's granted capabilities. An operation, product form, move type, or
+  permitted composite the stem grants is construction in the same sense as an elaborate
+  position or dataset: a committed solution under which it is never used is an alarm
+  that either discharges (the rival using it was computed to parity and lost) or binds.
+- Prune by dominance only at solution scope. Restate any per-unit dominance argument at
+  the whole-solution level before it eliminates a candidate, and check whether the
+  dominated option reaches value the dominant one cannot (Section 20).
+- Probe in-window options. When the attempt's own bounds place an offered option
+  strictly between the committed value and the derived ceiling, that option is a flagged
+  observable: reproduce the construction that would achieve it or refute it before
+  committing below it. The menu-presence discipline is symmetric: it selects readings
+  whose derived value lands on the menu, and it challenges commitments that leave a
+  feasible menu value unexplained.
 - Audit candidates for absent mandatory features: a candidate whose canonical,
   stem-mandatory features are withheld loses standing, and on authored items the withheld
   feature is often the intended discriminator.
@@ -754,13 +777,18 @@ parameter set is a stated requirement in the coherence sense, and a frame under 
 is decorative fails the same test as a reading that trivializes an explicit constraint.
 An author who builds a detailed construction built it to matter, and a frame that makes
 the whole construction irrelevant to the answer is evidence for the rival frame, not a
-shortcut.
+shortcut. Construction includes capability: an operation, product form, or move type the
+stem grants was granted to matter, and a solution that never uses it carries the same
+evidential burden as a frame that makes a built position decorative.
 
 Alarms discharge or bind. Every anomaly noticed during analysis, a slack constraint, a
-decorative construction, an off-menu derived value, a costume mismatch, enters the
-commitment gate: it either discharges, meaning the committed reading explains it, or it
-binds, capping the band and forcing a re-rank against the rival that would explain it.
-Noting an anomaly and proceeding unchanged is a gate failure, not a disclosure.
+decorative construction or unused granted capability, an off-menu derived value, an
+unexplained in-window option above the current commitment, a costume mismatch, enters
+the commitment gate: it either discharges, meaning the committed reading explains it, or
+it binds, capping the band and forcing a re-rank against the rival that would explain it.
+Noting an anomaly and proceeding unchanged is a gate failure, not a disclosure, and
+capping the band without running the re-rank is half the obligation: the rival that
+would explain the alarm must actually be completed and compared.
 
 ### 25. Nearest Sufficient Invariant
 
@@ -824,7 +852,7 @@ The symbols denote task-relevant changes, not calibrated numeric quantities.
 
 ### 28. Constraint-First Refinement
 
-RIDM 17 keeps ordered admission in place of unrestricted scalar tradeoffs.
+RIDM 18 keeps ordered admission in place of unrestricted scalar tradeoffs.
 
 First evaluate non-compensable gates:
 
@@ -853,6 +881,14 @@ before commitment, re-check:
 - **Dominance.** Is the selected conclusion dominated, under the stated success criterion, by
   an admissible alternative resting on stronger-typed support? An inferred claim, including a
   model of the requester's unstated intent, must not override a derived result (Section 10).
+  Any dominance argument used to prune a rival must hold at whole-solution scope
+  (Section 20).
+- **Capability consumption.** Does the committed solution use every capability the task
+  grants, or has the rival that uses each unused capability been computed to parity and
+  beaten (Sections 23 and 24)?
+- **In-window options.** For a value commitment against an option menu, is every option
+  between the committed value and the attempt's derived ceiling either achieved,
+  reproduced, or refuted (Section 23)?
 - **State currency.** Has every stated or observed state change been propagated through
   dependent claims, including signs and directions (Section 45)?
 - **Coherence.** Does the committed reading keep the stimulus internally coherent
@@ -896,7 +932,7 @@ If a check fails, reopen the smallest affected layer instead of shipping the com
 
 ### 30. Internal Model and Output Contract
 
-RIDM 17 preserves the separation between internal discovery and external disclosure.
+RIDM 18 preserves the separation between internal discovery and external disclosure.
 
 ```text
 OutputContract {
@@ -1215,6 +1251,13 @@ Answer keys, graders, automated tests, reviewers, and status messages are oracle
 evidence about correctness, not correctness itself. Tool-result literalism aimed at a grader
 is still tool-result literalism.
 
+Consulting an oracle is itself an action, and for a graded item it is irreversible: a
+revealed key cannot be unseen, and the item is spent. Its admission precondition is a
+recorded commitment to the answer being graded. This sequencing rule binds the evaluation
+harness and the self-evaluating reasoner exactly as action admission binds the task: a
+reveal executed before commitment voids the item rather than scoring it, and the protocol
+error is recorded as its own observation.
+
 Before a contradiction from an oracle reopens the model:
 
 - **Check internal consistency.** A verdict that contradicts itself loses authority regardless
@@ -1417,7 +1460,7 @@ before action admission.
 ### 62. Evaluation Dimensions
 
 ```text
-RIDM17Metrics {
+RIDM18Metrics {
     factual_accuracy
     evidence_coverage
     unsupported_decisive_claim_rate
@@ -1436,6 +1479,10 @@ RIDM17Metrics {
     frame_coverage
     alarm_discharge_rate
     census_compliance
+    capability_consumption_rate
+    dominance_scope_compliance
+    in_window_option_resolution
+    oracle_sequencing_compliance
     confidence_band_calibration
     oracle_defect_detection
     authorization_compliance
@@ -1509,9 +1556,15 @@ which tasks with variant-bearing conventions had the governing frame enumerated 
 priced before commitment; alarm-discharge rate is the fraction of noticed anomalies that
 were either explained by the committed reading or allowed to bind the band; census
 compliance is the rate at which stateful tasks received a standing-structure census
-before candidate evaluation. Oracle-defect detection is credited only when a defective
-signal is identified through checkable internal inconsistency, not through disagreement
-alone.
+before candidate evaluation. Capability-consumption rate is the fraction of stem-granted
+capabilities either used by the committed solution or discharged by a completed losing
+rival; dominance-scope compliance is the rate at which dominance-based prunings were
+restated and verified at whole-solution scope; in-window-option resolution is the rate
+at which options between the committed value and the derived ceiling were achieved,
+reproduced, or refuted before commitment; oracle-sequencing compliance is the rate at
+which oracle consultations followed a recorded commitment. Oracle-defect detection is
+credited only when a defective signal is identified through checkable internal
+inconsistency, not through disagreement alone.
 
 Authorization compliance is a hard metric: unauthorized action is a failure, even when the
 action's outcome is useful. When a denominator is zero, report the metric as not applicable
@@ -1519,7 +1572,7 @@ rather than assigning a perfect score.
 
 ### 64. Evaluation Protocol
 
-An RIDM 17 evaluation set should vary:
+An RIDM 18 evaluation set should vary:
 
 - task clarity and ambiguity
 - evidence quality, conflict, and freshness
@@ -1565,6 +1618,11 @@ An RIDM 17 evaluation set should vary:
 - stateful positions with stacked or interlocking standing structures
 - compound answers tempting an unstated distinctness or curation prior
 - multi-component keys carrying a single-component authoring defect
+- optimization items whose optimum uses a granted lower-value capability that a
+  per-unit dominance argument would prune
+- option menus containing a value strictly between the naive optimum and the
+  theoretical ceiling
+- graded flows where the oracle can be consulted early, spending the item
 
 Minimum behavior cases include:
 
@@ -1627,6 +1685,13 @@ Minimum behavior cases include:
     is evaluated.
 36. A compound answer repeats a value across slots when per-slot evidence says so,
     against an unstated distinctness prior.
+37. A solution leaving a granted capability unused is committed only after the rival
+    using that capability is computed to parity and loses.
+38. A per-unit dominance argument is restated at whole-solution scope before it prunes
+    a candidate.
+39. An answer option inside the attempt's derived feasibility window, above the
+    committed value, is reproduced or refuted before commitment.
+40. An oracle reveal executed before commitment voids the item instead of scoring it.
 
 Adjudicators should label material residuals, authority boundaries, acceptable actions,
 evidence requirements, and completion criteria before scoring output.
@@ -1657,7 +1722,11 @@ A conforming implementation should demonstrate that it can:
 - census standing structures before evaluating candidate actions
 - discharge or bind every noticed alarm at the commitment gate
 - bind recalled directions to their source contrasts
-- hold per-slot evidence above unstated ensemble priors and compute rivals to parity
+- hold per-slot evidence above unstated ensemble priors and compute rivals to parity,
+  with every granted capability attached to the rival that uses it
+- restate dominance arguments at whole-solution scope before pruning
+- resolve in-window answer options by reproduction or refutation before commitment
+- sequence oracle consultation after recorded commitment
 - commit each claim class at its audited band, opened at the decisive link, with
   referent allowances scaled to answer componentry
 - validate closed-world claims by convergent routes and anchor cases
@@ -1887,6 +1956,28 @@ slot's leading read on a compound answer.
 A live rival reading is evaluated below commitment quality, then demoted on the comparison,
 so the ranking chose between a finished candidate and a sketch.
 
+#### Capability blindness
+
+A capability the stem grants, an operation, product form, or move type, is never used by
+the committed solution, and the rival that would use it is never completed; the granted
+mechanism was built to matter and died decorative.
+
+#### Component-dominance promotion
+
+A per-unit dominance comparison is silently applied at solution scope, pruning a candidate
+that would have extracted value from regions the dominant option cannot reach.
+
+#### In-window option dismissal
+
+An offered option between the committed value and the attempt's own derived ceiling is
+waved off by an author model or plausibility judgment instead of being reproduced or
+refuted.
+
+#### Premature oracle consultation
+
+A grading oracle is consulted before the answer it grades is committed, irreversibly
+spending the item and voiding the observation's evidential value.
+
 ## Part XIV: Control Laws
 
 ### 67. Control Laws
@@ -2091,14 +2182,37 @@ Per-slot evidence outranks unstated ensemble priors, every live rival is compute
 parity before ranking, and the band opens at the decisive link's audited class with
 referent allowances scaled to answer componentry.
 
+#### Control Law 41 - Granted Capabilities Are Construction
+
+An operation, product form, or move type the task grants was granted to matter. A
+committed solution that never uses it carries an undischarged alarm until the rival
+using it is computed to parity and beaten.
+
+#### Control Law 42 - Dominance Holds at Solution Scope
+
+A per-unit dominance comparison prunes a candidate only after it is restated at the
+whole-solution level and the pruned candidate is shown unable to reach value the
+dominant option cannot.
+
+#### Control Law 43 - In-Window Options Bind
+
+An offered option between the committed value and the attempt's own derived ceiling is a
+flagged observable: reproduce the construction that achieves it or refute it before
+committing below it.
+
+#### Control Law 44 - Commit Before the Oracle
+
+Consulting a grading oracle is an irreversible information action admitted only after
+the answer it grades is recorded. A premature reveal voids the item.
+
 ## Part XV: Reference Procedure
 
-### 68. RIDM 17 Procedure
+### 68. RIDM 18 Procedure
 
 ```text
-function RIDM17(input, context, objectives, constraints):
+function RIDM18(input, context, objectives, constraints):
 
-    state = RIDM16_initialize(
+    state = RIDM17_initialize(
         input,
         context,
         objectives,
@@ -2139,6 +2253,12 @@ function RIDM17(input, context, objectives, constraints):
 
     state.standing_structures =
         census_standing_structures(
+            task_contract,
+            item_profile.governing_frame
+        )
+
+    state.granted_capabilities =
+        census_granted_capabilities(
             task_contract,
             item_profile.governing_frame
         )
@@ -2356,41 +2476,42 @@ function RIDM17(input, context, objectives, constraints):
 
 ### 69. Inheritance and Replacement
 
-RIDM 17 preserves RIDM 16 unless this specification explicitly changes a rule.
+RIDM 18 preserves RIDM 17 unless this specification explicitly changes a rule.
 
-| RIDM 16 concept | RIDM 17 treatment |
+| RIDM 17 concept | RIDM 18 treatment |
 | --- | --- |
 | Task contract, authority, mismatch | Preserved |
 | Forced-choice protocol and criterion referent | Preserved |
-| Derivation-first sequencing and regime typing | Preserved; an invariant argument built inside an unexamined frame cannot trivialize the item |
-| Item rigor, provenance, and structure classification | Extended: canons index to the item's provenance, at their most specific the cited source's own usage |
-| Canonical-reading precedence | Preserved for readings inside a frame; between frames, construction load-bearingness leads |
+| Derivation-first sequencing and regime typing | Preserved |
+| Item rigor, provenance, and canon indexing | Preserved |
+| Frame selection and construction load-bearingness | Extended: construction includes granted capabilities, which must do work or bind |
 | Given-role partition and hint consumption | Preserved |
-| Candidate coverage | Extended with frame-variant enumeration, stem-impoverishment prohibition, standing-structure censuses, slot-before-ensemble discipline, and rival-parity computation |
-| Menu-mismatch reopening | Preserved; joined by the undischarged-alarm trigger |
-| Audit-inherited banding | Extended: bands open at the decisive link's audited class, and referent allowances scale with answer componentry |
-| Contrast-typed recall and source identification | Preserved |
-| Flagged observables, instrumented observation | Preserved; an elaborate construction is a stated requirement in the coherence sense |
-| Closed-world validation, oracle discipline | Extended with offset-differencing defect proof and redundant differently-grouped computation |
-| Completion, stopping, disclosure, privacy | Preserved; self-grading follows committed meaning, never surface coincidence |
+| Candidate coverage | Extended with capability consumption, whole-solution dominance restatement, and in-window option probing |
+| Rival-parity computation | Strengthened: a rival is complete only with every mechanism available to it attached, including capabilities the leader leaves unused |
+| Alarm discharge-or-bind | Strengthened: banding without the forced re-rank is half the obligation |
+| Menu-mismatch reopening | Extended symmetrically: unexplained in-window options above the commitment bind as off-menu derivations do |
+| Audit-inherited, decisive-link banding | Preserved |
+| Standing-structure census | Preserved; joined by a granted-capability census |
+| Closed-world validation, oracle discipline | Extended: oracle consultation is an irreversible action admitted only after recorded commitment |
+| Completion, stopping, disclosure, privacy | Preserved |
 
-RIDM 16 asked:
-
-> Is the committed reading the domain's canonical one, and if not, what stronger-than-a-
-> meta-prior evidence defeats it; which given is the decision layer; what direction does
-> the hinted mechanism force; is the derived value actually on the menu; and does this
-> claim class's audited record support the band?
-
-RIDM 17 adds:
+RIDM 17 asked:
 
 > Which frame governs, and does the stem's construction do work under it; has every
 > noticed alarm discharged or bound; what does the state already hold before any move is
 > tried; does any slot lean on an unstated ensemble prior; and was the band opened at the
 > decisive link rather than the strongest segment?
 
+RIDM 18 adds:
+
+> Does the committed solution use everything the task grants, and if not, did the rival
+> that uses it lose a fair comparison; does the dominance argument that pruned a
+> candidate hold for whole solutions; is every feasible option above the commitment
+> reproduced or refuted; and was the answer committed before the oracle was consulted?
+
 ## Part XVII: Compressed Architecture
 
-### 70. RIDM 17 Flow
+### 70. RIDM 18 Flow
 
 ```text
 Task request
@@ -2399,7 +2520,7 @@ Task request
   -> Item provenance and rigor
   -> Frame selection
   -> Author-competence estimate
-  -> Standing-structure census
+  -> Standing-structure and capability census
   -> Rigorous-route attempt
   -> Evidence ledger
   -> Flagged observables
@@ -2428,21 +2549,23 @@ Task request
 
 ## Final Definition
 
-RIDM 17 defines intelligence as:
+RIDM 18 defines intelligence as:
 
 > The recursive discovery of scoped invariants over a covered candidate space inside an
 > examined frame, ranked with canonical precedence, aimed at the operative criterion and
 > its estimated author, bound to evidence and authority, updated by verified signals,
-> committed through un-dominated decisions calibrated at the audited weakest decisive
-> link, and stopped by verifiable completion.
+> committed through decisions un-dominated at whole-solution scope and calibrated at the
+> audited weakest decisive link, and stopped by verifiable completion.
 
 Its central invariant is:
 
 > Contract first, choose the frame that makes the task's construction matter, derive
 > before blaming the author, know whose criterion grades the task and what its author
-> could execute, census what the state already holds, cover the candidates including what
-> the stem withholds, rank the canonical reading first, consume what the task hints at,
+> could execute, census what the state already holds and what the task grants, cover the
+> candidates including what the stem withholds, complete every rival with the mechanisms
+> available to it, rank the canonical reading first, consume what the task hints at,
 > observe what the task points at, discharge or bind every alarm, ground material claims,
-> admit only authorized action, commit only un-dominated conclusions at the audited
-> weakest link's band, learn from verified signals, expose the material delta, and stop at
-> the minimum sufficient verified result.
+> admit only authorized action, commit before consulting the oracle, commit only
+> conclusions un-dominated for whole solutions at the audited weakest link's band, learn
+> from verified signals, expose the material delta, and stop at the minimum sufficient
+> verified result.

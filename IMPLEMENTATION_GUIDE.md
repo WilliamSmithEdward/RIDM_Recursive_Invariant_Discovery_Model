@@ -1,6 +1,6 @@
 # RIDM Implementation Guide
 
-This guide translates [RIDM 17](RIDM.MD) into software boundaries, data
+This guide translates [RIDM 18](RIDM.MD) into software boundaries, data
 contracts, control flow, tests, and delivery phases. It is written for agents
 and engineers implementing RIDM in any language or runtime.
 
@@ -26,9 +26,9 @@ Use one of these labels when describing implementation coverage.
 | --- | --- |
 | RIDM Reasoning Core | Task contract, evidence ledger, interpretations, candidate coverage, invariant selection, materiality graph, hard gates, commitment gate, and output contract |
 | RIDM Action Runtime | Reasoning Core plus authority enforcement, action admission, execution adapters, observations, oracle discipline, and recovery |
-| RIDM 17 Conformant | Action Runtime plus reopening, completion certificates, privacy controls, claim-type-conditioned calibration audit with weakest-link banding, item-rigor caps, audit-inherited bands opened at the decisive link, and componentry-scaled referent allowances, item provenance and rigor classification with author-competence estimation, frame-variant enumeration with provenance-indexed canons, derivation-first sequencing, canonical-precedence ranking, given-role partition, hint-consumption, menu-mismatch, and alarm-ledger checks, standing-structure censuses, absence, enrichment, and impoverishment audits, contrast-typed recall, slot-before-ensemble compound discipline, flagged-observable observation, evaluation metrics, and conformance tests |
+| RIDM 18 Conformant | Action Runtime plus reopening, completion certificates, privacy controls, claim-type-conditioned calibration audit with weakest-link banding, item-rigor caps, audit-inherited bands opened at the decisive link, and componentry-scaled referent allowances, item provenance and rigor classification with author-competence estimation, frame-variant enumeration with provenance-indexed canons, derivation-first sequencing, canonical-precedence ranking, given-role partition, hint-consumption, menu-mismatch, and alarm-ledger checks, standing-structure and granted-capability censuses, absence, enrichment, and impoverishment audits, contrast-typed recall, slot-before-ensemble compound discipline with rival-parity completion, whole-solution dominance restatement, in-window option resolution, oracle-reveal sequencing, flagged-observable observation, evaluation metrics, and conformance tests |
 
-Do not describe a partial implementation as RIDM 17 conformant. State the
+Do not describe a partial implementation as RIDM 18 conformant. State the
 implemented target and any omitted capability.
 
 ## 3. Required Reading
@@ -836,7 +836,7 @@ Deliver:
 - performance budgets
 - full conformance suite
 
-Claim RIDM 17 conformance only after every required capability and acceptance
+Claim RIDM 18 conformance only after every required capability and acceptance
 case passes.
 
 ## Part VIII: Conformance and Handoff
