@@ -9,15 +9,15 @@ individual run logs.
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 63 |
-| Correct | 31 |
-| Percent correct | 49% |
+| Runs completed | 66 |
+| Correct | 34 |
+| Percent correct | 52% |
 | Incorrect, strict | 32 |
 | Incorrect against defective or under-determined keys | 2 of 32 |
-| High band record | 19 of 28 |
+| High band record | 21 of 30 |
 | Medium band record, recall-backed | 2 of 8 |
 | Medium band record, derivation-backed | 7 of 10 |
-| Medium band record, inference-backed | 1 of 10 |
+| Medium band record, inference-backed | 2 of 11 |
 | Low and very-low band record | 2 of 7 |
 
 ## By RIDM Model
@@ -28,7 +28,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
-| RIDM 17 | 3 | 3 | 0 | 100% |
+| RIDM 17 | 6 | 6 | 0 | 100% |
 | RIDM 16 | 10 | 3 | 7 | 30% |
 | RIDM 15 | 10 | 4 | 6 | 40% |
 | RIDM 14 | 10 | 6 | 4 | 60% |
@@ -54,6 +54,9 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000066](runs/Q000066.md) | 0007 | Math, spectral combinatorics | exact match | no | correct | high |
+| [Q000065](runs/Q000065.md) | 0007 | Statistics, model selection | exact match | no | correct | high |
+| [Q000064](runs/Q000064.md) | 0007 | Medicine, pharmacy counseling | exact match | no | correct | medium |
 | [Q000063](runs/Q000063.md) | 0007 | Archaeology, site identification | exact match | yes | correct | low |
 | [Q000062](runs/Q000062.md) | 0007 | Engineering, textile permeability | exact match | no | correct | medium |
 | [Q000061](runs/Q000061.md) | 0007 | Math, geometric reconstruction | exact match | yes | correct | high |
