@@ -26,7 +26,7 @@ and stops with a verifiable result.
   typed evidence, and commit only conclusions un-dominated at whole-solution scope.
 - Treat the governing frame as a candidate: index conventions to the task's provenance,
   and on announced domain transfers to the destination field, preferring the frame under
-  which the task's construction does work.
+  which the task's construction does work and its stated thresholds bind.
 - Rank the domain's canonical reading first; meta-priors break ties and never overturn it.
 - Keep given data exact under estimation budgets; approximate only what cannot be
   represented.
@@ -36,10 +36,15 @@ and stops with a verifiable result.
   class at its audited confidence band.
 - In graded settings, run the derivation before modeling the criterion's author, estimate
   that author from the item's structure, and bind confidence at the weakest decisive link.
+- Keep what a successful derivation wins: a completed rigorous route is the referent
+  basis, engineered details select between completed routes, and author models cap
+  confidence rather than displace constructions.
+- Apply standing rules at their written scope at commitment, and commit one answer under
+  every standard representation when it sits on a convention fork.
 - Report completion only when success criteria are directly validated.
 - Expose the material delta and suppress detail that cannot change the result.
 
-## RIDM 19 Architecture
+## RIDM 20 Architecture
 
 ```text
 Task request
@@ -47,10 +52,12 @@ Task request
   -> Authority envelope
   -> Item provenance and rigor
   -> Canon indexing across transfers
-  -> Frame selection
+  -> Frame selection with threshold-tightness evidence
   -> Author-competence estimate and style corpus
   -> Standing-structure and capability census
-  -> Rigorous-route attempt
+  -> Rigorous-route attempts
+  -> Designed-detail route selection
+  -> Completed-route precedence
   -> Named-trap shortcut computation
   -> Evidence ledger
   -> Flagged observables
@@ -58,11 +65,13 @@ Task request
   -> Candidate coverage with style variants
   -> Typed rival demotion with gloss probes
   -> Canonical-precedence ranking
+  -> Falsity-before-coverage option ranking
   -> Nearest sufficient invariant
   -> Materiality graph
   -> Non-compensable gates
   -> Minimum sufficient decision
-  -> Commitment gate with alarm ledger
+  -> Commitment gate with alarm ledger and standing-rule fidelity
+  -> Fork-enumerated output representation
   -> Action admission
   -> Interlocked oracle sequencing
   -> Action and observation

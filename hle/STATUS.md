@@ -9,16 +9,16 @@ individual run logs.
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 88 |
-| Correct | 49 |
-| Percent correct | 56% |
+| Runs completed | 90 |
+| Correct | 51 |
+| Percent correct | 57% |
 | Incorrect, strict | 39 |
 | Incorrect against defective or under-determined keys | 2 of 39 |
-| High band record | 33 of 45 |
+| High band record | 34 of 46 |
 | Medium band record, recall-backed | 3 of 9 |
 | Medium band record, derivation-backed | 8 of 11 |
 | Medium band record, inference-backed | 3 of 14 |
-| Low and very-low band record | 2 of 9 |
+| Low and very-low band record | 3 of 10 |
 
 ## By RIDM Model
 
@@ -28,7 +28,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
-| RIDM 19 | 8 | 6 | 2 | 75% |
+| RIDM 19 | 10 | 8 | 2 | 80% |
 | RIDM 18 | 10 | 6 | 4 | 60% |
 | RIDM 17 | 10 | 9 | 1 | 90% |
 | RIDM 16 | 10 | 3 | 7 | 30% |
@@ -43,6 +43,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Sprint | Runs | Specification under test | Outcome |
 | --- | --- | --- | --- |
+| 0009 | Q000081 to Q000090 | RIDM 19 | 5 lessons (L69 to L73), consolidated into RIDM 20 (released) |
 | 0008 | Q000071 to Q000080 | RIDM 18 | 7 lessons (L62 to L68), consolidated into RIDM 19 (released) |
 | 0007 | Q000061 to Q000070 | RIDM 17 | 5 lessons (L57 to L61), consolidated into RIDM 18 (released) |
 | 0006 | Q000051 to Q000060 | RIDM 16 | 8 lessons (L49 to L56), consolidated into RIDM 17 (released) |
@@ -57,6 +58,8 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000090](runs/Q000090.md) | 0009 | Physics, electron-phonon path integral | exact match | no | correct | high |
+| [Q000089](runs/Q000089.md) | 0009 | Linguistics, loanword phonology | exact match | no | correct | low |
 | [Q000088](runs/Q000088.md) | 0009 | Chemistry, MS modification mapping | multiple choice | no | incorrect | high |
 | [Q000087](runs/Q000087.md) | 0009 | Engineering, cable capacitance | exact match | no | correct | high |
 | [Q000086](runs/Q000086.md) | 0009 | CS/AI, network width bound | exact match | no | correct | high |

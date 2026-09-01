@@ -1,10 +1,10 @@
-# Recursive Invariant Discovery Model (RIDM) 19
+# Recursive Invariant Discovery Model (RIDM) 20
 
 *An evidence-bound architecture for adaptive reasoning and action*
 
 ## 1. Status
 
-RIDM 19 is the active specification. It supersedes RIDM 18 while preserving the central
+RIDM 20 is the active specification. It supersedes RIDM 19 while preserving the central
 restraint principle:
 
 > Discover broadly enough to identify the material delta, expose only that delta, and stop at
@@ -19,61 +19,61 @@ directory; no benchmark content is retained. Under RIDM 11.0 the runs scored fou
 under RIDM 12 six of ten, under RIDM 13 five of ten, under RIDM 14 six of ten, under
 RIDM 15 four of ten, under RIDM 16 three of ten (two of those misses graded against keys
 with demonstrable internal defects), under RIDM 17 nine of ten, the strongest sprint to
-date, and under RIDM 18 six of ten (one of those misses graded against a key with a
-demonstrable internal defect). The samples are small and the category mixes differ, so
-the comparisons are indicative, not conclusive. RIDM 18's derivation, instrumentation,
-capability-consumption, and construction disciplines held across the eighth sprint; its
-losses concentrated one layer out, at referent prediction: a rival was demoted on the
-assumed claim that no supporting gloss exists when the author's own field supplied one, a
-canon was indexed to the domain a stem imported for framing rather than the domain the
-author grades from, a discovered error cancellation was read as designed intent and
-overturned the plainer data-faithful frame, and an author-construction slot was ranked
-over solver-natural variants while the keyed variant followed the author's own
-demonstrated idioms. The same sprint saw the oracle-sequencing law fail operationally a
-second time before being enforced mechanically. RIDM 19's revisions concentrate there, in
-typed rival demotion, destination-canon indexing, given inviolability, author-style
-corpora, priced canonical traps, and interlocked sequencing.
+date, under RIDM 18 six of ten (one of those misses graded against a key with a
+demonstrable internal defect), and under RIDM 19 eight of ten, the second-strongest
+sprint. The samples are small and the category mixes differ, so the comparisons are
+indicative, not conclusive. RIDM 19's derivation, instrumentation, referent, and
+representation disciplines all carried weight across the ninth sprint: machine-verified
+bound-plus-witness pairs, programmatic observation, source identification with
+re-derivation, and equivalence-class commitments produced the wins, and the band ledger
+tracked its audit. The two losses share one shape: at the commitment step, completed or
+standing structure was displaced by an unlicensed meta-frame. A fully successful rigorous
+construction was abandoned for a naive shortcut the author was presumed, from prose
+costume alone, to have taken, and the shortcut was the item's planted model magnet. The
+specification's own standing menu rule was scope-narrowed at commitment by an imported
+completeness premise the stem never licensed. RIDM 20's revisions concentrate there, in
+completed-route precedence, designed-detail route selection, falsity-before-coverage
+option ranking, and the standing-rule binding.
 
 Proof-carrying output means concise claims, evidence, assumptions, validation, and limits. It
 does not require disclosure of private chain-of-thought or a transcript of internal reasoning.
 
 ## Part I: The Central Revision
 
-### 2. The Problem Exposed by RIDM 18
+### 2. The Problem Exposed by RIDM 19
 
-RIDM 18 corrected the solution-assembly layer: granted capabilities did work or bound,
-dominance was restated at whole-solution scope, in-window options were probed, and oracle
-consultation was gated on commitment. An eighth evaluation sprint, run under RIDM 18,
-scored six of ten and confirmed those disciplines where they applied: capability
-consumption discriminated between rival keys, construction load-bearingness selected the
-consuming reading against a bare-arithmetic model magnet, bound-plus-witness pairs and
-instrumented observation carried the derivation-heavy runs, and both low-band commitments
-that lost had been priced honestly. The losses concentrated one layer out, at referent
-prediction, the discipline of predicting what an authored key holds when the author
-reasons in a different community, frame, or style than the solver. A live rival was
-demoted on the assumed universal that no supporting gloss for its reading exists, when
-the item's own field had published exactly that gloss. A directional canon was indexed to
-the domain the stem imported for framing rather than the destination domain the author
-works in, and whole-menu coherence built on that wrong canon lifted the band two steps. A
-discovered error cancellation was read as the puzzle's designed intent, overturning the
-plainer frame in which given data stays exact and only the incomputable constant is
-approximated. An author-construction slot was ranked over solver-natural variants while
-the keyed variant followed idioms the stem's own example code demonstrated. A checkably
-defective key executed the exact canonical error its item's theorem exists to correct,
-unpriced by the band. And the oracle-sequencing law, stated in the specification, failed
-operationally a second time during a harness disruption, after which the harness was
-changed to refuse a reveal with no recorded commitment.
+RIDM 19 corrected the referent-prediction layer: rivals fell only to typed evidence,
+canons re-indexed across announced transfers, givens stayed exact under estimation,
+author-construction slots drew on the stem's own idioms, named traps were priced, and the
+oracle-sequencing law was enforced mechanically. A ninth evaluation sprint, run under
+RIDM 19, scored eight of ten, the second-strongest sprint on record, and confirmed those
+disciplines where they applied: machine-verified bound-plus-witness pairs carried an
+extremal-combinatorics run end to end, programmatic observation made a mass-spectrometry
+measurement layer exact, source identification with re-derivation converted retold items
+into derivation-backed wins, and equivalence-class commitments absorbed representation
+and bookkeeping forks on two exact-match items. The two losses share one shape: at the
+commitment step, completed or standing structure was displaced by an unlicensed
+meta-frame. On one run the rigorous route had actually succeeded, producing the packing
+construction the key itself would hold, and was then abandoned for the naive additive
+shortcut the author was presumed, from grammar slips and flavor framing alone, to have
+taken; the shortcut was the planted model magnet, and the stem's structure, a threshold
+binding tightly only under the geometric frame and a quantization constraint consumed
+only there, said the construction was purposeful. On the other run every recorded value
+had been assigned and the true indicating pair identified, and the specification's own
+standing rule, that a scope-humble true option defeats none-of-the-above, was
+scope-narrowed away at commitment by an imported complete-set premise the stem never
+licensed. Both losses were self-inflicted at the final layer, after the object-level
+work was already right.
 
-| RIDM 18 residual | Why it is material | RIDM 19 correction |
+| RIDM 19 residual | Why it is material | RIDM 20 correction |
 | --- | --- | --- |
-| Rivals demoted on absent-gloss universals | The claim that no author could hold a reading is assumed, not observed, and the gloss existed in the item's own field | Typed rival demotion with a provenance gloss probe (Sections 23 and 24) |
-| Canons indexed to the imported domain | On an announced domain transfer the author grades from the destination field, where imported directions can invert | Destination-canon indexing, with coherence inheriting canon uncertainty (Sections 19, 21, and 24) |
-| Givens perturbed under estimation license | Estimation budgets license approximating the incomputable, not the data; a discovered cancellation read as intent overturned the faithful frame | Given inviolability, with coincidences demoted to hypothesis generators (Sections 23 and 24) |
-| Author-construction slots ranked without the author's idioms | The stem's own examples demonstrate the idioms the keyed construction follows | Stem examples as the author-style corpus (Sections 19 and 23) |
-| Named canonical traps unpriced | A key can execute the exact shortcut a theorem corrects, and the shortcut's clean closed form is computable in advance | Trap-priced banding with pre-reveal shortcut computation (Sections 21 and 48) |
-| Sequencing laws enforced by discipline alone | A stated admission precondition failed under operational noise | Mechanical interlocks for sequencing obligations (Sections 35 and 48) |
+| Successful derivations displaced by author models | Derivation-first sequencing gated when the author model may be adopted but not what happens when the rigorous route succeeds; costume-based author naivety then displaced a completed construction | Completed-route precedence: the successful route is the referent basis, and author models only cap bands (Sections 10, 19, and 29) |
+| Route choice argued from rigor ordering | Between completed routes the key follows the author's construction, which designed details fingerprint; rigor ordering points both ways across items | Designed-detail route selection, with threshold tightness as a frame discriminator (Sections 19 and 24) |
+| Menu options ranked under an imported completeness premise | Without select-all language, an all-true option defeats none-of-the-above regardless of coverage; completeness needs stem license | Falsity-before-coverage option ranking (Section 23) |
+| Standing rules scope-narrowed at commitment | A framework rule distinguished away by an unlicensed meta-frame is charitable repair applied to one's own specification | The standing-rule binding at the commitment gate (Sections 24 and 29) |
+| Representation and bookkeeping forks left implicit | Two wins came from committing one answer as an explicit equivalence class with scoped variants | Fork enumeration folded into the representation rule (Section 30) |
 
-These residuals do not invalidate RIDM 18. They mark the next sufficient invariant horizon.
+These residuals do not invalidate RIDM 19. They mark the next sufficient invariant horizon.
 
 ### 3. Primary Operating Law
 
@@ -85,46 +85,50 @@ governs candidates, coherence governs interpretation, calibration governs confid
 derivation governs constants, and the menu never defines the space. RIDM 17 added: the
 governing frame is itself a candidate, and every noticed alarm discharges or binds.
 RIDM 18 added: what the task grants must do work or bind, and dominance is judged on
-whole solutions. RIDM 19 adds: the referent's community, idiom, and fallibility are part
+whole solutions. RIDM 19 added: the referent's community, idiom, and fallibility are part
 of the criterion, rivals fall only to typed evidence, estimation spares the givens, and
-an admission rule worth stating is worth enforcing in the mechanism.
+an admission rule worth stating is worth enforcing in the mechanism. RIDM 20 adds: a
+completed rigorous route is the referent basis and yields only to licensed evidence,
+designed details select between completed routes, options rank by falsity before
+coverage, and standing rules bind their own author at the commitment gate.
 
 ### 4. Revised Definition of Intelligence
 
-RIDM 19 defines intelligence as:
+RIDM 20 defines intelligence as:
 
 > The ability to discover task-relevant invariants, cover the space of candidate readings and
 > answers, ground material claims, choose authorized actions, learn from verified signals, and
 > stop at a calibrated, verifiable minimum sufficient result.
 
-RIDM 18 added capability consumption, whole-solution dominance, in-window option probing,
-and oracle-reveal sequencing. RIDM 19 refines the referent-prediction layer with six
+RIDM 19 refined the referent-prediction layer with typed rival demotion,
+destination-canon indexing, given inviolability, author-style corpora, trap-priced
+banding, and interlocked sequencing. RIDM 20 hardens the commitment layer with four
 disciplines:
 
-- typed rival demotion: a live rival falls only to typed evidence; the claim that no
-  supporting gloss exists for its reading is an assumed universal until a probe of the
-  item's provenance community has run
-- destination-canon indexing: when a stem announces a domain transfer, the operative
-  canon is the destination field's, the community the author grades from, and coherence
-  arguments built on a canon inherit that canon choice's uncertainty
-- given inviolability: an estimation budget licenses approximating constants the
-  workspace cannot represent, never perturbing stated data, and a discovered
-  cancellation or coincidence is a hypothesis generator about the author, not a frame
-  discriminator
-- author-style corpora: on slots that grade the author's own construction, the stem's
-  example code and prose are the idiom corpus, and the demonstrated idioms enter the
-  candidate set before ranking
-- trap-priced banding: when the correct route passes a named canonical error whose
-  shortcut also yields a clean closed form, the shortcut is computed pre-reveal as a
-  defective-key candidate and the band carries the referent allowance
-- interlocked sequencing: an admission precondition on an irreversible action is encoded
-  into the mechanism that executes the action wherever the harness permits
+- completed-route precedence: when the bounded rigorous route succeeds, its result is the
+  referent basis; an author model may cap the band or select among completed routes on
+  designed-detail evidence, and may never displace a successful construction in favor of
+  a shortcut the author is merely presumed, from prose costume, to have taken
+- designed-detail route selection: between completed candidate routes, the author's route
+  is the one whose construction the stem's engineered details pay off under, a given that
+  collapses to a round value only inside one route, a threshold that binds tightly under
+  one frame and hangs slack under the other, a constraint consumed by exactly one frame;
+  in an adversarially filtered pool, the cleanness of the naive route's answer is magnet
+  evidence against it, not payoff
+- falsity-before-coverage option ranking: on a which-of-the-following menu without
+  select-all language, an option containing no false element dominates none-of-the-above
+  and every option containing a false element, regardless of completeness; a complete-set
+  reading is an imported premise requiring explicit stem license
+- the standing-rule binding: a rule the framework has constructed and named may not be
+  scope-narrowed at the commitment step by a meta-frame the stem never licensed;
+  distinguishing a standing rule away at the decision point is charitable repair applied
+  to one's own specification and fails the gate
 
 ## Part II: Core Vocabulary and Scope
 
 ### 5. Core Terms
 
-RIDM 19 uses the following terms precisely.
+RIDM 20 uses the following terms precisely.
 
 - A **heuristic** is a compressed rule that is useful within a scope.
 - An **invariant** is a relation stable enough to govern the current task under stated
@@ -257,6 +261,14 @@ as its evidence; an unfamiliar or special-function closed form is still a matcha
 When the derivation completes and agrees with the identified source's published value, the
 referent prediction and the derivation coincide, which is the strongest composite support a
 graded setting offers.
+
+The sequencing rule carries a dual obligation. When the rigorous route succeeds, its
+result is the referent basis: an author model may cap the commitment's band, and may
+select among completed routes on designed-detail evidence (Section 19), but it may never
+displace a successful construction in favor of a shortcut the author is merely presumed
+to have taken. Presumed author naivety is an assumed claim; prose costume cannot support
+it; and in an adversarially filtered pool the cleanness of the naive route's answer is
+evidence that it is the planted magnet, not that the author stopped there.
 
 ### 11. Criterion-Information Mismatch
 
@@ -546,6 +558,17 @@ first probe identifying the source from the stem's phrasing; identification stre
 recall vividness, sets the commitment's band. Verbatim lexical match to the likely
 source's wording discriminates between options that paraphrase each other.
 
+Designed details fingerprint the author's route. When more than one route to an answer
+completes, the key follows the author's construction, and the stem's engineered details
+say which construction that is: a given value that collapses to a round or exact product
+only inside one route, a stated threshold or tolerance that binds tightly under one frame
+and hangs slack under the other, a constraint or quantization that only one frame
+consumes. Route selection between completed rivals keys on this payoff, never on rigor
+ordering, which points in opposite directions across items: a curricular formula whose
+inputs were designed to collapse beats a more rigorous computation of the same quantity,
+and a rigorous construction that makes a stated threshold bind tightly beats a naive
+shortcut whose answer leaves it slack. Costume, in either direction, selects nothing.
+
 ### 20. Conflicting Evidence
 
 Do not average incompatible claims into artificial certainty.
@@ -790,6 +813,12 @@ how well the set is ranked. Before ranking:
   clause kills the option. Evaluate a none-of-the-above option last: it is refuted by any
   remaining option whose truth is decidable from the given evidence, however generic,
   because scope-humble truths dominate under a choose-the-correct-answer criterion.
+- Rank options by falsity before coverage. On a which-of-the-following menu without
+  select-all language, an option containing no false element dominates none-of-the-above
+  and every option containing a false element, regardless of how incomplete it is. A
+  complete-set reading of the options is an imported premise: it applies only when the
+  stem licenses it (select all that apply, the complete set), and without that license an
+  incomplete all-true option is the keyed answer, not a defect to route around.
 - A vivid detail duplicated across options discriminates nothing; name the rule it tempts
   the reader to invent and check whether that rule exists. When two options form a
   paraphrase or teaching-contrast pair, construct an explicit reading that would key each
@@ -859,7 +888,11 @@ An author who builds a detailed construction built it to matter, and a frame tha
 the whole construction irrelevant to the answer is evidence for the rival frame, not a
 shortcut. Construction includes capability: an operation, product form, or move type the
 stem grants was granted to matter, and a solution that never uses it carries the same
-evidential burden as a frame that makes a built position decorative.
+evidential burden as a frame that makes a built position decorative. Construction also
+includes calibration: a stated threshold, tolerance, or budget that binds tightly under
+one frame, with margin a fraction of a percent, and hangs slack under the other, is a
+frame discriminator readable before commitment, and the tightly bound frame is the one
+the author engineered.
 
 Alarms discharge or bind. Every anomaly noticed during analysis, a slack constraint, a
 decorative construction or unused granted capability, an off-menu derived value, an
@@ -869,6 +902,14 @@ it binds, capping the band and forcing a re-rank against the rival that would ex
 Noting an anomaly and proceeding unchanged is a gate failure, not a disclosure, and
 capping the band without running the re-rank is half the obligation: the rival that
 would explain the alarm must actually be completed and compared.
+
+Standing rules bind their own author. A rule the framework has constructed and named, a
+menu-ranking law, a precedence order, a sequencing gate, applies at commitment as
+written; narrowing its scope at the decision step with a meta-frame the stem never
+licensed is charitable text repair applied to one's own specification, and it fails the
+gate the same way repairing an author's text does. A genuine scope limit is established
+where rules are made, in revision from observed evidence, not at the moment the rule's
+verdict is inconvenient to the leading reading.
 
 ### 25. Nearest Sufficient Invariant
 
@@ -932,7 +973,7 @@ The symbols denote task-relevant changes, not calibrated numeric quantities.
 
 ### 28. Constraint-First Refinement
 
-RIDM 19 keeps ordered admission in place of unrestricted scalar tradeoffs.
+RIDM 20 keeps ordered admission in place of unrestricted scalar tradeoffs.
 
 First evaluate non-compensable gates:
 
@@ -997,6 +1038,17 @@ before commitment, re-check:
   actually run within its budget and fail, produce nothing matchable, or show the item
   under-determined (Section 10)? Is the author-competence estimate supported by structural
   tells and population priors rather than assumed (Section 19)?
+- **Completed-route precedence.** If the bounded rigorous route succeeded, is its result
+  the committed referent basis, with any displacement by a rival route supported by
+  designed-detail payoff rather than presumed author naivety or prose costume
+  (Sections 10 and 19)? Does the committed route leave any stated threshold slack that a
+  completed rival binds tightly (Section 24)?
+- **Option ranking.** On a which-of-the-following menu without select-all language, does
+  the committed option contain no false element, and was no all-true option passed over
+  for none-of-the-above under an unlicensed completeness premise (Section 23)?
+- **Standing rules.** Was every framework rule that reached a verdict on this item applied
+  at its written scope, with no rule distinguished away at the decision step by a
+  meta-frame the stem never licensed (Section 24)?
 - **Observables.** Has every task-flagged observable been observed (Section 23), and, for
   an answer that discretizes, has the governing convention been resolved (Section 30)?
 - **Canonical precedence.** If the committed reading defeats the domain's canonical
@@ -1026,7 +1078,7 @@ If a check fails, reopen the smallest affected layer instead of shipping the com
 
 ### 30. Internal Model and Output Contract
 
-RIDM 19 preserves the separation between internal discovery and external disclosure.
+RIDM 20 preserves the separation between internal discovery and external disclosure.
 
 ```text
 OutputContract {
@@ -1052,6 +1104,14 @@ entities: when an answer has several equivalent representations, commit the syst
 together with the trivial or domain form the key's author most likely used, so
 equivalent-form grading is possible; a single-representation answer gambles on the key's
 naming convention.
+
+The rule extends to conventions and bookkeeping. When an answer sits on an identifiable
+representation fork, an allophonic rendering convention, a pair-counting versus
+full-sum-summand normalization, a sign or frequency convention, enumerate the fork at
+commitment: one answer, each standard representation named with its scope. This is not a
+hedge between rival answers; it is a single claim under multiple bookkeepings, it lets an
+authored key land inside the class, and when the key matches none of the named forms the
+mismatch is localized to the convention layer for immediate defect differencing.
 
 A rounded, thresholded, or otherwise discretized answer is a compound claim: the underlying
 value plus a convention. When the value lands within its own uncertainty of the boundary,
@@ -1570,7 +1630,7 @@ before action admission.
 ### 62. Evaluation Dimensions
 
 ```text
-RIDM19Metrics {
+RIDM20Metrics {
     factual_accuracy
     evidence_coverage
     unsupported_decisive_claim_rate
@@ -1599,6 +1659,11 @@ RIDM19Metrics {
     style_corpus_coverage
     trap_priced_banding
     interlock_coverage
+    completed_route_precedence
+    designed_detail_route_selection
+    option_falsity_ranking
+    standing_rule_fidelity
+    fork_enumeration_coverage
     confidence_band_calibration
     oracle_defect_detection
     authorization_compliance
@@ -1687,9 +1752,18 @@ coverage is the rate at which author-construction slots had the stem's demonstra
 idioms in the candidate set before ranking; trap-priced banding is the rate at which
 named-canonical-trap configurations carried the referent allowance with the shortcut
 computed pre-reveal; interlock coverage is the fraction of stated sequencing
-preconditions enforced in the executing mechanism where the harness permits. Oracle-defect
-detection is credited only when a defective signal is identified through checkable
-internal inconsistency, not through disagreement alone.
+preconditions enforced in the executing mechanism where the harness permits.
+Completed-route precedence is the rate at which successful rigorous routes were committed
+as the referent basis rather than displaced by author models; designed-detail route
+selection is the rate at which choices between completed routes rested on the payoff of
+engineered details rather than rigor ordering or costume; option-falsity ranking is the rate
+at which which-menu commitments respected no-false-element dominance over
+none-of-the-above absent select-all license; standing-rule fidelity is the rate at which
+framework rules reaching a verdict were applied at their written scope at commitment;
+fork-enumeration coverage is the rate at which identifiable representation or bookkeeping
+forks were enumerated with scoped variants at commitment. Oracle-defect detection is
+credited only when a defective signal is identified through checkable internal
+inconsistency, not through disagreement alone.
 
 Authorization compliance is a hard metric: unauthorized action is a failure, even when the
 action's outcome is useful. When a denominator is zero, report the metric as not applicable
@@ -1697,7 +1771,7 @@ rather than assigning a perfect score.
 
 ### 64. Evaluation Protocol
 
-An RIDM 19 evaluation set should vary:
+An RIDM 20 evaluation set should vary:
 
 - task clarity and ambiguity
 - evidence quality, conflict, and freshness
@@ -1759,6 +1833,14 @@ An RIDM 19 evaluation set should vary:
   may have taken
 - harnesses that permit premature oracle consultation, with and without a mechanical
   interlock available
+- items whose rigorous route succeeds while low-rigor costume invites an author-naivety
+  displacement toward the planted naive answer
+- items whose engineered givens collapse only under a curricular route, and items whose
+  stated threshold binds tightly only under the rigorous route, in the same pool
+- which-of-the-following menus where the complete true set appears in no option and an
+  incomplete all-true option competes with none-of-the-above
+- items whose answer sits on a known representation or bookkeeping fork, with keys on
+  each side of the fork across the pool
 
 Minimum behavior cases include:
 
@@ -1839,6 +1921,16 @@ Minimum behavior cases include:
     the shortcut's output computed before the reveal.
 46. A stated sequencing precondition is enforced in the executing mechanism where the
     harness permits, and the discipline-only fallback is recorded as a limit.
+47. A successful rigorous construction is committed as the referent basis even when the
+    item's prose register suggests a naive author.
+48. A choice between two completed routes follows the route whose construction the
+    stem's engineered details pay off under, in both directions across items.
+49. An incomplete option whose every element is true is committed over none-of-the-above
+    on a menu without select-all language.
+50. A standing framework rule is applied at its written scope at commitment, and any
+    proposed narrowing is deferred to revision rather than decided at the item.
+51. An answer on a known bookkeeping fork is committed as one claim with each standard
+    representation named and scoped.
 
 Adjudicators should label material residuals, authority boundaries, acceptable actions,
 evidence requirements, and completion criteria before scoring output.
@@ -1883,6 +1975,16 @@ A conforming implementation should demonstrate that it can:
   be represented
 - mine the stem's examples as an author-style corpus on author-construction slots
 - price named canonical traps into the band with the shortcut computed pre-reveal
+- commit a successful rigorous route as the referent basis, letting author models cap
+  bands rather than displace completed constructions
+- select between completed routes by designed-detail payoff, reading threshold tightness
+  and engineered givens as the author's route fingerprint
+- rank which-menu options by falsity before coverage, importing completeness only under
+  stem license
+- apply standing framework rules at their written scope at commitment, deferring scope
+  changes to revision
+- enumerate representation and bookkeeping forks at commitment as one answer with scoped
+  variants
 - commit each claim class at its audited band, opened at the decisive link, with
   referent allowances scaled to answer componentry
 - validate closed-world claims by convergent routes and anchor cases
@@ -2169,6 +2271,31 @@ for the key author having taken the shortcut.
 A stated admission precondition on an irreversible action is left to discipline while the
 executing mechanism could enforce it, and the precondition fails under operational noise.
 
+#### Completed-route displacement
+
+The bounded rigorous route succeeds, and its construction is then abandoned for a naive
+shortcut the author is presumed, from prose costume alone, to have taken; the presumed
+naivety is an assumed claim, and the shortcut is the planted magnet.
+
+#### Payoff-blind route selection
+
+A choice between completed routes is argued from rigor ordering or register instead of
+from the stem's engineered details, committing the curricular route where the threshold
+binds only under the rigorous one, or the rigorous route where the givens collapse only
+under the curricular one.
+
+#### Completeness importation
+
+A which-of-the-following menu is scored under a complete-set premise the stem never
+licensed, and an all-true option is passed over for none-of-the-above because it is
+incomplete.
+
+#### Rule scope repair
+
+A standing framework rule that reaches an inconvenient verdict is scope-narrowed at the
+commitment step by a meta-frame the stem never licensed, charitable text repair applied
+to the reasoner's own specification.
+
 ## Part XIV: Control Laws
 
 ### 67. Control Laws
@@ -2433,14 +2560,40 @@ An admission precondition on an irreversible action is encoded into the mechanis
 executes the action wherever the harness permits. Discipline-only enforcement is a
 recorded limit, not a peer alternative.
 
+#### Control Law 51 - A Completed Route Is the Referent Basis
+
+When the bounded rigorous route succeeds, its result leads the referent prediction. An
+author model may cap the band or select among completed routes on designed-detail
+evidence; it may never displace a successful construction for a shortcut the author is
+merely presumed, from costume, to have taken.
+
+#### Control Law 52 - Designed Details Select the Route
+
+Between completed routes, commit the one whose construction the stem's engineered
+details pay off under: givens that collapse, thresholds that bind tightly, constraints
+only one frame consumes. Rigor ordering selects nothing, and in a filtered pool the
+naive answer's cleanness is magnet evidence against it.
+
+#### Control Law 53 - Falsity Before Coverage
+
+On a which-of-the-following menu without select-all language, an option with no false
+element defeats none-of-the-above and every option containing a false element,
+regardless of completeness. A complete-set reading requires explicit stem license.
+
+#### Control Law 54 - Standing Rules Bind Their Author
+
+A rule the framework has constructed and named applies at its written scope at
+commitment. Scope changes happen in revision, from observed evidence, never at the item
+where the rule's verdict is inconvenient.
+
 ## Part XV: Reference Procedure
 
-### 68. RIDM 19 Procedure
+### 68. RIDM 20 Procedure
 
 ```text
-function RIDM19(input, context, objectives, constraints):
+function RIDM20(input, context, objectives, constraints):
 
-    state = RIDM18_initialize(
+    state = RIDM19_initialize(
         input,
         context,
         objectives,
@@ -2500,26 +2653,30 @@ function RIDM19(input, context, objectives, constraints):
             item_profile.governing_frame
         )
 
-    rigorous_result =
-        attempt_rigorous_route(
+    route_attempts =
+        attempt_rigorous_routes(
             task_contract,
             bounded_route_budget(constraints)
         )
 
-    if rigorous_result is conclusive:
+    if route_attempts.completed is not empty:
         item_profile.referent_basis =
-            rigorous_result
+            select_route_by_designed_detail_payoff(
+                route_attempts.completed,
+                engineered_details(task_contract),
+                item_profile
+            )
     else:
         item_profile.referent_basis =
             model_authored_key(
                 item_profile,
-                rigorous_result.failure_evidence
+                route_attempts.failure_evidence
             )
 
     item_profile.trap_shortcuts =
         compute_named_trap_shortcuts(
             task_contract,
-            rigorous_result
+            item_profile.referent_basis
         )
 
     evidence_ledger =
@@ -2562,6 +2719,13 @@ function RIDM19(input, context, objectives, constraints):
             item_profile.operative_canon,
             item_profile
         )
+
+    if task_contract has an option_menu without select_all_license:
+        candidate_models =
+            rank_options_by_falsity_then_coverage(
+                candidate_models,
+                task_contract.option_menu
+            )
 
     materiality_graph =
         build_materiality_graph(
@@ -2736,33 +2900,27 @@ function RIDM19(input, context, objectives, constraints):
 
 ### 69. Inheritance and Replacement
 
-RIDM 19 preserves RIDM 18 unless this specification explicitly changes a rule.
+RIDM 20 preserves RIDM 19 unless this specification explicitly changes a rule.
 
-| RIDM 18 concept | RIDM 19 treatment |
+| RIDM 19 concept | RIDM 20 treatment |
 | --- | --- |
 | Task contract, authority, mismatch | Preserved |
-| Forced-choice protocol and criterion referent | Preserved |
-| Derivation-first sequencing and regime typing | Preserved |
-| Item rigor, provenance, and canon indexing | Extended: announced domain transfers index the canon to the destination field, and the stem's examples form an author-style corpus |
-| Frame selection and construction load-bearingness | Extended: canonical precedence binds between frames, and the data-faithful frame leads under estimation budgets |
-| Capability consumption and whole-solution dominance | Preserved |
-| In-window option probing | Preserved |
-| Candidate coverage | Extended with typed rival demotion, provenance gloss probes, style-corpus variants, and given inviolability |
-| Rival-parity computation | Strengthened: demotion requires typed evidence; absence-of-gloss claims are assumed until probed |
-| Whole-menu coherence banding | Qualified: coherence lifts inherit the canon choice's uncertainty |
-| Audit-inherited, decisive-link banding | Extended: named canonical traps carry a referent allowance with the shortcut computed pre-reveal |
+| Forced-choice protocol and criterion referent | Extended: a successful rigorous route is the referent basis, and author models cap bands rather than displace it |
+| Derivation-first sequencing and regime typing | Extended with the dual obligation on success (completed-route precedence) |
+| Item rigor, provenance, canon indexing, style corpora | Extended: engineered details fingerprint the author's route between completed rivals |
+| Frame selection and construction load-bearingness | Extended: threshold and tolerance tightness discriminates frames before commitment |
+| Typed rival demotion and gloss probes | Preserved |
+| Given inviolability under estimation | Preserved |
+| Capability consumption, whole-solution dominance, in-window probing | Preserved |
+| Candidate coverage | Extended with falsity-before-coverage option ranking on which-menus |
+| Coherence and canonical precedence | Extended: standing framework rules bind their own author at commitment |
+| Trap-priced, audit-inherited, decisive-link banding | Preserved |
+| Representation rule | Extended to conventions and bookkeeping forks, committed as one answer with scoped variants |
 | Standing-structure and capability census | Preserved |
-| Closed-world validation, oracle discipline | Extended: sequencing preconditions are enforced in the executing mechanism where the harness permits, and predictable defect shortcuts are computed before consultation |
+| Closed-world validation, oracle discipline, interlocked sequencing | Preserved |
 | Completion, stopping, disclosure, privacy | Preserved |
 
-RIDM 18 asked:
-
-> Does the committed solution use everything the task grants, and if not, did the rival
-> that uses it lose a fair comparison; does the dominance argument that pruned a
-> candidate hold for whole solutions; is every feasible option above the commitment
-> reproduced or refuted; and was the answer committed before the oracle was consulted?
-
-RIDM 19 adds:
+RIDM 19 asked:
 
 > Was every demoted rival felled by typed evidence, with the provenance community probed
 > for the gloss; is the canon indexed to the field the author grades from; do the givens
@@ -2770,9 +2928,18 @@ RIDM 19 adds:
 > the author's own idioms; is the named trap priced into the band; and is the sequencing
 > rule enforced by the mechanism rather than by promise?
 
+RIDM 20 adds:
+
+> If the rigorous route succeeded, does its construction lead the commitment, with any
+> displacement licensed by the stem's engineered details rather than presumed author
+> naivety; does the committed route make the stated thresholds bind; on a which-menu
+> without select-all license, does the committed option contain no false element; was
+> every standing rule applied at its written scope; and is every representation fork
+> enumerated with its scope?
+
 ## Part XVII: Compressed Architecture
 
-### 70. RIDM 19 Flow
+### 70. RIDM 20 Flow
 
 ```text
 Task request
@@ -2780,10 +2947,12 @@ Task request
   -> Authority envelope
   -> Item provenance and rigor
   -> Canon indexing across transfers
-  -> Frame selection
+  -> Frame selection with threshold-tightness evidence
   -> Author-competence estimate and style corpus
   -> Standing-structure and capability census
-  -> Rigorous-route attempt
+  -> Rigorous-route attempts
+  -> Designed-detail route selection
+  -> Completed-route precedence
   -> Named-trap shortcut computation
   -> Evidence ledger
   -> Flagged observables
@@ -2791,11 +2960,13 @@ Task request
   -> Candidate coverage with style variants
   -> Typed rival demotion with gloss probes
   -> Canonical-precedence ranking
+  -> Falsity-before-coverage option ranking
   -> Nearest sufficient invariant
   -> Materiality graph
   -> Non-compensable gates
   -> Minimum sufficient decision
-  -> Commitment gate with alarm ledger
+  -> Commitment gate with alarm ledger and standing-rule fidelity
+  -> Fork-enumerated output representation
   -> Action admission
   -> Interlocked oracle sequencing
   -> Action and observation
@@ -2814,27 +2985,30 @@ Task request
 
 ## Final Definition
 
-RIDM 19 defines intelligence as:
+RIDM 20 defines intelligence as:
 
 > The recursive discovery of scoped invariants over a covered candidate space inside an
 > examined frame, ranked with canonical precedence under the destination canon, aimed at
-> the operative criterion and its estimated author in that author's own idiom, bound to
-> evidence and authority, updated by verified signals, committed through decisions
-> un-dominated at whole-solution scope and calibrated at the audited weakest decisive
-> link, and stopped by verifiable completion.
+> the operative criterion and its estimated author in that author's own idiom, resting on
+> the completed route the task's engineered details select, bound to evidence and
+> authority, updated by verified signals, committed through decisions un-dominated at
+> whole-solution scope and calibrated at the audited weakest decisive link, and stopped
+> by verifiable completion.
 
 Its central invariant is:
 
-> Contract first, choose the frame that makes the task's construction matter, derive
-> before blaming the author, know whose criterion grades the task, which community it
-> grades from, and what its author could execute, census what the state already holds
-> and what the task grants, cover the candidates including what the stem withholds and
-> the idioms its examples demonstrate, complete every rival with the mechanisms
-> available to it and demote none without typed evidence, rank the canonical reading
-> first, keep the givens exact while approximating only the incomputable, consume what
-> the task hints at, observe what the task points at, discharge or bind every alarm,
-> price the named trap, ground material claims, admit only authorized action, commit
-> before consulting the oracle and let the mechanism enforce it, commit only conclusions
-> un-dominated for whole solutions at the audited weakest link's band, learn from
-> verified signals, expose the material delta, and stop at the minimum sufficient
-> verified result.
+> Contract first, choose the frame that makes the task's construction matter and its
+> thresholds bind, derive before blaming the author and keep what the derivation wins,
+> know whose criterion grades the task, which community it grades from, and what its
+> author could execute, let the engineered details pick between completed routes, census
+> what the state already holds and what the task grants, cover the candidates including
+> what the stem withholds and the idioms its examples demonstrate, complete every rival
+> with the mechanisms available to it and demote none without typed evidence, rank the
+> canonical reading first and true options before complete-looking ones, keep the givens
+> exact while approximating only the incomputable, consume what the task hints at,
+> observe what the task points at, discharge or bind every alarm, price the named trap,
+> apply standing rules at their written scope, ground material claims, admit only
+> authorized action, commit before consulting the oracle and let the mechanism enforce
+> it, commit one answer under every standard representation, un-dominated for whole
+> solutions at the audited weakest link's band, learn from verified signals, expose the
+> material delta, and stop at the minimum sufficient verified result.
