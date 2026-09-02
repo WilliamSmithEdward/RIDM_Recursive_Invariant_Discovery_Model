@@ -22,8 +22,11 @@ and stops with a verifiable result.
 - Prefer low-risk, reversible actions with observable outcomes.
 - Recompute materiality when evidence, state, authority, or stakes change.
 - Cover the candidate space before ranking, including the idioms the task's own examples
-  demonstrate; complete each rival with the mechanisms granted to it, demote none without
-  typed evidence, and commit only conclusions un-dominated at whole-solution scope.
+  demonstrate; complete each rival with the mechanisms granted to it, demote none without a
+  constructed keying reading refuted by typed evidence, and commit only conclusions
+  un-dominated at whole-solution scope.
+- Model the criterion as its author's implementation: predictable misreadings of a published
+  procedure are candidate referents, and confidence prices referent fidelity.
 - Treat the governing frame as a candidate: index conventions to the task's provenance,
   and on announced domain transfers to the destination field, preferring the frame under
   which the task's construction does work and its stated thresholds bind.
@@ -40,7 +43,9 @@ and stops with a verifiable result.
   basis, engineered details select between completed routes, and author models cap
   confidence rather than displace constructions.
 - Apply standing rules at their written scope at commitment, and commit one answer under
-  every standard representation when it sits on a convention fork.
+  semantically distinct conventions, each named with its scope, when it sits on a fork.
+- Use deletion and consumption tests only where the compared readings differ on the tested
+  given, and treat a noticed deviation in a planted-error menu's leading option as the plant.
 - Keep the working model answerable to the givens: a given the model provably cannot
   represent refutes the model, and a refuted model's outputs carry no weight anywhere.
 - Measure the asked relation directly before modeling its generator, and price measured
@@ -50,7 +55,7 @@ and stops with a verifiable result.
 - Report completion only when success criteria are directly validated.
 - Expose the material delta and suppress detail that cannot change the result.
 
-## RIDM 21 Architecture
+## RIDM 22 Architecture
 
 ```text
 Task request
@@ -58,9 +63,10 @@ Task request
   -> Authority envelope
   -> Item provenance and rigor
   -> Canon indexing across transfers
-  -> Frame selection with threshold-tightness evidence
+  -> Frame selection with identification scopes and threshold-tightness evidence
   -> Representability audit of the givens
   -> Author-competence estimate and style corpus
+  -> Referent-implementation variants where the author implements a procedure
   -> Standing-structure and capability census
   -> Direct measurement of the asked relation where available
   -> Rigorous-route attempts
@@ -69,18 +75,20 @@ Task request
   -> Completed-route precedence
   -> Named-trap shortcut computation
   -> Evidence ledger
-  -> Flagged observables
+  -> Flagged observables with criterion-phrase answer-class typing
   -> Proof-carrying interpretations
-  -> Candidate coverage with style variants and mechanism classes
+  -> Candidate coverage with style variants, mechanism classes, and misreading referents
+  -> Constructed keying readings per candidate
   -> Typed rival demotion with gloss probes
+  -> Powerless consumption tests discarded
   -> Canonical-precedence ranking
-  -> Falsity-before-coverage option ranking
+  -> Falsity-before-coverage option ranking with planted-deviation discipline
   -> Nearest sufficient invariant
   -> Materiality graph
   -> Non-compensable gates
   -> Minimum sufficient decision
   -> Commitment gate with alarm ledger, margin-to-noise, and assignment integrity
-  -> Fork-enumerated output representation
+  -> Distinct-convention fork enumeration in the output representation
   -> Action admission
   -> Interlocked oracle sequencing
   -> Action and observation
