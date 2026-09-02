@@ -3,7 +3,9 @@
 Tabular summary of every attempted run. Content-free: categories, formats, outcomes, and
 confidence bands only. Updated after each run. All grading is strict: a run scores correct
 only on a match with the official key. Key-quality notes, where material, live in the
-individual run logs.
+individual run logs. Two calibration aggregates sit in Totals: misses committed at the
+high band, the overconfidence count, and candidate coverage, the rate at which the keyed
+answer entered the pre-commitment candidate set, tracked from sprint 0013 onward.
 
 ## Totals
 
@@ -19,6 +21,8 @@ individual run logs.
 | Medium band record, derivation-backed | 10 of 14 |
 | Medium band record, inference-backed | 7 of 21 |
 | Low and very-low band record | 4 of 16 |
+| Misses committed at the high band | 16 of 54 |
+| Candidate coverage, tracked from sprint 0013 | 9 of 10 runs |
 
 ## By RIDM Model
 
