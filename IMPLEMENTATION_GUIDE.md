@@ -1,6 +1,6 @@
 # RIDM Implementation Guide
 
-This guide translates [RIDM 26](RIDM.MD) into software boundaries, data
+This guide translates [RIDM 27](RIDM.MD) into software boundaries, data
 contracts, control flow, tests, and delivery phases. It is written for agents
 and engineers implementing RIDM in any language or runtime.
 
@@ -26,9 +26,9 @@ Use one of these labels when describing implementation coverage.
 | --- | --- |
 | RIDM Reasoning Core | Task contract, evidence ledger, interpretations, candidate coverage, invariant selection, materiality graph, hard gates, commitment gate, and output contract |
 | RIDM Action Runtime | Reasoning Core plus authority enforcement, action admission, execution adapters, observations, oracle discipline, and recovery |
-| RIDM 26 Conformant | Action Runtime plus reopening, completion certificates, privacy controls, and the universal heuristics of Control Laws 14 through 26: candidate, frame, and recall-layer coverage with censuses; flagged-observable consumption and given inviolacy; selection-process consumption; item profiling for provenance, rigor, author, and canon; derivation-first sequencing with completed-route precedence; canonical-precedence ranking; typed-evidence demotion at matching scope; alarm ledger; audited weakest-link banding with referent allowances; mechanically interlocked oracle sequencing; scoped representation forks; evaluation metrics and conformance tests |
+| RIDM 27 Conformant | Action Runtime plus reopening, completion certificates, privacy controls, and the universal heuristics of Control Laws 14 through 26: candidate, frame, and recall-layer coverage with censuses; flagged-observable consumption and given inviolacy; selection-process consumption; item profiling for provenance, rigor, author, and canon; derivation-first sequencing with completed-route precedence; canonical-precedence ranking; typed-evidence demotion at matching scope; alarm ledger; audited weakest-link banding with referent allowances; mechanically interlocked oracle sequencing; scoped representation forks; evaluation metrics and conformance tests |
 
-Do not describe a partial implementation as RIDM 26 conformant. State the
+Do not describe a partial implementation as RIDM 27 conformant. State the
 implemented target and any omitted capability.
 
 ## 3. Required Reading
@@ -873,7 +873,7 @@ Deliver:
 - performance budgets
 - full conformance suite
 
-Claim RIDM 26 conformance only after every required capability and acceptance
+Claim RIDM 27 conformance only after every required capability and acceptance
 case passes.
 
 ## Part VIII: Conformance and Handoff

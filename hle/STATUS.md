@@ -11,18 +11,18 @@ answer entered the pre-commitment candidate set, tracked from sprint 0013 onward
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 136 |
-| Correct | 79 |
-| Percent correct | 58% |
-| Incorrect, strict | 57 |
-| Incorrect against defective or under-determined keys | 2 of 57 |
+| Runs completed | 140 |
+| Correct | 80 |
+| Percent correct | 57% |
+| Incorrect, strict | 60 |
+| Incorrect against defective or under-determined keys | 2 of 60 |
 | High band record | 52 of 69 |
-| Medium band record, recall-backed | 5 of 13 |
-| Medium band record, derivation-backed | 10 of 14 |
+| Medium band record, recall-backed | 5 of 14 |
+| Medium band record, derivation-backed | 10 of 15 |
 | Medium band record, inference-backed | 8 of 22 |
-| Low and very-low band record | 4 of 18 |
-| Misses committed at the high band | 17 of 57 |
-| Candidate coverage, tracked from sprint 0013 | 14 of 16 runs |
+| Low and very-low band record | 5 of 20 |
+| Misses committed at the high band | 17 of 60 |
+| Candidate coverage, tracked from sprint 0013 | 17 of 20 runs |
 
 ## By RIDM Model
 
@@ -32,7 +32,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
-| RIDM 26 | 6 | 3 | 3 | 50% |
+| RIDM 26 | 10 | 4 | 6 | 40% |
 | RIDM 23 | 10 | 7 | 3 | 70% |
 | RIDM 22 | 10 | 7 | 3 | 70% |
 | RIDM 21 | 10 | 6 | 4 | 60% |
@@ -52,6 +52,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Sprint | Runs | Specification under test | Outcome |
 | --- | --- | --- | --- |
+| 0014 | Q000131 to Q000140 | RIDM 26 | 6 lessons (L98 to L103), consolidated into RIDM 27 (released) |
 | 0013 | Q000121 to Q000130 | RIDM 23 | 6 lessons (L92 to L97), consolidated into RIDM 24 (released) |
 | 0012 | Q000111 to Q000120 | RIDM 22 | 6 lessons (L86 to L91), consolidated into RIDM 23 (released) |
 | 0011 | Q000101 to Q000110 | RIDM 21 | 6 lessons (L80 to L85), consolidated into RIDM 22 (released) |
@@ -71,6 +72,10 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000140](runs/Q000140.md) | 0014 | Engineering, remote sensing fusion | multiple choice | no | correct | low |
+| [Q000139](runs/Q000139.md) | 0014 | Medicine, epidemiology threshold | exact match | no | incorrect | medium |
+| [Q000138](runs/Q000138.md) | 0014 | CS, security attack graphs | exact match | no | incorrect | medium |
+| [Q000137](runs/Q000137.md) | 0014 | Other, multidomain trivia chain | exact match | no | incorrect | low |
 | [Q000136](runs/Q000136.md) | 0014 | CS/AI, prototype learning | exact match | no | incorrect | low |
 | [Q000135](runs/Q000135.md) | 0014 | Math, topological signal processing | multiple choice | no | correct | medium |
 | [Q000134](runs/Q000134.md) | 0014 | Math, algebraic geometry zero-cycles | exact match | no | correct | high |

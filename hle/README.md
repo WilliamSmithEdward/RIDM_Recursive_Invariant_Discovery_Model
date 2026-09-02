@@ -23,7 +23,8 @@ its answer format, and the outcome.
 - Each sprint of ten runs closes with a specification revision and an integer version
   release: sprints 0001 through 0013 produced RIDM 12 through RIDM 24. RIDM 25 and
   RIDM 26 are consolidation releases with no sprint behind them, restating the
-  accumulated disciplines as fewer universal heuristics; sprint 0014 runs under RIDM 26.
+  accumulated disciplines as fewer universal heuristics. Sprint 0014 ran under RIDM 26
+  and produced RIDM 27 in the consolidated shape; sprint 0015 runs under RIDM 27.
 
 ## Layout
 

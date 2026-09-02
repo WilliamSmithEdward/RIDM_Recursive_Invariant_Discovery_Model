@@ -20,8 +20,10 @@ and stops with a verifiable result.
   outcomes.
 - Cover the space before ranking: candidates, frames, mechanisms, extent rungs, the null,
   what the state holds, what the task grants, and the reasoner's own recall variants and
-  near-neighbors. A perfect ranking of an incomplete set is a miss.
-- Observe what the task points at, and keep the givens exact, complete, and inviolate.
+  near-neighbors. A perfect ranking of an incomplete set is a miss, and nothing the
+  first pass generated is dropped unprobed.
+- Observe what the task points at, down to its introduced symbols and counted givens,
+  and keep the givens exact, complete, and inviolate.
 - Treat memory as a fallible witness: recall carries its parameterization, contrast, and
   level; conflicting variants rank by anchor authority; famous-neighbor agreement is
   contamination, not corroboration.
@@ -31,7 +33,8 @@ and stops with a verifiable result.
   from idiolect, and the criterion as the author's implementation, defects included.
 - Derive first and keep what derivation wins; engineered details select among completed
   routes.
-- Let the canonical reading lead; coincidence and elegance break ties and never overturn.
+- Let the canonical reading lead and resolve every selection layer blind; coincidence,
+  elegance, and a choice's effect on the ranking never select.
 - Treat the frame as a candidate, refuted by givens it cannot represent.
 - Move nothing without typed evidence at matching scope, and discharge or bind every
   noticed alarm.
@@ -43,7 +46,7 @@ and stops with a verifiable result.
   completion only when success criteria are directly validated; expose the material
   delta and suppress detail that cannot change the result.
 
-## RIDM 26 Architecture
+## RIDM 27 Architecture
 
 ```text
 Task request
