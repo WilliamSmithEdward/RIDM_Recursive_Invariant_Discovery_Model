@@ -50,8 +50,13 @@ and stops with a verifiable result.
   filtered population's modal answer and treat the item's survival as evidence against it.
 - On stepwise processes, enumerate the extent ladder and let stated conditions select the
   rung; surfaced recall that the endpoint's canonical requirements exceed the stem refutes it.
-- Type option provenance by idiolect on mixed-authorship menus, and price a stem's own
-  precision mismatches into confidence with the parameter-free variant computed in advance.
+- Type option provenance by idiolect on mixed-authorship menus, with paraphrase multiplicity
+  forcing the typing before any differencing inside the restated cluster, and price a stem's
+  own precision mismatches into confidence with the parameter-free variant computed in
+  advance.
+- Treat recall as a candidate space: rank conflicting recalled variants by the authority of
+  their anchors, enumerate a recalled attribute's near-neighbors as rivals, and price
+  agreement with a more famous adjacent source as contamination rather than support.
 - Keep the working model answerable to the givens: a given the model provably cannot
   represent refutes the model, and a refuted model's outputs carry no weight anywhere.
 - Measure the asked relation directly before modeling its generator, and price measured
@@ -61,7 +66,7 @@ and stops with a verifiable result.
 - Report completion only when success criteria are directly validated.
 - Expose the material delta and suppress detail that cannot change the result.
 
-## RIDM 23 Architecture
+## RIDM 24 Architecture
 
 ```text
 Task request
@@ -74,7 +79,8 @@ Task request
      threshold-tightness evidence
   -> Representability audit of the givens
   -> Author-competence estimate and style corpus
-  -> Option-provenance typing by idiolect
+  -> Option-provenance typing by idiolect, triggered by paraphrase multiplicity
+  -> Cluster-outlier keying readings before intra-cluster differencing
   -> Extent-ladder enumeration with conditions-selected rungs
   -> Precision-mismatch pricing with parameter-free variants
   -> Referent-implementation variants where the author implements a procedure
@@ -86,6 +92,8 @@ Task request
   -> Completed-route precedence
   -> Named-trap shortcut computation
   -> Evidence ledger
+  -> Recall-layer coverage with variant ranking by anchor authority,
+     near-neighbor rivals, and contamination flags
   -> Flagged observables with criterion-phrase answer-class typing
   -> Proof-carrying interpretations
   -> Candidate coverage with style variants, mechanism classes, and misreading referents

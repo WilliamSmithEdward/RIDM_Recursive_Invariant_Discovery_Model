@@ -1,10 +1,10 @@
-# Recursive Invariant Discovery Model (RIDM) 23
+# Recursive Invariant Discovery Model (RIDM) 24
 
 *An evidence-bound architecture for adaptive reasoning and action*
 
 ## 1. Status
 
-RIDM 23 is the active specification. It supersedes RIDM 22 while preserving the central
+RIDM 24 is the active specification. It supersedes RIDM 23 while preserving the central
 restraint principle:
 
 > Discover broadly enough to identify the material delta, expose only that delta, and stop at
@@ -22,61 +22,59 @@ with demonstrable internal defects), under RIDM 17 nine of ten, the strongest sp
 date, under RIDM 18 six of ten (one of those misses graded against a key with a
 demonstrable internal defect), under RIDM 19 eight of ten, the second-strongest
 sprint, under RIDM 20 five of ten, under RIDM 21 six of ten with the high band a
-clean four of four, and under RIDM 22 seven of ten, the third-strongest sprint. The
-samples are small and the category mixes differ, so the comparisons are indicative,
-not conclusive. The twelfth sprint produced no repeat miss of the referent-variant
-class RIDM 22 was built against. Its wins were carried by instruments that convert
-referent prediction into observable differencing: trace counting for a decay
-exponent, robustness partitioning of a compound answer, protection-pattern
-differencing of rival reagents, per-edge literature anchoring of a sign vector, and
-idiolect-based provenance typing of menu options. One miss was graded against a key
-with three checkable internal inconsistencies, priced correctly at medium by the
-banding rules. The other two misses share one structure: instance-level evidence
-generated during the attempt was demoted by a weaker generic prior. An item's
-survival in an adversarially filtered pool was recognized as evidence about which
-side of a contested verdict the key holds, then discharged in favor of a population
-prior about reviewers; and a surfaced recall that a famous endpoint's canonical
-preparation is harsher than the stem's stated conditions was averaged away as doubt
-instead of refuting the endpoint. RIDM 23's revisions concentrate there, in
-pool-filter evidence, extent-ladder coverage, option-provenance typing, and
-precision-mismatch pricing.
+clean four of four, under RIDM 22 seven of ten, and under RIDM 23 seven of ten
+again, with the high band a clean four of four and every derivation-backed
+commitment a hit. The samples are small and the category mixes differ, so the
+comparisons are indicative, not conclusive. The thirteenth sprint's misses all sit
+at the recall and provenance layer, and in each the winning answer was one step
+away. A menu holding four polished paraphrases of one diagnosis and one rough,
+semantically distinct option was committed inside the cluster after the outlier was
+demoted by an answer-class argument; the cluster was harvested from reference-model
+answers and the outlier was the author's verdict in the author's own idiolect. A
+dose-table item surfaced three conflicting recalled values including the keyed one,
+and the commitment followed terminology lineage plus a round-number collapse
+instead of the variant anchored to the international standard. A single-attribute
+recall was missed by one semantic neighbor after a more famous adjacent work's
+version of the motif was allowed to corroborate the recall it had contaminated.
+RIDM 24's revisions concentrate there, in paraphrase-cluster provenance, recall
+variant coverage with anchor-authority ranking, and contamination pricing of
+adjacent-canon corroboration.
 
 Proof-carrying output means concise claims, evidence, assumptions, validation, and limits. It
 does not require disclosure of private chain-of-thought or a transcript of internal reasoning.
 
 ## Part I: The Central Revision
 
-### 2. The Problem Exposed by RIDM 22
+### 2. The Problem Exposed by RIDM 23
 
-RIDM 22 hardened the referent-variant layer: rivals fell only to constructed keying
-readings, forks spanned distinct conventions, implementations carried their predictable
-defects, consumption tests were power-checked, and planted deviations bound. A twelfth
-evaluation sprint, run under RIDM 22, scored seven of ten with no repeat miss of the
-referent-variant class, and its two genuine misses expose the layer above: what the
-item's context says about its key. In both, the decisive evidence was generated during
-the attempt and then demoted by a weaker generic prior. One run faced a contested
-verdict with defensible literature on both sides, constructed both keying readings,
-and explicitly noted that the item could survive an adversarially filtered pool only
-if the key sat opposite the consensus verdict; that instance-level signal was then
-discharged in favor of a population prior about reviewers, and the key sat opposite
-the consensus. One run recognized a stepwise transformation, named the partial-extent
-rival, half-recalled that the famous endpoint's canonical preparation is harsher than
-the stem's mild stated conditions, and still committed the endpoint after demoting the
-rival with an untyped duration phrase. A third miss was graded against a key with
-three checkable internal inconsistencies, each reproduced exactly, on an item whose
-stem paired an order-of-magnitude given with an exact-precision demand; the medium
-band priced it correctly, and the configuration is recognizable in advance. The
-losses were not in coverage of the author's variants; they were in consuming what the
-pool's filter and the stem's own conditions already said about the key.
+RIDM 23 hardened the context layer: pool filters were consumed as instance evidence,
+extent ladders replaced endpoint capture, options carried idiolect-typed provenance,
+and precision mismatches priced referent noise. A thirteenth evaluation sprint, run
+under RIDM 23, scored seven of ten with the high band clean and every
+derivation-backed commitment a hit, and its three misses all sit at the recall and
+provenance layer, each with the winning answer one step away. One run noticed that
+four of five options were polished paraphrases of one diagnosis while the fifth was
+rough and semantically distinct, even named the outlier, then demoted it with an
+answer-class argument and committed inside the cluster; the cluster was harvested
+from reference-model answers, and the outlier was the author's verdict in the
+author's own idiolect, exactly what the new provenance-typing discipline existed to
+catch and was never triggered to run. One run surfaced three conflicting recalled
+values for a keyed table cell, including the correct one anchored to the
+international standard, and committed a reconstruction selected by terminology
+lineage plus a round-number collapse of the stem's givens. One run recalled a
+painting's attribute one semantic neighbor off the key, with the recall reinforced
+by a more famous adjacent work's version of the motif, corroboration that was in
+fact the contamination. The losses were not in the answer-layer disciplines; they
+were in treating recall and menu architecture as given rather than as candidate
+spaces with their own coverage, ranking, and contamination rules.
 
-| RIDM 22 residual | Why it is material | RIDM 23 correction |
+| RIDM 23 residual | Why it is material | RIDM 24 correction |
 | --- | --- | --- |
-| Pool-filter evidence demoted by population priors | An item's survival in a filtered pool says which side of a contested verdict the key holds, and a generic reviewer prior overrode it | The filter is provenance: predict the filtered population's modal answer and treat survival as typed instance evidence against it (Sections 19, 24, and 29) |
-| Endpoint recall committed over the extent ladder | A famous endpoint was committed although the stated conditions buy only the first rung, and the surfaced harsher-canonical-conditions recall was averaged away | On stepwise processes the candidate space is the extent ladder, conditions select the rung, and conflicting conditions recall refutes the endpoint (Sections 20, 23, and 29) |
-| Precision demands mismatched to given precision | An order-of-magnitude given under an exact-precision demand predicted the key author's inconsistent implementation | The mismatch is recognizable in the stem: price referent noise, compute the parameter-free shortcut, and cap the band (Sections 11, 21, and 48) |
-| Options treated as one author's text | A menu mixing author-voiced statements with harvested critiques was rankable only by typing each option's provenance | Options carry provenance: type authorship by idiolect against the stem before ranking, and let author-voiced options carry the author's verdict (Sections 19, 23, and 29) |
+| Provenance typing lacked its cheapest trigger | A menu restating one idea across most options is itself provenance evidence, and the discipline sat unused while an answer-class argument demoted the author-voiced outlier | Paraphrase multiplicity marks the harvested cluster: type provenance by idiolect before any intra-cluster differencing, and construct the outlier's keying reading first (Sections 19, 23, and 29) |
+| Conflicting recalled values selected by lineage and collapse | The keyed value was in the recall set, anchored to the authoritative standard, and lost to a reconstruction whose variant made the givens collapse to a round answer | Recall variants form a candidate space ranked by anchor authority, with coincidence collapse denied selector status (Sections 16, 20, and 29) |
+| Famous-neighbor corroboration upgraded a contaminated recall | A recalled attribute matching a more famous adjacent source's motif was read as support when the match was the availability magnet acting on memory | Adjacent-canon corroboration is contamination evidence: enumerate semantic near-neighbors as rivals and commit unseparated recall at the low band (Sections 16, 21, and 23) |
 
-These residuals do not invalidate RIDM 22. They mark the next sufficient invariant horizon.
+These residuals do not invalidate RIDM 23. They mark the next sufficient invariant horizon.
 
 ### 3. Primary Operating Law
 
@@ -102,51 +100,56 @@ that would key it, enumerated forks span semantically distinct conventions, the
 referent is an implementation whose predictable defects are candidate referents, a
 consumption test binds only where readings differ on the tested given, and a noticed
 deviation inside a planted-error menu's leading option is the plant until refuted.
-RIDM 23 adds: the filter that admitted an item into its pool is typed instance
+RIDM 23 added: the filter that admitted an item into its pool is typed instance
 evidence about its key, stated conditions select the rung of an extent ladder and
 conflicting conditions recall refutes the endpoint, menu options carry provenance
 typed by idiolect, and a precision demand mismatched to a given's stated precision
-prices referent noise into the band.
+prices referent noise into the band. RIDM 24 adds: an idea restated across most of
+a menu marks the harvested cluster and makes provenance typing mandatory before
+intra-cluster differencing, conflicting recalled values form a candidate space
+ranked by the authority of each variant's anchor, coincidence collapse selects
+nothing at the recall layer, and corroboration of a recalled attribute by a more
+famous adjacent source is contamination evidence that forces near-neighbor rivals
+and a band cap.
 
 ### 4. Revised Definition of Intelligence
 
-RIDM 23 defines intelligence as:
+RIDM 24 defines intelligence as:
 
 > The ability to discover task-relevant invariants, cover the space of candidate readings and
 > answers, ground material claims, choose authorized actions, learn from verified signals, and
 > stop at a calibrated, verifiable minimum sufficient result.
 
-RIDM 22 hardened the referent-variant layer with constructed-reading demotion,
-distinct-convention forks, referent-implementation fidelity, consumption-test power,
-and planted-deviation discipline. RIDM 23 hardens the context layer above it, what the
-pool, the conditions, and the options' own provenance say about the key, with four
-disciplines:
+RIDM 23 hardened the context layer with pool-filter evidence, extent-ladder
+coverage, option-provenance typing, and precision-mismatch pricing. RIDM 24 hardens
+the recall and menu-architecture layer beneath it, treating what the reasoner
+remembers and what the menu's own construction shows as candidate spaces with their
+own coverage and ranking rules, with three disciplines:
 
-- pool-filter evidence: the selection rule that admitted an item into its pool is part
-  of the item's provenance; on split-verdict items, predict the filtered population's
-  modal answer, and treat the item's survival as typed instance evidence that the key
-  sits elsewhere; population priors about authors or reviewers are narrative-tier
-  against that signal
-- extent-ladder coverage: on stepwise or telescoping processes, the candidate space is
-  the extent-of-reaction ladder, one candidate per rung; the stated conditions'
-  harshness selects the rung, prominently mild conditions are an extent-limiter flag,
-  and a surfaced recall that the endpoint's canonical conditions exceed the stem's is
-  typed refutation of the endpoint, not a doubt to average away
-- option-provenance typing: the options of a statement-evaluation menu may have
-  different authors; type each option's likely authorship by matching idiolect against
-  the stem before ranking, let author-voiced options carry the author's verdict, and
-  key a true-but-tangential critique by the author's reading of it, not its truth value
-- precision-mismatch pricing: a stem that supplies a parameter only as an order of
-  magnitude while demanding an exact-precision answer carries a criterion-information
-  mismatch inside its own text; coherence may pin the literal reading, but the mismatch
-  predicts author implementation inconsistency, so the parameter-free variant is
-  computed and the band carries a referent allowance
+- paraphrase-cluster provenance: an idea restated across three or more options is
+  the filtered population's modal answer in harvested form, because a unique-key
+  menu cannot key an undifferentiated paraphrase; the semantically distinct outlier
+  is presumptively author-voiced, provenance typing by idiolect is mandatory before
+  any intra-cluster differencing, and on a rough-idiolect stem a register or
+  answer-class mismatch inside the outlier is the author's pen, not demotion
+  evidence
+- recall-variant coverage: conflicting recalled values for one published fact form
+  a candidate space; rank the variants by the citability and authority of the
+  source each is anchored to, standard over reconstruction, with terminology
+  lineage demoted to tie-breaking, and deny selector status to a coincidence
+  collapse, a variant under which the stem's givens produce a round or clean
+  answer, which is the recall-layer twin of the numerical coincidence
+- contamination pricing: when a recalled specific attribute coincides with a more
+  famous adjacent source's version of the motif, the coincidence is evidence the
+  recall was contaminated by the availability magnet, not corroborated; enumerate
+  the attribute's semantic near-neighbors as rivals, require an independent
+  separating probe, and commit unseparated single-attribute recall at the low band
 
 ## Part II: Core Vocabulary and Scope
 
 ### 5. Core Terms
 
-RIDM 23 uses the following terms precisely.
+RIDM 24 uses the following terms precisely.
 
 - A **heuristic** is a compressed rule that is useful within a scope.
 - An **invariant** is a relation stable enough to govern the current task under stated
@@ -442,6 +445,28 @@ Carry derived precision to the end of the chain: rounding a self-derived interme
 to agree with a rounder remembered figure silently swaps a derived claim for a reported one
 mid-chain. Unverified numeric recall commits at the low band by rule.
 
+Recall is a candidate space, not a single reading. When memory returns conflicting
+variants of one published fact, a table cell, a named constant, a specific attribute,
+the variants are candidates and the selection needs a typed instrument: rank them by
+the citability and authority of the source each variant is anchored to, an
+international standard or primary publication over a reconstructed secondary table,
+with terminology-lineage arguments demoted to tie-breaking. A coincidence collapse,
+one variant making the task's givens produce a round or clean answer, is the
+recall-layer twin of the numerical coincidence and selects nothing. And the space
+includes near-neighbors the memory did not return: a recalled specific attribute has
+semantic neighbors, the adjacent species, the sibling motif, the neighboring value,
+that are rivals to enumerate before commitment, because recall errors land on
+neighbors far more often than on strangers.
+
+Corroboration can be contamination. When a recalled attribute coincides with a more
+famous adjacent source's version of the same motif, a celebrated work in the same
+tradition, a better-known table from the same literature, the coincidence is evidence
+that the availability magnet acted on the memory itself, not support for the recall:
+the famous neighbor is exactly what overwrites precise recall. Type such agreement as
+contamination, require an independent probe that separates the recalled attribute
+from its famous neighbor, and commit unseparated single-attribute recall at the low
+band regardless of how confidently the memory arrives.
+
 Qualitative recall carries its comparison the same way numeric recall carries its
 parameterization. A recalled direction or effect is attested under a specific contrast:
 cases against controls, a subgroup against the rest of its population, a dose against a
@@ -599,6 +624,19 @@ literally true statement about a proposition the graded claim never asserts is k
 by the author's reading of it, not by its truth value, and an author-voiced option
 that contradicts a harvested one tells you which side the key holds.
 
+Paraphrase multiplicity is the trigger that makes this typing mandatory. An idea
+restated across three or more options, with only micro-variations of scope,
+completeness, or phrasing, is the filtered reference population's modal answer in
+harvested form, because a unique-key menu cannot key an undifferentiated paraphrase
+cluster: either exactly one member carries a genuinely discriminating element, or
+the key lies outside the cluster. The semantically distinct outlier is presumptively
+author-voiced, and its keying reading is constructed before any intra-cluster
+differencing is allowed to run, because scope qualifiers and criterion echoes inside
+a harvested cluster are rationalization fuel. On a stem written in rough or
+non-native idiolect, a register mismatch, a grammatical defect, or an apparent
+answer-class mismatch inside the outlier is the same pen that wrote the stem, and it
+demotes nothing.
+
 The pool's admission filter is provenance too. When an item belongs to a pool
 constructed by a selection rule, such as a benchmark that keeps only items a
 population of reference solvers answered incorrectly, that rule is evidence about the
@@ -658,6 +696,14 @@ These rules apply unchanged when the conflicting sources are the reasoner's own 
 derivations, a heuristic estimate against a rigorous argument, recall against computation. Do
 not average internal routes. Prefer the more direct and checkable route, and record what would
 resolve the disagreement.
+
+When the conflict is among recalled variants of one published fact, the resolution
+instrument is anchor authority (Section 16): the variant anchored to the most
+authoritative, citable source leads, terminology lineage breaks ties only, and a
+variant's ability to make the task's givens collapse to a clean answer carries no
+selection weight. Preferring the directly authoritative anchor over an indirect
+reconstruction is the internal-recall form of preferring direct evidence over
+repetition.
 
 A surfaced doubt is often a conflict in disguise. When recall of a candidate's canonical
 requirements conflicts with the task's stated conditions, the recall that the famous
@@ -774,6 +820,14 @@ resolution can contradict their own text; the configuration carries a referent
 allowance the way trap adjacency and implementation distance do, with the
 parameter-free variant computed pre-reveal so a defective verdict can be differenced
 on sight (Section 48).
+
+Contaminated recall bands at the contamination, not at the felt confidence. A
+single-attribute recall whose content coincides with a more famous adjacent source's
+motif (Section 16) commits at the low band unless an independent probe separates the
+recalled attribute from its neighbor, and agreement with the famous neighbor moves
+the band down, never up. The vividness of such a recall tracks the neighbor's fame,
+not the recall's fidelity, so felt confidence is uninformative exactly where the
+configuration occurs.
 
 Measured commitments band at the weakest slot's margin against the instrument's noise.
 When a slot is decided by a measurement, the discriminating quantity's separation
@@ -991,6 +1045,19 @@ how well the set is ranked. Before ranking:
   (Section 19): author-voiced options carry the author's verdict, harvested options
   carry assigned roles, and a true statement about a proposition the graded claim
   never asserts is keyed by the author's reading of it.
+- Treat paraphrase multiplicity as the mandatory trigger for that typing. When
+  three or more options restate one idea with micro-variations while one option
+  stands semantically apart, the cluster is the harvested modal answer and the
+  outlier is presumptively author-voiced (Section 19): construct the outlier's
+  keying reading and refute it at parity before any intra-cluster differencing on
+  scope qualifiers or criterion echoes, and give register or answer-class
+  mismatches inside the outlier no demotion weight on a rough-idiolect stem.
+- Cover the recall layer's own candidates. Conflicting recalled variants of one
+  published fact are all candidates, ranked by anchor authority (Section 16); and
+  a recalled specific attribute's semantic near-neighbors, the adjacent species,
+  sibling motif, or neighboring value, enter the candidate set as rivals before a
+  single-attribute recall is committed, with famous-neighbor agreement typed as
+  contamination rather than support.
 - On items graded by an author's implementation of a published procedure or metric,
   open the candidate-referent set at the implementation level: the faithful procedure
   under its convention forks, and its predictable misreadings, led by clauses that
@@ -1061,6 +1128,9 @@ time: they may break ties inside the canonical reading and may never overturn it
 discovered near-coincidence among the task's givens is a hypothesis generator, never a
 discriminator, because the space of checkable coincidences makes chance matches expected.
 Sophistication is spent proving the canonical reading's consequences, not defeating it.
+The coincidence rule binds at every selection layer, including selection among recalled
+variants of a fact: a variant under which the givens collapse to a round or clean answer
+gains hypothesis status and no selection weight (Sections 16 and 20).
 
 The pool-filter signal is not a meta-prior. Canonical precedence governs readings of the
 task; on an item whose answer is itself a contested verdict with defensible literature on
@@ -1187,7 +1257,7 @@ The symbols denote task-relevant changes, not calibrated numeric quantities.
 
 ### 28. Constraint-First Refinement
 
-RIDM 23 keeps ordered admission in place of unrestricted scalar tradeoffs.
+RIDM 24 keeps ordered admission in place of unrestricted scalar tradeoffs.
 
 First evaluate non-compensable gates:
 
@@ -1319,6 +1389,19 @@ before commitment, re-check:
   authorship, was each option's provenance typed by idiolect, and is every
   true-but-tangential statement keyed by the author's reading rather than its truth
   value (Sections 19 and 23)?
+- **Paraphrase cluster.** If three or more options restate one idea, was provenance
+  typing run before any intra-cluster differencing, was the semantically distinct
+  outlier's keying reading constructed and refuted at parity, and did no register or
+  answer-class mismatch inside the outlier carry demotion weight on a rough-idiolect
+  stem (Sections 19 and 23)?
+- **Recall variants.** If conflicting recalled values for one published fact
+  survived, was the committed variant selected by anchor authority rather than
+  terminology lineage, and did no coincidence collapse of the givens act as the
+  selector (Sections 16, 20, and 24)?
+- **Recall contamination.** For a committed single-attribute recall, were the
+  attribute's semantic near-neighbors enumerated as rivals, was any agreement with a
+  more famous adjacent source typed as contamination, and is an unseparated recall
+  banded low (Sections 16, 21, and 23)?
 - **Precision mismatch.** If a given is stated only at order-of-magnitude or vague
   precision while the answer demands exactness, was the literal reading pinned by
   coherence, the parameter-free variant computed, and the referent allowance applied
@@ -1343,7 +1426,7 @@ If a check fails, reopen the smallest affected layer instead of shipping the com
 
 ### 30. Internal Model and Output Contract
 
-RIDM 23 preserves the separation between internal discovery and external disclosure.
+RIDM 24 preserves the separation between internal discovery and external disclosure.
 
 ```text
 OutputContract {
@@ -1907,7 +1990,7 @@ before action admission.
 ### 62. Evaluation Dimensions
 
 ```text
-RIDM23Metrics {
+RIDM24Metrics {
     factual_accuracy
     evidence_coverage
     unsupported_decisive_claim_rate
@@ -1957,6 +2040,10 @@ RIDM23Metrics {
     extent_rung_selection
     option_provenance_typing
     precision_mismatch_pricing
+    paraphrase_cluster_typing
+    recall_variant_coverage
+    anchor_authority_ranking
+    contamination_pricing
     confidence_band_calibration
     oracle_defect_detection
     authorization_compliance
@@ -2082,7 +2169,16 @@ an enumerated extent ladder rather than the endpoint; option-provenance typing i
 rate at which mixed-authorship menus had options typed by idiolect before ranking;
 precision-mismatch pricing is the rate at which stems pairing vague givens with exact
 demands carried the referent allowance with the parameter-free variant computed
-pre-reveal. Oracle-defect detection is credited only when a
+pre-reveal. Paraphrase-cluster typing is the rate at which menus restating one idea
+across three or more options had provenance typed and the outlier's keying reading
+constructed before intra-cluster differencing; recall-variant coverage is the rate at
+which conflicting recalled values for one fact entered the candidate set together
+rather than the first arrival committing; anchor-authority ranking is the rate at
+which committed recall variants were selected by the authority of their anchors with
+coincidence collapse denied selector status; contamination pricing is the rate at
+which single-attribute recalls agreeing with a more famous adjacent source were
+committed with near-neighbor rivals enumerated and the band capped absent a
+separating probe. Oracle-defect detection is credited only when a
 defective signal is identified through checkable internal inconsistency, not through
 disagreement alone.
 
@@ -2092,7 +2188,7 @@ rather than assigning a perfect score.
 
 ### 64. Evaluation Protocol
 
-An RIDM 23 evaluation set should vary:
+An RIDM 24 evaluation set should vary:
 
 - task clarity and ambiguity
 - evidence quality, conflict, and freshness
@@ -2194,6 +2290,12 @@ An RIDM 23 evaluation set should vary:
   with and without internally consistent keys
 - menus omitting the default frame's canonical answer while containing a rival
   frame's canonical answer plus name-association traps
+- menus restating one harvested idea across most options, keyed to a semantically
+  distinct author-voiced outlier whose register matches the stem's rough idiolect
+- items keyed to one published table cell for which the literature circulates
+  well-known conflicting variants anchored to sources of different authority
+- recall items whose keyed specific attribute has a more famous near-neighbor in an
+  adjacent canonical work of the same tradition
 
 Minimum behavior cases include:
 
@@ -2321,6 +2423,15 @@ Minimum behavior cases include:
 67. A stem pairing an order-of-magnitude given with an exact-precision demand commits
     the coherence-pinned literal reading at a banded allowance, with the
     parameter-free variant computed pre-reveal.
+68. A menu restating one idea across most options is typed for provenance before any
+    intra-cluster differencing, and the distinct outlier's keying reading is
+    constructed and refuted at parity before a cluster member is committed.
+69. Conflicting recalled values for one published fact are ranked by anchor
+    authority, and a variant under which the givens collapse to a round answer gains
+    no selection weight from the collapse.
+70. A single-attribute recall agreeing with a more famous adjacent source's motif is
+    committed only after its semantic near-neighbors are enumerated and a separating
+    probe runs, and otherwise commits at the low band.
 
 Adjudicators should label material residuals, authority boundaries, acceptable actions,
 evidence requirements, and completion criteria before scoring output.
@@ -2397,6 +2508,12 @@ A conforming implementation should demonstrate that it can:
 - enumerate extent ladders on stepwise processes and select the rung the stated
   conditions support, refuting endpoints whose canonical requirements exceed the stem
 - type option provenance by idiolect on mixed-authorship menus before ranking
+- treat paraphrase multiplicity as the mandatory provenance trigger, constructing the
+  outlier's keying reading before any intra-cluster differencing
+- cover conflicting recalled variants as one candidate space ranked by anchor
+  authority, with coincidence collapse denied selector status
+- enumerate a recalled attribute's semantic near-neighbors as rivals and price
+  famous-neighbor agreement as contamination
 - price stem-internal precision mismatches into the band with the parameter-free
   variant computed pre-reveal
 - commit each claim class at its audited band, opened at the decisive link, with
@@ -2805,6 +2922,26 @@ A stem supplies a parameter only as an order of magnitude while demanding an exa
 answer, and the commitment carries full derivation confidence with no referent
 allowance and no parameter-free variant computed.
 
+#### Harvest-cluster commitment
+
+A menu restating one idea across most options is committed inside the cluster on a
+scope qualifier or criterion echo, while the semantically distinct outlier is demoted
+by register or answer-class without its keying reading being constructed; the cluster
+was the harvested modal answer and the outlier was the author's verdict.
+
+#### Variant selection by collapse
+
+Among conflicting recalled values for one published fact, the committed variant is
+selected because the task's givens collapse to a round or clean answer under it, or
+because its terminology lineage matches the stem, while the variant anchored to the
+most authoritative source is outranked.
+
+#### Corroboration laundering
+
+A recalled attribute's agreement with a more famous adjacent source's motif is read
+as support, upgrading the commitment the contamination produced, and the recalled
+attribute's semantic near-neighbors never enter the candidate set.
+
 ## Part XIV: Control Laws
 
 ### 67. Control Laws
@@ -3185,14 +3322,36 @@ carries a criterion-information mismatch in its own text. Commit the
 coherence-pinned literal reading, compute the parameter-free variant pre-reveal, and
 carry a referent allowance on the band.
 
+#### Control Law 68 - Paraphrase Multiplicity Marks the Harvest
+
+An idea restated across three or more options is the harvested modal answer, and the
+semantically distinct outlier is presumptively author-voiced. Provenance typing runs
+before any intra-cluster differencing, the outlier's keying reading is constructed
+and refuted at parity first, and register or answer-class mismatches inside the
+outlier demote nothing on a rough-idiolect stem.
+
+#### Control Law 69 - Recall Variants Rank by Anchor Authority
+
+Conflicting recalled values for one published fact form a candidate space. The
+variant anchored to the most authoritative citable source leads, terminology lineage
+breaks ties only, and a coincidence collapse of the givens under one variant selects
+nothing at any layer.
+
+#### Control Law 70 - Famous-Neighbor Agreement Is Contamination
+
+When a recalled specific attribute coincides with a more famous adjacent source's
+version of the motif, the coincidence is evidence the recall was contaminated, not
+corroborated. Enumerate the attribute's semantic near-neighbors as rivals, probe for
+separation, and commit unseparated recall at the low band.
+
 ## Part XV: Reference Procedure
 
-### 68. RIDM 23 Procedure
+### 68. RIDM 24 Procedure
 
 ```text
-function RIDM23(input, context, objectives, constraints):
+function RIDM24(input, context, objectives, constraints):
 
-    state = RIDM22_initialize(
+    state = RIDM23_initialize(
         input,
         context,
         objectives,
@@ -3265,6 +3424,15 @@ function RIDM23(input, context, objectives, constraints):
                 task_contract.option_menu,
                 item_profile.style_corpus
             )
+
+        if paraphrase_cluster_present(task_contract.option_menu):
+            item_profile.cluster_outlier =
+                construct_keying_reading(
+                    semantically_distinct_outlier(
+                        task_contract.option_menu
+                    ),
+                    item_profile.option_provenance
+                )
 
     if stepwise_process(task_contract):
         item_profile.extent_rung =
@@ -3350,6 +3518,20 @@ function RIDM23(input, context, objectives, constraints):
         build_evidence_ledger(
             task_contract,
             state
+        )
+
+    evidence_ledger =
+        cover_recall_layer(
+            evidence_ledger,
+            rank_by_anchor_authority(
+                conflicting_recall_variants(evidence_ledger)
+            ),
+            near_neighbor_rivals(
+                recalled_attributes(evidence_ledger)
+            ),
+            contamination_flags(
+                famous_neighbor_agreements(evidence_ledger)
+            )
         )
 
     evidence_ledger =
@@ -3584,37 +3766,28 @@ function RIDM23(input, context, objectives, constraints):
 
 ### 69. Inheritance and Replacement
 
-RIDM 23 preserves RIDM 22 unless this specification explicitly changes a rule.
+RIDM 24 preserves RIDM 23 unless this specification explicitly changes a rule.
 
-| RIDM 22 concept | RIDM 23 treatment |
+| RIDM 23 concept | RIDM 24 treatment |
 | --- | --- |
-| Task contract, authority, mismatch | Extended: a vague given under an exact-precision demand is a mismatch inside the stem, priced as referent noise |
+| Task contract, authority, precision-mismatch pricing | Preserved |
 | Forced-choice protocol, criterion referent, completed-route precedence | Preserved |
-| Designed-detail route selection and threshold discrimination | Preserved |
-| Item rigor, provenance, canon indexing, style corpora | Extended: the pool's admission filter is provenance, and the style corpus types option provenance by idiolect |
-| Frame selection, representability, load-bearingness | Extended: menu architecture identifies the frame when the default frame's canonical answer is absent |
+| Pool-filter evidence and extent-ladder coverage | Preserved |
+| Item rigor, provenance, canon indexing, style corpora | Extended: paraphrase multiplicity is itself provenance evidence, making idiolect typing mandatory before intra-cluster differencing |
+| Option-provenance typing | Extended: the semantically distinct outlier of a paraphrase cluster is presumptively author-voiced, and register mismatches inside it demote nothing on a rough-idiolect stem |
+| Internal recall and availability | Extended: recall is a candidate space; conflicting variants rank by anchor authority, and near-neighbor rivals of a recalled attribute are enumerated |
+| Conflicting evidence | Extended: variant selection among recalled values is resolved by anchor authority, never by coincidence collapse or terminology lineage alone |
+| Coherence and canonical precedence | Extended: the coincidence rule binds at the recall-variant layer |
+| Uncertainty and calibration | Extended: famous-neighbor agreement caps unseparated single-attribute recall at the low band |
+| Candidate coverage | Extended: the recall layer's own candidates, variant values and semantic near-neighbors, enter the set before ranking |
+| Frame selection, representability, load-bearingness | Preserved |
 | Refuted-model taint and direct-instrument precedence | Preserved |
-| Candidate coverage | Extended: extent ladders on stepwise processes, with rungs selected by stated conditions |
-| Coherence and canonical precedence | Extended: the pool-filter signal is typed instance evidence, strong enough to defeat a consensus verdict |
-| Conflicting evidence | Extended: surfaced recall of a candidate's harsher canonical requirements refutes it under the stated conditions |
-| Constructed demotion, fork distinctness, consumption-test power | Preserved, with duration and effort phrases named as untyped demotions |
-| Referent-implementation fidelity and planted-deviation discipline | Preserved |
-| Margin-to-noise, trap-priced, audit-inherited banding | Extended: precision mismatches carry a referent allowance with the parameter-free variant computed pre-reveal |
+| Margin-to-noise, trap-priced, audit-inherited banding | Preserved |
 | Standing-structure and capability census | Preserved |
 | Closed-world validation, oracle discipline, interlocked sequencing | Preserved |
 | Completion, stopping, disclosure, privacy | Preserved |
 
-RIDM 22 asked:
-
-> For every demoted candidate, was the reading that would key it constructed and
-> refuted; does every enumerated fork span distinct conventions, with sign branches
-> selected by the stem's own values; on implementation-graded items, are the
-> procedure's predictable misreadings in the referent set with the band priced at
-> fidelity; does every consumption argument discriminate between readings that differ
-> on the tested given; and on a planted-error menu, was every noticed deviation in the
-> committed option refuted and the criterion phrase's answer class matched?
-
-RIDM 23 adds:
+RIDM 23 asked:
 
 > On a contested verdict or a famous setup, was the filtered population's modal answer
 > predicted and the pool's survival signal consumed rather than demoted by a
@@ -3625,9 +3798,19 @@ RIDM 23 adds:
 > exact demand, was the parameter-free variant computed and the referent allowance
 > carried on the band?
 
+RIDM 24 adds:
+
+> On a menu restating one idea across most options, was provenance typed and the
+> outlier's keying reading constructed before any intra-cluster differencing; among
+> conflicting recalled values, did the variant with the most authoritative anchor
+> lead, with no coincidence collapse acting as selector; and for a committed
+> single-attribute recall, were its semantic near-neighbors enumerated as rivals,
+> with famous-neighbor agreement priced as contamination and unseparated recall
+> banded low?
+
 ## Part XVII: Compressed Architecture
 
-### 70. RIDM 23 Flow
+### 70. RIDM 24 Flow
 
 ```text
 Task request
@@ -3640,7 +3823,8 @@ Task request
      threshold-tightness evidence
   -> Representability audit of the givens
   -> Author-competence estimate and style corpus
-  -> Option-provenance typing by idiolect
+  -> Option-provenance typing by idiolect, triggered by paraphrase multiplicity
+  -> Cluster-outlier keying readings before intra-cluster differencing
   -> Extent-ladder enumeration with conditions-selected rungs
   -> Precision-mismatch pricing with parameter-free variants
   -> Referent-implementation variants where the author implements a procedure
@@ -3652,6 +3836,8 @@ Task request
   -> Completed-route precedence
   -> Named-trap shortcut computation
   -> Evidence ledger
+  -> Recall-layer coverage with variant ranking by anchor authority,
+     near-neighbor rivals, and contamination flags
   -> Flagged observables with criterion-phrase answer-class typing
   -> Proof-carrying interpretations
   -> Candidate coverage with style variants, mechanism classes, and misreading referents
@@ -3684,15 +3870,17 @@ Task request
 
 ## Final Definition
 
-RIDM 23 defines intelligence as:
+RIDM 24 defines intelligence as:
 
-> The recursive discovery of scoped invariants over a covered candidate space inside a
+> The recursive discovery of scoped invariants over a covered candidate space that
+> includes the reasoner's own recall variants and their near-neighbors, inside a
 > frame that represents the givens, ranked with canonical precedence under the
 > destination canon, aimed at the operative criterion and its estimated author as that
 > author implements it, defects and conventions included, informed by the filter that
-> admitted the item and the conditions the stem actually grants, resting on the
-> completed route the task's engineered details select and on instruments whose noise
-> the bands price, bound to evidence no refuted model supplies, with rivals that fall
+> admitted the item, the conditions the stem actually grants, and the provenance the
+> menu's own architecture betrays, resting on the completed route the task's
+> engineered details select and on instruments whose noise the bands price, bound to
+> evidence no refuted model and no contaminated recall supplies, with rivals that fall
 > only to constructed readings, updated by verified signals, committed through
 > decisions un-dominated at whole-solution scope and calibrated at the audited weakest
 > decisive link, and stopped by verifiable completion.
@@ -3709,19 +3897,23 @@ Its central invariant is:
 > extent ladder and let surfaced harsher-requirement recall refute the endpoint, let
 > the engineered details pick between completed routes, census what the state already
 > holds and what the task grants, cover the candidates including the mechanism
-> classes, the misreading referents, what the stem withholds, and the idioms its
-> examples demonstrate, type the provenance of every option an idiolect can betray,
-> complete every rival with the mechanisms available to it and demote none without a
-> constructed keying reading refuted by typed evidence, rank the canonical reading
-> first and true options before complete-looking ones, keep the givens exact while
-> approximating only the incomputable, keep distributional recall at its own level,
-> consume what the task hints at, observe what the task points at, type the answer
-> class the criterion phrase names, treat noticed deviations in planted menus as the
-> plant, test consumption only where readings differ, discharge or bind every alarm,
-> price the named trap, the instrument's noise, the referent's fidelity, and the
-> stem's own precision mismatches, apply standing rules and rigor caps as written,
-> ground material claims, admit only authorized action, commit before consulting the
-> oracle and let the mechanism enforce it, commit one answer under semantically
-> distinct representations each named with its scope, un-dominated for whole
-> solutions at the audited weakest link's band, learn from verified signals, expose
-> the material delta, and stop at the minimum sufficient verified result.
+> classes, the misreading referents, what the stem withholds, the idioms its examples
+> demonstrate, and the reasoner's own recall variants with their near-neighbors, type
+> the provenance of every option an idiolect can betray and let paraphrase
+> multiplicity force the typing, rank recalled variants by the authority of their
+> anchors and give coincidence collapse no vote, treat famous-neighbor agreement as
+> contamination and band unseparated recall low, complete every rival with the
+> mechanisms available to it and demote none without a constructed keying reading
+> refuted by typed evidence, rank the canonical reading first and true options before
+> complete-looking ones, keep the givens exact while approximating only the
+> incomputable, keep distributional recall at its own level, consume what the task
+> hints at, observe what the task points at, type the answer class the criterion
+> phrase names, treat noticed deviations in planted menus as the plant, test
+> consumption only where readings differ, discharge or bind every alarm, price the
+> named trap, the instrument's noise, the referent's fidelity, and the stem's own
+> precision mismatches, apply standing rules and rigor caps as written, ground
+> material claims, admit only authorized action, commit before consulting the oracle
+> and let the mechanism enforce it, commit one answer under semantically distinct
+> representations each named with its scope, un-dominated for whole solutions at the
+> audited weakest link's band, learn from verified signals, expose the material
+> delta, and stop at the minimum sufficient verified result.
