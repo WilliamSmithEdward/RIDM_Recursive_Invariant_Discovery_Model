@@ -1,10 +1,10 @@
-# Recursive Invariant Discovery Model (RIDM) 20
+# Recursive Invariant Discovery Model (RIDM) 21
 
 *An evidence-bound architecture for adaptive reasoning and action*
 
 ## 1. Status
 
-RIDM 20 is the active specification. It supersedes RIDM 19 while preserving the central
+RIDM 21 is the active specification. It supersedes RIDM 20 while preserving the central
 restraint principle:
 
 > Discover broadly enough to identify the material delta, expose only that delta, and stop at
@@ -21,59 +21,58 @@ RIDM 15 four of ten, under RIDM 16 three of ten (two of those misses graded agai
 with demonstrable internal defects), under RIDM 17 nine of ten, the strongest sprint to
 date, under RIDM 18 six of ten (one of those misses graded against a key with a
 demonstrable internal defect), and under RIDM 19 eight of ten, the second-strongest
-sprint. The samples are small and the category mixes differ, so the comparisons are
-indicative, not conclusive. RIDM 19's derivation, instrumentation, referent, and
-representation disciplines all carried weight across the ninth sprint: machine-verified
-bound-plus-witness pairs, programmatic observation, source identification with
-re-derivation, and equivalence-class commitments produced the wins, and the band ledger
-tracked its audit. The two losses share one shape: at the commitment step, completed or
-standing structure was displaced by an unlicensed meta-frame. A fully successful rigorous
-construction was abandoned for a naive shortcut the author was presumed, from prose
-costume alone, to have taken, and the shortcut was the item's planted model magnet. The
-specification's own standing menu rule was scope-narrowed at commitment by an imported
-completeness premise the stem never licensed. RIDM 20's revisions concentrate there, in
-completed-route precedence, designed-detail route selection, falsity-before-coverage
-option ranking, and the standing-rule binding.
+sprint, and under RIDM 20 five of ten. The samples are small and the category mixes
+differ, so the comparisons are indicative, not conclusive. The tenth sprint's wins were
+all instrument-led: full-system reproduction from extracted geometry, enumeration and
+spectral computation anchored on independently known cases, and designed-detail reading
+of layout and duplicated stimuli. The misses cluster one layer below the commitment
+disciplines RIDM 20 hardened, at the admissibility of instruments and models themselves:
+a working model was kept after the item's own givens were proven unrepresentable in it,
+a refuted model's scores were blended into an aggregate that a correct direct
+measurement had already solved, a compound answer was banded above what its weakest
+slot's margin-to-noise ratio supported, a cap-mechanism class was never enumerated, and
+a distribution-level contrast was applied as a per-instance classifier. RIDM 21's
+revisions concentrate there, in frame representability, refuted-model taint, direct
+instrument precedence, margin-to-noise banding, mechanism-class coverage, and
+instance-versus-distribution typing.
 
 Proof-carrying output means concise claims, evidence, assumptions, validation, and limits. It
 does not require disclosure of private chain-of-thought or a transcript of internal reasoning.
 
 ## Part I: The Central Revision
 
-### 2. The Problem Exposed by RIDM 19
+### 2. The Problem Exposed by RIDM 20
 
-RIDM 19 corrected the referent-prediction layer: rivals fell only to typed evidence,
-canons re-indexed across announced transfers, givens stayed exact under estimation,
-author-construction slots drew on the stem's own idioms, named traps were priced, and the
-oracle-sequencing law was enforced mechanically. A ninth evaluation sprint, run under
-RIDM 19, scored eight of ten, the second-strongest sprint on record, and confirmed those
-disciplines where they applied: machine-verified bound-plus-witness pairs carried an
-extremal-combinatorics run end to end, programmatic observation made a mass-spectrometry
-measurement layer exact, source identification with re-derivation converted retold items
-into derivation-backed wins, and equivalence-class commitments absorbed representation
-and bookkeeping forks on two exact-match items. The two losses share one shape: at the
-commitment step, completed or standing structure was displaced by an unlicensed
-meta-frame. On one run the rigorous route had actually succeeded, producing the packing
-construction the key itself would hold, and was then abandoned for the naive additive
-shortcut the author was presumed, from grammar slips and flavor framing alone, to have
-taken; the shortcut was the planted model magnet, and the stem's structure, a threshold
-binding tightly only under the geometric frame and a quantization constraint consumed
-only there, said the construction was purposeful. On the other run every recorded value
-had been assigned and the true indicating pair identified, and the specification's own
-standing rule, that a scope-humble true option defeats none-of-the-above, was
-scope-narrowed away at commitment by an imported complete-set premise the stem never
-licensed. Both losses were self-inflicted at the final layer, after the object-level
-work was already right.
+RIDM 20 hardened the commitment layer: completed rigorous routes became the referent
+basis, designed details selected between completed routes, options ranked by falsity
+before coverage, standing rules bound their own author, and representation forks were
+enumerated at commitment. A tenth evaluation sprint, run under RIDM 20, scored five of
+ten, and its record splits cleanly along a different axis: every win was instrument-led,
+and every loss violated a discipline of the instrument and model layer itself. One run
+proved exhaustively that the item's stated initial values could not be represented by
+any state of its working model under any convention, then discharged that impossibility
+as a shared plotting artifact and kept the refuted model, promoting a numerical
+coincidence found inside it to a discriminator. One run solved a matching task twice,
+generatively and by a direct measurement of the asked relation; the generative model was
+refuted in-run, the direct measurement was fully correct, and the committed answer
+blended the refuted model's scores into the aggregate and hand-edited one cell of the
+solved assignment, losing three slots. One run banded a nine-slot commitment high while
+its weakest slots rested on a discrimination at the instrument's own noise scale. One
+run answered a maximum-per-source item without ever enumerating the mechanism class the
+answer lives in. One run applied a cross-population contrast as a classifier of single
+instances. The losses were not at the final commitment checks; they were upstream, in
+what evidence the commitment was allowed to rest on.
 
-| RIDM 19 residual | Why it is material | RIDM 20 correction |
+| RIDM 20 residual | Why it is material | RIDM 21 correction |
 | --- | --- | --- |
-| Successful derivations displaced by author models | Derivation-first sequencing gated when the author model may be adopted but not what happens when the rigorous route succeeds; costume-based author naivety then displaced a completed construction | Completed-route precedence: the successful route is the referent basis, and author models only cap bands (Sections 10, 19, and 29) |
-| Route choice argued from rigor ordering | Between completed routes the key follows the author's construction, which designed details fingerprint; rigor ordering points both ways across items | Designed-detail route selection, with threshold tightness as a frame discriminator (Sections 19 and 24) |
-| Menu options ranked under an imported completeness premise | Without select-all language, an all-true option defeats none-of-the-above regardless of coverage; completeness needs stem license | Falsity-before-coverage option ranking (Section 23) |
-| Standing rules scope-narrowed at commitment | A framework rule distinguished away by an unlicensed meta-frame is charitable repair applied to one's own specification | The standing-rule binding at the commitment gate (Sections 24 and 29) |
-| Representation and bookkeeping forks left implicit | Two wins came from committing one answer as an explicit equivalence class with scoped variants | Fork enumeration folded into the representation rule (Section 30) |
+| Refuted frames retained | Givens provably unrepresentable in the working model were explained away as artifacts; the frame-selection layer had no representability gate | Unrepresentable givens reopen model identification, with exact algebraic fingerprints as identification evidence (Sections 23, 24, and 46) |
+| Refuted-model outputs blended | A model refuted by part of the data kept full evidential weight elsewhere, overriding a correct direct measurement | Refutation taints all of a model's outputs; direct measurements of the asked relation take precedence (Sections 16, 20, and 23) |
+| Bands ignored the instrument's noise | A compound commitment took a high band while its weakest slot's margin sat at the measurement noise floor | Margin-to-noise banding with instrument escalation on in-window ambiguity (Sections 21 and 29) |
+| Cap mechanisms never enumerated | A limit-per-source item was answered inside one mechanism class while the keyed class was never generated | Mechanism-class coverage for cap, limit, and maximum referents (Section 23) |
+| Distributional recall applied to instances | A population-level contrast classified single samples that cannot measure it | Instance-versus-distribution typing of recalled contrasts (Section 16) |
+| Rigor caps re-argued at commitment | A generated-class item was banded high because the derivation felt strong, the exact discount the cap exists to impose | Mechanical cap application once the class is assigned (Section 21) |
 
-These residuals do not invalidate RIDM 19. They mark the next sufficient invariant horizon.
+These residuals do not invalidate RIDM 20. They mark the next sufficient invariant horizon.
 
 ### 3. Primary Operating Law
 
@@ -87,48 +86,54 @@ governing frame is itself a candidate, and every noticed alarm discharges or bin
 RIDM 18 added: what the task grants must do work or bind, and dominance is judged on
 whole solutions. RIDM 19 added: the referent's community, idiom, and fallibility are part
 of the criterion, rivals fall only to typed evidence, estimation spares the givens, and
-an admission rule worth stating is worth enforcing in the mechanism. RIDM 20 adds: a
+an admission rule worth stating is worth enforcing in the mechanism. RIDM 20 added: a
 completed rigorous route is the referent basis and yields only to licensed evidence,
 designed details select between completed routes, options rank by falsity before
-coverage, and standing rules bind their own author at the commitment gate.
+coverage, and standing rules bind their own author at the commitment gate. RIDM 21
+adds: a given the working model cannot represent refutes the model, refutation taints
+every output of the refuted model, the asked relation is measured directly before its
+generator is reverse-engineered, and bands price the weakest slot's margin against the
+instrument's own noise.
 
 ### 4. Revised Definition of Intelligence
 
-RIDM 20 defines intelligence as:
+RIDM 21 defines intelligence as:
 
 > The ability to discover task-relevant invariants, cover the space of candidate readings and
 > answers, ground material claims, choose authorized actions, learn from verified signals, and
 > stop at a calibrated, verifiable minimum sufficient result.
 
-RIDM 19 refined the referent-prediction layer with typed rival demotion,
-destination-canon indexing, given inviolability, author-style corpora, trap-priced
-banding, and interlocked sequencing. RIDM 20 hardens the commitment layer with four
-disciplines:
+RIDM 20 hardened the commitment layer with completed-route precedence, designed-detail
+route selection, falsity-before-coverage ranking, and the standing-rule binding. RIDM 21
+hardens the instrument and model layer beneath it with five disciplines:
 
-- completed-route precedence: when the bounded rigorous route succeeds, its result is the
-  referent basis; an author model may cap the band or select among completed routes on
-  designed-detail evidence, and may never displace a successful construction in favor of
-  a shortcut the author is merely presumed, from prose costume, to have taken
-- designed-detail route selection: between completed candidate routes, the author's route
-  is the one whose construction the stem's engineered details pay off under, a given that
-  collapses to a round value only inside one route, a threshold that binds tightly under
-  one frame and hangs slack under the other, a constraint consumed by exactly one frame;
-  in an adversarially filtered pool, the cleanness of the naive route's answer is magnet
-  evidence against it, not payoff
-- falsity-before-coverage option ranking: on a which-of-the-following menu without
-  select-all language, an option containing no false element dominates none-of-the-above
-  and every option containing a false element, regardless of completeness; a complete-set
-  reading is an imported premise requiring explicit stem license
-- the standing-rule binding: a rule the framework has constructed and named may not be
-  scope-narrowed at the commitment step by a meta-frame the stem never licensed;
-  distinguishing a standing rule away at the decision point is charitable repair applied
-  to one's own specification and fails the gate
+- frame representability: a stated given that is provably unrepresentable in the working
+  model, across the enumerated conventions, refutes the model rather than the given;
+  model identification reopens over variants that represent the givens exactly, and
+  exact algebraic fingerprints in the givens are identification evidence
+- refuted-model taint: a model refuted by any subset of the data drops every one of its
+  outputs to narrative-tier everywhere; blending a refuted model's scores into stronger
+  evidence is scalar laundering of a failed evidence gate, and a coincidence discovered
+  inside a refuted frame discriminates nothing
+- direct-instrument precedence: when the asked relation can be measured directly, the
+  direct instrument runs before any attempt to reverse-engineer the generating process,
+  and a direct measurement of the relation outranks a derivation inside an unsupported
+  or refuted model of the generator
+- margin-to-noise banding: a compound or measured commitment is banded at its weakest
+  slot's margin measured against the instrument's own noise; a value landing between
+  adjacent hypotheses at noise scale is an in-window ambiguity that forces instrument
+  escalation or a band cap, and a solved global assignment is one object that is
+  re-solved, never edited cell by cell
+- typed contrast scope: a recalled cross-population contrast licenses conclusions at the
+  population level only; single instances cannot measure a distributional difference,
+  and an association vivid enough to feel like a per-instance classifier is, in a
+  filtered pool, magnet evidence against using it as one
 
 ## Part II: Core Vocabulary and Scope
 
 ### 5. Core Terms
 
-RIDM 20 uses the following terms precisely.
+RIDM 21 uses the following terms precisely.
 
 - A **heuristic** is a compressed rule that is useful within a scope.
 - An **invariant** is a relation stable enough to govern the current task under stated
@@ -425,6 +430,16 @@ with no identified source, the structural prior binds regardless of how availabl
 generic direction feels, while a stem whose phrasing uniquely identifies its source
 supports a real commitment to that source's claim.
 
+Recalled contrasts also carry their level. A cross-population contrast, one range is on
+average denser, larger, earlier than the other, licenses conclusions about populations
+only: a single instance from each side cannot measure a distributional difference, and
+the trait is typically expressed inside both populations. Classifying instances by a
+distributional recall is contrast transplantation one level down, and on adversarially
+filtered pools the association's vividness is magnet evidence against instance use: an
+association strong enough to feel like a per-instance classifier is the association the
+item was built to invert. Confidence in such a slot tracks the validity of the licensed
+inference, never the familiarity of the cue.
+
 Derivation-tier precedence belongs only to derivations whose governing model is itself
 supported. In empirically governed regimes, such as turbulent and multiphase flow or
 biological response, an idealized closed form is an inference whose model validity is an
@@ -594,6 +609,16 @@ option cannot buy access to value the dominant option cannot reach. Component-wi
 dominance silently promoted to solution dominance is how a globally optimal candidate
 exits the set unexamined.
 
+Refutation propagates through a model to everything computed inside it. When a working
+model, a rule space, a generator hypothesis, a simulation convention, is refuted by any
+subset of the evidence, every output derived in it drops to narrative-tier everywhere,
+including on items the refutation did not touch: the demonstrated failure is proof of
+unquantified error in the machinery, not a local exception. A direct observation of the
+asked relation outranks any derivation inside a refuted or unsupported model, at any
+blend weight; averaging the two is the conflicting-evidence error in disguise, with the
+weaker source laundered through an aggregate score. Discarding the refuted model's
+outputs is not evidence loss but ledger hygiene.
+
 ### 21. Uncertainty and Calibration
 
 Uncertainty must be typed and propagated.
@@ -666,6 +691,20 @@ otherwise well-posed items, and the band carries the same allowance a compound a
 does. The shortcut's output is computed alongside the true result (Section 48), which
 prices the risk without moving the answer; committing the shortcut itself remains
 forbidden while the rigorous route succeeds (Section 10).
+
+Measured commitments band at the weakest slot's margin against the instrument's noise.
+When a slot is decided by a measurement, the discriminating quantity's separation
+between adjacent hypotheses is compared with the instrument's own demonstrated spread,
+calibration residuals on anchor cases, repeat variation across equivalent probes.
+A measured value landing between adjacent hypotheses at a margin comparable to that
+spread is an in-window ambiguity: the admissible responses are instrument escalation, a
+stronger statistic, a global template, more data, or a band cap. Nearest-neighbor
+selection under a one-to-one constraint is a ranking, not a measurement, and a compound
+answer inherits the weakest slot's margin-to-noise ratio regardless of how many slots
+are pinned by exact structure. Rigor caps compose with this rule mechanically: once an
+item's class assigns a cap (Section 19), the cap applies as arithmetic, and re-arguing
+it from the strength of the derivation is exactly the discount the cap exists to
+impose. Instrument quality cannot buy back a referent cap.
 
 ## Part V: Interpretations, Invariants, and Residuals
 
@@ -823,6 +862,31 @@ how well the set is ranked. Before ranking:
   the reader to invent and check whether that rule exists. When two options form a
   paraphrase or teaching-contrast pair, construct an explicit reading that would key each
   member before committing outside the pair.
+- On items asking for a maximum, cap, or limit "per the source," open the candidate set
+  at the mechanism level before any value: a convergent formula, a data-type bound, an
+  explicit clamp constant. The clamp is the modal authored referent, because it is a
+  quotable, intentional line, and a stem phrase pointing at the source that the leading
+  reading would survive deleting is an unconsumed flag aimed at the more literal
+  mechanism.
+- Audit the working model against the givens for representability. A stated or plotted
+  given that is provably unrepresentable in the working model across the enumerated
+  conventions refutes the model, not the given: reopen model identification over
+  variants that represent the givens exactly (a different dimension, a composite
+  system, a second-order rule), and treat exact algebraic fingerprints in the givens as
+  identification evidence for the variant that produces them. Explaining the
+  impossibility away as noise or artifact while keeping the model is alarm dismissal at
+  the frame layer.
+- Measure the asked relation directly before reverse-engineering its generator. When
+  the task asks for a relation between given objects, a pairing, an ordering, a
+  containment, check first whether that relation is directly measurable from the
+  objects; a direct instrument for the relation is usually cheaper and stronger than
+  identifying the process that produced them, and generative identification is a
+  fallback, not a default.
+- Treat a solved global assignment as one object. The optimum of a matching problem
+  jointly allocates every label; editing one cell on the strength of one matrix entry
+  silently reallocates the displaced labels and is narrative-tier against the joint
+  solution. Overrides re-solve the assignment under the new constraint or do not
+  happen.
 - When two contract readings stay live, compute both branch values as candidate answers; an
   airtight derivation of one branch is not coverage of the space.
 
@@ -878,7 +942,11 @@ calculation over stated data keeps the data exact and approximates only what can
 represented (Section 23); defeating it requires explicit license from the stem, not an
 elegance argument. Canon selection is part of frame selection: on domain-transfer items
 the destination field's canon governs (Section 19), and a frame whose coherence depends
-on the imported field's canon inherits that canon's uncertainty (Section 21).
+on the imported field's canon inherits that canon's uncertainty (Section 21). A frame
+that fails the representability audit is refuted outright, and a coincidence discovered
+inside a refuted frame carries no design weight however many samples it spans: apparent
+payoff computed in machinery the givens have already falsified is noise wearing the
+costume of design.
 
 Frames answer to the stem's construction. Canonicality ranks readings inside a frame;
 between frames, load-bearingness leads: an elaborate constructed position, dataset, or
@@ -973,7 +1041,7 @@ The symbols denote task-relevant changes, not calibrated numeric quantities.
 
 ### 28. Constraint-First Refinement
 
-RIDM 20 keeps ordered admission in place of unrestricted scalar tradeoffs.
+RIDM 21 keeps ordered admission in place of unrestricted scalar tradeoffs.
 
 First evaluate non-compensable gates:
 
@@ -1071,6 +1139,22 @@ before commitment, re-check:
   class value, and argued upward only with named support (Section 21)? Were all live
   rivals computed to parity before the ranking that this commitment rests on
   (Section 23)?
+- **Representability.** Can the committed frame or model represent every stated and
+  plotted given exactly, and if any given was proven unrepresentable, did model
+  identification actually reopen rather than the impossibility being attributed to
+  artifact (Sections 23 and 24)?
+- **Model admissibility.** Does any evidence behind this commitment originate in a model
+  refuted by any subset of the data, and if a direct measurement of the asked relation
+  exists, does the commitment follow it rather than a blend (Sections 16, 20, and 23)?
+- **Margin-to-noise.** For each measured slot, does the discriminating margin exceed the
+  instrument's demonstrated noise, with in-window ambiguities escalated or capped, and
+  does the compound band equal the weakest slot's ratio (Section 21)? Was any rigor cap
+  applied mechanically rather than re-argued (Sections 19 and 21)?
+- **Assignment integrity.** If the commitment includes a solved global assignment, is it
+  the re-solved joint optimum under all accepted constraints, with no cell edited on
+  local evidence (Section 23)?
+- **Contrast level.** Does every recalled contrast operate at the level it was attested,
+  with no distributional claim classifying single instances (Section 16)?
 
 If a check fails, reopen the smallest affected layer instead of shipping the commitment.
 
@@ -1078,7 +1162,7 @@ If a check fails, reopen the smallest affected layer instead of shipping the com
 
 ### 30. Internal Model and Output Contract
 
-RIDM 20 preserves the separation between internal discovery and external disclosure.
+RIDM 21 preserves the separation between internal discovery and external disclosure.
 
 ```text
 OutputContract {
@@ -1388,6 +1472,8 @@ ReopeningTrigger {
     defective_correction_signal
     menu_mismatch
     undischarged_alarm
+    unrepresentable_given
+    model_refutation
 }
 ```
 
@@ -1630,7 +1716,7 @@ before action admission.
 ### 62. Evaluation Dimensions
 
 ```text
-RIDM20Metrics {
+RIDM21Metrics {
     factual_accuracy
     evidence_coverage
     unsupported_decisive_claim_rate
@@ -1664,6 +1750,13 @@ RIDM20Metrics {
     option_falsity_ranking
     standing_rule_fidelity
     fork_enumeration_coverage
+    frame_representability
+    refuted_model_quarantine
+    direct_instrument_precedence
+    margin_noise_banding
+    mechanism_class_coverage
+    contrast_level_typing
+    assignment_integrity
     confidence_band_calibration
     oracle_defect_detection
     authorization_compliance
@@ -1761,9 +1854,20 @@ at which which-menu commitments respected no-false-element dominance over
 none-of-the-above absent select-all license; standing-rule fidelity is the rate at which
 framework rules reaching a verdict were applied at their written scope at commitment;
 fork-enumeration coverage is the rate at which identifiable representation or bookkeeping
-forks were enumerated with scoped variants at commitment. Oracle-defect detection is
-credited only when a defective signal is identified through checkable internal
-inconsistency, not through disagreement alone.
+forks were enumerated with scoped variants at commitment. Frame representability is the
+rate at which proven unrepresentable givens reopened model identification rather than
+being attributed to artifact; refuted-model quarantine is the rate at which outputs of
+in-run-refuted models were excluded from every downstream aggregate; direct-instrument
+precedence is the rate at which directly measurable asked relations were measured before
+generative identification was attempted; margin-noise banding is the rate at which
+measured commitments carried bands consistent with the weakest slot's margin-to-noise
+ratio, with in-window ambiguities escalated or capped; mechanism-class coverage is the
+rate at which cap, limit, and maximum referents had the mechanism class enumerated
+before a value was ranked; contrast-level typing is the rate at which recalled
+distributional contrasts were confined to population-level conclusions; assignment
+integrity is the rate at which committed global assignments were joint optima with no
+locally-edited cells. Oracle-defect detection is credited only when a defective signal
+is identified through checkable internal inconsistency, not through disagreement alone.
 
 Authorization compliance is a hard metric: unauthorized action is a failure, even when the
 action's outcome is useful. When a denominator is zero, report the metric as not applicable
@@ -1771,7 +1875,7 @@ rather than assigning a perfect score.
 
 ### 64. Evaluation Protocol
 
-An RIDM 20 evaluation set should vary:
+An RIDM 21 evaluation set should vary:
 
 - task clarity and ambiguity
 - evidence quality, conflict, and freshness
@@ -1841,6 +1945,16 @@ An RIDM 20 evaluation set should vary:
   incomplete all-true option competes with none-of-the-above
 - items whose answer sits on a known representation or bookkeeping fork, with keys on
   each side of the fork across the pool
+- items whose stated or plotted givens are unrepresentable in the natural first model
+  and exactly representable in a near variant the fingerprints identify
+- matching tasks whose asked relation is directly measurable while the generating
+  process resists identification, with partial generative fits planted as decoys
+- measurement items whose adjacent hypotheses are separated by less than the available
+  instrument's noise unless the instrument is escalated
+- cap and limit items keyed to an explicit clamp in the source while a convergent
+  formula and a data-type bound present as plausible mechanisms
+- classification items built to invert a famous distribution-level contrast on
+  single instances
 
 Minimum behavior cases include:
 
@@ -1931,6 +2045,19 @@ Minimum behavior cases include:
     proposed narrowing is deferred to revision rather than decided at the item.
 51. An answer on a known bookkeeping fork is committed as one claim with each standard
     representation named and scoped.
+52. A given proven unrepresentable in the working model reopens model identification
+    instead of being attributed to artifact, and the exact fingerprints select the
+    variant.
+53. A model refuted by part of the data contributes nothing to any aggregate, and the
+    direct measurement of the asked relation carries the commitment alone.
+54. A measured slot whose margin sits at the instrument's noise floor triggers
+    instrument escalation or a band cap, never nearest-neighbor commitment.
+55. A committed global assignment is the re-solved joint optimum, with no cell edited
+    on a single matrix entry.
+56. A maximum-per-source item enumerates clamp, formula, and type-bound mechanisms
+    before ranking values.
+57. A distribution-level contrast is not used to classify single instances, however
+    canonical the association.
 
 Adjudicators should label material residuals, authority boundaries, acceptable actions,
 evidence requirements, and completion criteria before scoring output.
@@ -1985,6 +2112,14 @@ A conforming implementation should demonstrate that it can:
   changes to revision
 - enumerate representation and bookkeeping forks at commitment as one answer with scoped
   variants
+- audit the working model for representability of the givens, reopening identification
+  on proof of impossibility with fingerprints as evidence
+- quarantine every output of an in-run-refuted model and let direct measurements of the
+  asked relation carry the commitment
+- band measured and compound commitments at the weakest slot's margin-to-noise ratio,
+  escalating the instrument on in-window ambiguity
+- enumerate mechanism classes on cap and limit referents, keep distributional recall at
+  the population level, and commit only re-solved joint assignments
 - commit each claim class at its audited band, opened at the decisive link, with
   referent allowances scaled to answer componentry
 - validate closed-world claims by convergent routes and anchor cases
@@ -2296,6 +2431,46 @@ A standing framework rule that reaches an inconvenient verdict is scope-narrowed
 commitment step by a meta-frame the stem never licensed, charitable text repair applied
 to the reasoner's own specification.
 
+#### Refuted-frame retention
+
+The givens are proven unrepresentable in the working model, and the model is kept
+anyway, the impossibility attributed to artifact or noise while conclusions continue to
+be computed inside the falsified machinery.
+
+#### Refuted-model laundering
+
+A model refuted by part of the data keeps evidential weight elsewhere, its scores
+blended into an aggregate that overrides a correct direct measurement of the asked
+relation.
+
+#### Noise-margin commitment
+
+A measured slot is decided by nearest-neighbor selection although the margin between
+adjacent hypotheses is comparable to the instrument's own demonstrated noise, and the
+compound answer carries a band its weakest slot cannot support.
+
+#### Assignment cell override
+
+A jointly-optimal global assignment is edited cell by cell on local evidence, silently
+reallocating the displaced labels without re-solving the whole.
+
+#### Mechanism-class myopia
+
+A cap, limit, or maximum referent is answered from the first plausible mechanism while
+the keyed mechanism class, often an explicit clamp in the source, was never generated.
+
+#### Instance classification from distributional recall
+
+A cross-population contrast, attested only at the distribution level, is used to
+classify single instances that cannot measure it, with confidence inherited from the
+association's familiarity.
+
+#### Cap waiver
+
+An item's rigor class assigns a band cap, and the cap is argued away at commitment on
+the strength of the derivation, restoring exactly the confidence the cap exists to
+remove.
+
 ## Part XIV: Control Laws
 
 ### 67. Control Laws
@@ -2586,14 +2761,42 @@ A rule the framework has constructed and named applies at its written scope at
 commitment. Scope changes happen in revision, from observed evidence, never at the item
 where the rule's verdict is inconvenient.
 
+#### Control Law 55 - An Unrepresentable Given Refutes the Frame
+
+A stated given proven unrepresentable in the working model, across enumerated
+conventions, reopens model identification rather than the given's credibility. Exact
+fingerprints in the givens select the variant, and an impossibility explained away as
+artifact is a dismissed alarm at the frame layer.
+
+#### Control Law 56 - Refutation Taints the Model's Outputs
+
+A model refuted by any subset of the evidence contributes nothing anywhere: all its
+outputs drop to narrative-tier, a direct measurement of the asked relation outranks
+them at any blend weight, and the direct instrument runs before generative
+identification whenever the asked relation is directly measurable.
+
+#### Control Law 57 - Margins Are Measured Against Noise
+
+A measured commitment's band prices the weakest slot's margin against the instrument's
+demonstrated noise. In-window ambiguity forces instrument escalation or a band cap;
+rigor caps apply as arithmetic once assigned; and a solved global assignment is
+re-solved, never edited cell by cell.
+
+#### Control Law 58 - Distributional Recall Stays Distributional
+
+A recalled cross-population contrast licenses population-level conclusions only. Single
+instances cannot measure a distributional difference, and the vividness of such an
+association on a filtered pool is magnet evidence against using it as a per-instance
+classifier.
+
 ## Part XV: Reference Procedure
 
-### 68. RIDM 20 Procedure
+### 68. RIDM 21 Procedure
 
 ```text
-function RIDM20(input, context, objectives, constraints):
+function RIDM21(input, context, objectives, constraints):
 
-    state = RIDM19_initialize(
+    state = RIDM20_initialize(
         input,
         context,
         objectives,
@@ -2632,6 +2835,16 @@ function RIDM20(input, context, objectives, constraints):
             construction_load_bearingness(task_contract)
         )
 
+    if not represents_all_givens(
+            item_profile.governing_frame,
+            task_contract.givens
+    ):
+        item_profile.governing_frame =
+            reopen_model_identification(
+                given_fingerprints(task_contract),
+                enumerate_model_variants(task_contract)
+            )
+
     item_profile.author_competence =
         estimate_author_competence(
             item_profile.structural_tells,
@@ -2653,10 +2866,29 @@ function RIDM20(input, context, objectives, constraints):
             item_profile.governing_frame
         )
 
+    if asked_relation_is_directly_measurable(task_contract):
+        state.direct_measurement =
+            measure_asked_relation(
+                task_contract,
+                validated_instrument(state)
+            )
+
     route_attempts =
         attempt_rigorous_routes(
             task_contract,
             bounded_route_budget(constraints)
+        )
+
+    state.quarantined_models =
+        models_refuted_by_any_evidence(
+            route_attempts,
+            state
+        )
+
+    route_attempts =
+        drop_outputs_of(
+            route_attempts,
+            state.quarantined_models
         )
 
     if route_attempts.completed is not empty:
@@ -2900,35 +3132,27 @@ function RIDM20(input, context, objectives, constraints):
 
 ### 69. Inheritance and Replacement
 
-RIDM 20 preserves RIDM 19 unless this specification explicitly changes a rule.
+RIDM 21 preserves RIDM 20 unless this specification explicitly changes a rule.
 
-| RIDM 19 concept | RIDM 20 treatment |
+| RIDM 20 concept | RIDM 21 treatment |
 | --- | --- |
 | Task contract, authority, mismatch | Preserved |
-| Forced-choice protocol and criterion referent | Extended: a successful rigorous route is the referent basis, and author models cap bands rather than displace it |
-| Derivation-first sequencing and regime typing | Extended with the dual obligation on success (completed-route precedence) |
-| Item rigor, provenance, canon indexing, style corpora | Extended: engineered details fingerprint the author's route between completed rivals |
-| Frame selection and construction load-bearingness | Extended: threshold and tolerance tightness discriminates frames before commitment |
-| Typed rival demotion and gloss probes | Preserved |
-| Given inviolability under estimation | Preserved |
-| Capability consumption, whole-solution dominance, in-window probing | Preserved |
-| Candidate coverage | Extended with falsity-before-coverage option ranking on which-menus |
-| Coherence and canonical precedence | Extended: standing framework rules bind their own author at commitment |
-| Trap-priced, audit-inherited, decisive-link banding | Preserved |
-| Representation rule | Extended to conventions and bookkeeping forks, committed as one answer with scoped variants |
+| Forced-choice protocol, criterion referent, completed-route precedence | Preserved |
+| Designed-detail route selection and threshold discrimination | Preserved |
+| Item rigor, provenance, canon indexing, style corpora | Preserved; rigor caps now apply as arithmetic once assigned |
+| Frame selection and construction load-bearingness | Extended: a representability audit gates the frame, and unrepresentable givens reopen model identification |
+| Internal recall and contrast binding | Extended: recalled contrasts carry their level, and distributional recall stays distributional |
+| Conflicting evidence and route conflict | Extended: refutation propagates through a model to all of its outputs, which drop to narrative-tier everywhere |
+| Candidate coverage | Extended: mechanism-class enumeration on cap referents, direct-instrument precedence, assignment integrity |
+| Coherence and canonical precedence | Extended: coincidences inside refuted frames carry no design weight |
+| Trap-priced, audit-inherited, decisive-link banding | Extended: measured slots band at margin-to-noise, with escalation on in-window ambiguity |
+| Falsity-before-coverage ranking, standing-rule binding | Preserved |
+| Representation and fork enumeration | Preserved |
 | Standing-structure and capability census | Preserved |
 | Closed-world validation, oracle discipline, interlocked sequencing | Preserved |
 | Completion, stopping, disclosure, privacy | Preserved |
 
-RIDM 19 asked:
-
-> Was every demoted rival felled by typed evidence, with the provenance community probed
-> for the gloss; is the canon indexed to the field the author grades from; do the givens
-> stay exact while only the incomputable is approximated; does the candidate set carry
-> the author's own idioms; is the named trap priced into the band; and is the sequencing
-> rule enforced by the mechanism rather than by promise?
-
-RIDM 20 adds:
+RIDM 20 asked:
 
 > If the rigorous route succeeded, does its construction lead the commitment, with any
 > displacement licensed by the stem's engineered details rather than presumed author
@@ -2937,9 +3161,18 @@ RIDM 20 adds:
 > every standing rule applied at its written scope; and is every representation fork
 > enumerated with its scope?
 
+RIDM 21 adds:
+
+> Can the committed model represent every given exactly, and did a proven impossibility
+> reopen identification; does any evidence trace to a model refuted anywhere; was the
+> asked relation measured directly before its generator was modeled; does the band
+> price the weakest measured slot against the instrument's own noise, with caps applied
+> as arithmetic; is the committed assignment a re-solved joint optimum; and does every
+> recalled contrast operate at the level it was attested?
+
 ## Part XVII: Compressed Architecture
 
-### 70. RIDM 20 Flow
+### 70. RIDM 21 Flow
 
 ```text
 Task request
@@ -2948,16 +3181,19 @@ Task request
   -> Item provenance and rigor
   -> Canon indexing across transfers
   -> Frame selection with threshold-tightness evidence
+  -> Representability audit of the givens
   -> Author-competence estimate and style corpus
   -> Standing-structure and capability census
+  -> Direct measurement of the asked relation where available
   -> Rigorous-route attempts
+  -> Refuted-model quarantine
   -> Designed-detail route selection
   -> Completed-route precedence
   -> Named-trap shortcut computation
   -> Evidence ledger
   -> Flagged observables
   -> Proof-carrying interpretations
-  -> Candidate coverage with style variants
+  -> Candidate coverage with style variants and mechanism classes
   -> Typed rival demotion with gloss probes
   -> Canonical-precedence ranking
   -> Falsity-before-coverage option ranking
@@ -2965,7 +3201,7 @@ Task request
   -> Materiality graph
   -> Non-compensable gates
   -> Minimum sufficient decision
-  -> Commitment gate with alarm ledger and standing-rule fidelity
+  -> Commitment gate with alarm ledger, margin-to-noise, and assignment integrity
   -> Fork-enumerated output representation
   -> Action admission
   -> Interlocked oracle sequencing
@@ -2985,30 +3221,35 @@ Task request
 
 ## Final Definition
 
-RIDM 20 defines intelligence as:
+RIDM 21 defines intelligence as:
 
-> The recursive discovery of scoped invariants over a covered candidate space inside an
-> examined frame, ranked with canonical precedence under the destination canon, aimed at
-> the operative criterion and its estimated author in that author's own idiom, resting on
-> the completed route the task's engineered details select, bound to evidence and
-> authority, updated by verified signals, committed through decisions un-dominated at
-> whole-solution scope and calibrated at the audited weakest decisive link, and stopped
-> by verifiable completion.
+> The recursive discovery of scoped invariants over a covered candidate space inside a
+> frame that represents the givens, ranked with canonical precedence under the
+> destination canon, aimed at the operative criterion and its estimated author in that
+> author's own idiom, resting on the completed route the task's engineered details
+> select and on instruments whose noise the bands price, bound to evidence no refuted
+> model supplies, updated by verified signals, committed through decisions un-dominated
+> at whole-solution scope and calibrated at the audited weakest decisive link, and
+> stopped by verifiable completion.
 
 Its central invariant is:
 
-> Contract first, choose the frame that makes the task's construction matter and its
-> thresholds bind, derive before blaming the author and keep what the derivation wins,
-> know whose criterion grades the task, which community it grades from, and what its
-> author could execute, let the engineered details pick between completed routes, census
-> what the state already holds and what the task grants, cover the candidates including
-> what the stem withholds and the idioms its examples demonstrate, complete every rival
-> with the mechanisms available to it and demote none without typed evidence, rank the
-> canonical reading first and true options before complete-looking ones, keep the givens
-> exact while approximating only the incomputable, consume what the task hints at,
-> observe what the task points at, discharge or bind every alarm, price the named trap,
-> apply standing rules at their written scope, ground material claims, admit only
-> authorized action, commit before consulting the oracle and let the mechanism enforce
-> it, commit one answer under every standard representation, un-dominated for whole
-> solutions at the audited weakest link's band, learn from verified signals, expose the
-> material delta, and stop at the minimum sufficient verified result.
+> Contract first, choose the frame that makes the task's construction matter, its
+> thresholds bind, and its givens representable, measure the asked relation directly
+> before modeling its generator, derive before blaming the author and keep what the
+> derivation wins, quarantine whatever a refuted model touched, know whose criterion
+> grades the task, which community it grades from, and what its author could execute,
+> let the engineered details pick between completed routes, census what the state
+> already holds and what the task grants, cover the candidates including the mechanism
+> classes, what the stem withholds, and the idioms its examples demonstrate, complete
+> every rival with the mechanisms available to it and demote none without typed
+> evidence, rank the canonical reading first and true options before complete-looking
+> ones, keep the givens exact while approximating only the incomputable, keep
+> distributional recall at its own level, consume what the task hints at, observe what
+> the task points at, discharge or bind every alarm, price the named trap and the
+> instrument's noise, apply standing rules and rigor caps as written, ground material
+> claims, admit only authorized action, commit before consulting the oracle and let the
+> mechanism enforce it, commit one answer under every standard representation,
+> un-dominated for whole solutions at the audited weakest link's band, learn from
+> verified signals, expose the material delta, and stop at the minimum sufficient
+> verified result.

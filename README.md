@@ -41,10 +41,16 @@ and stops with a verifiable result.
   confidence rather than displace constructions.
 - Apply standing rules at their written scope at commitment, and commit one answer under
   every standard representation when it sits on a convention fork.
+- Keep the working model answerable to the givens: a given the model provably cannot
+  represent refutes the model, and a refuted model's outputs carry no weight anywhere.
+- Measure the asked relation directly before modeling its generator, and price measured
+  commitments at the weakest slot's margin against the instrument's own noise.
+- Keep distributional recall at the population level; single instances cannot measure a
+  cross-population contrast.
 - Report completion only when success criteria are directly validated.
 - Expose the material delta and suppress detail that cannot change the result.
 
-## RIDM 20 Architecture
+## RIDM 21 Architecture
 
 ```text
 Task request
@@ -53,16 +59,19 @@ Task request
   -> Item provenance and rigor
   -> Canon indexing across transfers
   -> Frame selection with threshold-tightness evidence
+  -> Representability audit of the givens
   -> Author-competence estimate and style corpus
   -> Standing-structure and capability census
+  -> Direct measurement of the asked relation where available
   -> Rigorous-route attempts
+  -> Refuted-model quarantine
   -> Designed-detail route selection
   -> Completed-route precedence
   -> Named-trap shortcut computation
   -> Evidence ledger
   -> Flagged observables
   -> Proof-carrying interpretations
-  -> Candidate coverage with style variants
+  -> Candidate coverage with style variants and mechanism classes
   -> Typed rival demotion with gloss probes
   -> Canonical-precedence ranking
   -> Falsity-before-coverage option ranking
@@ -70,7 +79,7 @@ Task request
   -> Materiality graph
   -> Non-compensable gates
   -> Minimum sufficient decision
-  -> Commitment gate with alarm ledger and standing-rule fidelity
+  -> Commitment gate with alarm ledger, margin-to-noise, and assignment integrity
   -> Fork-enumerated output representation
   -> Action admission
   -> Interlocked oracle sequencing
