@@ -46,6 +46,12 @@ and stops with a verifiable result.
   semantically distinct conventions, each named with its scope, when it sits on a fork.
 - Use deletion and consumption tests only where the compared readings differ on the tested
   given, and treat a noticed deviation in a planted-error menu's leading option as the plant.
+- Consume the pool's admission filter: on contested verdicts and famous setups, predict the
+  filtered population's modal answer and treat the item's survival as evidence against it.
+- On stepwise processes, enumerate the extent ladder and let stated conditions select the
+  rung; surfaced recall that the endpoint's canonical requirements exceed the stem refutes it.
+- Type option provenance by idiolect on mixed-authorship menus, and price a stem's own
+  precision mismatches into confidence with the parameter-free variant computed in advance.
 - Keep the working model answerable to the givens: a given the model provably cannot
   represent refutes the model, and a refuted model's outputs carry no weight anywhere.
 - Measure the asked relation directly before modeling its generator, and price measured
@@ -55,17 +61,22 @@ and stops with a verifiable result.
 - Report completion only when success criteria are directly validated.
 - Expose the material delta and suppress detail that cannot change the result.
 
-## RIDM 22 Architecture
+## RIDM 23 Architecture
 
 ```text
 Task request
   -> Task contract
   -> Authority envelope
   -> Item provenance and rigor
+  -> Pool-filter consumption on split verdicts and famous setups
   -> Canon indexing across transfers
-  -> Frame selection with identification scopes and threshold-tightness evidence
+  -> Frame selection with identification scopes, menu architecture, and
+     threshold-tightness evidence
   -> Representability audit of the givens
   -> Author-competence estimate and style corpus
+  -> Option-provenance typing by idiolect
+  -> Extent-ladder enumeration with conditions-selected rungs
+  -> Precision-mismatch pricing with parameter-free variants
   -> Referent-implementation variants where the author implements a procedure
   -> Standing-structure and capability census
   -> Direct measurement of the asked relation where available

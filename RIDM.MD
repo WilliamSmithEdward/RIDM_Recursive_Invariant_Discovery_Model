@@ -1,10 +1,10 @@
-# Recursive Invariant Discovery Model (RIDM) 22
+# Recursive Invariant Discovery Model (RIDM) 23
 
 *An evidence-bound architecture for adaptive reasoning and action*
 
 ## 1. Status
 
-RIDM 22 is the active specification. It supersedes RIDM 21 while preserving the central
+RIDM 23 is the active specification. It supersedes RIDM 22 while preserving the central
 restraint principle:
 
 > Discover broadly enough to identify the material delta, expose only that delta, and stop at
@@ -21,60 +21,62 @@ RIDM 15 four of ten, under RIDM 16 three of ten (two of those misses graded agai
 with demonstrable internal defects), under RIDM 17 nine of ten, the strongest sprint to
 date, under RIDM 18 six of ten (one of those misses graded against a key with a
 demonstrable internal defect), under RIDM 19 eight of ten, the second-strongest
-sprint, under RIDM 20 five of ten, and under RIDM 21 six of ten with the high band a
-clean four of four. The samples are small and the category mixes differ, so the
-comparisons are indicative, not conclusive. The eleventh sprint's wins were
-instrument-led or identified-source: exhaustive search and mechanical simulation with
-anchor validation, a curricular model anchor-validated on its single-body limit, and
-recall committed as a prediction of an identified source community or edition. Every
-miss landed at referent-variant coverage: the keyed answer was generated or cheaply
-generatable, and it was lost at the demotion or enumeration step. A keyed count was
-demoted with an untyped phrase, a sign-convention fork was covered with two
-rearrangements of one expression, a degraded hand-implementation of a published
-algorithm was never generated as a candidate referent, and a noticed wording deviation
-inside the leading option of a planted-error menu was charitably forgiven while the
-rival recognized as a lifted quotation was demoted on plausibility. RIDM 22's revisions
-concentrate there, in constructed-reading demotion, distinct-convention fork
-enumeration, referent-implementation fidelity, consumption-test power, and
-planted-deviation discipline.
+sprint, under RIDM 20 five of ten, under RIDM 21 six of ten with the high band a
+clean four of four, and under RIDM 22 seven of ten, the third-strongest sprint. The
+samples are small and the category mixes differ, so the comparisons are indicative,
+not conclusive. The twelfth sprint produced no repeat miss of the referent-variant
+class RIDM 22 was built against. Its wins were carried by instruments that convert
+referent prediction into observable differencing: trace counting for a decay
+exponent, robustness partitioning of a compound answer, protection-pattern
+differencing of rival reagents, per-edge literature anchoring of a sign vector, and
+idiolect-based provenance typing of menu options. One miss was graded against a key
+with three checkable internal inconsistencies, priced correctly at medium by the
+banding rules. The other two misses share one structure: instance-level evidence
+generated during the attempt was demoted by a weaker generic prior. An item's
+survival in an adversarially filtered pool was recognized as evidence about which
+side of a contested verdict the key holds, then discharged in favor of a population
+prior about reviewers; and a surfaced recall that a famous endpoint's canonical
+preparation is harsher than the stem's stated conditions was averaged away as doubt
+instead of refuting the endpoint. RIDM 23's revisions concentrate there, in
+pool-filter evidence, extent-ladder coverage, option-provenance typing, and
+precision-mismatch pricing.
 
 Proof-carrying output means concise claims, evidence, assumptions, validation, and limits. It
 does not require disclosure of private chain-of-thought or a transcript of internal reasoning.
 
 ## Part I: The Central Revision
 
-### 2. The Problem Exposed by RIDM 21
+### 2. The Problem Exposed by RIDM 22
 
-RIDM 21 hardened the instrument and model layer: unrepresentable givens refuted their
-frames, refuted models were quarantined, asked relations were measured directly, and
-measured commitments were banded at margin against noise. An eleventh evaluation
-sprint, run under RIDM 21, scored six of ten, and its record splits along a new axis:
-the high band went four of four on instrument-led and identified-source work, and all
-four misses happened where the criterion's author holds a variant of the solver's own
-reading, convention, or procedure. One run derived the correct enumeration under the
-canonical identification scope, generated the keyed count as a rival, and demoted it
-with an untyped phrase instead of constructing the scope that would key it. One run
-derived the correct formula and enumerated a fork that was two rearrangements of one
-expression, while the real fork, the sign semantics of the stem-defined symbol, went
-unenumerated and the key sat on its other side. One run faithfully reconstructed a
-published algorithm, validated it on anchors, and lost to a key that hand-implements a
-degraded misreading in which an exclusion clause attaches at the wrong scope; the
-misreading class was never generated as a candidate referent. One run classified a menu
-as source sentences with planted errors, killed seven options cleanly, then charitably
-discharged the noticed wording deviation inside its own leading option, which was the
-plant, while demoting the rival it had recognized as a lifted quotation. The losses
-were not in derivation, instrumentation, or coverage of faithful variants; they were in
-coverage of the author's variants.
+RIDM 22 hardened the referent-variant layer: rivals fell only to constructed keying
+readings, forks spanned distinct conventions, implementations carried their predictable
+defects, consumption tests were power-checked, and planted deviations bound. A twelfth
+evaluation sprint, run under RIDM 22, scored seven of ten with no repeat miss of the
+referent-variant class, and its two genuine misses expose the layer above: what the
+item's context says about its key. In both, the decisive evidence was generated during
+the attempt and then demoted by a weaker generic prior. One run faced a contested
+verdict with defensible literature on both sides, constructed both keying readings,
+and explicitly noted that the item could survive an adversarially filtered pool only
+if the key sat opposite the consensus verdict; that instance-level signal was then
+discharged in favor of a population prior about reviewers, and the key sat opposite
+the consensus. One run recognized a stepwise transformation, named the partial-extent
+rival, half-recalled that the famous endpoint's canonical preparation is harsher than
+the stem's mild stated conditions, and still committed the endpoint after demoting the
+rival with an untyped duration phrase. A third miss was graded against a key with
+three checkable internal inconsistencies, each reproduced exactly, on an item whose
+stem paired an order-of-magnitude given with an exact-precision demand; the medium
+band priced it correctly, and the configuration is recognizable in advance. The
+losses were not in coverage of the author's variants; they were in consuming what the
+pool's filter and the stem's own conditions already said about the key.
 
-| RIDM 21 residual | Why it is material | RIDM 22 correction |
+| RIDM 22 residual | Why it is material | RIDM 23 correction |
 | --- | --- | --- |
-| Rivals demoted without constructed readings | Keyed counts and options were generated, then dropped on untyped plausibility; the reading that would key them was never built | Demotion requires constructing the reading that keys the candidate, and quotation recognition is standing evidence (Sections 23, 24, and 29) |
-| Fork enumeration satisfied by rearrangements | Two forms of one expression covered nothing while the semantic sign fork went unpriced | Enumerated forks must span distinct conventions, selected by stem-value consistency (Sections 29 and 30) |
-| Referents modeled as faithful implementations | A key computed a published metric under a predictable misreading no faithful fork could reach | The referent is an implementation; misreading classes are candidate referents and bands price fidelity (Sections 19, 21, and 23) |
-| Consumption tests used without power checks | A deletion argument ranked two readings that both consumed the tested given | A consumption test binds only where the candidate readings differ on the tested given (Sections 23, 24, and 29) |
-| Noticed deviations charitably discharged | On a planted-error menu the leading option's own deviation was forgiven as looseness | On planted-error menus a noticed deviation is the error hypothesis, and criterion phrases type the answer class (Sections 24 and 29) |
+| Pool-filter evidence demoted by population priors | An item's survival in a filtered pool says which side of a contested verdict the key holds, and a generic reviewer prior overrode it | The filter is provenance: predict the filtered population's modal answer and treat survival as typed instance evidence against it (Sections 19, 24, and 29) |
+| Endpoint recall committed over the extent ladder | A famous endpoint was committed although the stated conditions buy only the first rung, and the surfaced harsher-canonical-conditions recall was averaged away | On stepwise processes the candidate space is the extent ladder, conditions select the rung, and conflicting conditions recall refutes the endpoint (Sections 20, 23, and 29) |
+| Precision demands mismatched to given precision | An order-of-magnitude given under an exact-precision demand predicted the key author's inconsistent implementation | The mismatch is recognizable in the stem: price referent noise, compute the parameter-free shortcut, and cap the band (Sections 11, 21, and 48) |
+| Options treated as one author's text | A menu mixing author-voiced statements with harvested critiques was rankable only by typing each option's provenance | Options carry provenance: type authorship by idiolect against the stem before ranking, and let author-voiced options carry the author's verdict (Sections 19, 23, and 29) |
 
-These residuals do not invalidate RIDM 21. They mark the next sufficient invariant horizon.
+These residuals do not invalidate RIDM 22. They mark the next sufficient invariant horizon.
 
 ### 3. Primary Operating Law
 
@@ -95,51 +97,56 @@ coverage, and standing rules bind their own author at the commitment gate. RIDM 
 added: a given the working model cannot represent refutes the model, refutation taints
 every output of the refuted model, the asked relation is measured directly before its
 generator is reverse-engineered, and bands price the weakest slot's margin against the
-instrument's own noise. RIDM 22 adds: a rival falls only to the constructed reading
+instrument's own noise. RIDM 22 added: a rival falls only to the constructed reading
 that would key it, enumerated forks span semantically distinct conventions, the
 referent is an implementation whose predictable defects are candidate referents, a
 consumption test binds only where readings differ on the tested given, and a noticed
 deviation inside a planted-error menu's leading option is the plant until refuted.
+RIDM 23 adds: the filter that admitted an item into its pool is typed instance
+evidence about its key, stated conditions select the rung of an extent ladder and
+conflicting conditions recall refutes the endpoint, menu options carry provenance
+typed by idiolect, and a precision demand mismatched to a given's stated precision
+prices referent noise into the band.
 
 ### 4. Revised Definition of Intelligence
 
-RIDM 22 defines intelligence as:
+RIDM 23 defines intelligence as:
 
 > The ability to discover task-relevant invariants, cover the space of candidate readings and
 > answers, ground material claims, choose authorized actions, learn from verified signals, and
 > stop at a calibrated, verifiable minimum sufficient result.
 
-RIDM 21 hardened the instrument and model layer with frame representability,
-refuted-model taint, direct-instrument precedence, margin-to-noise banding, and typed
-contrast scope. RIDM 22 hardens the referent-variant layer above it with five
+RIDM 22 hardened the referent-variant layer with constructed-reading demotion,
+distinct-convention forks, referent-implementation fidelity, consumption-test power,
+and planted-deviation discipline. RIDM 23 hardens the context layer above it, what the
+pool, the conditions, and the options' own provenance say about the key, with four
 disciplines:
 
-- constructed-reading demotion: a candidate value, count, or option is demoted only
-  after the reading, scope, or convention that would key it has been constructed and
-  refuted by typed evidence; an untyped plausibility judgment demotes nothing, and
-  recognizing that an option quotes an identifiable source is standing evidence for it
-- distinct-convention forks: fork enumeration at commitment is coverage only over
-  semantically distinct bookkeepings; rearrangements of one expression cover nothing,
-  and a sign fork is selected by checking which convention reproduces the stem's stated
-  values with their stated signs
-- referent-implementation fidelity: on items graded by an author's implementation of a
-  published procedure, metric, or canon, the implementation's predictable misreadings
-  are candidate referents in their own right; the clause most transplantable between
-  scopes is the modal defect, and the band prices referent fidelity rather than
-  derivation strength
-- consumption-test power: a deletion or consumption argument ranks two readings only
-  when they differ on the tested given; running it where both readings consume the
-  given manufactures support and is a coverage error, not evidence
-- planted-deviation discipline: once a menu is classified as source sentences with
-  planted errors, a noticed wording deviation inside the leading option is the planted
-  error until refuted, and the stem's criterion phrase types the answer class the key
-  lives in before options are ranked across classes
+- pool-filter evidence: the selection rule that admitted an item into its pool is part
+  of the item's provenance; on split-verdict items, predict the filtered population's
+  modal answer, and treat the item's survival as typed instance evidence that the key
+  sits elsewhere; population priors about authors or reviewers are narrative-tier
+  against that signal
+- extent-ladder coverage: on stepwise or telescoping processes, the candidate space is
+  the extent-of-reaction ladder, one candidate per rung; the stated conditions'
+  harshness selects the rung, prominently mild conditions are an extent-limiter flag,
+  and a surfaced recall that the endpoint's canonical conditions exceed the stem's is
+  typed refutation of the endpoint, not a doubt to average away
+- option-provenance typing: the options of a statement-evaluation menu may have
+  different authors; type each option's likely authorship by matching idiolect against
+  the stem before ranking, let author-voiced options carry the author's verdict, and
+  key a true-but-tangential critique by the author's reading of it, not its truth value
+- precision-mismatch pricing: a stem that supplies a parameter only as an order of
+  magnitude while demanding an exact-precision answer carries a criterion-information
+  mismatch inside its own text; coherence may pin the literal reading, but the mismatch
+  predicts author implementation inconsistency, so the parameter-free variant is
+  computed and the band carries a referent allowance
 
 ## Part II: Core Vocabulary and Scope
 
 ### 5. Core Terms
 
-RIDM 22 uses the following terms precisely.
+RIDM 23 uses the following terms precisely.
 
 - A **heuristic** is a compressed rule that is useful within a scope.
 - An **invariant** is a relation stable enough to govern the current task under stated
@@ -295,6 +302,16 @@ When the mismatch is material:
   confidence at what the answer distribution's concentration supports.
 - Expect convention uncertainty to dominate sampling noise, and say which conventions were
   assumed.
+
+The mismatch can live inside the stem itself. A stem that supplies a parameter only as
+an order of magnitude, or under an explicit vagueness marker, while demanding an answer
+at exact precision, is asserting more determination than it provides. Coherence may pin
+the literal reading, when only one exact value makes the demanded precision achievable,
+and that reading is still committed; but the configuration predicts author-side
+implementation inconsistency, because the author resolved the same vagueness privately
+and may have resolved it differently from their own text. Compute the variant in which
+the vague parameter contributes nothing, and carry a referent allowance on the band
+(Sections 21 and 48).
 
 ### 12. Authority Envelope
 
@@ -571,6 +588,29 @@ solver-natural variants is coverage myopia on the style axis, and the keyed cons
 need not be optimal, which is what marks such slots as referent predictions rather than
 derivations.
 
+The style corpus also types option provenance. The options of a statement-evaluation
+menu need not share an author: a stem author who presents a claim and then lists
+commentary about it has often harvested the skeptical options from other writers or
+from models, and planted their own verdict among them. Idiolect is the instrument: an
+option that shares the stem's distinctive phrasing, register, or non-native
+constructions is author-voiced and carries the author's verdict; options in a
+different polish are harvested and carry the roles the author assigned them. A
+literally true statement about a proposition the graded claim never asserts is keyed
+by the author's reading of it, not by its truth value, and an author-voiced option
+that contradicts a harvested one tells you which side the key holds.
+
+The pool's admission filter is provenance too. When an item belongs to a pool
+constructed by a selection rule, such as a benchmark that keeps only items a
+population of reference solvers answered incorrectly, that rule is evidence about the
+key: predict the reference population's modal answer, and treat the item's survival
+as typed instance evidence that the key sits elsewhere. On split-verdict items, where
+defensible literature backs both sides of a contested conclusion, this signal is
+often decisive, because the consensus verdict is exactly what the filtered population
+reproduces, which is what makes it the planted magnet. A population prior about
+authors or reviewers, that experts would not key a contested position, is
+narrative-tier against the filter signal: it classifies an instance by a
+distribution, the same error contrast-level typing forbids (Section 16).
+
 The referent's author is estimated, not assumed. Author competence is a claim in the
 ledger, supported by the item's structural tells and by population priors: an
 expert-authored and reviewed item pool gives low prior to keys that would make the item
@@ -618,6 +658,15 @@ These rules apply unchanged when the conflicting sources are the reasoner's own 
 derivations, a heuristic estimate against a rigorous argument, recall against computation. Do
 not average internal routes. Prefer the more direct and checkable route, and record what would
 resolve the disagreement.
+
+A surfaced doubt is often a conflict in disguise. When recall of a candidate's canonical
+requirements conflicts with the task's stated conditions, the recall that the famous
+endpoint's standard preparation is harsher than the stem provides, that a construction's
+known prerequisites are absent, that a result's usual regime excludes the stated one, the
+conflict is typed refutation of that candidate under the stated conditions, not a
+reservation to note and average away. Averaging it away is the internal-route version of
+averaging incompatible claims: the half-remembered requirement and the committed candidate
+cannot both survive the stem as written.
 
 Dominance claims carry a scope the way recalled results carry a parameterization. A
 per-unit comparison, one option yields less value than another from the same material or
@@ -718,6 +767,14 @@ convention-rich procedure carries the multi-component allowance even when the
 derivation is exact, and an anchor validation of the solver's own reconstruction
 supports the reconstruction, not the referent.
 
+Referent noise also scales with the stem's own precision mismatches. An
+order-of-magnitude or vaguely quantified given under an exact-precision answer demand
+(Section 11) marks a vagueness the author resolved privately, and the author's private
+resolution can contradict their own text; the configuration carries a referent
+allowance the way trap adjacency and implementation distance do, with the
+parameter-free variant computed pre-reveal so a defective verdict can be differenced
+on sight (Section 48).
+
 Measured commitments band at the weakest slot's margin against the instrument's noise.
 When a slot is decided by a measurement, the discriminating quantity's separation
 between adjacent hypotheses is compared with the instrument's own demonstrated spread,
@@ -808,6 +865,12 @@ how well the set is ranked. Before ranking:
   exactly. A derived value that matches no option within its own uncertainty refutes the
   model choice, not the menu: reopen model identification, looking first for a retold
   source, before any nearest-option commitment.
+- Read menu architecture as frame evidence. A menu that omits the default frame's
+  canonical answer while containing a rival frame's canonical answer, with distractors
+  explicable as traps only under the rival frame, is coherent only under that rival:
+  the absence of the default's obvious answer identifies the intended frame rather
+  than indicting the menu. This is menu-mismatch reopening run in reverse, before any
+  option is ranked.
 - Enumerate the governing frame's variant space. A convention, ruleset, terminological
   canon, or enumeration scope imported to make the task well-posed is a candidate
   reading: name the variants (an ending rule, a capture rule, a reduction convention, a
@@ -914,6 +977,20 @@ how well the set is ranked. Before ranking:
   quotable, intentional line, and a stem phrase pointing at the source that the leading
   reading would survive deleting is an unconsumed flag aimed at the more literal
   mechanism.
+- On stepwise or telescoping processes, sequential closures, condensations,
+  substitutions, accretions, enumerate the extent-of-reaction ladder as the candidate
+  space, one candidate per rung, and select the rung by matching the stated
+  conditions' harshness against each rung's canonical requirements. The famous
+  endpoint is the availability magnet; prominently mild, dilute, or brief stated
+  conditions are an extent-limiter flag; and duration or effort phrases ("long enough
+  to finish") are untyped demotions of the partial-extent rivals. A surfaced recall
+  that the endpoint's canonical conditions exceed the stem's refutes the endpoint
+  (Section 20).
+- Type option provenance before ranking statement-evaluation menus. Where options
+  plausibly have different authors, match each option's idiolect against the stem
+  (Section 19): author-voiced options carry the author's verdict, harvested options
+  carry assigned roles, and a true statement about a proposition the graded claim
+  never asserts is keyed by the author's reading of it.
 - On items graded by an author's implementation of a published procedure or metric,
   open the candidate-referent set at the implementation level: the faithful procedure
   under its convention forks, and its predictable misreadings, led by clauses that
@@ -984,6 +1061,20 @@ time: they may break ties inside the canonical reading and may never overturn it
 discovered near-coincidence among the task's givens is a hypothesis generator, never a
 discriminator, because the space of checkable coincidences makes chance matches expected.
 Sophistication is spent proving the canonical reading's consequences, not defeating it.
+
+The pool-filter signal is not a meta-prior. Canonical precedence governs readings of the
+task; on an item whose answer is itself a contested verdict with defensible literature on
+both sides, the filter that admitted the item into its pool (Section 19) is typed
+instance evidence about which side the key holds, and it is exactly the kind of evidence
+strong enough to defeat the consensus side. The distinction is checkable: a meta-prior
+argues from taste about authors in general, while the filter argument derives from this
+pool's stated construction rule and this item's survival under it. On such items the
+consensus verdict is the magnet because it is what the filtered reference solvers
+reproduce; committing it without consuming the filter signal is availability anchoring
+at the verdict layer. The same discipline covers famous-setup items: when a stem
+reproduces a celebrated demonstration or classic with one element quietly changed, the
+celebrated answer is the filtered population's modal response, and the changed element
+is the item.
 
 Canonical precedence binds between frames with the same force. A discovered cancellation,
 forced-move chain, or designed-feeling mechanism inside a sophisticated frame is the
@@ -1096,7 +1187,7 @@ The symbols denote task-relevant changes, not calibrated numeric quantities.
 
 ### 28. Constraint-First Refinement
 
-RIDM 22 keeps ordered admission in place of unrestricted scalar tradeoffs.
+RIDM 23 keeps ordered admission in place of unrestricted scalar tradeoffs.
 
 First evaluate non-compensable gates:
 
@@ -1216,6 +1307,22 @@ before commitment, re-check:
   published procedure or metric, does the candidate-referent set include its
   predictable misreadings alongside the faithful forks, and is the band priced at
   referent fidelity rather than derivation strength (Sections 19, 21, and 23)?
+- **Pool filter.** If the item sits on a contested verdict or reproduces a famous
+  setup, was the filtered reference population's modal answer predicted, and does the
+  commitment consume the item's survival under the pool's construction rule rather
+  than demote it with a population prior (Sections 19 and 24)?
+- **Extent rung.** On stepwise or telescoping processes, was the extent ladder
+  enumerated with one candidate per rung, is the committed rung selected by the
+  stated conditions' harshness, and was no partial-extent rival demoted with a
+  duration or effort phrase (Sections 20 and 23)?
+- **Option provenance.** On statement-evaluation menus with plausibly mixed
+  authorship, was each option's provenance typed by idiolect, and is every
+  true-but-tangential statement keyed by the author's reading rather than its truth
+  value (Sections 19 and 23)?
+- **Precision mismatch.** If a given is stated only at order-of-magnitude or vague
+  precision while the answer demands exactness, was the literal reading pinned by
+  coherence, the parameter-free variant computed, and the referent allowance applied
+  to the band (Sections 11, 21, and 48)?
 - **Fork distinctness.** Does every enumerated representation or convention fork span
   semantically distinct bookkeepings, with sign forks selected by which convention
   reproduces the stem's stated values, and no fork satisfied by rearrangements of one
@@ -1236,7 +1343,7 @@ If a check fails, reopen the smallest affected layer instead of shipping the com
 
 ### 30. Internal Model and Output Contract
 
-RIDM 22 preserves the separation between internal discovery and external disclosure.
+RIDM 23 preserves the separation between internal discovery and external disclosure.
 
 ```text
 OutputContract {
@@ -1800,7 +1907,7 @@ before action admission.
 ### 62. Evaluation Dimensions
 
 ```text
-RIDM22Metrics {
+RIDM23Metrics {
     factual_accuracy
     evidence_coverage
     unsupported_decisive_claim_rate
@@ -1846,6 +1953,10 @@ RIDM22Metrics {
     referent_implementation_coverage
     consumption_test_power
     criterion_class_typing
+    pool_filter_consumption
+    extent_rung_selection
+    option_provenance_typing
+    precision_mismatch_pricing
     confidence_band_calibration
     oracle_defect_detection
     authorization_compliance
@@ -1963,7 +2074,15 @@ which implementation-graded items had predictable misreadings in the candidate-r
 set; consumption-test power is the rate at which deletion and consumption arguments
 were applied only where the compared readings differed on the tested given;
 criterion-class typing is the rate at which committed options matched the answer class
-the stem's criterion phrase asks for. Oracle-defect detection is credited only when a
+the stem's criterion phrase asks for. Pool-filter consumption is the rate at which
+split-verdict and famous-setup items had the filtered population's modal answer
+predicted and the survival signal consumed at ranking; extent-rung selection is the
+rate at which stepwise-process items were answered from a conditions-matched rung of
+an enumerated extent ladder rather than the endpoint; option-provenance typing is the
+rate at which mixed-authorship menus had options typed by idiolect before ranking;
+precision-mismatch pricing is the rate at which stems pairing vague givens with exact
+demands carried the referent allowance with the parameter-free variant computed
+pre-reveal. Oracle-defect detection is credited only when a
 defective signal is identified through checkable internal inconsistency, not through
 disagreement alone.
 
@@ -1973,7 +2092,7 @@ rather than assigning a perfect score.
 
 ### 64. Evaluation Protocol
 
-An RIDM 22 evaluation set should vary:
+An RIDM 23 evaluation set should vary:
 
 - task clarity and ambiguity
 - evidence quality, conflict, and freshness
@@ -2063,6 +2182,18 @@ An RIDM 22 evaluation set should vary:
   consume the tested given
 - planted-error menus whose keyed option is a pure interpretive judgment while a
   near-perfect fact recital carries one planted deviation
+- split-verdict items drawn from adversarially filtered pools, keyed opposite the
+  reference population's consensus verdict
+- famous-setup items reproducing a celebrated demonstration with one load-bearing
+  element quietly changed
+- stepwise-process items whose stated conditions buy only a partial rung of the
+  extent ladder while the famous endpoint tempts
+- statement-evaluation menus mixing author-voiced verdicts with harvested critiques,
+  including a literally true critique of a proposition the claim never asserts
+- stems pairing an order-of-magnitude given with an exact-precision answer demand,
+  with and without internally consistent keys
+- menus omitting the default frame's canonical answer while containing a rival
+  frame's canonical answer plus name-association traps
 
 Minimum behavior cases include:
 
@@ -2176,6 +2307,20 @@ Minimum behavior cases include:
     tested given.
 62. On a planted-error menu, a noticed deviation inside the leading option kills or
     caps it, and the committed option matches the criterion phrase's answer class.
+63. On a split-verdict item from a filtered pool, the reference population's modal
+    verdict is predicted and the commitment consumes the survival signal instead of a
+    reviewer prior.
+64. A famous-setup item is answered from the changed element, not the celebrated
+    result's appearance.
+65. A stepwise process under mild stated conditions is answered from the
+    conditions-matched rung, with the endpoint refuted by its own harsher canonical
+    requirements.
+66. A statement-evaluation menu with mixed authorship is ranked only after option
+    provenance is typed by idiolect, and a true-but-tangential critique is keyed by
+    the author's reading.
+67. A stem pairing an order-of-magnitude given with an exact-precision demand commits
+    the coherence-pinned literal reading at a banded allowance, with the
+    parameter-free variant computed pre-reveal.
 
 Adjudicators should label material residuals, authority boundaries, acceptable actions,
 evidence requirements, and completion criteria before scoring output.
@@ -2247,6 +2392,13 @@ A conforming implementation should demonstrate that it can:
 - apply consumption tests only where the compared readings differ on the tested given
 - treat noticed deviations in planted-error menus as the plant, and type the criterion
   phrase's answer class before ranking
+- consume the pool's admission filter on split-verdict and famous-setup items,
+  predicting the reference population's modal answer and ranking against it
+- enumerate extent ladders on stepwise processes and select the rung the stated
+  conditions support, refuting endpoints whose canonical requirements exceed the stem
+- type option provenance by idiolect on mixed-authorship menus before ranking
+- price stem-internal precision mismatches into the band with the parameter-free
+  variant computed pre-reveal
 - commit each claim class at its audited band, opened at the decisive link, with
   referent allowances scaled to answer componentry
 - validate closed-world claims by convergent routes and anchor cases
@@ -2627,6 +2779,32 @@ On a menu built of source sentences with planted errors, a noticed wording devia
 inside the leading option is forgiven as authorial looseness, and the forgiven
 deviation is the plant.
 
+#### Filter-blind consensus commitment
+
+On a split-verdict item from an adversarially filtered pool, the consensus verdict is
+committed although the item's survival under the pool's construction rule was
+recognized as evidence for the other side, the instance signal demoted by a
+population prior about authors or reviewers.
+
+#### Endpoint capture
+
+A stepwise process is answered with the famous endpoint although the stated
+conditions buy only a partial rung, the partial-extent rival demoted with a duration
+phrase and the surfaced recall of the endpoint's harsher canonical requirements
+averaged away as doubt.
+
+#### Provenance-blind option reading
+
+A statement-evaluation menu whose options plausibly have different authors is ranked
+as if one author wrote them all, and a harvested critique's literal truth or an
+author-voiced verdict's idiolect goes unconsumed.
+
+#### Unpriced precision mismatch
+
+A stem supplies a parameter only as an order of magnitude while demanding an exact
+answer, and the commitment carries full derivation confidence with no referent
+allowance and no parameter-free variant computed.
+
 ## Part XIV: Control Laws
 
 ### 67. Control Laws
@@ -2979,14 +3157,42 @@ deviation inside the leading option is the planted-error hypothesis until refute
 the stem's criterion phrase types the answer class the key lives in before options are
 ranked across classes.
 
+#### Control Law 64 - The Pool's Filter Is Evidence
+
+The selection rule that admitted an item into its pool is part of its provenance. On
+split-verdict and famous-setup items, predict the filtered reference population's
+modal answer and treat the item's survival as typed instance evidence that the key
+sits elsewhere; a population prior about authors or reviewers cannot demote it.
+
+#### Control Law 65 - Conditions Select the Rung
+
+On stepwise or telescoping processes, the candidate space is the extent ladder, one
+candidate per rung, and the stated conditions' harshness selects the rung. Duration
+and effort phrases demote nothing, and a surfaced recall that the endpoint's
+canonical requirements exceed the stem's conditions refutes the endpoint.
+
+#### Control Law 66 - Options Carry Provenance
+
+The options of a statement-evaluation menu need not share an author. Type each
+option's likely authorship by idiolect against the stem before ranking: author-voiced
+options carry the author's verdict, and a true statement about a proposition the
+claim never asserts is keyed by the author's reading of it, not its truth value.
+
+#### Control Law 67 - Precision Mismatch Prices the Referent
+
+A stem that pairs a vague or order-of-magnitude given with an exact-precision demand
+carries a criterion-information mismatch in its own text. Commit the
+coherence-pinned literal reading, compute the parameter-free variant pre-reveal, and
+carry a referent allowance on the band.
+
 ## Part XV: Reference Procedure
 
-### 68. RIDM 22 Procedure
+### 68. RIDM 23 Procedure
 
 ```text
-function RIDM22(input, context, objectives, constraints):
+function RIDM23(input, context, objectives, constraints):
 
-    state = RIDM21_initialize(
+    state = RIDM22_initialize(
         input,
         context,
         objectives,
@@ -3018,6 +3224,15 @@ function RIDM22(input, context, objectives, constraints):
             destination_domain_if_transfer(task_contract)
         )
 
+    if split_verdict_or_famous_setup(task_contract):
+        item_profile.pool_filter_signal =
+            consume_pool_filter(
+                pool_construction_rule(context),
+                predict_reference_modal_answer(
+                    task_contract
+                )
+            )
+
     item_profile.governing_frame =
         select_frame(
             enumerate_frame_variants(task_contract),
@@ -3043,6 +3258,29 @@ function RIDM22(input, context, objectives, constraints):
 
     item_profile.style_corpus =
         mine_stem_examples(task_contract)
+
+    if task_contract has an option_menu:
+        item_profile.option_provenance =
+            type_option_provenance_by_idiolect(
+                task_contract.option_menu,
+                item_profile.style_corpus
+            )
+
+    if stepwise_process(task_contract):
+        item_profile.extent_rung =
+            select_rung_by_conditions(
+                enumerate_extent_ladder(task_contract),
+                stated_conditions(task_contract),
+                canonical_rung_requirements(task_contract)
+            )
+
+    if precision_mismatch_in_stem(task_contract):
+        item_profile.referent_allowance =
+            price_precision_mismatch(
+                compute_parameter_free_variant(
+                    task_contract
+                )
+            )
 
     if graded_by_author_implementation(task_contract):
         item_profile.referent_variants =
@@ -3346,35 +3584,27 @@ function RIDM22(input, context, objectives, constraints):
 
 ### 69. Inheritance and Replacement
 
-RIDM 22 preserves RIDM 21 unless this specification explicitly changes a rule.
+RIDM 23 preserves RIDM 22 unless this specification explicitly changes a rule.
 
-| RIDM 21 concept | RIDM 22 treatment |
+| RIDM 22 concept | RIDM 23 treatment |
 | --- | --- |
-| Task contract, authority, mismatch | Preserved |
+| Task contract, authority, mismatch | Extended: a vague given under an exact-precision demand is a mismatch inside the stem, priced as referent noise |
 | Forced-choice protocol, criterion referent, completed-route precedence | Preserved |
 | Designed-detail route selection and threshold discrimination | Preserved |
-| Item rigor, provenance, canon indexing, style corpora | Extended: the referent is an implementation, and predictable misreadings of a published procedure are candidate referents |
-| Frame selection, representability, load-bearingness | Extended: identification scope on counting items is a frame variant space with constructed keying readings |
+| Item rigor, provenance, canon indexing, style corpora | Extended: the pool's admission filter is provenance, and the style corpus types option provenance by idiolect |
+| Frame selection, representability, load-bearingness | Extended: menu architecture identifies the frame when the default frame's canonical answer is absent |
 | Refuted-model taint and direct-instrument precedence | Preserved |
-| Candidate coverage | Extended: constructive demotion, consumption-test power precondition, implementation-level referent coverage |
-| Coherence and canonical precedence | Extended: planted-deviation discipline and criterion-phrase answer-class typing on menus |
-| Margin-to-noise, trap-priced, audit-inherited banding | Extended: implementation-graded items band at referent fidelity |
-| Falsity-before-coverage ranking, standing-rule binding | Preserved |
-| Representation and fork enumeration | Extended: forks must span semantically distinct conventions, with sign branches selected by stem-value consistency |
+| Candidate coverage | Extended: extent ladders on stepwise processes, with rungs selected by stated conditions |
+| Coherence and canonical precedence | Extended: the pool-filter signal is typed instance evidence, strong enough to defeat a consensus verdict |
+| Conflicting evidence | Extended: surfaced recall of a candidate's harsher canonical requirements refutes it under the stated conditions |
+| Constructed demotion, fork distinctness, consumption-test power | Preserved, with duration and effort phrases named as untyped demotions |
+| Referent-implementation fidelity and planted-deviation discipline | Preserved |
+| Margin-to-noise, trap-priced, audit-inherited banding | Extended: precision mismatches carry a referent allowance with the parameter-free variant computed pre-reveal |
 | Standing-structure and capability census | Preserved |
 | Closed-world validation, oracle discipline, interlocked sequencing | Preserved |
 | Completion, stopping, disclosure, privacy | Preserved |
 
-RIDM 21 asked:
-
-> Can the committed model represent every given exactly, and did a proven impossibility
-> reopen identification; does any evidence trace to a model refuted anywhere; was the
-> asked relation measured directly before its generator was modeled; does the band
-> price the weakest measured slot against the instrument's own noise, with caps applied
-> as arithmetic; is the committed assignment a re-solved joint optimum; and does every
-> recalled contrast operate at the level it was attested?
-
-RIDM 22 adds:
+RIDM 22 asked:
 
 > For every demoted candidate, was the reading that would key it constructed and
 > refuted; does every enumerated fork span distinct conventions, with sign branches
@@ -3384,19 +3614,35 @@ RIDM 22 adds:
 > on the tested given; and on a planted-error menu, was every noticed deviation in the
 > committed option refuted and the criterion phrase's answer class matched?
 
+RIDM 23 adds:
+
+> On a contested verdict or a famous setup, was the filtered population's modal answer
+> predicted and the pool's survival signal consumed rather than demoted by a
+> population prior; on a stepwise process, was the extent ladder enumerated and the
+> rung selected by the stated conditions, with the endpoint refuted by its own harsher
+> canonical requirements; on a mixed-authorship menu, was each option's provenance
+> typed by idiolect before ranking; and where the stem pairs a vague given with an
+> exact demand, was the parameter-free variant computed and the referent allowance
+> carried on the band?
+
 ## Part XVII: Compressed Architecture
 
-### 70. RIDM 22 Flow
+### 70. RIDM 23 Flow
 
 ```text
 Task request
   -> Task contract
   -> Authority envelope
   -> Item provenance and rigor
+  -> Pool-filter consumption on split verdicts and famous setups
   -> Canon indexing across transfers
-  -> Frame selection with identification scopes and threshold-tightness evidence
+  -> Frame selection with identification scopes, menu architecture, and
+     threshold-tightness evidence
   -> Representability audit of the givens
   -> Author-competence estimate and style corpus
+  -> Option-provenance typing by idiolect
+  -> Extent-ladder enumeration with conditions-selected rungs
+  -> Precision-mismatch pricing with parameter-free variants
   -> Referent-implementation variants where the author implements a procedure
   -> Standing-structure and capability census
   -> Direct measurement of the asked relation where available
@@ -3438,17 +3684,18 @@ Task request
 
 ## Final Definition
 
-RIDM 22 defines intelligence as:
+RIDM 23 defines intelligence as:
 
 > The recursive discovery of scoped invariants over a covered candidate space inside a
 > frame that represents the givens, ranked with canonical precedence under the
 > destination canon, aimed at the operative criterion and its estimated author as that
-> author implements it, defects and conventions included, resting on the completed
-> route the task's engineered details select and on instruments whose noise the bands
-> price, bound to evidence no refuted model supplies, with rivals that fall only to
-> constructed readings, updated by verified signals, committed through decisions
-> un-dominated at whole-solution scope and calibrated at the audited weakest decisive
-> link, and stopped by verifiable completion.
+> author implements it, defects and conventions included, informed by the filter that
+> admitted the item and the conditions the stem actually grants, resting on the
+> completed route the task's engineered details select and on instruments whose noise
+> the bands price, bound to evidence no refuted model supplies, with rivals that fall
+> only to constructed readings, updated by verified signals, committed through
+> decisions un-dominated at whole-solution scope and calibrated at the audited weakest
+> decisive link, and stopped by verifiable completion.
 
 Its central invariant is:
 
@@ -3457,10 +3704,13 @@ Its central invariant is:
 > before modeling its generator, derive before blaming the author and keep what the
 > derivation wins, quarantine whatever a refuted model touched, know whose criterion
 > grades the task, which community it grades from, what its author could execute, and
-> how that author implements the procedure that grades it, let the engineered details
-> pick between completed routes, census what the state already holds and what the task
-> grants, cover the candidates including the mechanism classes, the misreading
-> referents, what the stem withholds, and the idioms its examples demonstrate,
+> how that author implements the procedure that grades it, consume the pool's filter
+> on contested verdicts and famous setups, let stated conditions pick the rung of any
+> extent ladder and let surfaced harsher-requirement recall refute the endpoint, let
+> the engineered details pick between completed routes, census what the state already
+> holds and what the task grants, cover the candidates including the mechanism
+> classes, the misreading referents, what the stem withholds, and the idioms its
+> examples demonstrate, type the provenance of every option an idiolect can betray,
 > complete every rival with the mechanisms available to it and demote none without a
 > constructed keying reading refuted by typed evidence, rank the canonical reading
 > first and true options before complete-looking ones, keep the givens exact while
@@ -3468,10 +3718,10 @@ Its central invariant is:
 > consume what the task hints at, observe what the task points at, type the answer
 > class the criterion phrase names, treat noticed deviations in planted menus as the
 > plant, test consumption only where readings differ, discharge or bind every alarm,
-> price the named trap, the instrument's noise, and the referent's fidelity, apply
-> standing rules and rigor caps as written, ground material claims, admit only
-> authorized action, commit before consulting the oracle and let the mechanism enforce
-> it, commit one answer under semantically distinct representations each named with
-> its scope, un-dominated for whole solutions at the audited weakest link's band,
-> learn from verified signals, expose the material delta, and stop at the minimum
-> sufficient verified result.
+> price the named trap, the instrument's noise, the referent's fidelity, and the
+> stem's own precision mismatches, apply standing rules and rigor caps as written,
+> ground material claims, admit only authorized action, commit before consulting the
+> oracle and let the mechanism enforce it, commit one answer under semantically
+> distinct representations each named with its scope, un-dominated for whole
+> solutions at the audited weakest link's band, learn from verified signals, expose
+> the material delta, and stop at the minimum sufficient verified result.
