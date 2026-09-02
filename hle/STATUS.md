@@ -9,16 +9,16 @@ individual run logs.
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 100 |
-| Correct | 56 |
+| Runs completed | 110 |
+| Correct | 62 |
 | Percent correct | 56% |
-| Incorrect, strict | 44 |
-| Incorrect against defective or under-determined keys | 2 of 44 |
-| High band record | 39 of 53 |
-| Medium band record, recall-backed | 3 of 9 |
-| Medium band record, derivation-backed | 8 of 11 |
-| Medium band record, inference-backed | 3 of 14 |
-| Low and very-low band record | 3 of 13 |
+| Incorrect, strict | 48 |
+| Incorrect against defective or under-determined keys | 2 of 48 |
+| High band record | 43 of 57 |
+| Medium band record, recall-backed | 4 of 11 |
+| Medium band record, derivation-backed | 9 of 13 |
+| Medium band record, inference-backed | 3 of 15 |
+| Low and very-low band record | 3 of 14 |
 
 ## By RIDM Model
 
@@ -28,6 +28,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
+| RIDM 21 | 10 | 6 | 4 | 60% |
 | RIDM 20 | 10 | 5 | 5 | 50% |
 | RIDM 19 | 10 | 8 | 2 | 80% |
 | RIDM 18 | 10 | 6 | 4 | 60% |
@@ -44,6 +45,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Sprint | Runs | Specification under test | Outcome |
 | --- | --- | --- | --- |
+| 0011 | Q000101 to Q000110 | RIDM 21 | 6 lessons (L80 to L85), consolidated into RIDM 22 (released) |
 | 0010 | Q000091 to Q000100 | RIDM 20 | 6 lessons (L74 to L79), consolidated into RIDM 21 (released) |
 | 0009 | Q000081 to Q000090 | RIDM 19 | 5 lessons (L69 to L73), consolidated into RIDM 20 (released) |
 | 0008 | Q000071 to Q000080 | RIDM 18 | 7 lessons (L62 to L68), consolidated into RIDM 19 (released) |
@@ -60,6 +62,16 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000110](runs/Q000110.md) | 0011 | Puzzle, multi-peg disk transfer | exact match | no | correct | high |
+| [Q000109](runs/Q000109.md) | 0011 | Math, metric geometry | exact match | no | correct | medium |
+| [Q000108](runs/Q000108.md) | 0011 | Linguistics, source-passage recall | exact match | no | correct | high |
+| [Q000107](runs/Q000107.md) | 0011 | CS/AI, machine simulation | exact match | no | correct | high |
+| [Q000106](runs/Q000106.md) | 0011 | Cultural studies, dress hierarchy | multiple choice | no | correct | medium |
+| [Q000105](runs/Q000105.md) | 0011 | Art history, Roman architecture | multiple choice | no | incorrect | medium |
+| [Q000104](runs/Q000104.md) | 0011 | Engineering, ground-effect aerodynamics | exact match | no | correct | high |
+| [Q000103](runs/Q000103.md) | 0011 | Chemistry, complexity metric | exact match | no | incorrect | low |
+| [Q000102](runs/Q000102.md) | 0011 | Chemistry, intercalation staging | exact match | yes | incorrect | medium |
+| [Q000101](runs/Q000101.md) | 0011 | Physics, Feynman graph counting | exact match | no | incorrect | medium |
 | [Q000100](runs/Q000100.md) | 0010 | Biology, invasion ecology | exact match | yes | incorrect | low |
 | [Q000099](runs/Q000099.md) | 0010 | Math, lattice combinatorics | exact match | no | correct | high |
 | [Q000098](runs/Q000098.md) | 0010 | Biology, mimicry ecology | exact match | yes | correct | high |
