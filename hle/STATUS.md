@@ -11,18 +11,18 @@ answer entered the pre-commitment candidate set, tracked from sprint 0013 onward
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 130 |
-| Correct | 76 |
+| Runs completed | 133 |
+| Correct | 77 |
 | Percent correct | 58% |
-| Incorrect, strict | 54 |
-| Incorrect against defective or under-determined keys | 2 of 54 |
-| High band record | 50 of 66 |
+| Incorrect, strict | 56 |
+| Incorrect against defective or under-determined keys | 2 of 56 |
+| High band record | 51 of 68 |
 | Medium band record, recall-backed | 5 of 13 |
 | Medium band record, derivation-backed | 10 of 14 |
 | Medium band record, inference-backed | 7 of 21 |
-| Low and very-low band record | 4 of 16 |
-| Misses committed at the high band | 16 of 54 |
-| Candidate coverage, tracked from sprint 0013 | 9 of 10 runs |
+| Low and very-low band record | 4 of 17 |
+| Misses committed at the high band | 17 of 56 |
+| Candidate coverage, tracked from sprint 0013 | 12 of 13 runs |
 
 ## By RIDM Model
 
@@ -32,6 +32,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
+| RIDM 26 | 3 | 1 | 2 | 33% |
 | RIDM 23 | 10 | 7 | 3 | 70% |
 | RIDM 22 | 10 | 7 | 3 | 70% |
 | RIDM 21 | 10 | 6 | 4 | 60% |
@@ -70,6 +71,9 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000133](runs/Q000133.md) | 0014 | Chemistry, structure determination | exact match | no | incorrect | high |
+| [Q000132](runs/Q000132.md) | 0014 | Engineering, power-system optimization | multiple choice | yes | incorrect | low |
+| [Q000131](runs/Q000131.md) | 0014 | CS/AI, boolean expression enumeration | exact match | no | correct | high |
 | [Q000130](runs/Q000130.md) | 0013 | Chemistry, retrosynthesis | exact match | no | correct | high |
 | [Q000129](runs/Q000129.md) | 0013 | Art history, symbol identification | exact match | no | incorrect | medium |
 | [Q000128](runs/Q000128.md) | 0013 | Medicine, genetic disorders and metabolism | multiple choice | no | correct | medium |
