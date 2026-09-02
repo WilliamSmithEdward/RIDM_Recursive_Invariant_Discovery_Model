@@ -9,16 +9,16 @@ individual run logs.
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 120 |
-| Correct | 69 |
+| Runs completed | 130 |
+| Correct | 76 |
 | Percent correct | 58% |
-| Incorrect, strict | 51 |
-| Incorrect against defective or under-determined keys | 2 of 51 |
-| High band record | 46 of 62 |
-| Medium band record, recall-backed | 4 of 11 |
-| Medium band record, derivation-backed | 9 of 13 |
-| Medium band record, inference-backed | 7 of 20 |
-| Low and very-low band record | 3 of 14 |
+| Incorrect, strict | 54 |
+| Incorrect against defective or under-determined keys | 2 of 54 |
+| High band record | 50 of 66 |
+| Medium band record, recall-backed | 5 of 13 |
+| Medium band record, derivation-backed | 10 of 14 |
+| Medium band record, inference-backed | 7 of 21 |
+| Low and very-low band record | 4 of 16 |
 
 ## By RIDM Model
 
@@ -28,6 +28,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
+| RIDM 23 | 10 | 7 | 3 | 70% |
 | RIDM 22 | 10 | 7 | 3 | 70% |
 | RIDM 21 | 10 | 6 | 4 | 60% |
 | RIDM 20 | 10 | 5 | 5 | 50% |
@@ -46,6 +47,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Sprint | Runs | Specification under test | Outcome |
 | --- | --- | --- | --- |
+| 0013 | Q000121 to Q000130 | RIDM 23 | 6 lessons (L92 to L97), consolidated into RIDM 24 (released) |
 | 0012 | Q000111 to Q000120 | RIDM 22 | 6 lessons (L86 to L91), consolidated into RIDM 23 (released) |
 | 0011 | Q000101 to Q000110 | RIDM 21 | 6 lessons (L80 to L85), consolidated into RIDM 22 (released) |
 | 0010 | Q000091 to Q000100 | RIDM 20 | 6 lessons (L74 to L79), consolidated into RIDM 21 (released) |
@@ -64,6 +66,16 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000130](runs/Q000130.md) | 0013 | Chemistry, retrosynthesis | exact match | no | correct | high |
+| [Q000129](runs/Q000129.md) | 0013 | Art history, symbol identification | exact match | no | incorrect | medium |
+| [Q000128](runs/Q000128.md) | 0013 | Medicine, genetic disorders and metabolism | multiple choice | no | correct | medium |
+| [Q000127](runs/Q000127.md) | 0013 | Math, Rademacher sum asymptotics | exact match | no | correct | high |
+| [Q000126](runs/Q000126.md) | 0013 | Chemistry, sulfonation NMR prediction | exact match | yes | correct | low |
+| [Q000125](runs/Q000125.md) | 0013 | CS, graph algorithms | multiple choice | no | correct | high |
+| [Q000124](runs/Q000124.md) | 0013 | Engineering, conservation lighting | exact match | no | incorrect | low |
+| [Q000123](runs/Q000123.md) | 0013 | Math, ODE boundary-value problem | exact match | no | correct | high |
+| [Q000122](runs/Q000122.md) | 0013 | CS, information encoding | exact match | no | correct | medium |
+| [Q000121](runs/Q000121.md) | 0013 | Epistemology, probabilistic reasoning | multiple choice | no | incorrect | medium |
 | [Q000120](runs/Q000120.md) | 0012 | Ecology, path-analysis signs | multiple choice | no | correct | medium |
 | [Q000119](runs/Q000119.md) | 0012 | Chemistry, cation cyclization | exact match | yes | incorrect | high |
 | [Q000118](runs/Q000118.md) | 0012 | Chemistry, route identification | exact match | yes | correct | high |
