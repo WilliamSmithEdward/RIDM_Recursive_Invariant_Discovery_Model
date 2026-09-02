@@ -13,108 +13,58 @@ and stops with a verifiable result.
 
 ## Core Principles
 
-- Establish the task contract before deep refinement.
-- Ground every decisive material claim.
-- Treat authority, safety, privacy, evidence, and irreversible harm as hard
-  gates that soft benefits cannot offset.
-- Select the nearest sufficient invariant instead of pursuing depth for its own
-  sake.
-- Prefer low-risk, reversible actions with observable outcomes.
-- Recompute materiality when evidence, state, authority, or stakes change.
-- Cover the candidate space before ranking, including the idioms the task's own examples
-  demonstrate; complete each rival with the mechanisms granted to it, demote none without a
-  constructed keying reading refuted by typed evidence, and commit only conclusions
-  un-dominated at whole-solution scope.
-- Model the criterion as its author's implementation: predictable misreadings of a published
-  procedure are candidate referents, and confidence prices referent fidelity.
-- Treat the governing frame as a candidate: index conventions to the task's provenance,
-  and on announced domain transfers to the destination field, preferring the frame under
-  which the task's construction does work and its stated thresholds bind.
-- Rank the domain's canonical reading first; meta-priors break ties and never overturn it.
-- Keep given data exact under estimation budgets; approximate only what cannot be
-  represented.
-- Discharge or bind every noticed anomaly before committing.
-- Treat correction signals as evidence to verify, consult them only after committing,
-  with the sequencing enforced by the mechanism where possible, and commit each claim
-  class at its audited confidence band.
-- In graded settings, run the derivation before modeling the criterion's author, estimate
-  that author from the item's structure, and bind confidence at the weakest decisive link.
-- Keep what a successful derivation wins: a completed rigorous route is the referent
-  basis, engineered details select between completed routes, and author models cap
-  confidence rather than displace constructions.
-- Apply standing rules at their written scope at commitment, and commit one answer under
-  semantically distinct conventions, each named with its scope, when it sits on a fork.
-- Use deletion and consumption tests only where the compared readings differ on the tested
-  given, and treat a noticed deviation in a planted-error menu's leading option as the plant.
-- Consume the pool's admission filter: on contested verdicts and famous setups, predict the
-  filtered population's modal answer and treat the item's survival as evidence against it.
-- On stepwise processes, enumerate the extent ladder and let stated conditions select the
-  rung; surfaced recall that the endpoint's canonical requirements exceed the stem refutes it.
-- Type option provenance by idiolect on mixed-authorship menus, with paraphrase multiplicity
-  forcing the typing before any differencing inside the restated cluster, and price a stem's
-  own precision mismatches into confidence with the parameter-free variant computed in
-  advance.
-- Treat recall as a candidate space: rank conflicting recalled variants by the authority of
-  their anchors, enumerate a recalled attribute's near-neighbors as rivals, and price
-  agreement with a more famous adjacent source as contamination rather than support.
-- Keep the working model answerable to the givens: a given the model provably cannot
-  represent refutes the model, and a refuted model's outputs carry no weight anywhere.
-- Measure the asked relation directly before modeling its generator, and price measured
-  commitments at the weakest slot's margin against the instrument's own noise.
-- Keep distributional recall at the population level; single instances cannot measure a
-  cross-population contrast.
-- Report completion only when success criteria are directly validated.
-- Expose the material delta and suppress detail that cannot change the result.
+- Establish the task contract before deep refinement, and ground every decisive material
+  claim.
+- Treat authority, safety, privacy, evidence, and irreversible harm as hard gates that
+  soft benefits cannot offset; prefer low-risk, reversible actions with observable
+  outcomes.
+- Cover the space before ranking: candidates, frames, mechanisms, extent rungs, the null,
+  what the state holds, what the task grants, and the reasoner's own recall variants and
+  near-neighbors. A perfect ranking of an incomplete set is a miss.
+- Observe what the task points at, and keep the givens exact, complete, and inviolate.
+- Treat memory as a fallible witness: recall carries its parameterization, contrast, and
+  level; conflicting variants rank by anchor authority; famous-neighbor agreement is
+  contamination, not corroboration.
+- Treat selection as evidence: condition on the process that produced what you see, from
+  filtered pools to harvested option clusters.
+- Model every artifact's author: rigor from structure, canon from provenance, options
+  from idiolect, and the criterion as the author's implementation, defects included.
+- Derive first and keep what derivation wins; engineered details select among completed
+  routes.
+- Let the canonical reading lead; coincidence and elegance break ties and never overturn.
+- Treat the frame as a candidate, refuted by givens it cannot represent.
+- Move nothing without typed evidence at matching scope, and discharge or bind every
+  noticed alarm.
+- Price confidence at the audited weakest decisive link, against instrument noise and
+  the referent's predictable defects.
+- Commit before consulting any oracle, enforce the order in the mechanism, and verify
+  verdicts before updating; commit one answer under its scoped representations.
+- Recompute materiality when evidence, state, authority, or stakes change; report
+  completion only when success criteria are directly validated; expose the material
+  delta and suppress detail that cannot change the result.
 
-## RIDM 24 Architecture
+## RIDM 25 Architecture
 
 ```text
 Task request
-  -> Task contract
-  -> Authority envelope
-  -> Item provenance and rigor
-  -> Pool-filter consumption on split verdicts and famous setups
-  -> Canon indexing across transfers
-  -> Frame selection with identification scopes, menu architecture, and
-     threshold-tightness evidence
-  -> Representability audit of the givens
-  -> Author-competence estimate and style corpus
-  -> Option-provenance typing by idiolect, triggered by paraphrase multiplicity
-  -> Cluster-outlier keying readings before intra-cluster differencing
-  -> Extent-ladder enumeration with conditions-selected rungs
-  -> Precision-mismatch pricing with parameter-free variants
-  -> Referent-implementation variants where the author implements a procedure
-  -> Standing-structure and capability census
-  -> Direct measurement of the asked relation where available
-  -> Rigorous-route attempts
-  -> Refuted-model quarantine
-  -> Designed-detail route selection
-  -> Completed-route precedence
-  -> Named-trap shortcut computation
-  -> Evidence ledger
-  -> Recall-layer coverage with variant ranking by anchor authority,
-     near-neighbor rivals, and contamination flags
-  -> Flagged observables with criterion-phrase answer-class typing
-  -> Proof-carrying interpretations
-  -> Candidate coverage with style variants, mechanism classes, and misreading referents
-  -> Constructed keying readings per candidate
-  -> Typed rival demotion with gloss probes
-  -> Powerless consumption tests discarded
-  -> Canonical-precedence ranking
-  -> Falsity-before-coverage option ranking with planted-deviation discipline
-  -> Nearest sufficient invariant
-  -> Materiality graph
+  -> Task contract and authority envelope
+  -> Provenance, rigor, author, and canon
+  -> Selection-process consumption: pool filters, harvested clusters, menu architecture
+  -> Frame selection with representability audit and load-bearingness
+  -> Census: standing structures, granted capabilities, flagged observables
+  -> Direct measurement where the asked relation permits
+  -> Rigorous routes, refuted-model quarantine, referent basis by designed detail
+  -> Predictable referent variants computed pre-reveal
+  -> Evidence ledger with recall-layer coverage
+  -> Candidate coverage with constructed keying readings
+  -> Typed ranking under canonical precedence
+  -> Nearest sufficient invariant and materiality graph
   -> Non-compensable gates
-  -> Minimum sufficient decision
-  -> Commitment gate with alarm ledger, margin-to-noise, and assignment integrity
-  -> Distinct-convention fork enumeration in the output representation
-  -> Action admission
-  -> Interlocked oracle sequencing
-  -> Action and observation
-  -> Oracle discipline
-  -> Materiality reclassification
-  -> Output contract
-  -> Completion certificate
+  -> Trigger-indexed commitment gate
+  -> Scoped representation forks in the output
+  -> Action admission and interlocked oracle sequencing
+  -> Observation, oracle discipline, materiality reclassification
+  -> Output contract and completion certificate
   -> Feedback reopening
 ```
 
