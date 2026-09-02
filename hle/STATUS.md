@@ -11,18 +11,18 @@ answer entered the pre-commitment candidate set, tracked from sprint 0013 onward
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 133 |
-| Correct | 77 |
+| Runs completed | 136 |
+| Correct | 79 |
 | Percent correct | 58% |
-| Incorrect, strict | 56 |
-| Incorrect against defective or under-determined keys | 2 of 56 |
-| High band record | 51 of 68 |
+| Incorrect, strict | 57 |
+| Incorrect against defective or under-determined keys | 2 of 57 |
+| High band record | 52 of 69 |
 | Medium band record, recall-backed | 5 of 13 |
 | Medium band record, derivation-backed | 10 of 14 |
-| Medium band record, inference-backed | 7 of 21 |
-| Low and very-low band record | 4 of 17 |
-| Misses committed at the high band | 17 of 56 |
-| Candidate coverage, tracked from sprint 0013 | 12 of 13 runs |
+| Medium band record, inference-backed | 8 of 22 |
+| Low and very-low band record | 4 of 18 |
+| Misses committed at the high band | 17 of 57 |
+| Candidate coverage, tracked from sprint 0013 | 14 of 16 runs |
 
 ## By RIDM Model
 
@@ -32,7 +32,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
-| RIDM 26 | 3 | 1 | 2 | 33% |
+| RIDM 26 | 6 | 3 | 3 | 50% |
 | RIDM 23 | 10 | 7 | 3 | 70% |
 | RIDM 22 | 10 | 7 | 3 | 70% |
 | RIDM 21 | 10 | 6 | 4 | 60% |
@@ -71,6 +71,9 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000136](runs/Q000136.md) | 0014 | CS/AI, prototype learning | exact match | no | incorrect | low |
+| [Q000135](runs/Q000135.md) | 0014 | Math, topological signal processing | multiple choice | no | correct | medium |
+| [Q000134](runs/Q000134.md) | 0014 | Math, algebraic geometry zero-cycles | exact match | no | correct | high |
 | [Q000133](runs/Q000133.md) | 0014 | Chemistry, structure determination | exact match | no | incorrect | high |
 | [Q000132](runs/Q000132.md) | 0014 | Engineering, power-system optimization | multiple choice | yes | incorrect | low |
 | [Q000131](runs/Q000131.md) | 0014 | CS/AI, boolean expression enumeration | exact match | no | correct | high |
