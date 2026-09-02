@@ -21,9 +21,9 @@ its answer format, and the outcome.
 - After grading, the run log records where RIDM helped, where it misled, and where it was
   silent. Distilled lessons accumulate in one lessons file per sprint of ten runs.
 - Each sprint of ten runs closes with a specification revision and an integer version
-  release: sprints 0001 through 0013 produced RIDM 12 through RIDM 24. RIDM 25 is a
-  consolidation release with no sprint behind it, restating the accumulated disciplines
-  as fewer universal heuristics; sprint 0014 runs under RIDM 25.
+  release: sprints 0001 through 0013 produced RIDM 12 through RIDM 24. RIDM 25 and
+  RIDM 26 are consolidation releases with no sprint behind them, restating the
+  accumulated disciplines as fewer universal heuristics; sprint 0014 runs under RIDM 26.
 
 ## Layout
 

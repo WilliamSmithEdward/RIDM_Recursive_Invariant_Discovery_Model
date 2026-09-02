@@ -1,10 +1,10 @@
-# Recursive Invariant Discovery Model (RIDM) 25
+# Recursive Invariant Discovery Model (RIDM) 26
 
 *An evidence-bound architecture for adaptive reasoning and action*
 
 ## 1. Status
 
-RIDM 25 is the active specification. It supersedes RIDM 24 while preserving the central
+RIDM 26 is the active specification. It supersedes RIDM 25 while preserving the central
 restraint principle:
 
 > Discover broadly enough to identify the material delta, expose only that delta, and stop at
@@ -24,37 +24,43 @@ bands near their stated meanings, and recent sprints price their misses at mediu
 below. Per-version genealogy lives in the release notes and in the per-sprint lessons
 files.
 
-RIDM 25 is a consolidation release, the first revision driven by the audit of the
-specification itself rather than by a new sprint. It adds no evaluation-derived rule and
-weakens none. It restates the accumulated disciplines as a smaller set of universal
-heuristics, gives each discipline one home section, indexes the commitment gate by
-trigger, and compresses the evaluation apparatus. Sprint fourteen runs under RIDM 25.
+RIDM 25 and RIDM 26 are consolidation releases, driven by the audit of the
+specification itself rather than by new sprints; they add no evaluation-derived rule and
+weaken none. RIDM 25 restated the discovered disciplines as universal heuristics, gave
+each discipline one home section, indexed the commitment gate by trigger, and compressed
+the evaluation apparatus. RIDM 26 completes the pass: foundation laws merge where they
+restate one principle, the forced-choice protocol deduplicates into its homes, and type
+blocks remain only where they carry contracts prose cannot. Sprint fourteen runs under
+RIDM 26.
 
 Proof-carrying output means concise claims, evidence, assumptions, validation, and limits. It
 does not require disclosure of private chain-of-thought or a transcript of internal reasoning.
 
 ## Part I: The Central Revision
 
-### 2. The Problem Exposed by RIDM 24
+### 2. The Problem Exposed by RIDM 25
 
-Thirteen sprints of lesson-driven revision produced a specification that worked and
-grew. By RIDM 24 there were 70 control laws, a commitment gate of some forty unindexed
-checks, and a failure catalog past sixty entries; each new lesson echoed in up to eight
-places, and the marginal law was increasingly specific to graded-item pathology rather
-than to reasoning. The growth had a measurable cost: the thirteenth sprint's decisive
-miss was a compliance failure, not a coverage failure, since the governing law was on
-the books and was never triggered to run. A specification whose rules outnumber what an
-attempt can actively hold does its remaining work by luck.
+Thirteen sprints of lesson-driven revision grew the specification to 70 control laws, a
+flat forty-check commitment gate, and a failure catalog past sixty entries, with each
+lesson echoed in up to eight places; the thirteenth sprint's decisive miss was a
+compliance failure, a governing law on the books and never triggered. RIDM 25 corrected
+the discovered layer: universal heuristics, one home per discipline, a trigger-indexed
+gate, a compressed evaluation apparatus. The audit that produced it also showed the
+remaining overlap it did not touch: foundation laws that restate one principle in pairs,
+a forced-choice protocol duplicating the author and sequencing disciplines that now live
+in their home sections, a kernel list in the front matter duplicating the laws
+themselves, and type blocks that decorate prose which already binds.
 
-| RIDM 24 residual | Why it is material | RIDM 25 correction |
+| RIDM 25 residual | Why it is material | RIDM 26 correction |
 | --- | --- | --- |
-| Per-lesson laws with overlapping scopes | Seventy laws cannot all be held live during an attempt, and misses now come from rules unrun rather than rules missing | Laws consolidate into universal heuristics, each absorbing its instances (Section 67) |
-| Unindexed commitment gate | A flat checklist gives no signal about which checks an item activates | The gate is indexed by trigger: core checks always run, conditional groups activate on named item features (Section 29) |
-| Each discipline restated in many places | Duplication grows the document linearly and lets copies drift | One discipline, one home section; laws name, homes specify, everything else points |
-| Benchmark-specific machinery presented as architecture | Graded-item rules read as core theory and dilute the universal claims | Universal statements lead; graded-item specifics are scoped instances inside them |
+| Foundation laws overlapping in pairs | Observation and validation, status and certificate, suppression and data minimization, dynamic materiality and local reopening each state one principle twice | Foundation laws merge to thirteen single-principle statements (Section 67) |
+| Forced-choice text duplicating the referent and sequencing homes | Two long paragraphs restated Sections 19 and 21, and copies drift | The protocol keeps its own rules and points to the homes for the rest (Section 10) |
+| Front matter duplicating Part XIV | The kernel list restated every discovered law, a second copy to maintain | The laws are the list; the front matter points (Section 4) |
+| Type blocks without contract weight | Structs that only echo adjacent prose add ceremony, not precision | Types remain only where they carry structure prose cannot (Sections 7, 21, 25, 31, and 33) |
 
-These residuals do not invalidate RIDM 24. Its operative content is preserved; Section 69
-maps every RIDM 24 law to its RIDM 25 home.
+These residuals do not invalidate RIDM 25. Its operative content is preserved; Section 69
+maps every RIDM 25 law to its RIDM 26 number, and the RIDM 25 release notes map RIDM 24's
+seventy laws into the consolidated set.
 
 ### 3. Primary Operating Law
 
@@ -67,41 +73,22 @@ menu never defines the space.
 
 ### 4. Definition of Intelligence
 
-RIDM 25 defines intelligence as:
+RIDM 26 defines intelligence as:
 
 > The ability to discover task-relevant invariants, cover the space of candidate readings and
 > answers, ground material claims, choose authorized actions, learn from verified signals, and
 > stop at a calibrated, verifiable minimum sufficient result.
 
-The discovered disciplines of versions 12 through 24 reduce to a compact set of
-universal heuristics, stated as Control Laws 19 through 32 and specified in their home
-sections:
-
-- The visible options are not the space: enumerate candidates, frames, mechanisms, and
-  rungs before ranking, and census what the state holds and the task grants.
-- Everything the task points at gets observed and consumed, and the givens are exact,
-  complete, and inviolate.
-- Memory is a fallible witness with its own candidate space: variants, near-neighbors,
-  contrasts, and contamination.
-- Selection is evidence: condition on the process that produced what you see.
-- Every artifact has an author; model the author, defects, idiom, and community
-  included.
-- Derive first, and keep what the derivation wins.
-- The canonical reading leads; coincidence and elegance break ties and never overturn.
-- The frame is a candidate, refuted by what it cannot represent.
-- Nothing moves without typed evidence at matching scope.
-- Alarms discharge or bind.
-- Confidence is the audited value of the weakest decisive link, priced against noise.
-- Commit before the oracle, enforce the order in the mechanism, and verify verdicts
-  before updating.
-- Commit one claim under its standard representations, each named with its scope, and
-  apply standing rules as written.
+The framework is twenty-six control laws: thirteen foundation laws governing contract,
+evidence, authority, action, and completion, and thirteen universal heuristics distilled
+from thirteen evaluation sprints. Part XIV is their complete index, and each is specified
+in its home section.
 
 ## Part II: Core Vocabulary and Scope
 
 ### 5. Core Terms
 
-RIDM 25 uses the following terms precisely.
+RIDM 26 uses the following terms precisely.
 
 - A **heuristic** is a compressed rule that is useful within a scope.
 - An **invariant** is a relation stable enough to govern the current task under stated
@@ -142,21 +129,10 @@ An invariant outside its scope is not a stronger answer. It is a category error.
 
 ### 7. Dynamic Materiality
 
-Materiality is relative to a task and can change over time.
-
-```text
-MaterialityContext {
-    task_contract
-    current_state
-    available_evidence
-    selected_action
-    observed_effects
-    unresolved_uncertainty
-}
-```
-
-A residual classified as non-material at one point may become material after a new
-observation, a scope change, a failed action, or a change in stakes.
+Materiality is relative to a task and can change over time. A residual classified as
+non-material at one point may become material after a new observation, a scope change, a
+failed action, or a change in stakes, and every such change recomputes the affected
+classifications.
 
 ## Part III: Task Contract and Authority
 
@@ -212,36 +188,22 @@ it changes where the contract lives.
 - State the decisive assumption and the confidence the evidence supports, then commit. A
   forced choice does not suspend honesty about uncertainty.
 
-In graded settings the criterion is operated by a referent: an answer key, a grader, a
-reviewer. The referent is authored, and the decisive claim behind the commitment is a
-prediction of what it holds; Section 19 classifies the author, and Section 48 governs the
-referent as an oracle after the fact. For a well-posed task the referent and the derivable
-answer coincide, and deriving is predicting. For a retold task the referent carries the
-source's published value. For a casually authored task it carries the author's intended
-construction. For a generated task it carries the generator's reasoning, flaws included.
-Deriving the truth remains the default instrument, but the commitment is to the referent's
-content, and its band is capped by what is known about the author.
+In graded settings the criterion is operated by an authored referent, an answer key, a
+grader, a reviewer, and the decisive claim behind the commitment is a prediction of what
+that referent holds, with its band capped by what is known about the author. Section 19
+classifies the author and specifies the referent discipline; Section 48 governs the
+referent as an oracle after the fact. The author model selects among readings and
+referent classes and caps confidence; it never overturns a derivation inside the reading
+it selects.
 
-This does not reopen the rule that derived results outrank modeled intent: within a
-well-posed reading they do. The author model selects among readings and referent classes
-and caps confidence; it does not overturn a derivation inside the reading it selects.
-
-Sequencing binds the referent discipline. The rigorous route runs first, within a bounded
-budget, and the author-error model is licensed only when that route has actually failed,
-produced nothing the answer format can hold, or shown the item under-determined. Declaring
-the rigorous route infeasible is itself a decisive claim and requires the bounded attempt
-as its evidence; an unfamiliar or special-function closed form is still a matchable key.
-When the derivation completes and agrees with the identified source's published value, the
-referent prediction and the derivation coincide, which is the strongest composite support a
-graded setting offers.
-
-The sequencing rule carries a dual obligation. When the rigorous route succeeds, its
-result is the referent basis: an author model may cap the commitment's band, and may
-select among completed routes on designed-detail evidence (Section 19), but it may never
-displace a successful construction in favor of a shortcut the author is merely presumed
-to have taken. Presumed author naivety is an assumed claim; prose costume cannot support
-it; and in an adversarially filtered pool the cleanness of the naive route's answer is
-evidence that it is the planted magnet, not that the author stopped there.
+Sequencing binds the referent discipline. The rigorous route runs first, within a
+bounded budget; an author-error model is licensed only when that route has failed,
+produced nothing the answer format can hold, or shown the item under-determined, and the
+infeasibility claim carries the bounded attempt as its evidence. When the route
+succeeds, its result is the referent basis: an author model may cap the band or select
+among completed routes on designed-detail evidence (Section 19), but presumed author
+naivety, supported only by prose costume, displaces nothing, and in a filtered pool the
+cleanness of the naive answer marks the planted magnet.
 
 ### 11. Criterion-Information Mismatch
 
@@ -258,14 +220,10 @@ When the mismatch is material:
 - Expect convention uncertainty to dominate sampling noise, and say which conventions were
   assumed.
 
-The mismatch can live inside the stem itself. A stem that supplies a parameter only as
-an order of magnitude, or under an explicit vagueness marker, while demanding an answer
-at exact precision, is asserting more determination than it provides. Coherence may pin
-the literal reading, when only one exact value makes the demanded precision achievable,
-and that reading is still committed; but the configuration predicts author-side
-implementation inconsistency, because the author resolved the same vagueness privately
-and may have resolved it differently from their own text. Compute the variant in which
-the vague parameter contributes nothing, and carry a referent allowance on the band
+The mismatch can live inside the stem itself: a parameter supplied only at order of
+magnitude, or under an explicit vagueness marker, beneath an exact-precision demand.
+Coherence may still pin the literal reading; commit it, compute the variant in which the
+vague parameter contributes nothing, and carry the referent allowance on the band
 (Sections 21 and 48).
 
 ### 12. Authority Envelope
@@ -594,22 +552,10 @@ outputs is not evidence loss but ledger hygiene.
 
 ### 21. Uncertainty and Calibration
 
-Uncertainty must be typed and propagated.
-
-```text
-UncertaintyState {
-    source
-    kind
-    affected_claims[]
-    affected_actions[]
-    magnitude_or_range
-    resolution_path
-    materiality
-}
-```
-
-Use numeric probabilities only when the evidence supports them. Otherwise use bounded
-qualitative states and name what would change the assessment.
+Uncertainty must be typed and propagated: its source, kind, magnitude or range, affected
+claims and actions, resolution path, and materiality. Use numeric probabilities only when
+the evidence supports them; otherwise use bounded qualitative states and name what would
+change the assessment.
 
 Calibration is audited, not assumed. Track each band's outcome rate against its stated
 meaning, separately per dominant claim type, since derivation-backed and recall-backed
@@ -870,18 +816,9 @@ never at the item where the rule's verdict is inconvenient.
 ### 25. Nearest Sufficient Invariant
 
 Select the nearest invariant that explains the task and accounts for every material residual.
-Do not descend toward a deeper horizon merely because one exists.
-
-```text
-InvariantSelection {
-    candidate
-    scope_match
-    explanatory_coverage
-    material_residuals_covered[]
-    unsupported_assumptions[]
-    depth_cost
-}
-```
+Do not descend toward a deeper horizon merely because one exists. Selection weighs scope
+match, explanatory coverage, the material residuals covered, unsupported assumptions, and
+depth cost.
 
 ### 26. Materiality Graph
 
@@ -929,7 +866,7 @@ The symbols denote task-relevant changes, not calibrated numeric quantities.
 
 ### 28. Constraint-First Refinement
 
-RIDM 25 keeps ordered admission in place of unrestricted scalar tradeoffs.
+RIDM 26 keeps ordered admission in place of unrestricted scalar tradeoffs.
 
 First evaluate non-compensable gates:
 
@@ -1045,7 +982,7 @@ relation, where one exists, carries the commitment alone (Sections 20 and 23).
 
 ### 30. Internal Model and Output Contract
 
-RIDM 25 preserves the separation between internal discovery and external disclosure.
+RIDM 26 preserves the separation between internal discovery and external disclosure.
 
 ```text
 OutputContract {
@@ -1099,17 +1036,6 @@ is resolvable at low cost.
 
 ### 31. Disclosure Levels
 
-```text
-DisclosureDecision {
-    suppress
-    mention
-    qualify
-    evidence_summary
-    full_decompression
-    warning_or_refusal
-}
-```
-
 - Suppress a real but non-material residual.
 - Mention a secondary residual that improves orientation.
 - Qualify when a boundary changes the claim's valid scope.
@@ -1133,23 +1059,11 @@ Otherwise suppress it unless the user explicitly asks for exploration.
 
 ### 33. Complexity Budget
 
-Spend complexity on the terms that control the decision.
-
-```text
-ComplexityBudget {
-    task_stakes
-    user_tolerance
-    unresolved_materiality
-    evidence_conflict
-    action_risk
-    required_precision
-    response_length
-}
-```
-
-Allocate detail to decisive assumptions, material risk, conflicting evidence, action-changing
-distinctions, and validation. Reduce framework exposition, remote hypotheticals, repeated
-restatement, and ornamental edge cases.
+Spend complexity on the terms that control the decision, scaled by stakes, unresolved
+materiality, evidence conflict, action risk, and required precision. Allocate detail to
+decisive assumptions, material risk, conflicting evidence, action-changing distinctions,
+and validation. Reduce framework exposition, remote hypotheticals, repeated restatement,
+and ornamental edge cases.
 
 ## Part VII: Bounded Action and Observation
 
@@ -1609,7 +1523,7 @@ before action admission.
 ### 62. Evaluation Dimensions
 
 ```text
-RIDM25Metrics {
+RIDM26Metrics {
     factual_accuracy
     evidence_coverage
     unsupported_decisive_claim_rate
@@ -1710,7 +1624,7 @@ rather than assigning a perfect score.
 
 ### 64. Evaluation Protocol
 
-An RIDM 25 evaluation set should vary:
+An RIDM 26 evaluation set should vary:
 
 - task clarity, evidence quality and conflict, stakes, reversibility, and reach, with
   correct and misleading user assumptions
@@ -2028,69 +1942,54 @@ No decisive material claim may rely silently on unsupported assertion.
 Convenience, brevity, or likely benefit cannot offset failed authority, safety, privacy,
 evidence, or irreversible-harm gates.
 
-#### Control Law 4 - Materiality Is Dynamic
+#### Control Law 4 - Materiality Is Dynamic and Reopening Is Local
 
-Recompute affected residuals after material observations or context changes.
+Recompute affected residuals after material observations or context changes, and reopen
+only the smallest layer the new delta requires, using feedback without restarting
+unrelated reasoning.
 
 #### Control Law 5 - Use the Nearest Sufficient Invariant
 
 Do not descend deeper than the task requires.
 
-#### Control Law 6 - Act Only Within Authority
+#### Control Law 6 - Authority Is Permission
 
-Capability and permission are distinct.
+Capability and permission are distinct, and high stakes justify more evidence and
+caution, never broader authority.
 
 #### Control Law 7 - Prefer Reversible Action
 
 Use the lowest-risk action that can produce the material result.
 
-#### Control Law 8 - Observation Is Not Automatic Truth
+#### Control Law 8 - Verify the Changed Surface
 
-Verify that the intended state changed, not merely that a tool returned success.
+An executed action produces an observation, not truth: verify that the intended state
+changed, with validation that exercises the claim, behavior, or state that changed.
 
 #### Control Law 9 - Failure Reopens the Model
 
 Treat failed action as evidence and change the hypothesis before retrying.
 
-#### Control Law 10 - Validate the Changed Surface
+#### Control Law 10 - Minimize Retention and Exposure
 
-Validation must exercise the claim, behavior, or state that changed.
+Do not collect, expose, transmit, or retain sensitive content without task need and
+authority, and keep suppression reversible: retain only the task-scoped index needed to
+reconsider a suppressed residual.
 
-#### Control Law 11 - Status Must Be Literal
+#### Control Law 11 - Status Is a Literal Certificate
 
-Complete means verified complete. Limits, skipped checks, and failures remain visible when
-material.
+Complete means verified complete: satisfied success criteria, supported material claims,
+and direct validation, with limits, skipped checks, and failures visible when material.
 
-#### Control Law 12 - Suppression Must Be Minimal and Reversible
-
-Retain only the task-scoped index needed to reconsider a suppressed residual.
-
-#### Control Law 13 - Minimize Sensitive Data
-
-Do not collect, expose, transmit, or retain sensitive content without task need and authority.
-
-#### Control Law 14 - High Stakes Raise Action Admission
-
-High stakes justify more evidence and caution, not broader authority.
-
-#### Control Law 15 - The Framework Should Usually Be Invisible
+#### Control Law 12 - The Framework Should Usually Be Invisible
 
 RIDM governs reasoning and action. It need not dominate the wording.
 
-#### Control Law 16 - Stop With a Certificate
-
-Completion requires satisfied success criteria, supported material claims, and direct
-validation.
-
-#### Control Law 17 - Reopen Only the Affected Layer
-
-Use feedback and new evidence without restarting unrelated reasoning.
-
-#### Control Law 18 - No False Bedrock
+#### Control Law 13 - No False Bedrock
 
 Every invariant remains scoped, evidence-bound, and revisable.
 
-#### Control Law 19 - Coverage Before Ranking
+#### Control Law 14 - Coverage Before Ranking
 
 The visible options, formats, and menus are not the hypothesis space. Enumerate
 candidates, frames, conventions, mechanism classes, and extent rungs; include the null
@@ -2098,22 +1997,17 @@ and givens-only readings; census standing structures and granted capabilities; a
 constants rather than transplanting them. A perfect ranking of an incomplete set is a
 miss.
 
-#### Control Law 20 - Observe What the Task Points At
+#### Control Law 15 - The Task's Text Binds
 
-Task-flagged observables are contract: pointed-at quantities, named counts,
-mechanism-naming hints, stated thresholds, and options inside the attempt's own derived
-window. Observe each before commitment, consume hints causally under the deletion test,
-resolve governing conventions before discretizing, and instrument measurements rather
-than eyeballing them.
+Everything the task points at gets observed and consumed: pointed-at quantities, named
+counts, mechanism-naming hints under the deletion test, stated thresholds, and in-window
+options, with conventions resolved before discretizing and measurements instrumented.
+And the givens are inviolate: exact, complete, unenriched, unimpoverished, and
+unperturbed under estimation budgets, which license only what the workspace cannot
+represent. A given the working model provably cannot represent refutes the model, never
+the given.
 
-#### Control Law 21 - The Givens Are Inviolate
-
-Stated data and scope are exact and complete: no enrichment from association, no
-impoverishment from imported rigor, no perturbation under an estimation budget, which
-licenses only what the workspace cannot represent. A given the working model provably
-cannot represent refutes the model, never the given.
-
-#### Control Law 22 - Memory Is a Fallible Witness
+#### Control Law 16 - Memory Is a Fallible Witness
 
 Recall enters typed as reported, carrying its parameterization, contrast, and level.
 Conflicting variants form a candidate space ranked by anchor authority; near-neighbors
@@ -2121,21 +2015,21 @@ are rivals; famous-neighbor agreement is contamination that caps the band; distr
 contrasts license population conclusions only; and unverified numeric recall commits at
 the low band.
 
-#### Control Law 23 - Selection Is Evidence
+#### Control Law 17 - Selection Is Evidence
 
 Condition on the process that produced what you see. An item's admission filter predicts
 against the reference population's modal answer; paraphrase multiplicity marks a
 harvested cluster whose semantically distinct outlier is presumptively author-voiced; and
 a famous setup with one changed element is keyed on the change.
 
-#### Control Law 24 - Every Artifact Has an Author
+#### Control Law 18 - Every Artifact Has an Author
 
 The criterion is authored. Classify rigor from structure rather than costume, estimate
 author competence, index the canon to provenance and to the destination field on
 transfers, mine the stem as a style corpus, type option provenance by idiolect, and treat
 the author's implementation, predictable defects included, as the operative referent.
 
-#### Control Law 25 - Derive First and Keep What Derivation Wins
+#### Control Law 19 - Derive First and Keep What Derivation Wins
 
 The rigorous route runs first within a bounded budget, and an author-error model is
 licensed only by its failure, with the bounded attempt as evidence. A completed
@@ -2143,21 +2037,21 @@ construction is the referent basis; engineered details, collapsing givens and ti
 binding thresholds, select among completed routes; presumed naivety and costume select
 nothing.
 
-#### Control Law 26 - The Canonical Reading Leads
+#### Control Law 20 - The Canonical Reading Leads
 
 Between the domain's standard reading and a sophisticated alternative, the standard
 reading leads at every selection layer, including selection among recall variants.
 Meta-priors, discovered coincidences, and elegance break ties and never overturn;
 sophistication is spent proving the canonical reading's consequences, not defeating it.
 
-#### Control Law 27 - The Frame Is a Candidate
+#### Control Law 21 - The Frame Is a Candidate
 
 Enumerate the governing convention, ruleset, canon, and scope as candidate readings.
 Prefer the frame under which the givens are representable and the construction,
 capabilities, and thresholds do work; a representability failure refutes the frame, and a
 derived value absent from an authored menu reopens model identification.
 
-#### Control Law 28 - Nothing Moves Without Typed Evidence at Matching Scope
+#### Control Law 22 - Nothing Moves Without Typed Evidence at Matching Scope
 
 Rivals fall only to constructed keying readings refuted by typed evidence, computed to
 parity. Dominance prunes only at whole-solution scope, consumption tests bind only where
@@ -2165,14 +2059,14 @@ readings differ on the tested given, per-slot evidence outranks unstated ensembl
 and a refuted model's outputs carry no weight anywhere, outranked by any direct
 measurement of the asked relation.
 
-#### Control Law 29 - Alarms Discharge or Bind
+#### Control Law 23 - Alarms Discharge or Bind
 
 Every noticed anomaly either discharges under the committed reading or caps the band and
 forces a re-rank against the rival that explains it, with a noticed deviation inside a
 planted-error menu treated as the plant until refuted. Noticing and proceeding unchanged
 is a gate failure.
 
-#### Control Law 30 - Confidence Is the Audited Weakest Link
+#### Control Law 24 - Confidence Is the Audited Weakest Link
 
 Bands open at the weakest decisive link's audited class value, per dominant claim type,
 and move only on named support. Rigor caps apply as arithmetic; referent allowances price
@@ -2180,14 +2074,14 @@ componentry, named traps, implementation distance, precision mismatches, and
 contamination, with the predictable variant computed pre-reveal; and measured slots band
 at margin over the instrument's demonstrated noise.
 
-#### Control Law 31 - Oracle Discipline
+#### Control Law 25 - Oracle Discipline
 
 Consulting a grading oracle is irreversible and admitted only after the answer it grades
 is recorded, enforced in the executing mechanism wherever the harness permits. Verify a
 verdict's internal consistency before it reopens the model, differencing disagreements
 against the pre-computed variants.
 
-#### Control Law 32 - One Claim, Scoped Representations
+#### Control Law 26 - One Claim, Scoped Representations
 
 An answer on a representation, convention, or sign fork is committed once, with each
 semantically distinct bookkeeping named and scoped; rearrangements of one expression
@@ -2196,10 +2090,10 @@ revision, from observed evidence, never at the item.
 
 ## Part XV: Reference Procedure
 
-### 68. RIDM 25 Procedure
+### 68. RIDM 26 Procedure
 
 ```text
-function RIDM25(input, context, objectives, constraints):
+function RIDM26(input, context, objectives, constraints):
 
     state = initialize(input, context, objectives, constraints)
 
@@ -2312,36 +2206,27 @@ function RIDM25(input, context, objectives, constraints):
 
 ### 69. Inheritance and Replacement
 
-RIDM 25 preserves RIDM 24's operative content and changes its form: no rule is added from
-new evaluation evidence, and no rule is weakened. Foundation laws 1 through 18 are
-unchanged. RIDM 24's discovered laws 19 through 70 consolidate into universal heuristics
-19 through 32; the table maps every retired law to its RIDM 25 home, and the home
-sections carry each discipline's full specification.
+RIDM 26 preserves RIDM 25's operative content and completes its consolidation: no rule is
+added from new evaluation evidence, and no rule is weakened. Foundation laws merge where
+two numbers stated one principle, the task-text laws fuse, and the discovered heuristics
+renumber; the RIDM 25 release notes carry the map from RIDM 24's seventy laws into the
+consolidated set.
 
-| RIDM 24 laws | RIDM 25 home |
+| RIDM 25 law | RIDM 26 law |
 | --- | --- |
-| 19, 25 (coverage, menu-not-the-space) | Control Law 19 |
-| 39, 41 (census, granted capabilities) | Control Laws 19 and 29 |
-| 65 (extent rungs) | Control Law 19 and the gate's stepwise group |
-| 28, 34, 43 (observables, hints, in-window options) | Control Law 20 |
-| 31, 47 (enrichment and estimation) | Control Law 21 |
-| 55 (unrepresentable givens) | Control Laws 21 and 27 |
-| 32, 58, 69, 70 (contrasts, levels, variants, contamination) | Control Law 22 |
-| 64, 68 (pool filters, paraphrase clusters) | Control Law 23 |
-| 26, 30, 46, 48, 61, 66 (author, canon, style, implementation, options) | Control Law 24 |
-| 29, 51, 52 (sequencing, completed routes, designed details) | Control Law 25 |
-| 33 (canonical precedence) | Control Law 26 |
-| 20, 35, 37 (coherence, menu mismatch, frame candidacy) | Control Law 27 |
-| 21, 40, 42, 45, 56, 59, 62 (typed precedence, slots, dominance, demotion, taint, power) | Control Law 28 |
-| 38, 63 (alarms, planted deviations) | Control Law 29 |
-| 24, 27, 36, 49, 57, 67 (audit, weakest link, caps, traps, margins, mismatches) | Control Law 30 |
-| 23, 44, 50 (verify the verifier, commit-first, mechanical interlocks) | Control Law 31 |
-| 54, 60 (standing rules, fork distinctness) | Control Law 32 |
-| 53 (falsity before coverage) | Section 23 and the gate's menu group |
-| 22 (regime-adapted validation) | Sections 39 and 40 |
+| 1, 2, 3, 5, 7, 9 | 1, 2, 3, 5, 7, 9 (unchanged) |
+| 4 and 17 (dynamic materiality, local reopening) | 4 |
+| 6 and 14 (authority, stakes raise admission) | 6 |
+| 8 and 10 (observation, changed-surface validation) | 8 |
+| 12 and 13 (reversible suppression, data minimization) | 10 |
+| 11 and 16 (literal status, completion certificate) | 11 |
+| 15 (framework invisible) | 12 |
+| 18 (no false bedrock) | 13 |
+| 19 (coverage) | 14 |
+| 20 and 21 (flagged observables, inviolate givens) | 15 |
+| 22 through 32 (memory through scoped representations) | 16 through 26 |
 
-RIDM 24 asked its questions one lesson at a time. RIDM 25 asks the same questions through
-fewer, universal forms:
+RIDM 26 asks one set of questions:
 
 > Is the space covered, including what memory misremembers; is everything the task built,
 > granted, and pointed at consumed, with the givens inviolate; is the selection process
@@ -2354,7 +2239,7 @@ fewer, universal forms:
 
 ## Part XVII: Compressed Architecture
 
-### 70. RIDM 25 Flow
+### 70. RIDM 26 Flow
 
 ```text
 Task request
@@ -2387,7 +2272,7 @@ Task request
 
 ## Final Definition
 
-RIDM 25 defines intelligence as:
+RIDM 26 defines intelligence as:
 
 > The ability to discover task-relevant invariants, cover the space of candidate readings and
 > answers, ground material claims, choose authorized actions, learn from verified signals, and
