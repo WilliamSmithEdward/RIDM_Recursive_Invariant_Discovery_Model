@@ -9,16 +9,16 @@ individual run logs.
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 90 |
-| Correct | 51 |
-| Percent correct | 57% |
-| Incorrect, strict | 39 |
-| Incorrect against defective or under-determined keys | 2 of 39 |
-| High band record | 34 of 46 |
+| Runs completed | 100 |
+| Correct | 56 |
+| Percent correct | 56% |
+| Incorrect, strict | 44 |
+| Incorrect against defective or under-determined keys | 2 of 44 |
+| High band record | 39 of 53 |
 | Medium band record, recall-backed | 3 of 9 |
 | Medium band record, derivation-backed | 8 of 11 |
 | Medium band record, inference-backed | 3 of 14 |
-| Low and very-low band record | 3 of 10 |
+| Low and very-low band record | 3 of 13 |
 
 ## By RIDM Model
 
@@ -28,6 +28,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
+| RIDM 20 | 10 | 5 | 5 | 50% |
 | RIDM 19 | 10 | 8 | 2 | 80% |
 | RIDM 18 | 10 | 6 | 4 | 60% |
 | RIDM 17 | 10 | 9 | 1 | 90% |
@@ -43,6 +44,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Sprint | Runs | Specification under test | Outcome |
 | --- | --- | --- | --- |
+| 0010 | Q000091 to Q000100 | RIDM 20 | 6 lessons (L74 to L79), consolidated into RIDM 21 (released) |
 | 0009 | Q000081 to Q000090 | RIDM 19 | 5 lessons (L69 to L73), consolidated into RIDM 20 (released) |
 | 0008 | Q000071 to Q000080 | RIDM 18 | 7 lessons (L62 to L68), consolidated into RIDM 19 (released) |
 | 0007 | Q000061 to Q000070 | RIDM 17 | 5 lessons (L57 to L61), consolidated into RIDM 18 (released) |
@@ -58,6 +60,16 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000100](runs/Q000100.md) | 0010 | Biology, invasion ecology | exact match | yes | incorrect | low |
+| [Q000099](runs/Q000099.md) | 0010 | Math, lattice combinatorics | exact match | no | correct | high |
+| [Q000098](runs/Q000098.md) | 0010 | Biology, mimicry ecology | exact match | yes | correct | high |
+| [Q000097](runs/Q000097.md) | 0010 | Math, minimal surface stability | exact match | no | correct | high |
+| [Q000096](runs/Q000096.md) | 0010 | Math, cellular automata | exact match | yes | incorrect | low |
+| [Q000095](runs/Q000095.md) | 0010 | Engineering, roller kinematics | exact match | yes | correct | high |
+| [Q000094](runs/Q000094.md) | 0010 | CS/AI, retrieval reranking | multiple choice | no | correct | high |
+| [Q000093](runs/Q000093.md) | 0010 | Other, source-code trivia | exact match | no | incorrect | low |
+| [Q000092](runs/Q000092.md) | 0010 | Physics, nanotube optics | exact match | yes | incorrect | high |
+| [Q000091](runs/Q000091.md) | 0010 | Physics, open quantum dynamics | exact match | yes | incorrect | high |
 | [Q000090](runs/Q000090.md) | 0009 | Physics, electron-phonon path integral | exact match | no | correct | high |
 | [Q000089](runs/Q000089.md) | 0009 | Linguistics, loanword phonology | exact match | no | correct | low |
 | [Q000088](runs/Q000088.md) | 0009 | Chemistry, MS modification mapping | multiple choice | no | incorrect | high |
