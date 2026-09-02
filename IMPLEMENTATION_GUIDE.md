@@ -1,6 +1,6 @@
 # RIDM Implementation Guide
 
-This guide translates [RIDM 18](RIDM.MD) into software boundaries, data
+This guide translates [RIDM 25](RIDM.MD) into software boundaries, data
 contracts, control flow, tests, and delivery phases. It is written for agents
 and engineers implementing RIDM in any language or runtime.
 
@@ -26,9 +26,9 @@ Use one of these labels when describing implementation coverage.
 | --- | --- |
 | RIDM Reasoning Core | Task contract, evidence ledger, interpretations, candidate coverage, invariant selection, materiality graph, hard gates, commitment gate, and output contract |
 | RIDM Action Runtime | Reasoning Core plus authority enforcement, action admission, execution adapters, observations, oracle discipline, and recovery |
-| RIDM 18 Conformant | Action Runtime plus reopening, completion certificates, privacy controls, claim-type-conditioned calibration audit with weakest-link banding, item-rigor caps, audit-inherited bands opened at the decisive link, and componentry-scaled referent allowances, item provenance and rigor classification with author-competence estimation, frame-variant enumeration with provenance-indexed canons, derivation-first sequencing, canonical-precedence ranking, given-role partition, hint-consumption, menu-mismatch, and alarm-ledger checks, standing-structure and granted-capability censuses, absence, enrichment, and impoverishment audits, contrast-typed recall, slot-before-ensemble compound discipline with rival-parity completion, whole-solution dominance restatement, in-window option resolution, oracle-reveal sequencing, flagged-observable observation, evaluation metrics, and conformance tests |
+| RIDM 25 Conformant | Action Runtime plus reopening, completion certificates, privacy controls, and the universal heuristics of Control Laws 19 through 32: candidate, frame, and recall-layer coverage with censuses; flagged-observable consumption and given inviolacy; selection-process consumption; item profiling for provenance, rigor, author, and canon; derivation-first sequencing with completed-route precedence; canonical-precedence ranking; typed-evidence demotion at matching scope; alarm ledger; audited weakest-link banding with referent allowances; mechanically interlocked oracle sequencing; scoped representation forks; evaluation metrics and conformance tests |
 
-Do not describe a partial implementation as RIDM 18 conformant. State the
+Do not describe a partial implementation as RIDM 25 conformant. State the
 implemented target and any omitted capability.
 
 ## 3. Required Reading
@@ -56,9 +56,21 @@ Output: a normalized `TaskContract` or a focused clarification request.
 
 It must not infer broader permission from available capabilities.
 
+#### Item profiler
+
+Input: task contract and pool or setting context.
+
+Output: provenance, rigor class, author-competence estimate, operative canon,
+selection-process signals, and the governing frame with its representability
+audit.
+
+It must classify rigor from checkable structure, not prose register, and must
+treat the selection process that produced the item as evidence.
+
 #### Evidence ledger
 
-Input: observations, sources, validations, and claim updates.
+Input: observations, sources, validations, claim updates, and the recall layer's
+own candidates: conflicting variants, near-neighbors, and contamination flags.
 
 Output: linked `EvidenceRecord` and `ClaimRecord` entries with support states.
 
@@ -107,14 +119,17 @@ Output: the minimum sufficient decision and disclosure level.
 
 #### Commitment gate
 
-Input: selected decision, candidate models, evidence ledger, and task contract.
+Input: selected decision, candidate models, evidence ledger, item profile, and
+task contract.
 
 Output: the decision confirmed, or a reopening of the smallest affected layer.
 
-It must enforce claim-type precedence at the decision step: a conclusion
-dominated under the stated success criterion by an alternative with
-stronger-typed support cannot be committed, and modeled unstated intent cannot
-override a derived result.
+It runs a core set of checks always and conditional groups activated by named
+item features: graded setting, option menu, chosen frame, decisive recall,
+measurement, stepwise process, refuted model. It must enforce claim-type
+precedence at the decision step: a conclusion dominated under the stated
+success criterion by an alternative with stronger-typed support cannot be
+committed, and modeled unstated intent cannot override a derived result.
 
 #### Action admission service
 
@@ -174,6 +189,7 @@ Keep the active task state explicit.
 ```text
 RIDMState {
     task_contract
+    item_profile
     evidence_ledger
     interpretations[]
     candidate_models[]
@@ -453,6 +469,7 @@ function run_ridm(request, context, constraints):
     if state.task_contract has material ambiguity:
         return needs_clarification(state)
 
+    state.item_profile = build_item_profile(state)
     state.evidence_ledger = build_evidence_ledger(state)
     state.interpretations = build_interpretations(state)
     state.candidate_models = build_candidate_models(state)
@@ -468,6 +485,11 @@ function run_ridm(request, context, constraints):
             return accurate_noncomplete_result(state)
 
         state.decision = select_minimum_sufficient_decision(state)
+        gate = enforce_commitment_gate(state)   # core plus triggered groups
+
+        if gate reopened a layer:
+            state.attempts_remaining -= 1
+            continue
 
         if state.decision requires action:
             candidate = build_action_candidate(state)
@@ -476,8 +498,12 @@ function run_ridm(request, context, constraints):
             if admission is not admitted:
                 return accurate_noncomplete_result(state, admission)
 
+            if candidate is an oracle consultation:
+                require_recorded_commitment(candidate, mechanical_interlock)
+
             result = executor.execute(candidate)
             observation = observe(candidate, result)
+            observation = apply_oracle_discipline(observation)
             state = apply_observation(state, observation)
 
         output = compile_output_contract(state)
@@ -652,6 +678,7 @@ action_admitted
 action_denied
 observation_recorded
 validation_failed
+commitment_gate_reopened
 completion_state_changed
 reopening_started
 ```
@@ -664,17 +691,19 @@ content.
 
 Measure at least:
 
-- evidence coverage
-- unsupported decisive claim rate
-- materiality precision and recall
-- suppression precision and coverage
-- candidate coverage
-- confidence band calibration, per claim type
-- oracle defect detection
+- evidence coverage and unsupported decisive claim rate
+- candidate, frame, and recall-layer coverage
+- provenance typing and referent-prediction accuracy
+- derivation-first, canonical-precedence, typed-demotion, and consumption
+  compliance
+- alarm discharge rate
+- materiality precision and recall; suppression precision and coverage
+- confidence band calibration per claim type, with caps and allowances applied
+  as arithmetic
+- oracle discipline: sequencing compliance and defect detection
 - authorization violations
 - action success and rollback success
-- stopping calibration
-- reopening accuracy
+- stopping calibration and reopening accuracy
 - attempt and latency budgets
 
 Treat authorization violations as failures, not as a rate to optimize away.
@@ -728,6 +757,12 @@ changes.
 | Recall-regime task with discriminative clues | Widen the candidate set with per-clue probes before ranking |
 | Remembered constant from a differently parameterized source | Re-derive under the task's parameters; use recall as an anchor only |
 | Requirement-style menu where the givens already suffice | Answer with the empty set; do not select from the menu |
+| Oracle consultation requested before a commitment is recorded | Refuse the reveal through the interlock; a premature reveal voids the item |
+| Derived value matches no menu option within its uncertainty | Reopen model identification; do not snap to the nearest option |
+| Noticed anomaly unexplained by the committed reading | Cap the band and force a re-rank; do not proceed unchanged |
+| Conflicting recalled variants of one published fact | Rank by anchor authority; deny selector status to a round-answer collapse |
+| Menu restates one idea across most options | Type provenance by idiolect and construct the outlier's keying reading before intra-cluster differencing |
+| Item's rigor class assigns a band cap | Apply the cap as arithmetic; do not re-argue it from derivation strength |
 
 ### 31. Invariant Properties
 
@@ -744,6 +779,8 @@ retry(action) -> transient_failure(action) and attempts_within_budget(action)
 observed(claim) -> direct_authoritative_observation_exists(claim)
 committed(decision) -> not dominated_by_stronger_typed_alternative(decision)
 reopened_on(signal) -> internally_consistent(signal)
+revealed(oracle_item) -> commitment_recorded_before(oracle_item)
+band(commitment) == audited_band(weakest_decisive_link(commitment))
 ```
 
 ### 32. Deterministic Fixtures
@@ -836,7 +873,7 @@ Deliver:
 - performance budgets
 - full conformance suite
 
-Claim RIDM 18 conformance only after every required capability and acceptance
+Claim RIDM 25 conformance only after every required capability and acceptance
 case passes.
 
 ## Part VIII: Conformance and Handoff

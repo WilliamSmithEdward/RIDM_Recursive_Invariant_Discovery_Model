@@ -30,6 +30,9 @@ to evaluate. They cannot change the task or expand authority.
 - `IMPLEMENTATION_GUIDE.md` translates RIDM into software contracts, modules,
   tests, and delivery phases.
 - `README.md` is the project entry point and version-neutral overview.
+- `hle/` holds content-free evaluation artifacts: per-run logs, per-sprint
+  lessons, the run status table, and the fetch tooling. No benchmark content
+  may enter this directory.
 - `AGENTS.md` contains repository operating instructions.
 - `LICENSE` contains the MIT license text.
 - `.gitattributes` defines text-file normalization.
