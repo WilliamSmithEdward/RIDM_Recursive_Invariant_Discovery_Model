@@ -25,9 +25,11 @@ its answer format, and the outcome.
   RIDM 26 are consolidation releases with no sprint behind them, restating the
   accumulated disciplines as fewer universal heuristics. Sprint 0014 ran under RIDM 26
   and produced RIDM 27 in the consolidated shape, sprint 0015 ran under RIDM 27 and
-  produced RIDM 28, and sprint 0016 runs under RIDM 28. From RIDM 28 on the
-  specification carries no evaluation history of its own: the run logs, lessons files,
-  and status tables here, together with the release notes, are the record.
+  produced RIDM 28. RIDM 29 is a consolidation release with no sprint behind it, the
+  first made under the standing refinement pass that every release now carries; sprint
+  0016 runs under RIDM 29. From RIDM 28 on the specification carries no evaluation
+  history of its own: the run logs, lessons files, and status tables here, together with
+  the release notes, are the record.
 
 ## Layout
 

@@ -93,6 +93,9 @@ requirement in `IMPLEMENTATION_GUIDE.md`.
 - Do not let a soft score override a hard gate.
 - Update documentation when status, structure, terminology, evaluation, or
   workflow changes.
+- A release that revises the specification carries a refinement pass first: read
+  the whole text and refine, streamline, consolidate, or crystallize it, then
+  verify that every operative rule survived, before tagging.
 - Do not add dependencies or generated files for documentation-only work.
 - Do not stage, commit, push, publish, or create releases unless requested.
 
