@@ -11,18 +11,18 @@ answer entered the pre-commitment candidate set, tracked from sprint 0013 onward
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 148 |
+| Runs completed | 150 |
 | Correct | 84 |
-| Percent correct | 57% |
-| Incorrect, strict | 64 |
-| Incorrect against defective or under-determined keys | 2 of 64 |
+| Percent correct | 56% |
+| Incorrect, strict | 66 |
+| Incorrect against defective or under-determined keys | 2 of 66 |
 | High band record | 55 of 72 |
 | Medium band record, recall-backed | 6 of 15 |
-| Medium band record, derivation-backed | 10 of 15 |
+| Medium band record, derivation-backed | 10 of 17 |
 | Medium band record, inference-backed | 8 of 25 |
 | Low and very-low band record | 5 of 21 |
-| Misses committed at the high band | 17 of 64 |
-| Candidate coverage, tracked from sprint 0013 | 23 of 28 runs |
+| Misses committed at the high band | 17 of 66 |
+| Candidate coverage, tracked from sprint 0013 | 24 of 30 runs |
 
 ## By RIDM Model
 
@@ -32,7 +32,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
-| RIDM 27 | 8 | 4 | 4 | 50% |
+| RIDM 27 | 10 | 4 | 6 | 40% |
 | RIDM 26 | 10 | 4 | 6 | 40% |
 | RIDM 23 | 10 | 7 | 3 | 70% |
 | RIDM 22 | 10 | 7 | 3 | 70% |
@@ -73,6 +73,8 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000150](runs/Q000150.md) | 0015 | CS/AI, recommender puzzle chain | exact match | no | incorrect | medium |
+| [Q000149](runs/Q000149.md) | 0015 | Math, semistable reduction | exact match | no | incorrect | medium |
 | [Q000148](runs/Q000148.md) | 0015 | CS, LSM-tree sizing | exact match | no | incorrect | low |
 | [Q000147](runs/Q000147.md) | 0015 | Linguistics, lexical complexity features | multiple choice | no | incorrect | medium |
 | [Q000146](runs/Q000146.md) | 0015 | Biology, image authenticity | multiple choice | yes | correct | high |
