@@ -34,7 +34,8 @@ and stops with a verifiable result.
 - Derive first and keep what derivation wins; engineered details select among completed
   routes.
 - Let the canonical reading lead and resolve every selection layer blind; coincidence,
-  elegance, and a choice's effect on the ranking never select.
+  elegance, and a choice's effect on the ranking never select, and every rule that fires
+  has its verdict reconciled before commitment.
 - Treat the frame as a candidate, refuted by givens it cannot represent.
 - Move nothing without typed evidence at matching scope, and discharge or bind every
   noticed alarm.
@@ -46,7 +47,7 @@ and stops with a verifiable result.
   completion only when success criteria are directly validated; expose the material
   delta and suppress detail that cannot change the result.
 
-## RIDM 27 Architecture
+## RIDM 28 Architecture
 
 ```text
 Task request
@@ -55,7 +56,7 @@ Task request
   -> Selection-process consumption: pool filters, harvested clusters, menu architecture
   -> Frame selection with representability audit and load-bearingness
   -> Census: standing structures, granted capabilities, flagged observables
-  -> Direct measurement where the asked relation permits
+  -> Direct measurement where the asked relation permits, instruments anchored first
   -> Rigorous routes, refuted-model quarantine, referent basis by designed detail
   -> Predictable referent variants computed pre-reveal
   -> Evidence ledger with recall-layer coverage
@@ -63,6 +64,7 @@ Task request
   -> Typed ranking under canonical precedence
   -> Nearest sufficient invariant and materiality graph
   -> Non-compensable gates
+  -> Verdict ledger: every fired rule reconciled
   -> Trigger-indexed commitment gate
   -> Scoped representation forks in the output
   -> Action admission and interlocked oracle sequencing

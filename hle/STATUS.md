@@ -53,6 +53,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Sprint | Runs | Specification under test | Outcome |
 | --- | --- | --- | --- |
+| 0015 | Q000141 to Q000150 | RIDM 27 | 6 lessons (L104 to L109), consolidated into RIDM 28 (released) |
 | 0014 | Q000131 to Q000140 | RIDM 26 | 6 lessons (L98 to L103), consolidated into RIDM 27 (released) |
 | 0013 | Q000121 to Q000130 | RIDM 23 | 6 lessons (L92 to L97), consolidated into RIDM 24 (released) |
 | 0012 | Q000111 to Q000120 | RIDM 22 | 6 lessons (L86 to L91), consolidated into RIDM 23 (released) |
