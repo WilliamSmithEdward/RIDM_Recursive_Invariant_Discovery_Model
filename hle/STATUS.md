@@ -11,18 +11,18 @@ answer entered the pre-commitment candidate set, tracked from sprint 0013 onward
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 140 |
-| Correct | 80 |
+| Runs completed | 144 |
+| Correct | 82 |
 | Percent correct | 57% |
-| Incorrect, strict | 60 |
-| Incorrect against defective or under-determined keys | 2 of 60 |
-| High band record | 52 of 69 |
+| Incorrect, strict | 62 |
+| Incorrect against defective or under-determined keys | 2 of 62 |
+| High band record | 54 of 71 |
 | Medium band record, recall-backed | 5 of 14 |
 | Medium band record, derivation-backed | 10 of 15 |
-| Medium band record, inference-backed | 8 of 22 |
+| Medium band record, inference-backed | 8 of 24 |
 | Low and very-low band record | 5 of 20 |
-| Misses committed at the high band | 17 of 60 |
-| Candidate coverage, tracked from sprint 0013 | 17 of 20 runs |
+| Misses committed at the high band | 17 of 62 |
+| Candidate coverage, tracked from sprint 0013 | 20 of 24 runs |
 
 ## By RIDM Model
 
@@ -32,6 +32,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
+| RIDM 27 | 4 | 2 | 2 | 50% |
 | RIDM 26 | 10 | 4 | 6 | 40% |
 | RIDM 23 | 10 | 7 | 3 | 70% |
 | RIDM 22 | 10 | 7 | 3 | 70% |
@@ -72,6 +73,10 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000144](runs/Q000144.md) | 0015 | Math, grid extremal combinatorics | exact match | no | correct | high |
+| [Q000143](runs/Q000143.md) | 0015 | Math, cardinality multi-select | exact match | no | incorrect | medium |
+| [Q000142](runs/Q000142.md) | 0015 | Math, extremal enclosure geometry | exact match | no | correct | high |
+| [Q000141](runs/Q000141.md) | 0015 | Chemistry, hybrid perovskite materials | multiple choice | no | incorrect | medium |
 | [Q000140](runs/Q000140.md) | 0014 | Engineering, remote sensing fusion | multiple choice | no | correct | low |
 | [Q000139](runs/Q000139.md) | 0014 | Medicine, epidemiology threshold | exact match | no | incorrect | medium |
 | [Q000138](runs/Q000138.md) | 0014 | CS, security attack graphs | exact match | no | incorrect | medium |
