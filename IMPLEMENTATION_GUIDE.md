@@ -1,6 +1,6 @@
 # RIDM Implementation Guide
 
-This guide translates [RIDM 29](RIDM.MD) into software boundaries, data
+This guide translates [RIDM 30](RIDM.MD) into software boundaries, data
 contracts, control flow, tests, and delivery phases. It is written for agents
 and engineers implementing RIDM in any language or runtime.
 
@@ -26,9 +26,9 @@ Use one of these labels when describing implementation coverage.
 | --- | --- |
 | RIDM Reasoning Core | Task contract, evidence ledger, interpretations, candidate coverage, invariant selection, materiality graph, hard gates, commitment gate, and output contract |
 | RIDM Action Runtime | Reasoning Core plus authority enforcement, action admission, execution adapters, observations, oracle discipline, and recovery |
-| RIDM 29 Conformant | Action Runtime plus reopening, completion certificates, privacy controls, and the universal heuristics of Control Laws 14 through 26: candidate, frame, and recall-layer coverage with censuses; flagged-observable consumption and given inviolacy; selection-process consumption; item profiling for provenance, rigor, author, and canon; derivation-first sequencing with completed-route precedence; canonical-precedence ranking; typed-evidence demotion at matching scope; alarm ledger; audited weakest-link banding with referent allowances; mechanically interlocked oracle sequencing; scoped representation forks; evaluation metrics and conformance tests |
+| RIDM 30 Conformant | Action Runtime plus reopening, completion certificates, privacy controls, and the universal heuristics of Control Laws 14 through 26: candidate, frame, and recall-layer coverage with censuses; flagged-observable consumption and given inviolacy; selection-process consumption; item profiling for provenance, rigor, author, and canon; derivation-first sequencing with completed-route precedence; canonical-precedence ranking; typed-evidence demotion at matching scope; alarm ledger; audited weakest-link banding with referent allowances; mechanically interlocked oracle sequencing; scoped representation forks; evaluation metrics and conformance tests |
 
-Do not describe a partial implementation as RIDM 29 conformant. State the
+Do not describe a partial implementation as RIDM 30 conformant. State the
 implemented target and any omitted capability.
 
 ## 3. Required Reading
@@ -704,7 +704,8 @@ Measure at least:
 - materiality precision and recall; suppression precision and coverage
 - confidence band calibration per claim type, with caps and allowances applied
   as arithmetic
-- oracle discipline: sequencing compliance and defect detection
+- oracle discipline: sequencing compliance and defect detection, including the
+  membership check of a verdict against the answer's value class
 - authorization violations
 - action success and rollback success
 - stopping calibration and reopening accuracy
@@ -782,7 +783,7 @@ authority_after(task) subset_of authority_before(task)
 retry(action) -> transient_failure(action) and attempts_within_budget(action)
 observed(claim) -> direct_authoritative_observation_exists(claim)
 committed(decision) -> not dominated_by_stronger_typed_alternative(decision)
-reopened_on(signal) -> internally_consistent(signal)
+reopened_on(signal) -> internally_consistent(signal) and in_value_class(signal)
 revealed(oracle_item) -> commitment_recorded_before(oracle_item)
 band(commitment) == audited_band(weakest_decisive_link(commitment))
 ```
@@ -877,7 +878,7 @@ Deliver:
 - performance budgets
 - full conformance suite
 
-Claim RIDM 29 conformance only after every required capability and acceptance
+Claim RIDM 30 conformance only after every required capability and acceptance
 case passes.
 
 ## Part VIII: Conformance and Handoff

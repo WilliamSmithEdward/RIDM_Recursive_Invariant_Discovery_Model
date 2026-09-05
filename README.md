@@ -41,13 +41,14 @@ and stops with a verifiable result.
   noticed alarm.
 - Price confidence at the audited weakest decisive link, against instrument noise and
   the referent's predictable defects.
-- Commit before consulting any oracle, enforce the order in the mechanism, and verify
-  verdicts before updating; commit one answer under its scoped representations.
+- Commit before consulting any oracle, enforce the order in the mechanism, and check a
+  verdict for consistency and for membership in the answer's value class before updating;
+  commit one answer under scoped representations that name one object.
 - Recompute materiality when evidence, state, authority, or stakes change; report
   completion only when success criteria are directly validated; expose the material
   delta and suppress detail that cannot change the result.
 
-## RIDM 29 Architecture
+## RIDM 30 Architecture
 
 ```text
 Task request
@@ -58,7 +59,7 @@ Task request
   -> Census: standing structures, granted capabilities, flagged observables
   -> Direct measurement where the asked relation permits, instruments anchored first
   -> Rigorous routes, refuted-model quarantine, referent basis by designed detail
-  -> Predictable referent variants computed pre-reveal
+  -> Predictable referent variants and the answer's value class computed pre-reveal
   -> Evidence ledger with recall-layer coverage
   -> Candidate coverage with constructed keying readings
   -> Typed ranking under canonical precedence
