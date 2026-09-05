@@ -11,18 +11,18 @@ answer entered the pre-commitment candidate set, tracked from sprint 0013 onward
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 157 |
-| Correct | 90 |
-| Percent correct | 57% |
-| Incorrect, strict | 67 |
-| Incorrect against defective or under-determined keys | 2 of 67 |
-| High band record | 59 of 76 |
-| Medium band record, recall-backed | 6 of 15 |
+| Runs completed | 160 |
+| Correct | 92 |
+| Percent correct | 58% |
+| Incorrect, strict | 68 |
+| Incorrect against defective or under-determined keys | 2 of 68 |
+| High band record | 59 of 77 |
+| Medium band record, recall-backed | 7 of 16 |
 | Medium band record, derivation-backed | 12 of 19 |
-| Medium band record, inference-backed | 8 of 26 |
+| Medium band record, inference-backed | 9 of 27 |
 | Low and very-low band record | 5 of 21 |
-| Misses committed at the high band | 17 of 67 |
-| Candidate coverage, tracked from sprint 0013 | 31 of 37 runs |
+| Misses committed at the high band | 18 of 68 |
+| Candidate coverage, tracked from sprint 0013 | 33 of 40 runs |
 
 ## By RIDM Model
 
@@ -32,7 +32,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
-| RIDM 29 | 7 | 6 | 1 | 86% |
+| RIDM 29 | 10 | 8 | 2 | 80% |
 | RIDM 27 | 10 | 4 | 6 | 40% |
 | RIDM 26 | 10 | 4 | 6 | 40% |
 | RIDM 23 | 10 | 7 | 3 | 70% |
@@ -76,6 +76,9 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000160](runs/Q000160.md) | 0016 | Chemistry, cycloaddition selectivity | exact match | no | correct | medium |
+| [Q000159](runs/Q000159.md) | 0016 | Math, long-ray compactifications | exact match | no | correct | medium |
+| [Q000158](runs/Q000158.md) | 0016 | Math, polyhedral geodesics | exact match | no | incorrect | high |
 | [Q000157](runs/Q000157.md) | 0016 | Math, ordinal arithmetic | exact match | no | correct | high |
 | [Q000156](runs/Q000156.md) | 0016 | Math, coadjoint orbits and equivariant cohomology | exact match | no | incorrect | medium |
 | [Q000155](runs/Q000155.md) | 0016 | CS, chess forced-mate distance | exact match | no | correct | medium |
