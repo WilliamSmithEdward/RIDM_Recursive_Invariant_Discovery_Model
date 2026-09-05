@@ -1,6 +1,6 @@
 # RIDM Implementation Guide
 
-This guide translates [RIDM 30](RIDM.MD) into software boundaries, data
+This guide translates [RIDM 31](RIDM.MD) into software boundaries, data
 contracts, control flow, tests, and delivery phases. It is written for agents
 and engineers implementing RIDM in any language or runtime.
 
@@ -26,9 +26,9 @@ Use one of these labels when describing implementation coverage.
 | --- | --- |
 | RIDM Reasoning Core | Task contract, evidence ledger, interpretations, candidate coverage, invariant selection, materiality graph, hard gates, commitment gate, and output contract |
 | RIDM Action Runtime | Reasoning Core plus authority enforcement, action admission, execution adapters, observations, oracle discipline, and recovery |
-| RIDM 30 Conformant | Action Runtime plus reopening, completion certificates, privacy controls, and the universal heuristics of Control Laws 14 through 26: candidate, frame, and recall-layer coverage with censuses; flagged-observable consumption and given inviolacy; selection-process consumption; item profiling for provenance, rigor, author, and canon; derivation-first sequencing with completed-route precedence; canonical-precedence ranking; typed-evidence demotion at matching scope; alarm ledger; audited weakest-link banding with referent allowances; mechanically interlocked oracle sequencing; scoped representation forks; evaluation metrics and conformance tests |
+| RIDM 31 Conformant | Action Runtime plus reopening, completion certificates, privacy controls, and the universal heuristics of Control Laws 14 through 26: candidate, frame, and recall-layer coverage with censuses; flagged-observable consumption and given inviolacy; selection-process consumption; item profiling for provenance, rigor, author, canon, and rule licenses; derivation-first sequencing with completed-route precedence; canonical-precedence ranking; typed-evidence demotion at matching scope; alarm ledger; audited weakest-link banding with referent allowances; mechanically interlocked oracle sequencing; scoped representation forks; evaluation metrics and conformance tests |
 
-Do not describe a partial implementation as RIDM 30 conformant. State the
+Do not describe a partial implementation as RIDM 31 conformant. State the
 implemented target and any omitted capability.
 
 ## 3. Required Reading
@@ -61,6 +61,7 @@ It must not infer broader permission from available capabilities.
 Input: task contract and pool or setting context.
 
 Output: provenance, rigor class, author-competence estimate, operative canon,
+term precision, the license the class and register grant each rule,
 selection-process signals, and the governing frame with its representability
 audit.
 
@@ -130,10 +131,11 @@ measurement, stepwise process, refuted model. It must enforce claim-type
 precedence at the decision step: a conclusion dominated under the stated
 success criterion by an alternative with stronger-typed support cannot be
 committed, and modeled unstated intent cannot override a derived result. It
-must assemble the verdict ledger before confirming a decision: every rule that
-reached a verdict on the item, listed with its verdict, and any contrary
-commitment justified by typed evidence at matching scope rather than by a
-meta-prior.
+must assemble the verdict ledger as a written list before confirming a decision:
+every rule that reached a verdict on the item, listed with its verdict and the
+license the item profile grants it, void entries struck, and any commitment
+contrary to a licensed verdict justified by typed evidence at matching scope
+rather than by a meta-prior.
 
 #### Action admission service
 
@@ -768,6 +770,7 @@ changes.
 | Conflicting recalled variants of one published fact | Rank by anchor authority; deny selector status to a round-answer collapse |
 | Menu restates one idea across most options | Type provenance by idiolect and construct the outlier's keying reading before intra-cluster differencing |
 | Item's rigor class assigns a band cap | Apply the cap as arithmetic; do not re-argue it from derivation strength |
+| Rule fires outside the license its item's class and register grant | Strike its verdict from the ledger; it neither demotes nor supports |
 
 ### 31. Invariant Properties
 
@@ -878,7 +881,7 @@ Deliver:
 - performance budgets
 - full conformance suite
 
-Claim RIDM 30 conformance only after every required capability and acceptance
+Claim RIDM 31 conformance only after every required capability and acceptance
 case passes.
 
 ## Part VIII: Conformance and Handoff

@@ -27,10 +27,10 @@ its answer format, and the outcome.
   and produced RIDM 27 in the consolidated shape, sprint 0015 ran under RIDM 27 and
   produced RIDM 28. RIDM 29 is a consolidation release with no sprint behind it, the
   first made under the standing refinement pass that every release now carries. Sprint
-  0016 ran under RIDM 29 and produced RIDM 30; sprint 0017 runs under RIDM 30. From
-  RIDM 28 on the specification carries no evaluation
-  history of its own: the run logs, lessons files, and status tables here, together with
-  the release notes, are the record.
+  0016 ran under RIDM 29 and produced RIDM 30, and sprint 0017 ran under RIDM 30 and
+  produced RIDM 31; sprint 0018 runs under RIDM 31. From RIDM 28 on the specification
+  carries no evaluation history of its own: the run logs, lessons files, and status
+  tables here, together with the release notes, are the record.
 
 ## Layout
 

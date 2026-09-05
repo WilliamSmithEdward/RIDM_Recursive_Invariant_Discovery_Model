@@ -30,12 +30,13 @@ and stops with a verifiable result.
 - Treat selection as evidence: condition on the process that produced what you see, from
   filtered pools to harvested option clusters.
 - Model every artifact's author: rigor from structure, canon from provenance, options
-  from idiolect, and the criterion as the author's implementation, defects included.
+  from idiolect, terms at the author's own precision, and the criterion as the author's
+  implementation, defects included; the item's class licenses every rule that fires.
 - Derive first and keep what derivation wins; engineered details select among completed
   routes.
 - Let the canonical reading lead and resolve every selection layer blind; coincidence,
-  elegance, and a choice's effect on the ranking never select, and every rule that fires
-  has its verdict reconciled before commitment.
+  elegance, and a choice's effect on the ranking never select, and every licensed rule
+  has its verdict reconciled in a written ledger before commitment.
 - Treat the frame as a candidate, refuted by givens it cannot represent.
 - Move nothing without typed evidence at matching scope, and discharge or bind every
   noticed alarm.
@@ -48,12 +49,12 @@ and stops with a verifiable result.
   completion only when success criteria are directly validated; expose the material
   delta and suppress detail that cannot change the result.
 
-## RIDM 30 Architecture
+## RIDM 31 Architecture
 
 ```text
 Task request
   -> Task contract and authority envelope
-  -> Provenance, rigor, author, and canon
+  -> Provenance, rigor, author, canon, and rule licenses
   -> Selection-process consumption: pool filters, harvested clusters, menu architecture
   -> Frame selection with representability audit and load-bearingness
   -> Census: standing structures, granted capabilities, flagged observables
@@ -65,7 +66,7 @@ Task request
   -> Typed ranking under canonical precedence
   -> Nearest sufficient invariant and materiality graph
   -> Non-compensable gates
-  -> Verdict ledger: every fired rule reconciled
+  -> Verdict ledger: every licensed rule reconciled, unlicensed rules struck
   -> Trigger-indexed commitment gate
   -> Scoped representation forks in the output
   -> Action admission and interlocked oracle sequencing
