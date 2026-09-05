@@ -11,18 +11,18 @@ answer entered the pre-commitment candidate set, tracked from sprint 0013 onward
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 160 |
-| Correct | 92 |
+| Runs completed | 170 |
+| Correct | 98 |
 | Percent correct | 58% |
-| Incorrect, strict | 68 |
-| Incorrect against defective or under-determined keys | 2 of 68 |
-| High band record | 59 of 77 |
-| Medium band record, recall-backed | 7 of 16 |
-| Medium band record, derivation-backed | 12 of 19 |
-| Medium band record, inference-backed | 9 of 27 |
-| Low and very-low band record | 5 of 21 |
-| Misses committed at the high band | 18 of 68 |
-| Candidate coverage, tracked from sprint 0013 | 33 of 40 runs |
+| Incorrect, strict | 72 |
+| Incorrect against defective or under-determined keys | 2 of 72 |
+| High band record | 64 of 82 |
+| Medium band record, recall-backed | 7 of 17 |
+| Medium band record, derivation-backed | 13 of 20 |
+| Medium band record, inference-backed | 9 of 29 |
+| Low and very-low band record | 5 of 22 |
+| Misses committed at the high band | 18 of 72 |
+| Candidate coverage, tracked from sprint 0013 | 43 of 50 runs |
 
 ## By RIDM Model
 
@@ -32,6 +32,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
+| RIDM 30 | 10 | 6 | 4 | 60% |
 | RIDM 29 | 10 | 8 | 2 | 80% |
 | RIDM 27 | 10 | 4 | 6 | 40% |
 | RIDM 26 | 10 | 4 | 6 | 40% |
@@ -54,6 +55,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Sprint | Runs | Specification under test | Outcome |
 | --- | --- | --- | --- |
+| 0017 | Q000161 to Q000170 | RIDM 30 | 5 lessons (L114 to L118), consolidated into RIDM 31 (released) |
 | 0016 | Q000151 to Q000160 | RIDM 29 | 4 lessons (L110 to L113), consolidated into RIDM 30 (released) |
 | 0015 | Q000141 to Q000150 | RIDM 27 | 6 lessons (L104 to L109), consolidated into RIDM 28 (released) |
 | 0014 | Q000131 to Q000140 | RIDM 26 | 6 lessons (L98 to L103), consolidated into RIDM 27 (released) |
@@ -76,6 +78,16 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000170](runs/Q000170.md) | 0017 | Math, mean-convex surface topology | multiple choice | no | correct | high |
+| [Q000169](runs/Q000169.md) | 0017 | Chemistry as labeled, weak-localization estimate | exact match | no | correct | medium |
+| [Q000168](runs/Q000168.md) | 0017 | Math, moduli of curves | exact match | no | correct | high |
+| [Q000167](runs/Q000167.md) | 0017 | History, search-interest chart identification | exact match | yes | correct | high |
+| [Q000166](runs/Q000166.md) | 0017 | History, Second World War naval losses | exact match | no | incorrect | medium |
+| [Q000165](runs/Q000165.md) | 0017 | Math, rotation-group optimization | exact match | no | correct | high |
+| [Q000164](runs/Q000164.md) | 0017 | Engineering, industrial power network harmonics | multiple choice | yes | incorrect | low |
+| [Q000163](runs/Q000163.md) | 0017 | Psychology, sentence processing and metonymy | exact match | no | incorrect | medium |
+| [Q000162](runs/Q000162.md) | 0017 | CS, substitution cipher decipherment | exact match | no | correct | high |
+| [Q000161](runs/Q000161.md) | 0017 | Math, digit-probability series convergence | exact match | no | incorrect | medium |
 | [Q000160](runs/Q000160.md) | 0016 | Chemistry, cycloaddition selectivity | exact match | no | correct | medium |
 | [Q000159](runs/Q000159.md) | 0016 | Math, long-ray compactifications | exact match | no | correct | medium |
 | [Q000158](runs/Q000158.md) | 0016 | Math, polyhedral geodesics | exact match | no | incorrect | high |
