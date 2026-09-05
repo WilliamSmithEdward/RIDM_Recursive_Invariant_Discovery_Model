@@ -11,18 +11,18 @@ answer entered the pre-commitment candidate set, tracked from sprint 0013 onward
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 154 |
-| Correct | 88 |
+| Runs completed | 157 |
+| Correct | 90 |
 | Percent correct | 57% |
-| Incorrect, strict | 66 |
-| Incorrect against defective or under-determined keys | 2 of 66 |
-| High band record | 58 of 75 |
+| Incorrect, strict | 67 |
+| Incorrect against defective or under-determined keys | 2 of 67 |
+| High band record | 59 of 76 |
 | Medium band record, recall-backed | 6 of 15 |
-| Medium band record, derivation-backed | 11 of 18 |
-| Medium band record, inference-backed | 8 of 25 |
+| Medium band record, derivation-backed | 12 of 19 |
+| Medium band record, inference-backed | 8 of 26 |
 | Low and very-low band record | 5 of 21 |
-| Misses committed at the high band | 17 of 66 |
-| Candidate coverage, tracked from sprint 0013 | 28 of 34 runs |
+| Misses committed at the high band | 17 of 67 |
+| Candidate coverage, tracked from sprint 0013 | 31 of 37 runs |
 
 ## By RIDM Model
 
@@ -32,7 +32,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
-| RIDM 29 | 4 | 4 | 0 | 100% |
+| RIDM 29 | 7 | 6 | 1 | 86% |
 | RIDM 27 | 10 | 4 | 6 | 40% |
 | RIDM 26 | 10 | 4 | 6 | 40% |
 | RIDM 23 | 10 | 7 | 3 | 70% |
@@ -76,6 +76,9 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000157](runs/Q000157.md) | 0016 | Math, ordinal arithmetic | exact match | no | correct | high |
+| [Q000156](runs/Q000156.md) | 0016 | Math, coadjoint orbits and equivariant cohomology | exact match | no | incorrect | medium |
+| [Q000155](runs/Q000155.md) | 0016 | CS, chess forced-mate distance | exact match | no | correct | medium |
 | [Q000154](runs/Q000154.md) | 0016 | Math, contour residues | exact match | yes | correct | high |
 | [Q000153](runs/Q000153.md) | 0016 | CS, exterior visibility guarding | exact match | no | correct | medium |
 | [Q000152](runs/Q000152.md) | 0016 | Physics, time-varying electrodynamics | exact match | no | correct | high |
