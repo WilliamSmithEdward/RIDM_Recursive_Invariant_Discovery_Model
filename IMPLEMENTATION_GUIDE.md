@@ -1,6 +1,6 @@
 # RIDM Implementation Guide
 
-This guide translates [RIDM 32](RIDM.MD) into software boundaries, data
+This guide translates [RIDM 33](RIDM.MD) into software boundaries, data
 contracts, control flow, tests, and delivery phases. It is written for agents
 and engineers implementing RIDM in any language or runtime.
 
@@ -26,9 +26,9 @@ Use one of these labels when describing implementation coverage.
 | --- | --- |
 | RIDM Reasoning Core | Task contract, evidence ledger, interpretations, candidate coverage, invariant selection, materiality graph, hard gates, commitment gate, and output contract |
 | RIDM Action Runtime | Reasoning Core plus authority enforcement, action admission, execution adapters, observations, oracle discipline, and recovery |
-| RIDM 32 Conformant | Action Runtime plus reopening, completion certificates, privacy controls, and the universal heuristics of Control Laws 14 through 26: candidate, frame, and recall-layer coverage with censuses; flagged-observable consumption and given inviolacy; selection-process consumption; item profiling for provenance, rigor, author, referent objects, canon, and rule licenses; derivation-first sequencing with completed-route precedence; canonical-precedence ranking; typed-evidence demotion at matching scope; alarm ledger; audited weakest-link banding with referent allowances; mechanically interlocked oracle sequencing; scoped representation forks; evaluation metrics and conformance tests |
+| RIDM 33 Conformant | Action Runtime plus reopening, completion certificates, privacy controls, and the universal heuristics of Control Laws 14 through 26: candidate, frame, and recall-layer coverage with censuses; flagged-observable consumption and given inviolacy; selection-process consumption; item profiling for provenance, rigor, author, referent objects, canon, and rule licenses; derivation-first sequencing with completed-route precedence; canonical-precedence ranking; typed-evidence demotion at matching scope; alarm ledger; audited weakest-link banding with referent allowances; mechanically interlocked oracle sequencing; scoped representation forks; evaluation metrics and conformance tests |
 
-Do not describe a partial implementation as RIDM 32 conformant. State the
+Do not describe a partial implementation as RIDM 33 conformant. State the
 implemented target and any omitted capability.
 
 ## 3. Required Reading
@@ -66,8 +66,9 @@ structure fingerprint, operative canon, term precision, the license the class
 and register grant each rule, selection-process signals, and the governing
 frame with its representability audit.
 
-It must classify rigor from checkable structure, not prose register, and must
-treat the selection process that produced the item as evidence.
+It must classify rigor from checkable structure, with register discounted in
+both directions, and must treat the selection process that produced the item as
+evidence, firing the pool filter only against a converged elimination.
 
 #### Evidence ledger
 
@@ -777,6 +778,9 @@ changes.
 | Question asks for the boundary element of a set | Refute any reading under which the whole set qualifies unless the stem licenses the trivial case |
 | Generated key is a multi-step numeric chain | Open the band at low and run the value-class check |
 | Filter verdict opposes the solver's own converged elimination | Override only with a constructed rival route; a hypothesized split changes nothing |
+| Stem contains a transformation or encoding family | Probe it first at the stem's own case, spelling, and character inventory; a family discharged on normalized variants was never probed |
+| Stem is cut short of a multi-part source | State the framed terminal quantity beside the asked one as one claim |
+| Stem offers an illustrative list after "e.g." or "such as" | Consume no count from it; only a stated count is an inventory |
 
 ### 31. Invariant Properties
 
@@ -887,7 +891,7 @@ Deliver:
 - performance budgets
 - full conformance suite
 
-Claim RIDM 32 conformance only after every required capability and acceptance
+Claim RIDM 33 conformance only after every required capability and acceptance
 case passes.
 
 ## Part VIII: Conformance and Handoff

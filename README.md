@@ -22,18 +22,19 @@ and stops with a verifiable result.
   what the state holds, what the task grants, and the reasoner's own recall variants and
   near-neighbors. A perfect ranking of an incomplete set is a miss, and nothing the
   first pass generated is dropped unprobed.
-- Observe what the task points at, down to its introduced symbols and counted givens,
-  and keep the givens exact, complete, and inviolate.
+- Observe what the task points at, down to its introduced symbols and stated counts, and
+  keep the givens exact to the character, probed at their own case and spelling, with
+  illustrative lists uncounted and stem-deflated details discharged.
 - Treat memory as a fallible witness: recall carries its parameterization, contrast, and
   level; conflicting variants rank by anchor authority; famous-neighbor agreement is
   contamination, not corroboration.
 - Treat selection as evidence: condition on the process that produced what you see, from
-  filtered pools to harvested option clusters, and let a filter verdict yield only to a
-  constructed rival route.
-- Model every artifact's author: rigor from structure, canon from provenance, options
-  from idiolect, terms at the author's own precision, and the criterion as the author's
-  implementation, search space, and diagnosis, defects included; the item's class
-  licenses every rule that fires.
+  filtered pools to harvested option clusters, and let a filter verdict, fired only against
+  a converged elimination, yield only to a constructed rival route.
+- Model every artifact's author: rigor from structure with register discounted, canon
+  from provenance, options from idiolect, terms at the author's own precision, and the
+  criterion as the author's implementation, search space, and diagnosis, defects and
+  truncations included; the item's class licenses every rule that fires.
 - Derive first and keep what derivation wins; engineered details select among completed
   routes.
 - Let the canonical reading lead and resolve every selection layer blind; coincidence,
@@ -46,12 +47,13 @@ and stops with a verifiable result.
   the referent's predictable defects.
 - Commit before consulting any oracle, enforce the order in the mechanism, and check a
   verdict for consistency and for membership in the answer's value class before updating;
-  commit one answer under scoped representations that name one object.
+  commit one answer under scoped representations that name one object, the framed terminal
+  quantity beside the asked one.
 - Recompute materiality when evidence, state, authority, or stakes change; report
   completion only when success criteria are directly validated; expose the material
   delta and suppress detail that cannot change the result.
 
-## RIDM 32 Architecture
+## RIDM 33 Architecture
 
 ```text
 Task request
