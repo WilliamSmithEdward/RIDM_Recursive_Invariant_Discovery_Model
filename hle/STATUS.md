@@ -11,18 +11,18 @@ answer entered the pre-commitment candidate set, tracked from sprint 0013 onward
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 170 |
-| Correct | 98 |
+| Runs completed | 180 |
+| Correct | 104 |
 | Percent correct | 58% |
-| Incorrect, strict | 72 |
-| Incorrect against defective or under-determined keys | 2 of 72 |
-| High band record | 64 of 82 |
+| Incorrect, strict | 76 |
+| Incorrect against defective or under-determined keys | 2 of 76 |
+| High band record | 66 of 84 |
 | Medium band record, recall-backed | 7 of 17 |
-| Medium band record, derivation-backed | 13 of 20 |
-| Medium band record, inference-backed | 9 of 29 |
-| Low and very-low band record | 5 of 22 |
-| Misses committed at the high band | 18 of 72 |
-| Candidate coverage, tracked from sprint 0013 | 43 of 50 runs |
+| Medium band record, derivation-backed | 15 of 23 |
+| Medium band record, inference-backed | 9 of 30 |
+| Low and very-low band record | 7 of 26 |
+| Misses committed at the high band | 18 of 76 |
+| Candidate coverage, tracked from sprint 0013 | 51 of 60 runs |
 
 ## By RIDM Model
 
@@ -32,6 +32,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
+| RIDM 31 | 10 | 6 | 4 | 60% |
 | RIDM 30 | 10 | 6 | 4 | 60% |
 | RIDM 29 | 10 | 8 | 2 | 80% |
 | RIDM 27 | 10 | 4 | 6 | 40% |
@@ -55,6 +56,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Sprint | Runs | Specification under test | Outcome |
 | --- | --- | --- | --- |
+| 0018 | Q000171 to Q000180 | RIDM 31 | in progress |
 | 0017 | Q000161 to Q000170 | RIDM 30 | 5 lessons (L114 to L118), consolidated into RIDM 31 (released) |
 | 0016 | Q000151 to Q000160 | RIDM 29 | 4 lessons (L110 to L113), consolidated into RIDM 30 (released) |
 | 0015 | Q000141 to Q000150 | RIDM 27 | 6 lessons (L104 to L109), consolidated into RIDM 28 (released) |
@@ -78,6 +80,16 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000180](runs/Q000180.md) | 0018 | Chemistry, synthesis troubleshooting | multiple choice | no | incorrect | medium |
+| [Q000179](runs/Q000179.md) | 0018 | CS, geometric subset-partition optimization | exact match | no | correct | medium |
+| [Q000178](runs/Q000178.md) | 0018 | Other, opera performance history chain | exact match | no | correct | low |
+| [Q000177](runs/Q000177.md) | 0018 | Math, decoupling exponent for a space curve | exact match | no | correct | high |
+| [Q000176](runs/Q000176.md) | 0018 | Math, elliptic PDE energy growth | exact match | no | correct | high |
+| [Q000175](runs/Q000175.md) | 0018 | Chemistry as labeled, Boltzmann level populations | exact match | no | incorrect | medium |
+| [Q000174](runs/Q000174.md) | 0018 | Chemistry, elimination stereochemistry | exact match | no | correct | medium |
+| [Q000173](runs/Q000173.md) | 0018 | Other, poker opening-range cutoff | exact match | no | incorrect | low |
+| [Q000172](runs/Q000172.md) | 0018 | Humanities, knowledge management model selection | multiple choice | yes | correct | low |
+| [Q000171](runs/Q000171.md) | 0018 | CS, elliptic-curve operation costs | exact match | no | incorrect | low |
 | [Q000170](runs/Q000170.md) | 0017 | Math, mean-convex surface topology | multiple choice | no | correct | high |
 | [Q000169](runs/Q000169.md) | 0017 | Chemistry as labeled, weak-localization estimate | exact match | no | correct | medium |
 | [Q000168](runs/Q000168.md) | 0017 | Math, moduli of curves | exact match | no | correct | high |
