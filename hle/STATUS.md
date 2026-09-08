@@ -11,18 +11,18 @@ answer entered the pre-commitment candidate set, tracked from sprint 0013 onward
 
 | Measure | Value |
 | --- | --- |
-| Runs completed | 180 |
-| Correct | 104 |
-| Percent correct | 58% |
-| Incorrect, strict | 76 |
-| Incorrect against defective or under-determined keys | 2 of 76 |
-| High band record | 66 of 84 |
+| Runs completed | 190 |
+| Correct | 109 |
+| Percent correct | 57% |
+| Incorrect, strict | 81 |
+| Incorrect against defective or under-determined keys | 2 of 81 |
+| High band record | 70 of 89 |
 | Medium band record, recall-backed | 7 of 17 |
-| Medium band record, derivation-backed | 15 of 23 |
+| Medium band record, derivation-backed | 16 of 24 |
 | Medium band record, inference-backed | 9 of 30 |
-| Low and very-low band record | 7 of 26 |
-| Misses committed at the high band | 18 of 76 |
-| Candidate coverage, tracked from sprint 0013 | 51 of 60 runs |
+| Low and very-low band record | 7 of 30 |
+| Misses committed at the high band | 19 of 81 |
+| Candidate coverage, tracked from sprint 0013 | 58 of 70 runs |
 
 ## By RIDM Model
 
@@ -32,6 +32,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | RIDM model | Runs | Success | Fail | Success rate |
 | --- | --- | --- | --- | --- |
+| RIDM 32 | 10 | 5 | 5 | 50% |
 | RIDM 31 | 10 | 6 | 4 | 60% |
 | RIDM 30 | 10 | 6 | 4 | 60% |
 | RIDM 29 | 10 | 8 | 2 | 80% |
@@ -56,6 +57,7 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Sprint | Runs | Specification under test | Outcome |
 | --- | --- | --- | --- |
+| 0019 | Q000181 to Q000190 | RIDM 32 | in progress |
 | 0018 | Q000171 to Q000180 | RIDM 31 | 5 lessons (L119 to L123), consolidated into RIDM 32 (released) |
 | 0017 | Q000161 to Q000170 | RIDM 30 | 5 lessons (L114 to L118), consolidated into RIDM 31 (released) |
 | 0016 | Q000151 to Q000160 | RIDM 29 | 4 lessons (L110 to L113), consolidated into RIDM 30 (released) |
@@ -80,6 +82,16 @@ category mix varies by sprint; treat rates as indicative, not conclusive.
 
 | Run | Sprint | Category | Format | Image | Result | Confidence band |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Q000190](runs/Q000190.md) | 0019 | CS as labeled, invented feature-retention ratio | exact match | no | incorrect | low |
+| [Q000189](runs/Q000189.md) | 0019 | Ecology, pollen diet and fungal infection experiments | multiple choice | no | correct | high |
+| [Q000188](runs/Q000188.md) | 0019 | Math, infinite boxes guessing game | multiple choice | no | correct | high |
+| [Q000187](runs/Q000187.md) | 0019 | Physics, Poynting flow around a moving charged rod | exact match | no | incorrect | high |
+| [Q000186](runs/Q000186.md) | 0019 | Law, sale of goods risk of loss | multiple choice | no | correct | high |
+| [Q000185](runs/Q000185.md) | 0019 | Math, linear control boundary-value example | exact match | no | incorrect | low |
+| [Q000184](runs/Q000184.md) | 0019 | Biology, experimental evolution design | multiple choice | no | incorrect | low |
+| [Q000183](runs/Q000183.md) | 0019 | Classics, Latin riddle epigram | exact match | no | correct | high |
+| [Q000182](runs/Q000182.md) | 0019 | Other, homoglyph encoding puzzle | multiple choice | no | incorrect | low |
+| [Q000181](runs/Q000181.md) | 0019 | Math, quadratic forms over higher local fields | exact match | no | correct | medium |
 | [Q000180](runs/Q000180.md) | 0018 | Chemistry, synthesis troubleshooting | multiple choice | no | incorrect | medium |
 | [Q000179](runs/Q000179.md) | 0018 | CS, geometric subset-partition optimization | exact match | no | correct | medium |
 | [Q000178](runs/Q000178.md) | 0018 | Other, opera performance history chain | exact match | no | correct | low |
