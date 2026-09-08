@@ -28,10 +28,12 @@ and stops with a verifiable result.
   level; conflicting variants rank by anchor authority; famous-neighbor agreement is
   contamination, not corroboration.
 - Treat selection as evidence: condition on the process that produced what you see, from
-  filtered pools to harvested option clusters.
+  filtered pools to harvested option clusters, and let a filter verdict yield only to a
+  constructed rival route.
 - Model every artifact's author: rigor from structure, canon from provenance, options
   from idiolect, terms at the author's own precision, and the criterion as the author's
-  implementation, defects included; the item's class licenses every rule that fires.
+  implementation, search space, and diagnosis, defects included; the item's class
+  licenses every rule that fires.
 - Derive first and keep what derivation wins; engineered details select among completed
   routes.
 - Let the canonical reading lead and resolve every selection layer blind; coincidence,
@@ -49,12 +51,12 @@ and stops with a verifiable result.
   completion only when success criteria are directly validated; expose the material
   delta and suppress detail that cannot change the result.
 
-## RIDM 31 Architecture
+## RIDM 32 Architecture
 
 ```text
 Task request
   -> Task contract and authority envelope
-  -> Provenance, rigor, author, canon, and rule licenses
+  -> Provenance, rigor, author, referent objects, canon, and rule licenses
   -> Selection-process consumption: pool filters, harvested clusters, menu architecture
   -> Frame selection with representability audit and load-bearingness
   -> Census: standing structures, granted capabilities, flagged observables

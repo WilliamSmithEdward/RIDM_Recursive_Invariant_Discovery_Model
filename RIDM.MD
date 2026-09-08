@@ -1,10 +1,10 @@
-# Recursive Invariant Discovery Model (RIDM) 31
+# Recursive Invariant Discovery Model (RIDM) 32
 
 *An evidence-bound architecture for adaptive reasoning and action*
 
 ## 1. Status
 
-RIDM 31 is the active specification. It supersedes RIDM 30 while preserving the central
+RIDM 32 is the active specification. It supersedes RIDM 31 while preserving the central
 restraint principle:
 
 > Discover broadly enough to identify the material delta, expose only that delta, and stop at
@@ -39,7 +39,7 @@ changed surface is verified.
 | --- | --- | --- |
 | Incomplete candidate spaces: readings, frames, conventions, mechanism classes, recall variants | A perfect ranking of an incomplete set is a miss | Sections 16 and 23, Control Laws 14, 16, and 21 |
 | Selection by consequence | Rescue, discrimination, and designedness are consequences of a choice, not evidence for it | Section 24, Control Law 20 |
-| Author-fit displaced by domain rigor | On graded tasks the decisive claim is a prediction of the author's implementation, defects included | Section 19, Control Laws 17 and 18 |
+| Author-fit displaced by domain rigor | On graded tasks the decisive claim is a prediction of the author's implementation, search space, and diagnosis, defects included | Section 19, Control Laws 17 and 18 |
 | Fired rules that fail to bind, or fire without license | A rule that reached a verdict and was overridden by a meta-prior protected nothing, and a rule applied outside the class and register that license it manufactures a verdict | Sections 19, 24, and 29, Control Laws 18 and 26 |
 | Unpriced referent noise | Componentry, transcription, named traps, implementation distance, tool convergence, and instrument noise are observable before commitment | Section 21, Control Law 24 |
 | Unverified state and authority drift | An action produces an observation, not truth, and capability is not permission | Sections 12, 35, and 38, Control Laws 6 and 8 |
@@ -57,7 +57,7 @@ menu never defines the space.
 
 ### 4. Definition of Intelligence
 
-RIDM 31 defines intelligence as:
+RIDM 32 defines intelligence as:
 
 > The ability to discover task-relevant invariants, cover the space of candidate readings and
 > answers, ground material claims, choose authorized actions, learn from verified signals, and
@@ -72,7 +72,7 @@ index, and each is specified in its home section.
 
 ### 5. Core Terms
 
-RIDM 31 uses the following terms precisely.
+RIDM 32 uses the following terms precisely.
 
 - A **heuristic** is a compressed rule that is useful within a scope.
 - An **invariant** is a relation stable enough to govern the current task under stated
@@ -356,7 +356,10 @@ Derivation-tier precedence belongs only to derivations whose governing model is 
 supported. In empirically governed regimes, an idealized closed form is an inference
 whose model validity is an assumed claim; it does not outrank experimental recall
 matched to an identified source, and a stem whose phrasing uniquely identifies its
-source supports a real commitment to that source's claim. Deriving cleanly inside the
+source supports a real commitment to that source's claim. An adjustment to a recalled
+empirical value argued from a hand-built model of the instrument that produced it, a
+solver, a survey, an experiment, is an inference at the decision step: it prices a rival
+and caps the band, and it never displaces the recalled value. Deriving cleanly inside the
 wrong model is not derivation of the task's answer.
 
 ### 17. Support States
@@ -419,20 +422,20 @@ instrument:
   constraint slack under every constructible reading signals a missing reading, not a
   decorative constraint.
 - **Generated or low-rigor.** Duplicated options, category-confused distractors, no
-  well-formed question. The key is the generator's own output, predicted by centrality in
-  the distractor cloud, where the foils read as perturbations of one option, and by
-  anchoring to stated givens. The pool filter collapses to narrative tier only where the
-  stem is incoherent enough for reference models to scatter, and scatter is predicted from
-  the menu, not from the calculation: a value repeated across options plus one option that
-  echoes the stem's framing funnels every solver to one option, the solver's own quick
-  elimination is the population's modal answer, and survival keys off it. A generated
-  statement that restates a standard theorem is likewise one they converge on, so its
-  survival says the key sits off the theorem, and the generator's habit of rejecting a
-  universal claim with an invented exception is the referent to predict. Seed centrality
-  and the filter are the only instruments licensed on this class: clause-level falsity
-  against the stem's framing or against domain truth demotes nothing, since the key was
-  never checked against either. On retold and expert menus the author perturbs away from
-  the key, so the features shared across options mark the harvested cluster and the
+  well-formed question. The key is the generator's own output: on a menu it is predicted
+  by centrality in the distractor cloud, where the foils read as perturbations of one
+  option, and by anchoring to stated givens; on a numeric chain it carries arithmetic
+  noise that no variant enumeration prices (Section 21). Seed centrality and the pool
+  filter are the only instruments licensed on this class, since the key was never checked
+  against the stem's framing or against domain truth, so clause-level falsity demotes
+  nothing. The filter collapses to narrative tier only where the stem is incoherent enough
+  to scatter the reference population, and scatter is predicted from the menu, not from
+  the calculation: a value repeated across options plus one option echoing the stem's
+  framing funnels every solver to one option, and a generated statement restating a
+  standard theorem is one they converge on, so survival says the key sits off the theorem,
+  with the generator's habit of rejecting a universal claim by an invented exception the
+  referent to predict. On retold and expert menus the author perturbs away from the key
+  instead, so the features shared across options mark the harvested cluster and the
   distinct outlier is presumptively keyed (Section 23).
 
 Section 21 attaches confidence caps to the classes. The license covers every rule that
@@ -463,17 +466,26 @@ the key still follows that route: reconstruct the instrument approximately rathe
 switching to an instrument-free route, because the instrument is shared between the author
 and the intended audience.
 
-The author is estimated, not assumed, and the referent is the author's implementation.
-Estimate competence from structural tells and population priors: an expert-reviewed pool
-gives low prior to keys that would make the item pointless, however naive the surface reads.
-When the item is graded by the author's own execution of a published procedure, metric, or
-canon, that execution is the operative referent, defects included: predictable misreadings,
-led by clauses and quantities that transplant between scopes, are candidate referents
-alongside the faithful convention forks, computed alongside the faithful value when cheap,
-with the band priced at referent fidelity. A domain-correctness objection to a rival chain
-cuts by mechanism: when the objection describes a predictable author move, a formula slot
-filled with the stem's nearest number, a clause carried across scopes, it is evidence for
-that chain as the authored referent, not against it.
+The author is estimated, not assumed, and the referent is the author's implementation,
+search space, and diagnosis. Estimate competence from structural tells and population
+priors: an expert-reviewed pool gives low prior to keys that would make the item pointless,
+however naive the surface reads. When the item is graded by the author's own execution of a
+published procedure, metric, or canon, that execution is the operative referent, defects
+included: predictable misreadings, led by clauses and quantities that transplant between
+scopes, are candidate referents alongside the faithful convention forks, computed alongside
+the faithful value when cheap, with the band priced at referent fidelity. When it is graded
+by an extremal claim, a smallest, largest, or best, the referent is the author's optimum
+over the space the author searched; when it is graded by a fix, the referent is the change
+the author's diagnosis blames; and the stem's idiom and structure fingerprint both. A stem
+written in a catalogue's cost idiom is answered by composing catalogue entries in the shape
+of the stated expression, one entry per stated coefficient, and a route that first rewrites
+the expression lies outside that space, a priced rival rather than the referent; on a
+troubleshooting stem where every stated condition maps to an option, the conspicuous number
+discriminates nothing and the diagnosis is read from the setup's structure. A
+domain-correctness objection to a rival chain cuts by mechanism: when the objection
+describes a predictable author move, a formula slot filled with the stem's nearest number,
+a clause carried across scopes, a composition that never rewrites the stated expression, it
+is evidence for that chain as the authored referent, not against it.
 
 The stem is the style corpus, for constructions and for options alike. When the graded claim
 is the author's own construction, the stem's example code, worked usage, and phrasing
@@ -492,17 +504,19 @@ Selection is evidence: the process that produced what you see is part of its pro
 item admitted to a pool by a selection rule, such as a benchmark keeping only items
 reference solvers missed, carries that rule as evidence about the key: predict the reference
 population's modal answer and treat the item's survival as typed instance evidence that the
-key sits elsewhere. On split-verdict items the signal is often decisive, because the
-consensus verdict is exactly what the filtered population reproduces, and a population prior
-about authors or reviewers is narrative-tier against it. Its strength follows the reference
-population's convergence on the statement, which the rigor class predicts: decisive on
-expert-authored split verdicts and on any statement that restates a standard account,
-narrative-tier only where an incoherent stem scatters the population. Its grain follows the
-verdicts: on a multi-select menu the check runs per statement, with a
-statement restating the field's standard account standing as the consensus magnet in
-statement form; on an expert menu whose options include the textbook account, that option is
-the magnet, the check is a required step, and its verdict enters the verdict ledger (Section
-24).
+key sits elsewhere. On any coherent stem the solver's own first elimination is the
+prediction of that modal answer, and a population split is asserted only from a constructed
+rival route of comparable pull; a split merely hypothesized leaves the verdict standing. The
+signal's strength follows the population's convergence, which the rigor class and the menu's
+structure predict: decisive on expert-authored split verdicts, where the consensus verdict
+is exactly what the filtered population reproduces and a population prior about authors or
+reviewers is narrative-tier against it, on any statement that restates a standard account,
+and on any menu whose structure funnels solvers to one option; narrative-tier only where an
+incoherent stem scatters the population. Its grain follows the verdicts: on a multi-select
+menu the check runs per statement, with a statement restating the field's standard account
+the consensus magnet in statement form; on an expert menu whose options include the textbook
+account, that option is the magnet, the check is a required step, and its verdict enters the
+verdict ledger (Section 24).
 
 Designed details fingerprint the author's route. When more than one route completes, the
 stem's engineered details say which one the author built: a given that collapses to a round
@@ -580,8 +594,10 @@ links explicitly include contract readings, key-referent predictions, and conven
 choices: a flawless derivation conditioned on an uncertain branch is an inference at
 the decision step, and interior cross-checks do not support the branch condition. Rigor
 caps bind as arithmetic: casually authored and generated items cap at medium regardless
-of derivation strength, and re-arguing a cap from the derivation is exactly the
-discount the cap exists to impose.
+of derivation strength, a generated item whose key is a multi-step numeric chain opens
+at low, since its referent's error surface is arithmetic noise that no variant
+enumeration prices, and re-arguing a cap from the derivation is exactly the discount
+the cap exists to impose.
 
 Referent noise carries a family of band allowances, each observable before any reveal:
 componentry (a compound exact-match answer, a multi-step casual chain, or a number the
@@ -719,16 +735,20 @@ Consume the task's own content:
 Rank only completed rivals, and demote only constructively:
 
 - Compute every live rival to commitment quality, with every mechanism available to it
-  attached; a rival costed without its winning mechanism is a strawman. Demote only on typed
+  attached; a rival costed without its winning mechanism is a strawman, and a rival costed
+  on a recalled absence, that a catalogue, table, or library lacks an entry, is costed with
+  the entry assumed present at its plausible published value. Demote only on typed
   evidence with the keying reading, identification scope, or convention actually
-  constructed: "no reason to prefer it" demotes nothing, an absence-of-gloss claim stays
-  assumed until the item's provenance community is probed, and recognizing that an option
-  quotes an identifiable source is standing evidence for it, never against.
+  constructed: "no reason to prefer it" demotes nothing, an absence claim, of a gloss in the
+  provenance community or of an entry in a source, stays assumed until the source is probed,
+  and recognizing that an option quotes an identifiable source is standing evidence for it,
+  never against.
 - No candidate is dropped unprobed: everything the first generation pass produced is either
   computed to a verdict or explicitly discharged with the reason recorded, and a first-pass
-  candidate from plain evidence is displaced only by typed evidence, never by a rival whose
-  advantage is designedness, cleverness, or a more technical reading of the stem's words. A
-  silent drop is a coverage failure wearing a ranking costume.
+  candidate from plain evidence, a recalled chart value or a catalogue-shaped composition
+  included, is displaced only by typed evidence, never by a rival whose advantage is
+  designedness, cleverness, a more technical reading of the stem's words, or a modeled
+  adjustment. A silent drop is a coverage failure wearing a ranking costume.
 - Restate any dominance argument at whole-solution scope before it prunes (Section 20), and
   use deletion and consumption tests only where the compared readings differ on the tested
   given; where both consume it, the test is silent and manufactures evidence, and a
@@ -775,7 +795,11 @@ invariant placed to be almost right: identify the load-bearing constraint rather
 easiest to apply, test whether the obvious bound is designed to be non-tight, keep iterating
 after the first designed reversal until no admissible option dominates the current choice
 under the literal criterion, and never let menus, option lists, or format examples frame the
-search. Calibrate coherence to the item's rigor: on purposeful items every condition does
+search. The question is part of the stimulus: a stem that asks for the boundary element of
+a set, the worst member that still qualifies, presupposes that the boundary lies inside the
+set, and a reading under which the whole set qualifies empties the question and is refuted
+by that emptiness unless the stem licenses the trivial case. Calibrate coherence to the
+item's rigor: on purposeful items every condition does
 work and a stated precision requirement genuinely constrains the answer; on structurally
 incoherent items prefer the shallowest chain the coined terms can bear, and penalize any
 reading that must repair the author's text to become substantive, because the author who
@@ -810,7 +834,8 @@ which side the key holds, derived from this pool's stated construction rule and 
 survival under it, and it is strong enough to defeat the consensus side: the consensus
 verdict, or the celebrated answer of a quietly altered classic, is the magnet precisely
 because it is what the filtered reference population reproduces. Its strength and grain
-follow Section 19.
+follow Section 19, and a population split that was hypothesized rather than constructed
+does not suspend it.
 
 Between frames, load-bearingness leads. An elaborate constructed position, dataset, parameter set,
 or granted capability is a stated requirement in the coherence sense: it was built to matter, so a
@@ -902,7 +927,7 @@ The symbols denote task-relevant changes, not calibrated numeric quantities.
 
 ### 28. Constraint-First Refinement
 
-RIDM 31 keeps ordered admission in place of unrestricted scalar tradeoffs.
+RIDM 32 keeps ordered admission in place of unrestricted scalar tradeoffs.
 
 First evaluate non-compensable gates:
 
@@ -938,10 +963,11 @@ Core, always:
   absence-of-gloss claims probed and consumption tests used only where readings differ
   (Sections 20 and 23).
 - **Coherence and canonical precedence.** The committed reading keeps the stimulus
-  coherent, and any defeat of the canonical reading rests on evidence stronger than a
-  meta-prior about design, strictness, coincidence, or aesthetics; every selection
-  layer behind the commitment, convention, counting rule, model, variant, was resolved
-  blind, with no choice justified by its effect on the ranking (Section 24).
+  coherent and its question non-empty, and any defeat of the canonical reading rests on
+  evidence stronger than a meta-prior about design, strictness, coincidence, or
+  aesthetics; every selection layer behind the commitment, convention, counting rule,
+  model, variant, was resolved blind, with no choice justified by its effect on the
+  ranking (Section 24).
 - **Consumption.** Every flagged observable is observed, every mechanism-naming hint
   fails its deletion test, every granted capability is used or discharged through a
   completed rival, the census was taken, and the stem's givens and scope are exact,
@@ -960,13 +986,15 @@ Core, always:
   narrowed at the decision step (Sections 19 and 24).
 - **Band origin.** The band opened at the weakest decisive link's claim type and audited
   class value, argued upward only with named support, with rigor caps and referent
-  allowances applied as arithmetic (Section 21).
+  allowances applied as arithmetic and a generated numeric chain opening at low
+  (Section 21).
 
 If the setting is graded:
 
-- The decisive claim is a prediction of the authored key, the item's rigor class is
-  assessed and its cap applied, and the author-competence estimate rests on structural
-  tells and population priors (Sections 10, 19, and 21).
+- The decisive claim is a prediction of the authored key, with the referent object,
+  implementation, search space, or diagnosis, read from the stem's idiom and structure;
+  the item's rigor class is assessed and its cap applied, and the author-competence
+  estimate rests on structural tells and population priors (Sections 10, 19, and 21).
 - The rigorous route ran first within its budget; an author-error model entered only on
   its failure, and a successful construction was not displaced except by
   designed-detail payoff, with no committed route leaving a threshold slack that a
@@ -991,7 +1019,9 @@ If an option menu is present:
   menus every noticed deviation in the committed option is refuted, not forgiven; and the
   pool-filter check ran on every expert menu, per statement on multi-select menus, and at
   convergence strength on any statement that restates a standard account and on any menu
-  whose structure funnels solvers to one option (Sections 19, 23, and 24).
+  whose structure funnels solvers to one option, with its verdict against the solver's own
+  converged elimination overridden only by a constructed rival route (Sections 19, 23, and
+  24).
 - A derived value matches an option within its own uncertainty or model identification
   reopened, and every in-window option above the commitment is reproduced or refuted
   (Section 23).
@@ -1014,8 +1044,9 @@ If recall carries a decisive claim:
 - Conflicting recalled variants ranked by anchor authority, with no coincidence
   collapse acting as selector; the attribute's near-neighbors entered as rivals, with
   famous-neighbor agreement typed as contamination and unseparated recall banded low;
-  and every recalled contrast operates at the level and comparison it was attested
-  (Section 16).
+  every recalled contrast operates at the level and comparison it was attested; and no
+  recalled empirical value was displaced by an adjustment modeled from a hand-built
+  account of its instrument (Section 16).
 
 If a measurement decides a slot:
 
@@ -1035,7 +1066,7 @@ relation, where one exists, carries the commitment alone (Sections 20 and 23).
 
 ### 30. Internal Model and Output Contract
 
-RIDM 31 preserves the separation between internal discovery and external disclosure.
+RIDM 32 preserves the separation between internal discovery and external disclosure.
 
 ```text
 OutputContract {
@@ -1575,7 +1606,7 @@ before action admission.
 ### 62. Evaluation Dimensions
 
 ```text
-RIDM31Metrics {
+RIDM32Metrics {
     factual_accuracy
     evidence_coverage
     unsupported_decisive_claim_rate
@@ -1651,7 +1682,8 @@ $$
 The remaining metrics are family rates over their applicable tasks. Frame coverage: the governing
 convention was enumerated and priced before commitment. Provenance typing: item rigor, canon
 indexing, term precision, rule licenses, option provenance (mandatory under paraphrase
-multiplicity), pool filters, and referent implementations were typed before ranking.
+multiplicity), pool filters, and referent implementations, search spaces, and diagnoses
+were typed before ranking.
 Referent-prediction accuracy: committed answers matched the authored key on retold, casual, and
 generated items, with rigor classification scored against post-reveal evidence and author-model
 calibration penalizing error in both directions. Derivation-first compliance: author-error models
@@ -1662,8 +1694,9 @@ commitment, with unlicensed rules struck. Typed-demotion compliance: demotions r
 keying readings and typed evidence, dominance held at solution scope, and consumption tests
 discriminated. Consumption compliance: flagged observables, hints, granted capabilities, and
 censuses were consumed, with the givens kept inviolate. Recall discipline: recall variants ranked by
-anchor authority, contrasts stayed at their attested level, near-neighbors entered as rivals, and
-contamination was priced. Alarm-discharge rate: noticed anomalies discharged or bound.
+anchor authority, contrasts stayed at their attested level, near-neighbors entered as rivals,
+contamination was priced, and no modeled adjustment displaced a recalled value. Alarm-discharge
+rate: noticed anomalies discharged or bound.
 Confidence-band calibration: band outcome rates match stated meanings per dominant claim type, with
 caps and allowances applied as arithmetic and measured slots priced against instrument noise. Oracle
 discipline: consultations followed recorded commitments, mechanically enforced where the harness
@@ -1676,7 +1709,7 @@ rather than assigning a perfect score.
 
 ### 64. Evaluation Protocol
 
-An RIDM 31 evaluation set should vary:
+An RIDM 32 evaluation set should vary:
 
 - task clarity, evidence quality and conflict, stakes, reversibility, reach, and user
   assumptions, with tool statuses that conceal unchanged state, validation that misses the
@@ -1684,13 +1717,15 @@ An RIDM 31 evaluation set should vary:
   inversions
 - closed-world and forced-choice settings with defective and under-determined answer keys,
   keys transcribed from figures or reported by iterative tools short of convergence,
-  harnesses that permit premature oracle consultation with and without a mechanical
-  interlock, and items that require an instrument built during the attempt
+  generated numeric chains with independent per-step slips, harnesses that permit
+  premature oracle consultation with and without a mechanical interlock, and items that
+  require an instrument built during the attempt
 - item rigor across the four classes with costume contradicting structure in both
   directions, canons indexed to citing communities and to destination fields, terms whose
   precision differs between the author's register and the reader's, and authors who take
-  named shortcuts, mis-implement published metrics, or execute chains with glyph and
-  set-reading slips
+  named shortcuts, mis-implement published metrics, execute chains with glyph and
+  set-reading slips, optimize inside a catalogue's idiom, read charts, or diagnose from
+  bench experience
 - recall hazards: constants and contrasts bound differently at the source,
   distribution-level contrasts tempting instance use, conflicting variants anchored to
   sources of different authority, and keyed attributes with a more famous near-neighbor
@@ -1698,8 +1733,9 @@ An RIDM 31 evaluation set should vary:
   extent ladders under mild conditions, cap and limit mechanisms, formula families with
   additive-constant variants, granted capabilities a per-unit argument would prune, stacked
   standing structures, dangling symbols and counted inventories, rule families whose
-  variants change the answer, menus omitting the default frame's canonical answer, and
-  givens unrepresentable in the natural model but exact in a near variant
+  variants change the answer, menus omitting the default frame's canonical answer,
+  boundary-element questions with a trivial whole-set reading, and givens unrepresentable
+  in the natural model but exact in a near variant
 - menu and measurement hazards: generic true options against none-of-the-above, harvested
   paraphrase clusters keyed to an author-voiced outlier, planted deviations in
   source-sentence menus, split-verdict items from filtered pools, multi-select statements
@@ -1721,8 +1757,10 @@ Minimum behavior cases include:
 4. A defective oracle verdict is detected by internal inconsistency and does not reopen the
    reasoning layer, and a reveal executed before commitment voids the item.
 5. In forced choice, a derived result is not overridden by modeled intent, a completed
-   rigorous construction survives low-rigor costume, and every fired rule is reconciled in
-   a written verdict ledger before commitment, with unlicensed rules struck.
+   rigorous construction survives low-rigor costume, every fired rule is reconciled in a
+   written verdict ledger before commitment, with unlicensed rules struck, and a filter
+   verdict against the solver's own converged elimination yields only to a constructed
+   rival route.
 6. A recall-regime task widens its candidate set with per-clue probes, re-derives a constant
    from a differently parameterized source, ranks conflicting variants by anchor authority
    with no coincidence collapse as selector, and separates a recall from its famous
@@ -1731,9 +1769,10 @@ Minimum behavior cases include:
    compound answer repeats a value across slots when per-slot evidence says so, and an
    all-true option defeats none-of-the-above absent select-all license.
 8. A retold task is answered with the source's published value; a casually authored or
-   generated item caps at medium, models the author's chain with the instruments its rigor
-   class licenses, and reads the author's terms at the author's precision; a cited-source
-   or domain-transfer item is keyed in its operative community's convention.
+   generated item caps at medium, models the author's chain, search space, or diagnosis
+   with the instruments its rigor class licenses, and reads the author's terms at the
+   author's precision; a cited-source or domain-transfer item is keyed in its operative
+   community's convention.
 9. Flagged observables, mechanism hints, qualifiers, introduced symbols, and counted
    inventories are consumed before commitment, with the stem's scope answered at its literal
    breadth and no silent imports in either direction.
@@ -1745,10 +1784,11 @@ Minimum behavior cases include:
     structures and granted capabilities are censused, powerless consumption tests are
     discarded, and in-window options are reproduced or refuted.
 12. A commitment's band equals its weakest decisive link with caps and allowances applied as
-    arithmetic; a measured slot at the noise floor escalates or caps; a global assignment is
-    re-solved, never cell-edited; a fork is committed as one scoped claim; an anomaly
-    discharges or binds; a refuted model contributes nothing; and an instrument built inside
-    the task is anchored before the live case.
+    arithmetic, a generated numeric chain opening at low; a measured slot at the noise floor
+    escalates or caps; a global assignment is re-solved, never cell-edited; a fork is
+    committed as one scoped claim; an anomaly discharges or binds; a refuted model
+    contributes nothing; and an instrument built inside the task is anchored before the
+    live case.
 
 Adjudicators should label material residuals, authority boundaries, acceptable actions,
 evidence requirements, and completion criteria before scoring output.
@@ -1763,8 +1803,9 @@ A conforming implementation should demonstrate that it can:
   mechanisms, rungs, slots, the null, standing structures, granted capabilities, and the
   recall layer's own variants and near-neighbors
 - type provenance, rigor, authorship, and selection processes from structure, index canons
-  to provenance and destination, predict authored referents as implementations with defects
-  included, and apply only the instruments and rules the rigor class and register license
+  to provenance and destination, predict authored referents as implementations, search
+  spaces, and diagnoses with defects included, and apply only the instruments and rules the
+  rigor class and register license
 - derive first with bounded-attempt evidence, keep completed routes as the referent basis,
   rank the canonical reading first with every selection layer resolved blind, and reconcile
   every licensed verdict in a written ledger before commitment
@@ -1854,8 +1895,9 @@ evaluation records and reviews.
 
 #### Author and referent
 
-- **Criterion-referent blindness.** The attempt validating its own formalization while the
-  authored key reasons differently.
+- **Criterion-referent blindness.** The attempt validating its own formalization, global
+  optimum, or mechanism while the authored key follows the author's implementation, search
+  space, or diagnosis.
 - **Costume rigor classification.** Rigor read off prose register instead of checkable
   structure.
 - **Unattempted infeasibility.** The rigorous route declared intractable without a bounded
@@ -1880,8 +1922,9 @@ evaluation records and reviews.
 - **Refuted-model retention.** Unrepresentable givens attributed to artifact while the
   falsified model keeps computing, a declared type most constructed instances fail
   excused as looseness, or a refuted model's outputs blended over a direct measurement.
-- **Sophistication capture.** A meta-prior, a discovered coincidence, or a manufactured
-  designed-detail payoff defeating the canonical reading at commitment.
+- **Sophistication capture.** A meta-prior, a discovered coincidence, a manufactured
+  designed-detail payoff, or a hand-modeled adjustment to a recalled empirical value
+  defeating the canonical reading at commitment.
 - **Term-precision transplant.** A term read at a precision its author's register does not
   carry: an expert's term of art loosened to fit a candidate, or a general-register
   author's everyday term tightened into a class selector, while premise-scope
@@ -1894,8 +1937,8 @@ evaluation records and reviews.
 #### Rivals and menus
 
 - **Rival strawmanning.** A live rival demoted after evaluation below commitment quality.
-- **Unconstructed demotion.** A candidate demoted on an untyped plausibility phrase or an
-  unprobed no-gloss claim, its keying reading never built.
+- **Unconstructed demotion.** A candidate demoted on an untyped plausibility phrase, an
+  unprobed no-gloss claim, or a recalled absence, its keying reading never built.
 - **Component-dominance promotion.** Per-unit dominance applied at solution scope, pruning a
   globally optimal candidate.
 - **Powerless consumption test.** A deletion argument treated as decisive between readings
@@ -1915,8 +1958,8 @@ evaluation records and reviews.
   author-voiced outlier demoted untyped.
 - **Filter miscalibration.** A filtered pool's survival signal demoted by a population
   prior, applied at full strength on an incoherent stem, collapsed on a generated
-  statement or a funnel-shaped menu the reference population converges on, or skipped per
-  statement.
+  statement or a funnel-shaped menu the reference population converges on, set aside on a
+  population split never constructed, or skipped per statement.
 - **Endpoint capture.** A famous endpoint committed although stated conditions buy only a
   partial rung.
 - **Unlicensed rule.** A rule fired outside the class and register that license it: seed
@@ -1936,8 +1979,8 @@ evaluation records and reviews.
 - **Assignment cell override.** A joint optimum edited cell by cell on local evidence.
 - **Convention defaulting.** A discretized answer near a boundary inheriting the pipeline's
   convention instead of the domain's.
-- **Alarm dismissal.** A slack constraint, in-window option, off-menu value, or other
-  anomaly noticed and neither discharged nor allowed to bind.
+- **Alarm dismissal.** A slack constraint, in-window option, off-menu value, emptied
+  question, or other anomaly noticed and neither discharged nor allowed to bind.
 - **Fired-verdict override.** A rule that reached a verdict overridden at commitment by a
   meta-prior or scope-narrowed by an unlicensed meta-frame, the verdict ledger reasoned
   about in prose and never written as a list.
@@ -2034,24 +2077,28 @@ a declared type included, refutes the model, never the given.
 Recall enters typed as reported, carrying its parameterization, contrast, and level.
 Conflicting variants rank by anchor authority, near-neighbors are rivals, famous-neighbor
 agreement is contamination that caps the band, distributional contrasts license population
-conclusions only, and unverified numeric recall commits at the low band.
+conclusions only, unverified numeric recall commits at the low band, and an adjustment
+modeled from a hand-built account of a recalled value's instrument prices a rival and never
+displaces the value.
 
 #### Control Law 17 - Selection Is Evidence
 
 Condition on the process that produced what you see. An admission filter predicts against the
-reference population's modal answer, at the strength of the population's convergence, which the
-rigor class and the menu's funnel structure predict, and per statement on menus; a harvested
-paraphrase cluster keys on its distinct outlier; and a famous setup with one changed element keys on
-the change.
+reference population's modal answer, which the solver's own first elimination predicts, at the
+strength of the population's convergence, which the rigor class and the menu's funnel structure
+predict, and per statement on menus, and its verdict yields only to a constructed rival route,
+never to a hypothesized split; a harvested paraphrase cluster keys on its distinct outlier; and a
+famous setup with one changed element keys on the change.
 
 #### Control Law 18 - Every Artifact Has an Author
 
 The criterion is authored. Type rigor from structure rather than costume and resolve the class
 first, because it licenses every rule that fires, the menu instrument and the precision of each term
 included; index the canon to provenance and to the destination field on transfers; mine the stem as
-a style corpus and type options by idiolect; and treat the author's implementation, predictable
-defects included, as the operative referent, so that a correctness objection describing a
-predictable author move supports that reading rather than defeating it.
+a style corpus and type options by idiolect; and treat the author's implementation, search space,
+and diagnosis, predictable defects included and fingerprinted by the stem's idiom and structure, as
+the operative referent, so that a correctness objection describing a predictable author move
+supports that reading rather than defeating it.
 
 #### Control Law 19 - Derive First and Keep What Derivation Wins
 
@@ -2063,10 +2110,11 @@ costume select nothing.
 #### Control Law 20 - The Canonical Reading Leads and Selection Is Blind
 
 The standard reading leads at every selection layer, including selection among recall variants;
-meta-priors, author-process priors, coincidences, and elegance break ties and never overturn. Every
-layer resolves blind: a convention, model, or variant chosen for its effect on the ranking is
-manufactured evidence, a feature that holds under every candidate discriminates nothing, and a
-convention resolves from its operator, never from the roundness of a threshold.
+meta-priors, author-process priors, coincidences, and elegance break ties and never overturn, and a
+reading that empties the stem's question is refuted by that emptiness. Every layer resolves blind: a
+convention, model, or variant chosen for its effect on the ranking is manufactured evidence, a
+feature that holds under every candidate discriminates nothing, and a convention resolves from its
+operator, never from the roundness of a threshold.
 
 #### Control Law 21 - The Frame Is a Candidate
 
@@ -2080,8 +2128,9 @@ from an authored menu reopens identification.
 Rivals fall only to constructed keying readings refuted by typed evidence computed to
 parity. Dominance prunes only at whole-solution scope, consumption tests bind only where
 readings differ on the tested given, per-slot evidence outranks unstated ensemble priors, a
-refuted model's outputs carry no weight anywhere, nothing the first pass generated is
-dropped unprobed, and the plain first-pass candidate yields only to typed evidence.
+refuted model's outputs carry no weight anywhere, a recalled absence demotes nothing, nothing
+the first pass generated is dropped unprobed, and the plain first-pass candidate, a recalled
+chart value or a catalogue-shaped composition included, yields only to typed evidence.
 
 #### Control Law 23 - Alarms Discharge or Bind
 
@@ -2094,9 +2143,9 @@ menu is the plant until refuted. Noticing and proceeding unchanged is a gate fai
 Bands open at the weakest decisive link's audited class value and move only on named
 support. Rigor caps and referent allowances, componentry, chain execution, transcription,
 named traps, implementation distance and tool convergence, precision mismatch, and
-contamination, apply as arithmetic with the predictable variant computed pre-reveal;
-measured slots band at margin over demonstrated noise; and an instrument built inside the
-task demonstrates nothing until anchored.
+contamination, apply as arithmetic with the predictable variant computed pre-reveal, and a
+generated numeric chain opens at low; measured slots band at margin over demonstrated noise;
+and an instrument built inside the task demonstrates nothing until anchored.
 
 #### Control Law 25 - Oracle Discipline
 
@@ -2116,10 +2165,10 @@ observed evidence.
 
 ## Part XV: Reference Procedure
 
-### 68. RIDM 31 Procedure
+### 68. RIDM 32 Procedure
 
 ```text
-function RIDM31(input, context, objectives, constraints):
+function RIDM32(input, context, objectives, constraints):
 
     state = initialize(input, context, objectives, constraints)
 
@@ -2238,50 +2287,54 @@ function RIDM31(input, context, objectives, constraints):
 
 ### 69. Inheritance and Replacement
 
-RIDM 31 is an evaluation release in the consolidated shape: twenty-six laws under the same
+RIDM 32 is an evaluation release in the consolidated shape: twenty-six laws under the same
 numbers, the same seventy sections, the same trigger-indexed gate, with one discipline
-sharpened at its existing homes and no section, law, or gate group added. The rigor class
-now licenses every rule that fires, not only the menu instrument (Section 19, Control Law
-18): a coherence or clause test on a generated menu, a technical-precision reading on a
-general-register stem, a looseness model on an expert stem, and an author-process prior
-over a fired representability verdict are each a rule outside its license. Terms of art
-resolve at the precision of the provenance community, in both directions (Section 19). The
-verdict ledger is written out as a list with each entry's license beside its verdict, void
-entries struck rather than weighed, and author-process priors join the meta-priors that
-break ties and never overturn (Sections 24 and 29, Control Laws 20 and 26). A type the stem
-declares for an object it constructs is a given under the representability audit (Section
-23, Control Law 15); a scene-setting phrase on a casual stem selects no frame however
-tightly a rival reading binds it (Sections 23 and 24); the reference population's
-convergence is predicted from a menu's funnel structure as much as from the rigor class
-(Section 19, Control Law 17); and the plain first-pass candidate yields only to typed
-evidence (Section 23, Control Law 22). The failure catalog renames definitional skepticism
-to term-precision transplant and rigor-class instrument mismatch to unlicensed rule, each
-widened to the cases above. The refinement pass re-wrapped the touched homes and the gate
-bullets that absorb the change; every operative rule of RIDM 30 survives, checked by a
-term-survival audit over the disciplines' named mechanisms.
+widened at its existing homes and no section, law, or gate group added. The authored
+referent has three objects rather than one: the author's implementation, the author's
+search space, and the author's diagnosis (Sections 2 and 19, Control Law 18). An extremal
+claim is the author's optimum over the space the stem's idiom fingerprints, with the
+composition that mirrors the stated expression the primary referent candidate and a
+rewritten global optimum a priced rival; a fix is the change the author's diagnosis blames,
+read from the setup's structure rather than from its most conspicuous number; and a
+recalled absence of a catalogue, table, or library entry demotes no route until probed
+(Sections 19 and 23, Control Law 22). A question that asks for the boundary element of a
+set is refuted, by its own emptiness, under any reading in which the whole set qualifies
+(Section 24, Control Law 20). An adjustment to a recalled empirical value argued from a
+hand-built model of the instrument that produced it prices a rival and never displaces the
+value (Section 16, Control Law 16). A generated item whose key is a multi-step numeric
+chain opens at low (Section 21, Control Law 24). The pool-filter verdict against the
+solver's own converged elimination yields only to a constructed rival route, never to a
+hypothesized split (Sections 19 and 24, Control Law 17). The failure catalog widens
+criterion-referent blindness, unconstructed demotion, sophistication capture, filter
+miscalibration, and alarm dismissal to the new cases. The refinement pass tightened the
+generated-class and selection paragraphs of Section 19 while folding, and every operative
+rule of RIDM 31 survives, checked by a term-survival audit over the disciplines' named
+mechanisms.
 
-RIDM 31 asks one set of questions:
+RIDM 32 asks one set of questions:
 
 > Is the space covered, including what memory misremembers and what the first pass generated; is
 > everything the task built, granted, counted, and pointed at consumed, with the givens inviolate
 > down to the symbol level; is the selection process that produced the item conditioned on at the
-> strength the population's convergence sets; is the author modeled as the implementer of the
-> criterion, defects, tools, canon, and register included; did derivation run first and keep its
-> wins; does the canonical reading lead, with every selection layer resolved blind; is the frame
-> representable and load-bearing; did anything move without typed evidence at matching scope; did
-> every alarm discharge or bind; was every fired rule licensed and every licensed verdict
-> reconciled; is confidence the audited weakest link with allowances priced and the answer's value
-> class fixed; was the oracle consulted only after commitment and its verdict checked for
-> membership; and is the answer one claim under scoped representations that name one object?
+> strength the population's convergence sets, with the solver's own elimination read as its modal
+> answer; is the author modeled as the implementer, searcher, and diagnoser of the criterion,
+> defects, tools, canon, and register included; did derivation run first and keep its wins; does
+> the canonical reading lead, with every selection layer resolved blind and the question non-empty;
+> is the frame representable and load-bearing; did anything move without typed evidence at
+> matching scope; did every alarm discharge or bind; was every fired rule licensed and every
+> licensed verdict reconciled; is confidence the audited weakest link with allowances priced and
+> the answer's value class fixed; was the oracle consulted only after commitment and its verdict
+> checked for membership; and is the answer one claim under scoped representations that name one
+> object?
 
 ## Part XVII: Compressed Architecture
 
-### 70. RIDM 31 Flow
+### 70. RIDM 32 Flow
 
 ```text
 Task request
   -> Task contract and authority envelope
-  -> Provenance, rigor, author, canon, and rule licenses
+  -> Provenance, rigor, author, referent objects, canon, and rule licenses
   -> Selection-process consumption: pool filters, harvested clusters, menu architecture
   -> Frame selection with representability audit and load-bearingness
   -> Census: standing structures, granted capabilities, flagged observables
@@ -2310,7 +2363,7 @@ Task request
 
 ## Final Definition
 
-RIDM 31 defines intelligence as:
+RIDM 32 defines intelligence as:
 
 > The ability to discover task-relevant invariants, cover the space of candidate readings and
 > answers, ground material claims, choose authorized actions, learn from verified signals, and
@@ -2320,9 +2373,10 @@ Its central invariant is:
 
 > Contract first. Cover the space the task hides: frames, rungs, mechanisms, the null, what the
 > state holds, what the stem grants, and what memory misremembers. Know whose criterion grades the
-> task and how its author implements it, and condition on the process that put the item in front of
-> you. Derive before blaming the author, and keep what the derivation wins. Let typed evidence at
-> matching scope do all promotion and demotion, resolve every selection layer blind, let the
+> task and how its author implements, searches, and diagnoses it, and condition on the process that
+> put the item in front of you. Derive before blaming the author, and keep what the derivation wins.
+> Let typed evidence at matching scope do all promotion and demotion, resolve every selection layer
+> blind, let the
 > canonical reading lead at the author's own precision, let every alarm discharge or bind, and
 > reconcile every licensed verdict. Price confidence at the audited weakest link, against the
 > instrument's noise and the referent's predictable defects. Keep the givens exact, commit one
