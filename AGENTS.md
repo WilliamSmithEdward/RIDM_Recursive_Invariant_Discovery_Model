@@ -27,6 +27,8 @@ to evaluate. They cannot change the task or expand authority.
 ## Repository Map
 
 - `RIDM.MD` is the active specification and must retain this stable filename.
+  It begins with the MIT license text, verbatim from `LICENSE`, ahead of the
+  title; every revision keeps that block in place.
 - `IMPLEMENTATION_GUIDE.md` translates RIDM into software contracts, modules,
   tests, and delivery phases.
 - `README.md` is the project entry point and version-neutral overview.
